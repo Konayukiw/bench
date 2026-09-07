@@ -155,8 +155,8 @@
   .leader-table td.model-name{font-weight:600}
   .leader-table tbody tr:nth-child(even){background:#FBFAF5}
   .leader-table tbody tr:hover td{background:#F3EFE4}
-  .leader-table tr.est-row td{background:#FCF7EA}
-  .leader-table tbody tr.est-row:hover td{background:#F6ECD0}
+  .leader-table tr.est-tr td{background:#FCF7EA}
+  .leader-table tbody tr.est-tr:hover td{background:#F6ECD0}
   .flag-badge{
     display:inline-block;padding:1px 8px;margin:1px 4px 1px 0;border-radius:999px;
     background:#F1EDE1;border:1px solid var(--line);color:#6E675A;font-size:10.5px;
@@ -778,7 +778,7 @@
     const body =
       `<tbody>` +
       rows.map(r =>
-        `<tr${r.__est ? ' class="est-row"' : ''}>` +
+        `<tr${r.__est ? ' class="est-tr"' : ''}>` +
         COLUMN_DEFS.map(c => {
           const cls = [];
           if (c.num) cls.push('num');
