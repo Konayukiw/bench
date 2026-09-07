@@ -1,0 +1,1006 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ベンチマーク推移年表</title>
+<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="%23211D16"/><path d="M7 22 L13 15 L18 18 L25 9" stroke="%23E8862C" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>'>
+<style>
+  :root{
+    --paper:#F6F4EE;
+    --card:#FFFFFF;
+    --ink:#211D16;
+    --muted:#837D6F;
+    --line:#E5E0D2;
+    --line-strong:#CFC8B6;
+    --accent:#B4541F;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:ui-sans-serif,-apple-system,"Segoe UI","Hiragino Kaku Gothic ProN","Noto Sans JP",Meiryo,sans-serif;
+    font-size:15px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .page{max-width:1180px;margin:0 auto;padding:44px 28px 56px}
+
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.16em;color:var(--accent);text-transform:uppercase}
+  h1{
+    font-family:Georgia,"Times New Roman","Hiragino Mincho ProN","Yu Mincho","YuMincho",serif;
+    font-size:clamp(26px,3.4vw,36px);
+    font-weight:600;letter-spacing:.01em;
+    margin:8px 0 10px;line-height:1.25;
+  }
+  .sub{margin:0;color:#4A453B;font-size:14px;max-width:46em}
+  .meta{margin-top:10px;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+  header{border-bottom:1px solid var(--line);padding-bottom:22px}
+
+  .panel{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:10px;
+    box-shadow:0 1px 2px rgba(33,29,22,.04),0 14px 34px -26px rgba(33,29,22,.28);
+  }
+  .controls{margin-top:26px;padding:6px 22px}
+  .crow{display:grid;grid-template-columns:86px 1fr;gap:6px 16px;padding:13px 0;align-items:start}
+  .crow + .crow{border-top:1px solid var(--line)}
+  .clabel{
+    font-size:11px;font-weight:700;letter-spacing:.14em;color:var(--muted);
+    padding-top:8px;text-transform:uppercase;
+  }
+
+  .period-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .preset{
+    font:inherit;font-size:12.5px;padding:5px 12px;border-radius:999px;cursor:pointer;
+    border:1px solid var(--line-strong);background:#fff;color:var(--ink);
+    transition:background .18s,color .18s,border-color .18s;
+  }
+  .preset:hover{border-color:var(--ink)}
+  .preset.active{background:var(--ink);border-color:var(--ink);color:#fff}
+  .date-inputs{display:flex;align-items:center;gap:8px;margin-left:2px}
+  .date-inputs .dash{color:var(--muted)}
+  .date-inputs input{
+    font:inherit;font-size:13px;padding:5px 8px;border:1px solid var(--line-strong);
+    border-radius:6px;background:#fff;color:var(--ink);font-variant-numeric:tabular-nums;
+    width:104px;
+  }
+  .date-inputs input::placeholder{color:#C9C2AD;font-weight:400}
+  .date-inputs input.invalid{border-color:#C86A45;background:#FBF1EC}
+  .date-inputs input:focus{outline:2px solid rgba(180,84,31,.35);outline-offset:1px;border-color:var(--accent)}
+  .date-hint{font-size:11.5px;color:var(--muted)}
+
+  .est-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding-top:6px}
+  .switch{position:relative;display:inline-block;width:40px;height:22px;flex:none}
+  .switch input{opacity:0;width:0;height:0;position:absolute}
+  .track{
+    position:absolute;inset:0;background:#D9D3C4;border-radius:999px;cursor:pointer;
+    transition:background .2s;
+  }
+  .track::after{
+    content:"";position:absolute;top:3px;left:3px;width:16px;height:16px;border-radius:50%;
+    background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.25);transition:transform .2s cubic-bezier(.3,.7,.4,1.2);
+  }
+  .switch input:checked + .track{background:var(--ink)}
+  .switch input:checked + .track::after{transform:translateX(18px)}
+  .switch input:focus-visible + .track{outline:2px solid rgba(180,84,31,.4);outline-offset:2px}
+  .switch input:disabled + .track{opacity:.4;cursor:not-allowed}
+  .est-note{font-size:12.5px;color:#4A453B}
+  .est-note small{display:block;color:var(--muted);font-size:11.5px}
+
+  .vendor-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  .vendor-actions{margin-left:auto;display:inline-flex;gap:2px;flex:none}
+  .chip{
+    display:inline-flex;align-items:center;gap:7px;padding:4.5px 11px;border-radius:999px;cursor:pointer;
+    border:1px solid var(--line);background:#fff;color:var(--ink);
+    font:inherit;font-size:12.5px;transition:opacity .18s,border-color .18s,filter .18s,background .18s;
+  }
+  .chip:hover{border-color:var(--line-strong)}
+  .chip .dot{width:9px;height:9px;border-radius:50%;background:var(--c,#999);flex:none}
+  .chip .name{white-space:nowrap}
+  .chip .count{font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}
+  .chip.off{opacity:.45;filter:grayscale(.9);background:#F4F1EA}
+  .chip.off .dot{background:#B9B3A4}
+  .linklike{
+    font:inherit;font-size:12px;color:var(--accent);background:none;border:none;cursor:pointer;
+    padding:4px 8px;border-radius:6px;
+  }
+  .linklike:hover{text-decoration:underline}
+
+  .chart-panel{margin-top:18px;padding:16px 20px 14px}
+  .chart-top{
+    display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+    padding:2px 2px 10px;border-bottom:1px solid var(--line);
+  }
+  .summary{font-size:12.5px;color:#4A453B;font-variant-numeric:tabular-nums}
+  .hint{font-size:11.5px;color:var(--muted)}
+  #chart{position:relative}
+  #chart svg{display:block;width:100%;height:auto}
+  #chart svg text{font-family:ui-sans-serif,-apple-system,"Segoe UI","Hiragino Kaku Gothic ProN","Noto Sans JP",Meiryo,sans-serif}
+  #chart svg circle{cursor:pointer}
+  #chart .series{transition:opacity .18s}
+  #chart svg.hovering .series{opacity:.14}
+  #chart svg.hovering .series.active{opacity:1}
+  #chart .loading{color:var(--muted);font-size:13px;padding:60px 0;text-align:center}
+
+  .leader-panel{margin-top:18px;padding:16px 20px 20px}
+  .leader-top{
+    display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+    padding:2px 2px 12px;border-bottom:1px solid var(--line);
+  }
+  .leader-title{font-weight:650;font-size:14.5px}
+  .leader-sub{font-size:11.5px;color:var(--muted)}
+  .table-scroll{overflow:auto;max-height:640px;margin-top:14px;border:1px solid var(--line);border-radius:8px}
+  .leader-table{border-collapse:separate;border-spacing:0;width:100%;font-size:12px;white-space:nowrap}
+  .leader-table th,.leader-table td{padding:5.5px 10px;border-bottom:1px solid var(--line);text-align:left}
+  .leader-table th{
+    position:sticky;top:0;z-index:2;background:#FAF8F2;
+    font-size:11px;font-weight:700;color:#5C564A;letter-spacing:.02em;
+    box-shadow:inset 0 -1px 0 var(--line-strong);
+  }
+  .leader-table th.sortable{cursor:pointer;user-select:none}
+  .leader-table th.sortable:hover{color:var(--accent)}
+  .leader-table th .sort-arrow{font-size:9px;margin-left:3px;color:var(--accent)}
+  .leader-table th.num{text-align:right}
+  .est-badge{
+    display:inline-block;padding:1px 8px;margin-left:6px;border-radius:999px;
+    background:#F5E9C8;border:1px solid #E4CF96;color:#7A6215;font-size:10.5px;font-weight:600;
+  }
+  .leader-table td{font-variant-numeric:tabular-nums}
+  .leader-table td.num{text-align:right}
+  .leader-table td.score-col{font-weight:700}
+  .leader-table td.model-name{font-weight:600}
+  .leader-table tbody tr:nth-child(even){background:#FBFAF5}
+  .leader-table tbody tr:hover td{background:#F3EFE4}
+  .leader-table tr.est-row td{background:#FCF7EA}
+  .leader-table tbody tr.est-row:hover td{background:#F6ECD0}
+  .flag-badge{
+    display:inline-block;padding:1px 8px;margin:1px 4px 1px 0;border-radius:999px;
+    background:#F1EDE1;border:1px solid var(--line);color:#6E675A;font-size:10.5px;
+  }
+
+  #tooltip{
+    position:absolute;z-index:6;pointer-events:none;opacity:0;
+    background:#211D16;color:#F3F0E7;border-radius:8px;padding:10px 13px;
+    font-size:12px;line-height:1.55;max-width:280px;
+    box-shadow:0 10px 26px -8px rgba(0,0,0,.45);
+    transform:translateY(5px);transition:opacity .14s,transform .14s;
+  }
+  #tooltip.show{opacity:1;transform:none}
+  #tooltip .tt-family{display:flex;align-items:center;gap:6px;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:#B9B19D}
+  #tooltip .tt-family .dot{width:8px;height:8px;border-radius:50%;flex:none}
+  #tooltip .tt-model{font-weight:650;font-size:13px;color:#fff;margin:2px 0 3px}
+  #tooltip .tt-vendor{font-size:11px;color:#9A927E;margin:-1px 0 4px}
+  #tooltip .tt-score{display:flex;justify-content:space-between;gap:20px;font-variant-numeric:tabular-nums}
+  #tooltip .tt-score b{font-size:14px}
+  #tooltip .tt-est{margin-top:4px;font-size:11px;color:#E9BC55}
+
+  .error{
+    display:none;margin-top:26px;padding:18px 22px;border-radius:10px;
+    border:1px solid #E2B49B;background:#FAF0E8;color:#7C3A21;font-size:13.5px;line-height:1.8;
+  }
+  .error code{background:#F1E0D2;padding:1px 6px;border-radius:4px;font-size:12.5px}
+  .error.show{display:block}
+
+  footer{
+    margin-top:26px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
+    font-size:12px;color:var(--muted);
+  }
+  footer code{font-size:11.5px}
+
+  @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  header,.controls,.chart-panel,.leader-panel,footer{animation:rise .55s cubic-bezier(.25,.6,.3,1) both}
+  .controls{animation-delay:.08s}
+  .chart-panel{animation-delay:.16s}
+  .leader-panel{animation-delay:.2s}
+  footer{animation-delay:.24s}
+
+  @media (max-width:640px){
+    .page{padding:30px 16px 44px}
+    .crow{grid-template-columns:1fr;gap:8px}
+    .clabel{padding-top:0}
+  }
+  @media (prefers-reduced-motion: reduce){
+    *{animation:none!important;transition:none!important}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <div class="kicker">Benchmark Tracker</div>
+    <h1>ベンチマーク推移年表</h1>
+    <p class="sub">各モデルファミリーのモデルをリリース順にグラフ化しています。</p>
+    <p class="sub">スコアは既存ベンチマークデータを取得したうえで合成し、同基準になるよう調整したうえで表示していますが、ベンチマークによって測定方法が異なるものや、特定の測定を行っていないモデルについては不正確な値が表示されることがあります。</p>
+    <p class="meta" id="meta">データを読み込み中…</p>
+  </header>
+
+  <div class="error" id="error"></div>
+
+  <section class="panel controls" id="controls-panel" hidden>
+    <div class="crow">
+      <div class="clabel">期間</div>
+      <div>
+        <div class="period-row">
+          <span id="presets"></span>
+          <span class="date-inputs">
+            <input type="text" id="date-from" placeholder="YYYY/MM/DD" autocomplete="off" aria-label="開始日">
+            <span class="dash">—</span>
+            <input type="text" id="date-to" placeholder="YYYY/MM/DD" autocomplete="off" aria-label="終了日">
+          </span>
+          <span class="date-hint">空欄 = 制限なし</span>
+        </div>
+      </div>
+    </div>
+    <div class="crow">
+      <div class="clabel">推定スコア</div>
+      <div class="est-row">
+        <label class="switch">
+          <input type="checkbox" id="include-estimated">
+          <span class="track"></span>
+        </label>
+        <span class="est-note" id="est-note">推定スコアのみのモデルは非表示</span>
+      </div>
+    </div>
+    <div class="crow">
+      <div class="clabel">ベンダー</div>
+      <div class="vendor-row" id="vendor-list"></div>
+    </div>
+  </section>
+
+  <section class="panel chart-panel" id="chart-panel" hidden>
+    <div class="chart-top">
+      <span class="summary" id="summary"></span>
+      <span class="hint">ホバーで詳細 ・ クリックでハイライトを固定</span>
+    </div>
+    <div id="chart"><div class="loading">読み込み中…</div></div>
+    <div id="tooltip"></div>
+  </section>
+
+  <section class="panel leader-panel" id="leader-panel" hidden>
+    <div class="leader-top">
+      <span class="leader-title">リーダーボード</span>
+      <span class="leader-sub" id="leader-meta"></span>
+    </div>
+    <div class="table-scroll">
+      <table class="leader-table" id="leader-table"></table>
+    </div>
+  </section>
+
+  <footer>
+    <span> </span>
+    <span>実測値 = 実線 + 塗りつぶし点 / 推定値 = 破線 + 白抜き点</span>
+  </footer>
+
+</div>
+
+<script>
+(async () => {
+  'use strict';
+
+  const MEASURED_URL   = 'unified_scores.csv';
+  const ESTIMATED_URL  = 'unified_scores_estimated.csv';
+  const MODEL_LIST_URL = 'known-llm-models.md';
+  const DAY = 86400000;
+
+  const $ = s => document.querySelector(s);
+  const chartWrap   = $('#chart');
+  const tooltip     = $('#tooltip');
+  const vendorList  = $('#vendor-list');
+  const presetsWrap = $('#presets');
+  const dateFromEl  = $('#date-from');
+  const dateToEl    = $('#date-to');
+  const estToggle   = $('#include-estimated');
+  const estNote     = $('#est-note');
+  const summaryEl   = $('#summary');
+  const metaEl      = $('#meta');
+  const errorEl     = $('#error');
+  const leaderTable = $('#leader-table');
+  const leaderMeta  = $('#leader-meta');
+  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  const state = {
+    measured: [],
+    estimated: [],
+    rawMeasured: [],
+    rawEstimated: [],
+    families: [],
+    vendors: [],
+    vendorOrder: new Map(),
+    familyOrder: new Map(),
+    sort: { key: 'rank', dir: 1, user: false },
+    dateFrom: null,
+    dateTo: null,
+    includeEstimated: false,
+  };
+  let currentPts = [];
+  let svgRoot = null;
+
+  function parseCSV(text){
+    text = text.replace(/^\uFEFF/, '');
+    const rows = [];
+    let row = [], field = '', inQ = false;
+    for (let i = 0; i < text.length; i++){
+      const c = text[i];
+      if (inQ){
+        if (c === '"'){
+          if (text[i+1] === '"'){ field += '"'; i++; }
+          else inQ = false;
+        } else field += c;
+      } else if (c === '"') inQ = true;
+      else if (c === ','){ row.push(field); field = ''; }
+      else if (c === '\r'){ /* ignore */ }
+      else if (c === '\n'){ row.push(field); rows.push(row); row = []; field = ''; }
+      else field += c;
+    }
+    if (field !== '' || row.length){ row.push(field); rows.push(row); }
+    return rows;
+  }
+  function rowsToObjects(text){
+    const rows = parseCSV(text).filter(r => r.some(c => c.trim() !== ''));
+    if (!rows.length) return [];
+    const header = rows[0].map(h => h.trim());
+    return rows.slice(1).map(r => {
+      const o = {};
+      header.forEach((h, i) => o[h] = (r[i] ?? '').trim());
+      return o;
+    });
+  }
+  function parseDate(s){
+    const m = /^(\d{4})[\/\-](\d{1,2})[\/\-](\d{1,2})$/.exec(String(s).trim());
+    if (!m) return null;
+    const y = +m[1], mo = +m[2] - 1, d = +m[3];
+    const t = Date.UTC(y, mo, d);
+    const dt = new Date(t);
+    if (!isFinite(t) || dt.getUTCFullYear() !== y || dt.getUTCMonth() !== mo || dt.getUTCDate() !== d)
+      return null;
+    return t;
+  }
+  function toPoint(obj, estimated){
+    const date = parseDate(obj.release_date);
+    const score = parseFloat(obj.score);
+    if (date === null || !isFinite(score) || !obj.model || !obj.vendor) return null;
+    return {
+      model: obj.model.trim(),
+      vendor: obj.vendor.trim(),
+      family: (obj.series || obj.vendor).trim() || obj.vendor.trim(),
+      score, date,
+      method: obj.method || '',
+      estimated: !!estimated,
+    };
+  }
+
+  function hashStr(s){
+    let h = 5381;
+    for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) | 0;
+    return h >>> 0;
+  }
+  // 名称照合用の正規化（ゼロ幅スペース除去・空白圧縮）
+  const normName = s => String(s ?? '').replace(/\u200b/g, '').replace(/\s+/g, ' ').trim();
+  function buildFamilies(){
+    const map = new Map();
+    for (const p of [...state.measured, ...state.estimated]){
+      let f = map.get(p.family);
+      if (!f){ f = {name: p.family, measured: 0, estimated: 0}; map.set(p.family, f); }
+      p.estimated ? f.estimated++ : f.measured++;
+    }
+    const names = [...map.keys()].sort((a, b) =>
+      hashStr(a) - hashStr(b) || a.localeCompare(b));
+    names.forEach((name, i) => {
+      map.get(name).color = `hsl(${(i * 137.508) % 360}, 58%, 45%)`;
+    });
+    state.families = [...map.values()];
+  }
+  function buildVendors(){
+    const map = new Map();
+    for (const p of [...state.measured, ...state.estimated]){
+      let v = map.get(p.vendor);
+      if (!v){ v = {name: p.vendor, families: new Set(), measured: 0, estimated: 0}; map.set(p.vendor, v); }
+      v.families.add(p.family);
+      p.estimated ? v.estimated++ : v.measured++;
+    }
+    const names = [...map.keys()].sort((a, b) =>
+      hashStr(a) - hashStr(b) || a.localeCompare(b));
+    names.forEach(name => {
+      const v = map.get(name);
+      v.color = `hsl(${(hashStr(name) * 137.508) % 360}, 45%, 52%)`;
+      v.on = true;
+    });
+    state.vendors = [...map.values()];
+  }
+
+  function dateBound(v){ return v === null ? null : v; }
+  function computeView(){
+    const measuredNames = new Set(state.measured.map(p => p.model));
+    const pool = state.includeEstimated
+      ? state.measured.concat(state.estimated.filter(p => !measuredNames.has(p.model)))
+      : state.measured;
+
+    const from = state.dateFrom ?? -Infinity;
+    const to   = state.dateTo ?? Infinity;
+    const inRange = pool.filter(p => p.date >= from && p.date <= to);
+
+    let x0, x1;
+    const base = inRange.length ? inRange : pool;
+    x0 = base.reduce((m, p) => Math.min(m, p.date),  Infinity);
+    x1 = base.reduce((m, p) => Math.max(m, p.date), -Infinity);
+    const padX = Math.max((x1 - x0) * 0.015, 8 * DAY);
+    x0 -= padX; x1 += padX;
+
+    const on = new Set(state.vendors.filter(v => v.on).map(v => v.name));
+    const pts = inRange.filter(p => on.has(p.vendor));
+
+    const bySeries = new Map();
+    for (const p of pts){
+      let arr = bySeries.get(p.family);
+      if (!arr){ arr = []; bySeries.set(p.family, arr); }
+      arr.push(p);
+    }
+    for (const arr of bySeries.values()) arr.sort((a, b) => a.date - b.date || a.score - b.score);
+
+    let y0 = Infinity, y1 = -Infinity;
+    for (const p of pts){ y0 = Math.min(y0, p.score); y1 = Math.max(y1, p.score); }
+    if (pts.length){
+      const padY = (y1 - y0) * 0.07 || 60;
+      y0 -= padY; y1 += padY;
+    } else { y0 = 0; y1 = 1; }
+
+    return {pts, bySeries, x0, x1, y0, y1};
+  }
+
+  function niceTicks(min, max, count){
+    if (!(max > min)) return [min];
+    const step0 = (max - min) / count;
+    const mag = Math.pow(10, Math.floor(Math.log10(step0)));
+    const norm = step0 / mag;
+    const step = (norm < 1.5 ? 1 : norm < 3 ? 2 : norm < 7 ? 5 : 10) * mag;
+    const out = [];
+    for (let v = Math.ceil(min / step) * step; v <= max + 1e-9; v += step)
+      out.push(Math.round(v * 1e6) / 1e6);
+    return out;
+  }
+  function fmtTick(v){
+    if (Math.abs(v) >= 1000 || (Math.abs(v) >= 10 && Number.isInteger(v)))
+      return Math.round(v).toLocaleString('en-US');
+    return String(Math.round(v * 10) / 10);
+  }
+  function timeTicks(t0, t1, narrow){
+    const spanDays = (t1 - t0) / DAY;
+    const out = [];
+    const push = (yy, mm, label) => {
+      const t = Date.UTC(yy, mm, 1);
+      if (t >= t0 && t <= t1) out.push({t, label});
+    };
+    const startY = new Date(t0).getUTCFullYear();
+    const endY   = new Date(t1).getUTCFullYear();
+    const p2 = n => String(n).padStart(2, '0');
+    if (spanDays > 1100){
+      const step = spanDays > 2800 ? 2 : 1;
+      for (let y = startY; y <= endY; y++) if (y % step === 0) push(y, 0, String(y));
+    } else if (spanDays > 200){
+      for (let y = startY; y <= endY; y++){ push(y, 0, `${y}/01`); push(y, 6, `${y}/07`); }
+    } else if (spanDays > 70){
+      for (let y = startY; y <= endY; y++)
+        for (const m of [0, 3, 6, 9]) push(y, m, `${y}/${p2(m + 1)}`);
+    } else {
+      let y = startY, m = new Date(t0).getUTCMonth();
+      while (Date.UTC(y, m, 1) <= t1){
+        push(y, m, `${y}/${p2(m + 1)}`);
+        m++; if (m > 11){ m = 0; y++; }
+      }
+    }
+    return out;
+  }
+  const fmtDate = ts => {
+    const d = new Date(ts);
+    const p2 = n => String(n).padStart(2, '0');
+    return `${d.getUTCFullYear()}/${p2(d.getUTCMonth() + 1)}/${p2(d.getUTCDate())}`;
+  };
+  const fmtScore = v => Math.round(v).toLocaleString('en-US');
+  const esc = s => String(s).replace(/[&<>"']/g,
+    c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+  function buildPaths(arr, x, y){
+    const segs = [];
+    for (let i = 0; i + 1 < arr.length; i++)
+      segs.push({a: arr[i], b: arr[i+1], dash: arr[i].estimated || arr[i+1].estimated});
+    const out = [];
+    let i = 0;
+    while (i < segs.length){
+      const dash = segs[i].dash;
+      let d = `M${x(segs[i].a.date)} ${y(segs[i].a.score)} L${x(segs[i].b.date)} ${y(segs[i].b.score)}`;
+      i++;
+      while (i < segs.length && segs[i].dash === dash){
+        d += ` L${x(segs[i].b.date)} ${y(segs[i].b.score)}`;
+        i++;
+      }
+      out.push({d, dash});
+    }
+    return out;
+  }
+
+  function draw(animate){
+    tooltip.classList.remove('show');
+    const view = computeView();
+    currentPts = view.pts;
+
+    const W = Math.max(chartWrap.clientWidth, 320);
+    const narrow = W < 680;
+    const M = narrow ? {top:14, right:12, bottom:30, left:46}
+                     : {top:18, right:18, bottom:34, left:58};
+    const H = Math.round(Math.min(560, Math.max(380, W * 0.48)));
+    const iw = W - M.left - M.right, ih = H - M.top - M.bottom;
+    const x = t => M.left + (t - view.x0) / (view.x1 - view.x0) * iw;
+    const y = v => M.top + (1 - (v - view.y0) / (view.y1 - view.y0)) * ih;
+
+    const yTicks = niceTicks(view.y0, view.y1, 6);
+    const xTicks = timeTicks(view.x0, view.x1, narrow);
+
+    let g = '';
+    for (const tk of xTicks){
+      const px = x(tk.t);
+      g += `<line x1="${px}" y1="${M.top}" x2="${px}" y2="${M.top + ih}" stroke="#EFEAE0" stroke-width="1"/>`;
+      g += `<text x="${px}" y="${M.top + ih + 18}" font-size="10.5" fill="#8D8778" text-anchor="middle">${tk.label}</text>`;
+    }
+    for (const tv of yTicks){
+      const py = y(tv);
+      g += `<line x1="${M.left}" y1="${py}" x2="${M.left + iw}" y2="${py}" stroke="#EFEAE0" stroke-width="1"/>`;
+      g += `<text x="${M.left - 8}" y="${py + 3.5}" font-size="10.5" fill="#8D8778" text-anchor="end" font-variant-numeric="tabular-nums">${fmtTick(tv)}</text>`;
+    }
+    g += `<line x1="${M.left}" y1="${M.top + ih}" x2="${M.left + iw}" y2="${M.top + ih}" stroke="#D8D2C2" stroke-width="1"/>`;
+    g += `<text x="15" y="${M.top + ih / 2}" font-size="10.5" fill="#8D8778" text-anchor="middle" letter-spacing="1" transform="rotate(-90 15 ${M.top + ih / 2})">score</text>`;
+
+    let s = '', idx = 0;
+    for (const [family, arr] of view.bySeries){
+      const color = arr[0].color ?? state.families.find(f => f.name === family)?.color ?? '#888';
+      s += `<g class="series" data-family="${esc(family)}">`;
+      for (const seg of buildPaths(arr, x, y)){
+        s += `<path d="${seg.d}" fill="none" stroke="${color}" stroke-width="${seg.dash ? 1.8 : 2.1}"${seg.dash ? ' stroke-dasharray="5 5"' : ''} stroke-linejoin="round" stroke-linecap="round" opacity=".92"/>`;
+      }
+      for (const p of arr){
+        p._x = x(p.date); p._y = y(p.score); p._i = idx; p.color = color;
+        s += `<circle data-i="${idx}" cx="${p._x}" cy="${p._y}" r="3" fill="${p.estimated ? '#fff' : color}" stroke="${color}" stroke-width="1.5"/>`;
+        idx++;
+      }
+      s += `</g>`;
+    }
+    if (!view.pts.length)
+      s += `<text x="${M.left + iw / 2}" y="${M.top + ih / 2}" font-size="13" fill="#8D8778" text-anchor="middle">該当するモデルがありません</text>`;
+
+    const svg =
+      `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="ベンチマーク推移年表">
+        <defs><clipPath id="wipeClip"><rect id="wipeRect" x="${M.left - 12}" y="0" height="${H}" width="${M.left + iw + 24}"/></clipPath></defs>
+        ${g}
+        <g clip-path="url(#wipeClip)">${s}</g>
+      </svg>`;
+    chartWrap.innerHTML = svg;
+    svgRoot = chartWrap.querySelector('svg');
+
+    if (animate && !reducedMotion){
+      const rect = svgRoot.querySelector('#wipeRect');
+      rect.style.width = '0px';
+      void rect.getBoundingClientRect();
+      rect.style.transition = 'width .85s cubic-bezier(.3,.55,.3,1)';
+      rect.style.width = (M.left + iw + 24) + 'px';
+    }
+    if (pinned){
+      if (currentPts.includes(pinned.p)) applyHighlight(pinned.p);
+      else pinned = null;
+    }
+  }
+
+  function applyHighlight(p){
+    tooltip.innerHTML =
+      `<div class="tt-family"><span class="dot" style="background:${p.color}"></span>${esc(p.family)}</div>` +
+      `<div class="tt-model">${esc(p.model)}${p.estimated ? ' <span style="font-weight:400;font-size:11px;color:#E9BC55">推定</span>' : ''}</div>` +
+      `<div class="tt-vendor">${esc(p.vendor)}</div>` +
+      `<div class="tt-score"><span>${fmtDate(p.date)}</span><b>${fmtScore(p.score)}</b></div>` +
+      (p.estimated ? `<div class="tt-est">推定方法: ${esc(p.method)}</div>` : '');
+    tooltip.classList.add('show');
+    const tw = tooltip.offsetWidth, th = tooltip.offsetHeight;
+    const wrapW = chartWrap.clientWidth;
+    let left = p._x + 16;
+    if (left + tw > wrapW - 4) left = p._x - tw - 16;
+    let top = p._y - th - 12;
+    if (top < 2) top = p._y + 14;
+    tooltip.style.left = Math.max(2, left) + 'px';
+    tooltip.style.top = top + 'px';
+
+    if (svgRoot){
+      svgRoot.classList.add('hovering');
+      svgRoot.querySelectorAll('g.series').forEach(gr =>
+        gr.classList.toggle('active', gr.dataset.family === p.family));
+      svgRoot.querySelectorAll('circle.hot').forEach(c => {
+        c.classList.remove('hot'); c.setAttribute('r', c.dataset.r || 3);
+      });
+      const el = svgRoot.querySelector(`circle[data-i="${p._i}"]`);
+      if (el){ el.classList.add('hot'); el.dataset.r = el.getAttribute('r'); el.setAttribute('r', 5.2); }
+    }
+  }
+  function clearHighlight(){
+    tooltip.classList.remove('show');
+    if (svgRoot){
+      svgRoot.classList.remove('hovering');
+      svgRoot.querySelectorAll('g.series.active').forEach(gr => gr.classList.remove('active'));
+      svgRoot.querySelectorAll('circle.hot').forEach(c => {
+        c.classList.remove('hot'); c.setAttribute('r', c.dataset.r || 3);
+      });
+    }
+  }
+
+  let pinned = null;
+  function pin(p){ pinned = {p}; applyHighlight(p); }
+  function unpin(){ pinned = null; clearHighlight(); }
+  function nearestPoint(e, family){
+    const r = chartWrap.getBoundingClientRect();
+    const mx = e.clientX - r.left, my = e.clientY - r.top;
+    let best = null;
+    for (const p of currentPts){
+      if (family != null && p.family !== family) continue;
+      const dx = p._x - mx, dy = p._y - my, d2 = dx*dx + dy*dy;
+      if (!best || d2 < best.d2) best = {p, d2};
+    }
+    return best && best.d2 <= 400 ? best.p : null;
+  }
+  chartWrap.addEventListener('pointermove', e => {
+    if (pinned){
+      // 固定中は固定したファミリーの線上の点だけホバー対象（外れたら固定点に戻す）
+      applyHighlight(nearestPoint(e, pinned.p.family) ?? pinned.p);
+      return;
+    }
+    const p = nearestPoint(e);
+    if (p) applyHighlight(p); else clearHighlight();
+  });
+  function pinActivate(e){
+    if (e.pointerType === 'mouse' && e.button !== 0) return;
+    const p = nearestPoint(e);
+    if (p){
+      if (pinned && pinned.p === p) unpin();
+      else pin(p);
+    } else if (pinned) unpin();
+  }
+  let lastPointerDownAt = 0;
+  chartWrap.addEventListener('pointerdown', e => {
+    lastPointerDownAt = performance.now();
+    pinActivate(e);
+  });
+  chartWrap.addEventListener('mousedown', e => {
+    if (performance.now() - lastPointerDownAt < 500) return;
+    pinActivate(e);
+  });
+  chartWrap.addEventListener('pointerleave', () => { if (!pinned) clearHighlight(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && pinned) unpin(); });
+
+  // ---- リーダーボード: CSV生データを日本語ラベル付きで表示 ----
+  // type: num=数値 / alpha=名称 / order=一覧ファイル出現順 / flags=フラグ数 / date=日付
+  // primary: 最初のクリック方向 (1=昇順, -1=降順)
+  const COLUMN_DEFS = [
+    {key: 'rank',            label: '順位',        num: true,  type: 'num',   primary: 1},
+    {key: 'model',           label: 'モデル',                  type: 'alpha', primary: 1},
+    {key: 'vendor',          label: 'ベンダー',                type: 'order', primary: 1},
+    {key: 'series',          label: 'ファミリー',              type: 'order', primary: 1},
+    {key: 'score',           label: 'スコア',      num: true,  type: 'num',   primary: -1},
+    {key: 'theta',           label: 'θ',           num: true,  type: 'num',   primary: -1},
+    {key: 'se',              label: '標準誤差',    num: true,  type: 'num',   primary: -1},
+    {key: 'ci_lo',           label: 'CI下限',      num: true,  type: 'num',   primary: -1},
+    {key: 'ci_hi',           label: 'CI上限',      num: true,  type: 'num',   primary: -1},
+    {key: 'n_obs',           label: '観測数',      num: true,  type: 'num',   primary: -1},
+    {key: 'n_measured',      label: '実測数',      num: true,  type: 'num',   primary: -1},
+    {key: 'n_unknown',       label: '不明数',      num: true,  type: 'num',   primary: -1},
+    {key: 'n_self',          label: '自己申告数',  num: true,  type: 'num',   primary: -1},
+    {key: 'static_code',     label: '静的コード',  num: true,  type: 'num',   primary: -1},
+    {key: 'agentic_swe',     label: 'エージェントSWE', num: true, type: 'num', primary: -1},
+    {key: 'terminal_gui',    label: 'ターミナルGUI', num: true, type: 'num',  primary: -1},
+    {key: 'reasoning',       label: '推論',        num: true,  type: 'num',   primary: -1},
+    {key: 'tool_use',        label: 'ツール使用',  num: true,  type: 'num',   primary: -1},
+    {key: 'webdev',          label: 'Web開発',     num: true,  type: 'num',   primary: -1},
+    {key: 'composite_index', label: '複合指数',    num: true,  type: 'num',   primary: -1},
+    {key: 'livebench_coding',label: 'LiveBenchコーディング', num: true, type: 'num', primary: -1},
+    {key: 'flags',           label: 'フラグ',                  type: 'flags', primary: -1},
+    {key: 'release_date',    label: 'リリース日',              type: 'date',  primary: -1},
+  ];
+  const FLAG_LABELS = {
+    no_measured: '実測値なし',
+    self_heavy: '自己申告偏重',
+    single_obs: '観測1件のみ',
+    wide_ci: '信頼区間が広い',
+  };
+  function formatCell(key, raw){
+    const v = (raw ?? '').trim();
+    if (key === 'flags'){
+      if (!v) return '';
+      return v.split('|').filter(Boolean)
+        .map(f => `<span class="flag-badge">${esc(FLAG_LABELS[f] ?? f)}</span>`).join('');
+    }
+    return esc(v);
+  }
+  function mergedRows(){
+    if (!state.includeEstimated) return state.rawMeasured;
+    const measuredNames = new Set(state.rawMeasured.map(r => normName(r.model)));
+    const estRows = state.rawEstimated
+      .filter(r => !measuredNames.has(normName(r.model)))
+      .map(r => ({
+        rank: r.est_rank, model: r.model, vendor: r.vendor, series: r.series,
+        score: r.score, theta: r.theta_est, se: r.se, ci_lo: r.ci_lo, ci_hi: r.ci_hi,
+        method: r.method, release_date: r.release_date, __est: true,
+      }));
+    return state.rawMeasured.concat(estRows);
+  }
+  function compareRows(a, b){
+    const {key, dir} = state.sort;
+    const def = COLUMN_DEFS.find(c => c.key === key) ?? COLUMN_DEFS[0];
+    let cmp = 0;
+    if (def.type === 'num'){
+      const na = parseFloat(a[key]), nb = parseFloat(b[key]);
+      const hasA = isFinite(na), hasB = isFinite(nb);
+      if (!hasA && !hasB) cmp = 0;
+      else if (!hasA) return 1;   // 値の無いセルは常に下へ
+      else if (!hasB) return -1;
+      else cmp = na - nb;
+    } else if (def.type === 'alpha'){
+      cmp = String(a[key] ?? '').localeCompare(String(b[key] ?? ''), undefined, {numeric: true});
+    } else if (def.type === 'order'){
+      const orderMap = key === 'vendor' ? state.vendorOrder : state.familyOrder;
+      const ia = orderMap.get(normName(a[key])), ib = orderMap.get(normName(b[key]));
+      if (ia !== ib) cmp = (ia ?? Infinity) - (ib ?? Infinity);   // 未登録は常に下へ
+      else if (ia === undefined) cmp = String(a[key] ?? '').localeCompare(String(b[key] ?? ''));
+    } else if (def.type === 'flags'){
+      const cnt = r => String(r.flags ?? '').split('|').filter(Boolean).length;
+      cmp = cnt(a) - cnt(b);
+    } else if (def.type === 'date'){
+      const ta = parseDate(a.release_date), tb = parseDate(b.release_date);
+      if (ta === null && tb === null) cmp = 0;
+      else if (ta === null) return 1;
+      else if (tb === null) return -1;
+      else cmp = ta - tb;
+    }
+    if (cmp === 0){  // タイブレーク: 順位 → 実測優先 → モデル名
+      cmp = (parseFloat(a.rank) || 0) - (parseFloat(b.rank) || 0);
+      if (cmp === 0) cmp = (a.__est ? 1 : 0) - (b.__est ? 1 : 0);
+      if (cmp === 0) cmp = String(a.model ?? '').localeCompare(String(b.model ?? ''), undefined, {numeric: true});
+    }
+    return cmp * dir;
+  }
+  function renderLeaderboard(){
+    const rows = mergedRows().sort(compareRows);
+    const head =
+      `<thead><tr>` +
+      COLUMN_DEFS.map(c => {
+        const active = state.sort.user && state.sort.key === c.key;
+        const arrow = active ? `<span class="sort-arrow">${state.sort.dir === 1 ? '▲' : '▼'}</span>` : '';
+        return `<th class="sortable${c.num ? ' num' : ''}" data-key="${c.key}">${esc(c.label)}${arrow}</th>`;
+      }).join('') +
+      `</tr></thead>`;
+    const body =
+      `<tbody>` +
+      rows.map(r =>
+        `<tr${r.__est ? ' class="est-row"' : ''}>` +
+        COLUMN_DEFS.map(c => {
+          const cls = [];
+          if (c.num) cls.push('num');
+          if (c.key === 'score') cls.push('score-col');
+          if (c.key === 'model') cls.push('model-name');
+          let content = formatCell(c.key, r[c.key]);
+          if (c.key === 'model' && r.__est)
+            content += ` <span class="est-badge">推定</span>`;
+          return `<td${cls.length ? ` class="${cls.join(' ')}"` : ''}>${content}</td>`;
+        }).join('') +
+        `</tr>`).join('') +
+      `</tbody>`;
+    leaderTable.innerHTML = head + body;
+    leaderMeta.textContent = state.includeEstimated
+      ? `unified_scores.csv + unified_scores_estimated.csv ・ 実測 ${state.rawMeasured.length} + 推定 ${rows.length - state.rawMeasured.length} モデル`
+      : `unified_scores.csv ・ ${rows.length} モデル（実測値のみ）`;
+  }
+  leaderTable.addEventListener('click', e => {
+    const th = e.target.closest('th[data-key]');
+    if (!th) return;
+    const key = th.dataset.key;
+    if (state.sort.user && state.sort.key === key){
+      state.sort.dir *= -1;
+    } else {
+      const def = COLUMN_DEFS.find(c => c.key === key);
+      if (!def) return;
+      state.sort = {key, dir: def.primary, user: true};
+    }
+    renderLeaderboard();
+  });
+
+  const PRESETS = [    {label: '全期間',     months: 0},
+    {label: '直近3か月', months: 3},
+    {label: '直近6か月', months: 6},
+    {label: '直近1年',   months: 12},
+    {label: '直近2年',   months: 24},
+  ];
+  let dataMinTs = Infinity, dataMaxTs = -Infinity;
+
+  function monthsAgo(ts, m){
+    const d = new Date(ts);
+    return Date.UTC(d.getUTCFullYear(), d.getUTCMonth() - m, d.getUTCDate());
+  }
+  function renderPresets(){
+    presetsWrap.innerHTML = PRESETS.map((p, i) =>
+      `<button type="button" class="preset${i === 0 ? ' active' : ''}" data-months="${p.months}">${p.label}</button>`
+    ).join('');
+  }
+  function setActivePreset(months){
+    presetsWrap.querySelectorAll('.preset').forEach(b =>
+      b.classList.toggle('active', +b.dataset.months === months));
+  }
+  presetsWrap.addEventListener('click', e => {
+    const btn = e.target.closest('.preset');
+    if (!btn) return;
+    const months = +btn.dataset.months;
+    if (months === 0){
+      state.dateFrom = state.dateTo = null;
+      dateFromEl.value = dateToEl.value = '';
+    } else {
+      state.dateFrom = monthsAgo(dataMaxTs, months);
+      state.dateTo = null;
+      dateFromEl.value = fmtDate(state.dateFrom);
+      dateToEl.value = '';
+    }
+    setActivePreset(months);
+    update(true);
+  });
+  function onDateInput(){
+    const apply = (el, key) => {
+      const v = el.value.trim();
+      el.classList.remove('invalid');
+      if (!v){ state[key] = null; return; }
+      const t = parseDate(v);
+      if (t === null){ el.classList.add('invalid'); state[key] = null; return; }
+      state[key] = t;
+    };
+    apply(dateFromEl, 'dateFrom');
+    apply(dateToEl, 'dateTo');
+    if (state.dateFrom !== null && state.dateTo !== null && state.dateFrom > state.dateTo){
+      [state.dateFrom, state.dateTo] = [state.dateTo, state.dateFrom];
+      dateFromEl.value = fmtDate(state.dateFrom);
+      dateToEl.value = fmtDate(state.dateTo);
+      dateFromEl.classList.remove('invalid');
+      dateToEl.classList.remove('invalid');
+    }
+    setActivePreset(-1);
+    update(true);
+  }
+  dateFromEl.addEventListener('change', onDateInput);
+  dateToEl.addEventListener('change', onDateInput);
+  for (const el of [dateFromEl, dateToEl])
+    el.addEventListener('keydown', e => { if (e.key === 'Enter') e.target.blur(); });
+
+  function renderChips(){
+    vendorList.innerHTML = state.vendors.map(v => {
+      const cnt = state.includeEstimated ? v.measured + v.estimated : v.measured;
+      const families = [...v.families].join(' / ');
+      return `<button type="button" class="chip${v.on ? '' : ' off'}" style="--c:${v.color}" data-vendor="${esc(v.name)}" title="${esc(families)}">` +
+        `<span class="dot"></span><span class="name">${esc(v.name)}</span><span class="count">${cnt}</span></button>`;
+    }).join('') +
+    `<span class="vendor-actions">` +
+      `<button type="button" class="linklike" id="vendor-reset">すべて表示</button>` +
+      `<button type="button" class="linklike" id="vendor-hide-all">すべて非表示</button>` +
+    `</span>`;
+  }
+  vendorList.addEventListener('click', e => {
+    if (e.target.id === 'vendor-reset'){
+      state.vendors.forEach(v => v.on = true);
+      renderChips();
+      update(true);
+      return;
+    }
+    if (e.target.id === 'vendor-hide-all'){
+      state.vendors.forEach(v => v.on = false);
+      renderChips();
+      update(true);
+      return;
+    }
+    const chip = e.target.closest('.chip');
+    if (!chip) return;
+    const v = state.vendors.find(x => x.name === chip.dataset.vendor);
+    if (!v) return;
+    v.on = !v.on;
+    chip.classList.toggle('off', !v.on);
+    update(true);
+  });
+
+  estToggle.addEventListener('change', () => {
+    state.includeEstimated = estToggle.checked;
+    estNote.innerHTML = state.includeEstimated
+      ? `推定スコアのみのモデル（${state.estimated.length}件）を表示中 <small>破線 + 白抜きの点で表示</small>`
+      : '推定スコアのみのモデルは非表示';
+    renderChips();
+    renderLeaderboard();
+    update(true);
+  });
+
+  function update(animate){
+    draw(animate);
+    const onCount = state.vendors.filter(v => v.on).length;
+    summaryEl.textContent = `表示中 ${currentPts.length} モデル ・ ${onCount} / ${state.vendors.length} ベンダー`;
+  }
+
+  function showError(msg){
+    errorEl.innerHTML = msg;
+    errorEl.classList.add('show');
+    $('#controls-panel').hidden = true;
+    $('#chart-panel').hidden = true;
+    $('#leader-panel').hidden = true;
+    metaEl.textContent = 'データを読み込めませんでした';
+  }
+  async function fetchText(url){
+    const res = await fetch(url, {cache: 'no-store'});
+    if (!res.ok) throw new Error(`${url} → HTTP ${res.status}`);
+    return res.text();
+  }
+
+  try{
+    state.rawMeasured = rowsToObjects(await fetchText(MEASURED_URL));
+    state.measured = state.rawMeasured
+      .map(o => toPoint(o, false)).filter(Boolean);
+  } catch(err){
+    showError(
+      `<b>データファイルを読み込めませんでした</b>（${esc(err.message)}）<br>` +
+      `ブラウザでこのHTMLファイルを直接開いた場合、セキュリティ制限によりローカルのCSVは読み取れません。` +
+      `サーバーを起動してアクセスしてください:<br>`
+    );
+    return;
+  }
+
+  let estimatedAvailable = true;
+  try{
+    state.rawEstimated = rowsToObjects(await fetchText(ESTIMATED_URL));
+    state.estimated = state.rawEstimated
+      .map(o => toPoint(o, true)).filter(Boolean);
+  } catch{
+    estimatedAvailable = false;
+    state.estimated = [];
+    state.rawEstimated = [];
+  }
+
+  try{
+    const md = await fetchText(MODEL_LIST_URL);
+    let vi = 0, fi = 0;
+    for (const m of md.matchAll(/^(#{2,3})\s+(.+?)\s*$/gm)){
+      if (m[1] === '##') state.vendorOrder.set(normName(m[2]), vi++);
+      else state.familyOrder.set(normName(m[2]), fi++);
+    }
+  } catch{ /* 一覧ファイルが無い場合は名前順フォールバック */ }
+
+  buildVendors();
+  buildFamilies();
+
+  for (const p of [...state.measured, ...state.estimated]){
+    dataMinTs = Math.min(dataMinTs, p.date);
+    dataMaxTs = Math.max(dataMaxTs, p.date);
+  }
+
+  metaEl.textContent =
+    `${state.measured.length} モデル（実測）+ ${state.estimated.length} モデル（推定）` +
+    ` ・ ${state.vendors.length} ベンダー ・ ${fmtDate(dataMinTs)} 〜 ${fmtDate(dataMaxTs)}`;
+
+  if (!estimatedAvailable){
+    estToggle.disabled = true;
+    estNote.innerHTML = '<small>unified_scores_estimated.csv を読み込めないため無効</small>';
+  }
+
+  renderPresets();
+  renderChips();
+  renderLeaderboard();
+  $('#controls-panel').hidden = false;
+  $('#chart-panel').hidden = false;
+  $('#leader-panel').hidden = false;
+  update(true);
+
+  let lastW = chartWrap.clientWidth;
+  new ResizeObserver(() => {
+    const w = chartWrap.clientWidth;
+    if (w !== lastW){ lastW = w; draw(false); }
+  }).observe(chartWrap);
+})();
+</script>
+</body>
+</html>
