@@ -793,8 +793,8 @@
       `</tbody>`;
     leaderTable.innerHTML = head + body;
     leaderMeta.textContent = state.includeEstimated
-      ? `unified_scores.csv + unified_scores_estimated.csv ・ 実測 ${state.rawMeasured.length} + 推定 ${rows.length - state.rawMeasured.length} モデル`
-      : `unified_scores.csv ・ ${rows.length} モデル（実測値のみ）`;
+      ? `実測値 ${state.rawMeasured.length} モデル + 推定値 ${rows.length - state.rawMeasured.length} モデル`
+      : `実測値のみ : ${rows.length} モデル`;
   }
   leaderTable.addEventListener('click', e => {
     const th = e.target.closest('th[data-key]');
@@ -968,7 +968,7 @@
       if (m[1] === '##') state.vendorOrder.set(normName(m[2]), vi++);
       else state.familyOrder.set(normName(m[2]), fi++);
     }
-  } catch{ /* 一覧ファイルが無い場合は名前順フォールバック */ }
+  } catch{ /* ignore */ }
 
   buildVendors();
   buildFamilies();
@@ -979,12 +979,12 @@
   }
 
   metaEl.textContent =
-    `${state.measured.length} モデル（実測）+ ${state.estimated.length} モデル（推定）` +
+    `${state.measured.length} モデル（実測値）+ ${state.estimated.length} モデル（推定値）` +
     ` ・ ${state.vendors.length} ベンダー ・ ${fmtDate(dataMinTs)} 〜 ${fmtDate(dataMaxTs)}`;
 
   if (!estimatedAvailable){
     estToggle.disabled = true;
-    estNote.innerHTML = '<small>unified_scores_estimated.csv を読み込めないため無効</small>';
+    estNote.innerHTML = '<small>データを読み込めないため無効</small>';
   }
 
   renderPresets();
