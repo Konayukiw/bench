@@ -567,12 +567,12 @@
 
 - Jamba 1.5 Large ⚠️
 - Jamba 1.5 Mini ⚠️
-- Jamba Large 1.6
-- Jamba Mini 1.6
-- Jamba Large 1.7
-- Jamba Mini 1.7
+- Jamba 1.6 Large
+- Jamba 1.6 Mini
+- Jamba 1.7 Large
+- Jamba 1.7 Mini
 - Jamba Mini 2 ⚠️
-- Jamba2 3B
+- Jamba 2 3B
 - Jamba Reasoning 3B
 - Jamba Instruct
 
@@ -657,8 +657,8 @@
 - OLMo 2 32B
 - OLMo 3 7B
 - OLMo 3 32B
-- Olmo 3 7B Think
-- Olmo 3 32B Think
+- OLMo 3 7B Think
+- OLMo 3 32B Think
 - OLMo 3.1 Think 32B
 - OLMo 3.1 Instruct 32B
 - OLMo Hybrid 7B
@@ -720,7 +720,7 @@
 - Sonar Deep Research
 - Sonar Reasoning
 
-### Other series
+### R1 series
 
 - R1-1776 ⚠️
 
@@ -770,3 +770,48 @@
 - StableLM 2 12B Chat
 
 ---
+
+## Thinking Machines Lab
+
+### Inkling series
+
+- Inkling
+- Inkling-Small
+
+## Microsoft
+
+### MAI Code series
+
+- MAI-Code-1-Flash
+- MAI-Code-1.1-Flash
+
+## Anysphere
+
+### Composer series
+
+- Composer 2
+- Composer 2.5
+
+## Cognition
+
+### SWE series
+
+- SWE-1.5
+- SWE-1.6
+- SWE-1.7
+
+## Poolside
+
+### Laguna series
+
+- Laguna XS 2.1
+- Laguna S 2.1
+
+## Manus
+
+### Manus series
+
+- Manus 1.5
+- Manus 1.6
+- Manus 1.6 Lite
+- Manus 1.6 Max

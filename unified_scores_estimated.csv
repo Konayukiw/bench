@@ -1,81 +1,84 @@
 est_rank,model,vendor,series,score,theta_est,se,ci_lo,ci_hi,method,anchors,release_date
-1,Daybreak Blue,OpenAI,GPT series,6322,2.322,0.488,1.366,3.278,family_interpolation,GPT-5.6 Luna|GPT-6 Astra,2026/08/10
-2,Daybreak Red,OpenAI,GPT series,6122,2.122,0.488,1.166,3.078,family_interpolation,GPT-5.6 Luna|GPT-6 Astra,2026/08/10
-3,GPT-5.6 Cyber,OpenAI,GPT series,5922,1.922,0.488,0.966,2.878,family_interpolation,GPT-5.6 Luna|GPT-6 Astra,2026/08/10
-4,MiniMax-VL-01,MiniMax,MiniMax series,5514,1.514,0.473,0.587,2.442,family_extrapolation,MiniMax-M3,2025/01/12
-5,DeepSeek-Prover-V2-671B,DeepSeek,DeepSeek series,5463,1.463,0.733,0.026,2.901,family_extrapolation,DeepSeek-V4-Pro-DSpark,2025/04/30
-6,DeepSeek-Prover-V1.5,DeepSeek,DeepSeek series,5339,1.339,0.609,0.145,2.533,family_extrapolation,DeepSeek-V4-Pro-DSpark,2024/08/15
-7,MiMo-VL-7B,Xiaomi,MiMo series,5220,1.22,0.63,-0.015,2.455,family_extrapolation,MiMo-V2.5-Pro,2025/05/30
-8,Seed Diffusion Preview,ByteDance,Seed series,4962,0.962,0.2,0.57,1.354,family_interpolation,Seed2.1|Seed-OSS-36B,2025/08/04
-9,GLM-4.7-FlashX,Zhipu AI (Z.ai),GLM series,4812,0.811,0.571,-0.308,1.931,family_interpolation,GLM-4.7-Flash|GLM-5,2025/12/22
-10,GLM-4.6V-FlashX,Zhipu AI (Z.ai),GLM series,4694,0.694,0.476,-0.24,1.628,family_interpolation,GLM-4.6V|GLM-4.7,2025/09/29
-11,Tencent HY 2.0 Instruct,Tencent,Hy series (Hunyuan / Tencent Hy),4632,0.632,1.417,-2.146,3.409,family_interpolation,Hunyuan-Standard-256K|Tencent Hy3,2025/12/05
-12,ERNIE X1.1,Baidu,ERNIE series,4569,0.569,0.483,-0.377,1.516,family_interpolation,ERNIE 4.5 300B-A47B|ERNIE 5.0 Preview,2025/09/09
-13,ERNIE X1 Turbo,Baidu,ERNIE series,4479,0.479,0.483,-0.468,1.425,family_interpolation,ERNIE 4.5 300B-A47B|ERNIE 5.0 Preview,2025/04/25
-14,GLM-4.6V-Flash,Zhipu AI (Z.ai),GLM series,4420,0.42,0.476,-0.514,1.354,family_interpolation,GLM-4.6V|GLM-4.7,2025/09/29
-15,ERNIE X1,Baidu,ERNIE series,4388,0.388,0.483,-0.559,1.335,family_interpolation,ERNIE 4.5 300B-A47B|ERNIE 5.0 Preview,2025/03/16
-16,MAI-1-preview,Microsoft,MAI series,4324,0.325,0.416,-0.49,1.139,family_interpolation,MAI-DS-R1|MAI-Thinking-1,2025/08/25
-17,gpt-oss-safeguard-20b,OpenAI,GPT-OSS series,4316,0.316,0.723,-1.101,1.734,family_extrapolation,gpt-oss-20b,2025/10/29
-18,ERNIE Tiny,Baidu,ERNIE series,4297,0.297,0.483,-0.649,1.244,family_interpolation,ERNIE 4.5 300B-A47B|ERNIE 5.0 Preview,2024/03/21
-19,GLM-4.5-X,Zhipu AI (Z.ai),GLM series,4249,0.249,0.2,-0.143,0.641,family_interpolation,GLM-4.5-Air|GLM-4.5V,2025/07/20
-20,ERNIE 4.0,Baidu,ERNIE series,4224,0.224,0.727,-1.201,1.649,family_extrapolation,ERNIE 4.5,2023/10/17
-21,ERNIE Lite,Baidu,ERNIE series,4207,0.207,0.483,-0.74,1.153,family_interpolation,ERNIE 4.5 300B-A47B|ERNIE 5.0 Preview,2024/03/21
-22,gpt-oss-safeguard-120b,OpenAI,GPT-OSS series,4192,0.192,0.599,-0.982,1.367,family_extrapolation,gpt-oss-20b,2025/09/18
-23,GLM-4.5-AirX,Zhipu AI (Z.ai),GLM series,4181,0.181,0.2,-0.211,0.573,family_interpolation,GLM-4.5-Air|GLM-4.5V,2025/07/20
-24,Command A Translate,Cohere,Command and other series,4177,0.177,0.395,-0.597,0.95,family_interpolation,Command A Reasoning|Command A+,2025/08/27
-25,ERNIE Speed,Baidu,ERNIE series,4116,0.116,0.483,-0.831,1.063,family_interpolation,ERNIE 4.5 300B-A47B|ERNIE 5.0 Preview,2024/03/21
-26,GLM-4.5-Flash,Zhipu AI (Z.ai),GLM series,4113,0.113,0.2,-0.279,0.505,family_interpolation,GLM-4.5-Air|GLM-4.5V,2025/07/20
-27,Qwen3-Coder-Plus,Alibaba,Qwen series,4112,0.112,0.2,-0.281,0.504,family_interpolation,Qwen3-Coder-Next|Qwen3-Coder-Flash,2025/09/23
-28,ERNIE 4.5 VL-424B-A47B,Baidu,ERNIE series,4025,0.025,0.483,-0.921,0.972,family_interpolation,ERNIE 4.5 300B-A47B|ERNIE 5.0 Preview,2025/06/30
-29,Tencent HY 2.0 Think,Tencent,Hy series (Hunyuan / Tencent Hy),4020,0.019,1.417,-2.758,2.797,family_interpolation,Hunyuan-Standard-256K|Tencent Hy3,2025/12/05
-30,Grok 2.5,xAI,Grok series,3994,-0.006,0.307,-0.609,0.597,family_interpolation,Grok-2 mini|Grok 3,2025/08/22
-31,Command A Vision,Cohere,Command and other series,3965,-0.035,0.395,-0.808,0.739,family_interpolation,Command A Reasoning|Command A+,2025/07/28
-32,ERNIE 4.5 VL-28B-A3B,Baidu,ERNIE series,3935,-0.065,0.483,-1.012,0.881,family_interpolation,ERNIE 4.5 300B-A47B|ERNIE 5.0 Preview,2025/06/28
-33,Hunyuan-Pro,Tencent,Hy series (Hunyuan / Tencent Hy),3922,-0.077,0.2,-0.47,0.315,family_interpolation,Hunyuan-T1|Hunyuan-Standard,2024/05/17
-34,Sonar Deep Research,Perplexity,Sonar series,3903,-0.097,0.2,-0.489,0.295,family_interpolation,Sonar Reasoning Pro|Sonar Reasoning,2025/03/07
-35,Grok 2 Vision,xAI,Grok series,3838,-0.162,0.307,-0.765,0.441,family_interpolation,Grok-2 mini|Grok 3,2025/08/22
-36,Shieldstral 1.0,Mistral AI,Ministral and other series,3721,-0.279,1.044,-2.325,1.766,family_extrapolation,Codestral Mamba 7B,2026/07/16
-37,Granite Vision 4.1 4B,IBM,Granite series,3699,-0.301,0.2,-0.693,0.091,family_interpolation,Granite 4.1 30B|Granite 4.2 3B,2026/04/16
-38,GLM-4V-Flash,Zhipu AI (Z.ai),GLM series,3652,-0.348,0.2,-0.74,0.044,family_interpolation,GLM-4-32B|GLM-4.1V-9B-Thinking,2024/12/09
-39,GLM-4-Long,Zhipu AI (Z.ai),GLM series,3618,-0.382,0.289,-0.949,0.186,family_interpolation,GLM-4-Air|GLM-4-32B,2024/08/13
-40,Phi-4-reasoning-vision-15B,Microsoft,Phi series,3612,-0.389,0.2,-0.78,0.004,family_interpolation,Phi-4-reasoning-plus|Phi-4-mini-reasoning,2026/03/04
-41,Leanstral 1.5,Mistral AI,Ministral and other series,3596,-0.403,0.919,-2.206,1.399,family_extrapolation,Codestral Mamba 7B,2026/07/01
-42,DeepSeek-Math 7B,DeepSeek,DeepSeek series,3588,-0.412,0.2,-0.804,-0.02,family_interpolation,DeepSeek-Coder-V2|DeepSeek-V2,2024/02/05
-43,GLM-4-FlashX,Zhipu AI (Z.ai),GLM series,3574,-0.426,0.289,-0.993,0.142,family_interpolation,GLM-4-Air|GLM-4-32B,2025/04/14
-44,Mistral Next,Mistral AI,Mistral series,3538,-0.462,0.2,-0.854,-0.07,family_interpolation,Mistral Saba|Codestral,2024/02/26
-45,GLM-4-Flash,Zhipu AI (Z.ai),GLM series,3531,-0.469,0.289,-1.037,0.098,family_interpolation,GLM-4-Air|GLM-4-32B,2024/06/05
-46,GLM-4-AirX,Zhipu AI (Z.ai),GLM series,3487,-0.513,0.289,-1.081,0.054,family_interpolation,GLM-4-Air|GLM-4-32B,2024/06/05
-47,Step-1V,StepFun,Step series,3482,-0.518,0.579,-1.653,0.617,family_extrapolation,Step-2,2024/03/23
-48,North Micro Vision Instruct,Cohere,Command and other series,3481,-0.519,0.2,-0.911,-0.127,family_interpolation,North Mini Code 1.0|Aya 23,2026/08/10
-49,Leanstral,Mistral AI,Ministral and other series,3472,-0.528,0.795,-2.087,1.031,family_extrapolation,Codestral Mamba 7B,2026/03/11
-50,DeepSeek-Math-V2,DeepSeek,DeepSeek series,3466,-0.534,0.2,-0.926,-0.142,family_interpolation,DeepSeek-Coder-V2|DeepSeek-V2,2025/11/27
-51,Yi-Medium,01.AI,Yi series,3461,-0.539,0.301,-1.129,0.051,family_interpolation,Yi-Large|Yi-Lightning,2024/05/13
-52,GLM-Z1-Rumination-32B,Zhipu AI (Z.ai),GLM series,3451,-0.549,0.599,-1.724,0.625,family_extrapolation,GLM-4-Plus,2025/04/13
-53,Hunyuan-Role,Tencent,Hy series (Hunyuan / Tencent Hy),3407,-0.593,1.417,-3.37,2.185,family_interpolation,Hunyuan-Standard-256K|Tencent Hy3,2024/07/04
-54,LFM2.5-Audio-1.5B,Liquid AI,LFM series,3400,-0.6,0.707,-1.986,0.787,family_extrapolation,LFM2.5-VL-1.6B,2025/12/18
-55,Qwen-VL,Alibaba,Qwen series,3386,-0.614,0.2,-1.006,-0.222,family_interpolation,Qwen2|Qwen2-VL,2023/08/18
-56,Qwen-VL-Max,Alibaba,Qwen series,3381,-0.619,0.2,-1.011,-0.227,family_interpolation,Qwen2|Qwen2-VL,2023/08/18
-57,LFM2.5-1.2B-JP,Liquid AI,LFM series,3363,-0.637,0.2,-1.029,-0.245,family_interpolation,LFM2.5-1.2B-Thinking|LFM2.5-2.6B,2026/01/04
-58,Mathstral 7B,Mistral AI,Ministral and other series,3348,-0.652,0.671,-1.967,0.664,family_extrapolation,Codestral Mamba 7B,2024/07/16
-59,Yi-Large-Turbo,01.AI,Yi series,3335,-0.665,0.301,-1.255,-0.075,family_interpolation,Yi-Large|Yi-Lightning,2024/08/02
-60,GLM-Z1-9B,Zhipu AI (Z.ai),GLM series,3327,-0.673,0.723,-2.091,0.744,family_extrapolation,GLM-4-Plus,2025/04/08
-61,LFM2-Audio-1.5B,Liquid AI,LFM series,3276,-0.724,0.583,-1.867,0.419,family_extrapolation,LFM2.5-VL-1.6B,2025/08/28
-62,Jamba Instruct,AI21 Labs,Jamba series,3233,-0.767,0.512,-1.771,0.237,family_extrapolation,Jamba Reasoning 3B,2024/05/02
-63,GLM-Z1-32B,Zhipu AI (Z.ai),GLM series,3202,-0.798,0.848,-2.459,0.864,family_extrapolation,GLM-4-Plus,2025/04/08
-64,Phi-3.5-vision,Microsoft,Phi series,3114,-0.886,0.35,-1.572,-0.2,family_interpolation,Phi-3.5-mini|Phi-4-14B,2024/08/16
-65,GLM-130B,Zhipu AI (Z.ai),GLM series,3078,-0.922,0.972,-2.826,0.983,family_extrapolation,GLM-4-Plus,2022/08/03
-66,ERNIE 4.5 Turbo,Baidu,ERNIE series,3063,-0.937,0.2,-1.329,-0.545,family_interpolation,ERNIE 4.5|ERNIE 4.5 0.3B,2025/04/25
-67,Phi-3-vision,Microsoft,Phi series,3036,-0.964,0.2,-1.356,-0.572,family_interpolation,Phi-3-medium|Phi-3.5,2024/05/19
-68,Jamba2 3B,AI21 Labs,Jamba series,3030,-0.97,0.2,-1.362,-0.578,family_interpolation,Jamba Mini 1.7|Jamba Reasoning 3B,2026/01/06
-69,Aya Vision,Cohere,Command and other series,2982,-1.018,0.85,-2.684,0.648,family_extrapolation,Aya Expanse,2025/03/02
-70,Jamba Mini 2,AI21 Labs,Jamba series,2951,-1.049,0.2,-1.441,-0.657,family_interpolation,Jamba Mini 1.7|Jamba Reasoning 3B,2026/01/06
-71,Mistral Small Creative,Mistral AI,Mistral series,2706,-1.294,0.2,-1.686,-0.902,family_interpolation,Mistral Small 4|Mistral NeMo 12B,2025/12/16
-72,Claude 1.0,Anthropic,Claude series,2665,-1.335,0.276,-1.877,-0.794,family_interpolation,Claude Instant 1.2|Claude 1.3,2023/03/14
-73,Claude 1.1,Anthropic,Claude series,2646,-1.353,0.276,-1.895,-0.812,family_interpolation,Claude Instant 1.2|Claude 1.3,2023/03/14
-74,Claude 1.2,Anthropic,Claude series,2628,-1.372,0.276,-1.913,-0.83,family_interpolation,Claude Instant 1.2|Claude 1.3,2023/05/11
-75,OLMo RL Zero 7B Math,Allen Institute for AI,OLMo series,2498,-1.502,0.91,-3.286,0.283,family_extrapolation,OLMo Hybrid 7B,2025/11/17
-76,OLMo RL Zero 7B Code,Allen Institute for AI,OLMo series,2374,-1.626,0.786,-3.167,-0.085,family_extrapolation,OLMo Hybrid 7B,2025/11/17
-77,OLMo 2 1B,Allen Institute for AI,OLMo series,2260,-1.74,0.2,-2.132,-1.349,family_interpolation,OLMoE-1B-7B|OLMo 2 7B,2025/04/17
-78,LFM2-VL-1.6B,Liquid AI,LFM series,1952,-2.048,0.46,-2.951,-1.146,family_interpolation,LFM2-VL-450M|LFM2.5-230M,2025/08/12
-79,GPT-2,OpenAI,GPT series,118,-3.882,2.325,-8.439,0.675,family_extrapolation,GPT-3,2019/02/14
-80,GPT-1,OpenAI,GPT series,-6,-4.006,2.449,-8.807,0.794,family_extrapolation,GPT-3,2018/06/11
+1,Daybreak Blue,OpenAI,GPT series,6289,2.289,0.489,1.332,3.246,family_interpolation,GPT-5.6 Luna|GPT-6 Astra,2026/08/10
+2,Daybreak Red,OpenAI,GPT series,6088,2.088,0.489,1.131,3.045,family_interpolation,GPT-5.6 Luna|GPT-6 Astra,2026/08/10
+3,GPT-5.6 Cyber,OpenAI,GPT series,5887,1.887,0.489,0.93,2.844,family_interpolation,GPT-5.6 Luna|GPT-6 Astra,2026/08/10
+4,MiniMax-VL-01,MiniMax,MiniMax series,5486,1.486,0.478,0.549,2.422,family_extrapolation,MiniMax-M3,2025/01/12
+5,DeepSeek-Prover-V2-671B,DeepSeek,DeepSeek series,5441,1.441,0.731,0.008,2.875,family_extrapolation,DeepSeek-V4-Pro-DSpark,2025/04/30
+6,DeepSeek-Prover-V1.5,DeepSeek,DeepSeek series,5316,1.316,0.606,0.129,2.503,family_extrapolation,DeepSeek-V4-Pro-DSpark,2024/08/15
+7,MiMo-VL-7B,Xiaomi,MiMo series,5190,1.19,0.609,-0.003,2.383,family_extrapolation,MiMo-V2.5-Pro,2025/05/30
+8,MAI-Code-1.1-Flash,Microsoft,MAI Code series,4970,0.97,0.633,-0.27,2.21,family_extrapolation,MAI-Code-1-Flash,2026/08/11
+9,Seed Diffusion Preview,ByteDance,Seed series,4930,0.93,0.2,0.538,1.322,family_interpolation,Seed2.1|Seed-OSS-36B,2025/08/04
+10,GLM-4.7-FlashX,Zhipu AI (Z.ai),GLM series,4788,0.787,0.56,-0.31,1.885,family_interpolation,GLM-4.7-Flash|GLM-5,2025/12/22
+11,Tencent HY 2.0 Instruct,Tencent,Hy series (Hunyuan / Tencent Hy),4680,0.68,1.252,-1.774,3.135,family_interpolation,Hunyuan-Standard-256K|Tencent Hy3,2025/12/05
+12,GLM-4.6V-FlashX,Zhipu AI (Z.ai),GLM series,4668,0.668,0.471,-0.255,1.591,family_interpolation,GLM-4.6V|GLM-4.7,2025/09/29
+13,ERNIE X1.1,Baidu,ERNIE series,4539,0.539,0.475,-0.392,1.471,family_interpolation,ERNIE 4.5 300B-A47B|ERNIE 5.0 Preview,2025/09/09
+14,ERNIE X1 Turbo,Baidu,ERNIE series,4450,0.45,0.475,-0.482,1.381,family_interpolation,ERNIE 4.5 300B-A47B|ERNIE 5.0 Preview,2025/04/25
+15,GLM-4.6V-Flash,Zhipu AI (Z.ai),GLM series,4399,0.399,0.471,-0.524,1.322,family_interpolation,GLM-4.6V|GLM-4.7,2025/09/29
+16,ERNIE X1,Baidu,ERNIE series,4360,0.36,0.475,-0.571,1.291,family_interpolation,ERNIE 4.5 300B-A47B|ERNIE 5.0 Preview,2025/03/16
+17,gpt-oss-safeguard-20b,OpenAI,GPT-OSS series,4331,0.331,0.705,-1.051,1.714,family_extrapolation,gpt-oss-20b,2025/10/29
+18,MAI-1-preview,Microsoft,MAI series,4302,0.301,0.411,-0.503,1.106,family_interpolation,MAI-DS-R1|MAI-Thinking-1,2025/08/25
+19,ERNIE Tiny,Baidu,ERNIE series,4270,0.27,0.475,-0.661,1.202,family_interpolation,ERNIE 4.5 300B-A47B|ERNIE 5.0 Preview,2024/03/21
+20,GLM-4.5-X,Zhipu AI (Z.ai),GLM series,4232,0.232,0.2,-0.16,0.624,family_interpolation,GLM-4.5-Air|GLM-4.5V,2025/07/20
+21,gpt-oss-safeguard-120b,OpenAI,GPT-OSS series,4206,0.206,0.58,-0.93,1.342,family_extrapolation,gpt-oss-20b,2025/09/18
+22,ERNIE 4.0,Baidu,ERNIE series,4203,0.203,0.721,-1.209,1.616,family_extrapolation,ERNIE 4.5,2023/10/17
+23,ERNIE Lite,Baidu,ERNIE series,4181,0.181,0.475,-0.751,1.112,family_interpolation,ERNIE 4.5 300B-A47B|ERNIE 5.0 Preview,2024/03/21
+24,GLM-4.5-AirX,Zhipu AI (Z.ai),GLM series,4165,0.165,0.2,-0.227,0.557,family_interpolation,GLM-4.5-Air|GLM-4.5V,2025/07/20
+25,Command A Translate,Cohere,Command and other series,4156,0.156,0.391,-0.609,0.922,family_interpolation,Command A Reasoning|Command A+,2025/08/27
+26,Tencent HY 2.0 Think,Tencent,Hy series (Hunyuan / Tencent Hy),4134,0.134,1.252,-2.321,2.589,family_interpolation,Hunyuan-Standard-256K|Tencent Hy3,2025/12/05
+27,GLM-4.5-Flash,Zhipu AI (Z.ai),GLM series,4098,0.098,0.2,-0.294,0.49,family_interpolation,GLM-4.5-Air|GLM-4.5V,2025/07/20
+28,ERNIE Speed,Baidu,ERNIE series,4091,0.091,0.475,-0.84,1.022,family_interpolation,ERNIE 4.5 300B-A47B|ERNIE 5.0 Preview,2024/03/21
+29,Qwen3-Coder-Plus,Alibaba,Qwen series,4082,0.082,0.2,-0.31,0.474,family_interpolation,Qwen3-Coder-Next|Qwen3-Coder-Flash,2025/09/23
+30,SWE-1.5,Cognition,SWE series,4060,0.06,0.573,-1.062,1.183,family_extrapolation,SWE-1.6,2025/10/29
+31,Grok 2.5,xAI,Grok series,4003,0.003,0.245,-0.479,0.484,family_interpolation,Grok-2 mini|Grok 3,2025/08/22
+32,ERNIE 4.5 VL-424B-A47B,Baidu,ERNIE series,4001,0.001,0.475,-0.93,0.933,family_interpolation,ERNIE 4.5 300B-A47B|ERNIE 5.0 Preview,2025/06/30
+33,Hunyuan-Pro,Tencent,Hy series (Hunyuan / Tencent Hy),3984,-0.016,0.2,-0.408,0.376,family_interpolation,Hunyuan-T1|Hunyuan-Standard,2024/05/17
+34,Command A Vision,Cohere,Command and other series,3948,-0.052,0.391,-0.818,0.713,family_interpolation,Command A Reasoning|Command A+,2025/07/28
+35,ERNIE 4.5 VL-28B-A3B,Baidu,ERNIE series,3912,-0.088,0.475,-1.02,0.843,family_interpolation,ERNIE 4.5 300B-A47B|ERNIE 5.0 Preview,2025/06/28
+36,Sonar Deep Research,Perplexity,Sonar series,3884,-0.116,0.2,-0.508,0.276,family_interpolation,Sonar Reasoning Pro|Sonar Reasoning,2025/03/07
+37,Grok 2 Vision,xAI,Grok series,3876,-0.124,0.245,-0.605,0.358,family_interpolation,Grok-2 mini|Grok 3,2025/08/22
+38,GPT-4-32k,OpenAI,GPT series,3872,-0.129,0.2,-0.52,0.264,family_interpolation,GPT-4 Turbo|GPT-4o,
+39,Shieldstral 1.0,Mistral AI,Ministral and other series,3707,-0.293,1.034,-2.319,1.733,family_extrapolation,Codestral Mamba 7B,2026/07/16
+40,Granite Vision 4.1 4B,IBM,Granite series,3692,-0.308,0.2,-0.7,0.084,family_interpolation,Granite 4.1 30B|Granite 4.2 3B,2026/04/16
+41,GLM-4V-Flash,Zhipu AI (Z.ai),GLM series,3621,-0.379,0.2,-0.771,0.013,family_interpolation,GLM-4-32B|GLM-4.1V-9B-Thinking,2024/12/09
+42,Phi-4-reasoning-vision-15B,Microsoft,Phi series,3592,-0.409,0.2,-0.8,-0.017,family_interpolation,Phi-4-reasoning-plus|Phi-4-mini-reasoning,2026/03/04
+43,GLM-4-Long,Zhipu AI (Z.ai),GLM series,3590,-0.41,0.281,-0.961,0.142,family_interpolation,GLM-4-Air|GLM-4-32B,2024/08/13
+44,DeepSeek-Math 7B,DeepSeek,DeepSeek series,3588,-0.412,0.2,-0.804,-0.02,family_interpolation,DeepSeek-Coder-V2|DeepSeek-V2,2024/02/05
+45,Hunyuan-Role,Tencent,Hy series (Hunyuan / Tencent Hy),3588,-0.412,1.252,-2.867,2.042,family_interpolation,Hunyuan-Standard-256K|Tencent Hy3,2024/07/04
+46,Leanstral 1.5,Mistral AI,Ministral and other series,3581,-0.419,0.908,-2.199,1.361,family_extrapolation,Codestral Mamba 7B,2026/07/01
+47,GLM-4-FlashX,Zhipu AI (Z.ai),GLM series,3550,-0.45,0.281,-1.002,0.102,family_interpolation,GLM-4-Air|GLM-4-32B,2025/04/14
+48,Mistral Next,Mistral AI,Mistral series,3518,-0.482,0.2,-0.874,-0.09,family_interpolation,Mistral Saba|Codestral,2024/02/26
+49,GLM-4-Flash,Zhipu AI (Z.ai),GLM series,3509,-0.491,0.281,-1.043,0.061,family_interpolation,GLM-4-Air|GLM-4-32B,2024/06/05
+50,Step-1V,StepFun,Step series,3509,-0.491,0.603,-1.672,0.691,family_extrapolation,Step-2,2024/03/23
+51,GLM-Z1-Rumination-32B,Zhipu AI (Z.ai),GLM series,3508,-0.492,0.599,-1.665,0.682,family_extrapolation,GLM-4-Plus,2025/04/13
+52,Yi-Medium,01.AI,Yi series,3474,-0.526,0.335,-1.182,0.13,family_interpolation,Yi-Large|Yi-Lightning,2024/05/13
+53,GLM-4-AirX,Zhipu AI (Z.ai),GLM series,3469,-0.531,0.281,-1.083,0.02,family_interpolation,GLM-4-Air|GLM-4-32B,2024/06/05
+54,North Micro Vision Instruct,Cohere,Command and other series,3459,-0.541,0.2,-0.933,-0.149,family_interpolation,North Mini Code 1.0|Aya 23,2026/08/10
+55,DeepSeek-Math-V2,DeepSeek,DeepSeek series,3456,-0.544,0.2,-0.936,-0.152,family_interpolation,DeepSeek-Coder-V2|DeepSeek-V2,2025/11/27
+56,Leanstral,Mistral AI,Ministral and other series,3455,-0.545,0.782,-2.078,0.989,family_extrapolation,Codestral Mamba 7B,2026/03/11
+57,GLM-Z1-9B,Zhipu AI (Z.ai),GLM series,3383,-0.617,0.724,-2.037,0.802,family_extrapolation,GLM-4-Plus,2025/04/08
+58,LFM2.5-Audio-1.5B,Liquid AI,LFM series,3380,-0.62,0.734,-2.059,0.82,family_extrapolation,LFM2.5-VL-1.6B,2025/12/18
+59,Qwen-VL,Alibaba,Qwen series,3365,-0.635,0.2,-1.027,-0.243,family_interpolation,Qwen2|Qwen2-VL,2023/08/18
+60,Qwen-VL-Max,Alibaba,Qwen series,3361,-0.639,0.2,-1.031,-0.247,family_interpolation,Qwen2|Qwen2-VL,2023/08/18
+61,LFM2.5-1.2B-JP,Liquid AI,LFM series,3348,-0.652,0.2,-1.044,-0.26,family_interpolation,LFM2.5-1.2B-Thinking|LFM2.5-2.6B,2026/01/04
+62,Yi-Large-Turbo,01.AI,Yi series,3333,-0.667,0.335,-1.323,-0.011,family_interpolation,Yi-Large|Yi-Lightning,2024/08/02
+63,Mathstral 7B,Mistral AI,Ministral and other series,3330,-0.67,0.657,-1.957,0.617,family_extrapolation,Codestral Mamba 7B,2024/07/16
+64,GLM-Z1-32B,Zhipu AI (Z.ai),GLM series,3257,-0.743,0.85,-2.409,0.923,family_extrapolation,GLM-4-Plus,2025/04/08
+65,LFM2-Audio-1.5B,Liquid AI,LFM series,3255,-0.745,0.609,-1.938,0.448,family_extrapolation,LFM2.5-VL-1.6B,2025/08/28
+66,Jamba Instruct,AI21 Labs,Jamba series,3212,-0.788,0.517,-1.801,0.224,family_extrapolation,Jamba Reasoning 3B,2024/05/02
+67,GLM-130B,Zhipu AI (Z.ai),GLM series,3131,-0.869,0.976,-2.781,1.044,family_extrapolation,GLM-4-Plus,2022/08/03
+68,Phi-3.5-vision,Microsoft,Phi series,3104,-0.896,0.362,-1.607,-0.185,family_interpolation,Phi-3.5-mini|Phi-4-14B,2024/08/16
+69,ERNIE 4.5 Turbo,Baidu,ERNIE series,3044,-0.956,0.2,-1.348,-0.564,family_interpolation,ERNIE 4.5|ERNIE 4.5 0.3B,2025/04/25
+70,Jamba 2 3B,AI21 Labs,Jamba series,3007,-0.993,0.2,-1.385,-0.601,family_interpolation,Jamba 1.7 Mini|Jamba Reasoning 3B,2026/01/06
+71,Aya Vision,Cohere,Command and other series,2965,-1.035,0.843,-2.687,0.616,family_extrapolation,Aya Expanse,2025/03/02
+72,Phi-3-vision,Microsoft,Phi series,2942,-1.058,0.2,-1.45,-0.666,family_interpolation,Phi-3-medium|Phi-3.5,2024/05/19
+73,Jamba 2 Mini,AI21 Labs,,2929,-1.071,0.2,-1.463,-0.679,family_interpolation,Jamba 1.7 Mini|Jamba Reasoning 3B,2026/01/06
+74,Mistral Small Creative,Mistral AI,Mistral series,2705,-1.295,0.2,-1.687,-0.903,family_interpolation,Mistral Small 4|Mistral NeMo 12B,2025/12/16
+75,Claude 1.0,Anthropic,Claude series,2648,-1.352,0.274,-1.889,-0.814,family_interpolation,Claude Instant 1.2|Claude 1.3,2023/03/14
+76,Claude 1.1,Anthropic,Claude series,2630,-1.369,0.274,-1.907,-0.832,family_interpolation,Claude Instant 1.2|Claude 1.3,2023/03/14
+77,Claude 1.2,Anthropic,Claude series,2613,-1.387,0.274,-1.925,-0.85,family_interpolation,Claude Instant 1.2|Claude 1.3,2023/05/11
+78,OLMo RL Zero 7B Math,Allen Institute for AI,OLMo series,2481,-1.519,0.913,-3.309,0.271,family_extrapolation,OLMo Hybrid 7B,2025/11/17
+79,OLMo RL Zero 7B Code,Allen Institute for AI,OLMo series,2356,-1.644,0.788,-3.188,-0.101,family_extrapolation,OLMo Hybrid 7B,2025/11/17
+80,OLMo 2 1B,Allen Institute for AI,OLMo series,2240,-1.76,0.2,-2.152,-1.369,family_interpolation,OLMoE-1B-7B|OLMo 2 7B,2025/04/17
+81,LFM2-VL-1.6B,Liquid AI,LFM series,1933,-2.067,0.457,-2.963,-1.171,family_interpolation,LFM2-VL-450M|LFM2.5-230M,2025/08/12
+82,GPT-2,OpenAI,GPT series,101,-3.899,2.352,-8.508,0.711,family_extrapolation,GPT-3,2019/02/14
+83,GPT-1,OpenAI,GPT series,-24,-4.024,2.477,-8.88,0.831,family_extrapolation,GPT-3,2018/06/11
