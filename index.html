@@ -379,7 +379,6 @@
     for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) | 0;
     return h >>> 0;
   }
-  // 名称照合用の正規化（ゼロ幅スペース除去・空白圧縮）
   const normName = s => String(s ?? '').replace(/\u200b/g, '').replace(/\s+/g, ' ').trim();
   function buildFamilies(){
     const map = new Map();
@@ -648,7 +647,6 @@
   }
   chartWrap.addEventListener('pointermove', e => {
     if (pinned){
-      // 固定中は固定したファミリーの線上の点だけホバー対象（外れたら固定点に戻す）
       applyHighlight(nearestPoint(e, pinned.p.family) ?? pinned.p);
       return;
     }
@@ -675,9 +673,6 @@
   chartWrap.addEventListener('pointerleave', () => { if (!pinned) clearHighlight(); });
   document.addEventListener('keydown', e => { if (e.key === 'Escape' && pinned) unpin(); });
 
-  // ---- リーダーボード: CSV生データを日本語ラベル付きで表示 ----
-  // type: num=数値 / alpha=名称 / order=一覧ファイル出現順 / flags=フラグ数 / date=日付
-  // primary: 最初のクリック方向 (1=昇順, -1=降順)
   const COLUMN_DEFS = [
     {key: 'rank',            label: '順位',        num: true,  type: 'num',   primary: 1},
     {key: 'model',           label: 'モデル',                  type: 'alpha', primary: 1},
@@ -692,22 +687,23 @@
     {key: 'n_measured',      label: '実測数',      num: true,  type: 'num',   primary: -1},
     {key: 'n_unknown',       label: '不明数',      num: true,  type: 'num',   primary: -1},
     {key: 'n_self',          label: '自己申告数',  num: true,  type: 'num',   primary: -1},
-    {key: 'static_code',     label: '静的コード',  num: true,  type: 'num',   primary: -1},
-    {key: 'agentic_swe',     label: 'エージェントSWE', num: true, type: 'num', primary: -1},
-    {key: 'terminal_gui',    label: 'ターミナルGUI', num: true, type: 'num',  primary: -1},
     {key: 'reasoning',       label: '推論',        num: true,  type: 'num',   primary: -1},
     {key: 'tool_use',        label: 'ツール使用',  num: true,  type: 'num',   primary: -1},
-    {key: 'webdev',          label: 'Web開発',     num: true,  type: 'num',   primary: -1},
+    {key: 'static_code',     label: '静的コード',  num: true,  type: 'num',   primary: -1},
+    {key: 'agentic_swe',     label: 'Agentic SWE', num: true, type: 'num', primary: -1},
+    {key: 'terminal_gui',    label: 'Terminal GUI', num: true, type: 'num',  primary: -1},
+    {key: 'webdev',          label: 'WebDev',     num: true,  type: 'num',   primary: -1},
+    {key: 'livebench_coding',label: 'LiveBench', num: true, type: 'num', primary: -1},
     {key: 'composite_index', label: '複合指数',    num: true,  type: 'num',   primary: -1},
-    {key: 'livebench_coding',label: 'LiveBenchコーディング', num: true, type: 'num', primary: -1},
-    {key: 'flags',           label: 'フラグ',                  type: 'flags', primary: -1},
+    {key: 'flags',           label: '注釈',                  type: 'flags', primary: -1},
     {key: 'release_date',    label: 'リリース日',              type: 'date',  primary: -1},
   ];
   const FLAG_LABELS = {
     no_measured: '実測値なし',
-    self_heavy: '自己申告偏重',
+    self_heavy: '自己申告',
     single_obs: '観測1件のみ',
-    wide_ci: '信頼区間が広い',
+    wide_ci: '信頼区間不足',
+    no_observations: '観測なし',
   };
   function formatCell(key, raw){
     const v = (raw ?? '').trim();
@@ -738,7 +734,7 @@
       const na = parseFloat(a[key]), nb = parseFloat(b[key]);
       const hasA = isFinite(na), hasB = isFinite(nb);
       if (!hasA && !hasB) cmp = 0;
-      else if (!hasA) return 1;   // 値の無いセルは常に下へ
+      else if (!hasA) return 1;
       else if (!hasB) return -1;
       else cmp = na - nb;
     } else if (def.type === 'alpha'){
@@ -746,7 +742,7 @@
     } else if (def.type === 'order'){
       const orderMap = key === 'vendor' ? state.vendorOrder : state.familyOrder;
       const ia = orderMap.get(normName(a[key])), ib = orderMap.get(normName(b[key]));
-      if (ia !== ib) cmp = (ia ?? Infinity) - (ib ?? Infinity);   // 未登録は常に下へ
+      if (ia !== ib) cmp = (ia ?? Infinity) - (ib ?? Infinity);
       else if (ia === undefined) cmp = String(a[key] ?? '').localeCompare(String(b[key] ?? ''));
     } else if (def.type === 'flags'){
       const cnt = r => String(r.flags ?? '').split('|').filter(Boolean).length;
@@ -758,7 +754,7 @@
       else if (tb === null) return -1;
       else cmp = ta - tb;
     }
-    if (cmp === 0){  // タイブレーク: 順位 → 実測優先 → モデル名
+    if (cmp === 0){
       cmp = (parseFloat(a.rank) || 0) - (parseFloat(b.rank) || 0);
       if (cmp === 0) cmp = (a.__est ? 1 : 0) - (b.__est ? 1 : 0);
       if (cmp === 0) cmp = String(a.model ?? '').localeCompare(String(b.model ?? ''), undefined, {numeric: true});

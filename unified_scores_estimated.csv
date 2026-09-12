@@ -1,84 +1,88 @@
-est_rank,model,vendor,series,score,theta_est,se,ci_lo,ci_hi,method,anchors,release_date
-1,Daybreak Blue,OpenAI,GPT series,6289,2.289,0.489,1.332,3.246,family_interpolation,GPT-5.6 Luna|GPT-6 Astra,2026/08/10
-2,Daybreak Red,OpenAI,GPT series,6088,2.088,0.489,1.131,3.045,family_interpolation,GPT-5.6 Luna|GPT-6 Astra,2026/08/10
-3,GPT-5.6 Cyber,OpenAI,GPT series,5887,1.887,0.489,0.93,2.844,family_interpolation,GPT-5.6 Luna|GPT-6 Astra,2026/08/10
-4,MiniMax-VL-01,MiniMax,MiniMax series,5486,1.486,0.478,0.549,2.422,family_extrapolation,MiniMax-M3,2025/01/12
-5,DeepSeek-Prover-V2-671B,DeepSeek,DeepSeek series,5441,1.441,0.731,0.008,2.875,family_extrapolation,DeepSeek-V4-Pro-DSpark,2025/04/30
-6,DeepSeek-Prover-V1.5,DeepSeek,DeepSeek series,5316,1.316,0.606,0.129,2.503,family_extrapolation,DeepSeek-V4-Pro-DSpark,2024/08/15
-7,MiMo-VL-7B,Xiaomi,MiMo series,5190,1.19,0.609,-0.003,2.383,family_extrapolation,MiMo-V2.5-Pro,2025/05/30
-8,MAI-Code-1.1-Flash,Microsoft,MAI Code series,4970,0.97,0.633,-0.27,2.21,family_extrapolation,MAI-Code-1-Flash,2026/08/11
-9,Seed Diffusion Preview,ByteDance,Seed series,4930,0.93,0.2,0.538,1.322,family_interpolation,Seed2.1|Seed-OSS-36B,2025/08/04
-10,GLM-4.7-FlashX,Zhipu AI (Z.ai),GLM series,4788,0.787,0.56,-0.31,1.885,family_interpolation,GLM-4.7-Flash|GLM-5,2025/12/22
-11,Tencent HY 2.0 Instruct,Tencent,Hy series (Hunyuan / Tencent Hy),4680,0.68,1.252,-1.774,3.135,family_interpolation,Hunyuan-Standard-256K|Tencent Hy3,2025/12/05
-12,GLM-4.6V-FlashX,Zhipu AI (Z.ai),GLM series,4668,0.668,0.471,-0.255,1.591,family_interpolation,GLM-4.6V|GLM-4.7,2025/09/29
-13,ERNIE X1.1,Baidu,ERNIE series,4539,0.539,0.475,-0.392,1.471,family_interpolation,ERNIE 4.5 300B-A47B|ERNIE 5.0 Preview,2025/09/09
-14,ERNIE X1 Turbo,Baidu,ERNIE series,4450,0.45,0.475,-0.482,1.381,family_interpolation,ERNIE 4.5 300B-A47B|ERNIE 5.0 Preview,2025/04/25
-15,GLM-4.6V-Flash,Zhipu AI (Z.ai),GLM series,4399,0.399,0.471,-0.524,1.322,family_interpolation,GLM-4.6V|GLM-4.7,2025/09/29
-16,ERNIE X1,Baidu,ERNIE series,4360,0.36,0.475,-0.571,1.291,family_interpolation,ERNIE 4.5 300B-A47B|ERNIE 5.0 Preview,2025/03/16
-17,gpt-oss-safeguard-20b,OpenAI,GPT-OSS series,4331,0.331,0.705,-1.051,1.714,family_extrapolation,gpt-oss-20b,2025/10/29
-18,MAI-1-preview,Microsoft,MAI series,4302,0.301,0.411,-0.503,1.106,family_interpolation,MAI-DS-R1|MAI-Thinking-1,2025/08/25
-19,ERNIE Tiny,Baidu,ERNIE series,4270,0.27,0.475,-0.661,1.202,family_interpolation,ERNIE 4.5 300B-A47B|ERNIE 5.0 Preview,2024/03/21
-20,GLM-4.5-X,Zhipu AI (Z.ai),GLM series,4232,0.232,0.2,-0.16,0.624,family_interpolation,GLM-4.5-Air|GLM-4.5V,2025/07/20
-21,gpt-oss-safeguard-120b,OpenAI,GPT-OSS series,4206,0.206,0.58,-0.93,1.342,family_extrapolation,gpt-oss-20b,2025/09/18
-22,ERNIE 4.0,Baidu,ERNIE series,4203,0.203,0.721,-1.209,1.616,family_extrapolation,ERNIE 4.5,2023/10/17
-23,ERNIE Lite,Baidu,ERNIE series,4181,0.181,0.475,-0.751,1.112,family_interpolation,ERNIE 4.5 300B-A47B|ERNIE 5.0 Preview,2024/03/21
-24,GLM-4.5-AirX,Zhipu AI (Z.ai),GLM series,4165,0.165,0.2,-0.227,0.557,family_interpolation,GLM-4.5-Air|GLM-4.5V,2025/07/20
-25,Command A Translate,Cohere,Command and other series,4156,0.156,0.391,-0.609,0.922,family_interpolation,Command A Reasoning|Command A+,2025/08/27
-26,Tencent HY 2.0 Think,Tencent,Hy series (Hunyuan / Tencent Hy),4134,0.134,1.252,-2.321,2.589,family_interpolation,Hunyuan-Standard-256K|Tencent Hy3,2025/12/05
-27,GLM-4.5-Flash,Zhipu AI (Z.ai),GLM series,4098,0.098,0.2,-0.294,0.49,family_interpolation,GLM-4.5-Air|GLM-4.5V,2025/07/20
-28,ERNIE Speed,Baidu,ERNIE series,4091,0.091,0.475,-0.84,1.022,family_interpolation,ERNIE 4.5 300B-A47B|ERNIE 5.0 Preview,2024/03/21
-29,Qwen3-Coder-Plus,Alibaba,Qwen series,4082,0.082,0.2,-0.31,0.474,family_interpolation,Qwen3-Coder-Next|Qwen3-Coder-Flash,2025/09/23
-30,SWE-1.5,Cognition,SWE series,4060,0.06,0.573,-1.062,1.183,family_extrapolation,SWE-1.6,2025/10/29
-31,Grok 2.5,xAI,Grok series,4003,0.003,0.245,-0.479,0.484,family_interpolation,Grok-2 mini|Grok 3,2025/08/22
-32,ERNIE 4.5 VL-424B-A47B,Baidu,ERNIE series,4001,0.001,0.475,-0.93,0.933,family_interpolation,ERNIE 4.5 300B-A47B|ERNIE 5.0 Preview,2025/06/30
-33,Hunyuan-Pro,Tencent,Hy series (Hunyuan / Tencent Hy),3984,-0.016,0.2,-0.408,0.376,family_interpolation,Hunyuan-T1|Hunyuan-Standard,2024/05/17
-34,Command A Vision,Cohere,Command and other series,3948,-0.052,0.391,-0.818,0.713,family_interpolation,Command A Reasoning|Command A+,2025/07/28
-35,ERNIE 4.5 VL-28B-A3B,Baidu,ERNIE series,3912,-0.088,0.475,-1.02,0.843,family_interpolation,ERNIE 4.5 300B-A47B|ERNIE 5.0 Preview,2025/06/28
-36,Sonar Deep Research,Perplexity,Sonar series,3884,-0.116,0.2,-0.508,0.276,family_interpolation,Sonar Reasoning Pro|Sonar Reasoning,2025/03/07
-37,Grok 2 Vision,xAI,Grok series,3876,-0.124,0.245,-0.605,0.358,family_interpolation,Grok-2 mini|Grok 3,2025/08/22
-38,GPT-4-32k,OpenAI,GPT series,3872,-0.129,0.2,-0.52,0.264,family_interpolation,GPT-4 Turbo|GPT-4o,
-39,Shieldstral 1.0,Mistral AI,Ministral and other series,3707,-0.293,1.034,-2.319,1.733,family_extrapolation,Codestral Mamba 7B,2026/07/16
-40,Granite Vision 4.1 4B,IBM,Granite series,3692,-0.308,0.2,-0.7,0.084,family_interpolation,Granite 4.1 30B|Granite 4.2 3B,2026/04/16
-41,GLM-4V-Flash,Zhipu AI (Z.ai),GLM series,3621,-0.379,0.2,-0.771,0.013,family_interpolation,GLM-4-32B|GLM-4.1V-9B-Thinking,2024/12/09
-42,Phi-4-reasoning-vision-15B,Microsoft,Phi series,3592,-0.409,0.2,-0.8,-0.017,family_interpolation,Phi-4-reasoning-plus|Phi-4-mini-reasoning,2026/03/04
-43,GLM-4-Long,Zhipu AI (Z.ai),GLM series,3590,-0.41,0.281,-0.961,0.142,family_interpolation,GLM-4-Air|GLM-4-32B,2024/08/13
-44,DeepSeek-Math 7B,DeepSeek,DeepSeek series,3588,-0.412,0.2,-0.804,-0.02,family_interpolation,DeepSeek-Coder-V2|DeepSeek-V2,2024/02/05
-45,Hunyuan-Role,Tencent,Hy series (Hunyuan / Tencent Hy),3588,-0.412,1.252,-2.867,2.042,family_interpolation,Hunyuan-Standard-256K|Tencent Hy3,2024/07/04
-46,Leanstral 1.5,Mistral AI,Ministral and other series,3581,-0.419,0.908,-2.199,1.361,family_extrapolation,Codestral Mamba 7B,2026/07/01
-47,GLM-4-FlashX,Zhipu AI (Z.ai),GLM series,3550,-0.45,0.281,-1.002,0.102,family_interpolation,GLM-4-Air|GLM-4-32B,2025/04/14
-48,Mistral Next,Mistral AI,Mistral series,3518,-0.482,0.2,-0.874,-0.09,family_interpolation,Mistral Saba|Codestral,2024/02/26
-49,GLM-4-Flash,Zhipu AI (Z.ai),GLM series,3509,-0.491,0.281,-1.043,0.061,family_interpolation,GLM-4-Air|GLM-4-32B,2024/06/05
-50,Step-1V,StepFun,Step series,3509,-0.491,0.603,-1.672,0.691,family_extrapolation,Step-2,2024/03/23
-51,GLM-Z1-Rumination-32B,Zhipu AI (Z.ai),GLM series,3508,-0.492,0.599,-1.665,0.682,family_extrapolation,GLM-4-Plus,2025/04/13
-52,Yi-Medium,01.AI,Yi series,3474,-0.526,0.335,-1.182,0.13,family_interpolation,Yi-Large|Yi-Lightning,2024/05/13
-53,GLM-4-AirX,Zhipu AI (Z.ai),GLM series,3469,-0.531,0.281,-1.083,0.02,family_interpolation,GLM-4-Air|GLM-4-32B,2024/06/05
-54,North Micro Vision Instruct,Cohere,Command and other series,3459,-0.541,0.2,-0.933,-0.149,family_interpolation,North Mini Code 1.0|Aya 23,2026/08/10
-55,DeepSeek-Math-V2,DeepSeek,DeepSeek series,3456,-0.544,0.2,-0.936,-0.152,family_interpolation,DeepSeek-Coder-V2|DeepSeek-V2,2025/11/27
-56,Leanstral,Mistral AI,Ministral and other series,3455,-0.545,0.782,-2.078,0.989,family_extrapolation,Codestral Mamba 7B,2026/03/11
-57,GLM-Z1-9B,Zhipu AI (Z.ai),GLM series,3383,-0.617,0.724,-2.037,0.802,family_extrapolation,GLM-4-Plus,2025/04/08
-58,LFM2.5-Audio-1.5B,Liquid AI,LFM series,3380,-0.62,0.734,-2.059,0.82,family_extrapolation,LFM2.5-VL-1.6B,2025/12/18
-59,Qwen-VL,Alibaba,Qwen series,3365,-0.635,0.2,-1.027,-0.243,family_interpolation,Qwen2|Qwen2-VL,2023/08/18
-60,Qwen-VL-Max,Alibaba,Qwen series,3361,-0.639,0.2,-1.031,-0.247,family_interpolation,Qwen2|Qwen2-VL,2023/08/18
-61,LFM2.5-1.2B-JP,Liquid AI,LFM series,3348,-0.652,0.2,-1.044,-0.26,family_interpolation,LFM2.5-1.2B-Thinking|LFM2.5-2.6B,2026/01/04
-62,Yi-Large-Turbo,01.AI,Yi series,3333,-0.667,0.335,-1.323,-0.011,family_interpolation,Yi-Large|Yi-Lightning,2024/08/02
-63,Mathstral 7B,Mistral AI,Ministral and other series,3330,-0.67,0.657,-1.957,0.617,family_extrapolation,Codestral Mamba 7B,2024/07/16
-64,GLM-Z1-32B,Zhipu AI (Z.ai),GLM series,3257,-0.743,0.85,-2.409,0.923,family_extrapolation,GLM-4-Plus,2025/04/08
-65,LFM2-Audio-1.5B,Liquid AI,LFM series,3255,-0.745,0.609,-1.938,0.448,family_extrapolation,LFM2.5-VL-1.6B,2025/08/28
-66,Jamba Instruct,AI21 Labs,Jamba series,3212,-0.788,0.517,-1.801,0.224,family_extrapolation,Jamba Reasoning 3B,2024/05/02
-67,GLM-130B,Zhipu AI (Z.ai),GLM series,3131,-0.869,0.976,-2.781,1.044,family_extrapolation,GLM-4-Plus,2022/08/03
-68,Phi-3.5-vision,Microsoft,Phi series,3104,-0.896,0.362,-1.607,-0.185,family_interpolation,Phi-3.5-mini|Phi-4-14B,2024/08/16
-69,ERNIE 4.5 Turbo,Baidu,ERNIE series,3044,-0.956,0.2,-1.348,-0.564,family_interpolation,ERNIE 4.5|ERNIE 4.5 0.3B,2025/04/25
-70,Jamba 2 3B,AI21 Labs,Jamba series,3007,-0.993,0.2,-1.385,-0.601,family_interpolation,Jamba 1.7 Mini|Jamba Reasoning 3B,2026/01/06
-71,Aya Vision,Cohere,Command and other series,2965,-1.035,0.843,-2.687,0.616,family_extrapolation,Aya Expanse,2025/03/02
-72,Phi-3-vision,Microsoft,Phi series,2942,-1.058,0.2,-1.45,-0.666,family_interpolation,Phi-3-medium|Phi-3.5,2024/05/19
-73,Jamba 2 Mini,AI21 Labs,,2929,-1.071,0.2,-1.463,-0.679,family_interpolation,Jamba 1.7 Mini|Jamba Reasoning 3B,2026/01/06
-74,Mistral Small Creative,Mistral AI,Mistral series,2705,-1.295,0.2,-1.687,-0.903,family_interpolation,Mistral Small 4|Mistral NeMo 12B,2025/12/16
-75,Claude 1.0,Anthropic,Claude series,2648,-1.352,0.274,-1.889,-0.814,family_interpolation,Claude Instant 1.2|Claude 1.3,2023/03/14
-76,Claude 1.1,Anthropic,Claude series,2630,-1.369,0.274,-1.907,-0.832,family_interpolation,Claude Instant 1.2|Claude 1.3,2023/03/14
-77,Claude 1.2,Anthropic,Claude series,2613,-1.387,0.274,-1.925,-0.85,family_interpolation,Claude Instant 1.2|Claude 1.3,2023/05/11
-78,OLMo RL Zero 7B Math,Allen Institute for AI,OLMo series,2481,-1.519,0.913,-3.309,0.271,family_extrapolation,OLMo Hybrid 7B,2025/11/17
-79,OLMo RL Zero 7B Code,Allen Institute for AI,OLMo series,2356,-1.644,0.788,-3.188,-0.101,family_extrapolation,OLMo Hybrid 7B,2025/11/17
-80,OLMo 2 1B,Allen Institute for AI,OLMo series,2240,-1.76,0.2,-2.152,-1.369,family_interpolation,OLMoE-1B-7B|OLMo 2 7B,2025/04/17
-81,LFM2-VL-1.6B,Liquid AI,LFM series,1933,-2.067,0.457,-2.963,-1.171,family_interpolation,LFM2-VL-450M|LFM2.5-230M,2025/08/12
-82,GPT-2,OpenAI,GPT series,101,-3.899,2.352,-8.508,0.711,family_extrapolation,GPT-3,2019/02/14
-83,GPT-1,OpenAI,GPT series,-24,-4.024,2.477,-8.88,0.831,family_extrapolation,GPT-3,2018/06/11
+est_rank,rank,model,vendor,series,score,theta_est,theta,se,ci_lo,ci_hi,n_obs,basis,method,series_used,flags,release_date
+70,70,MiMo-VL-7B,Xiaomi,MiMo series,5149,1.149,1.149,0.869,-0.603,2.764,0,series_prior,series prior mean of MiMo series (no observation for this model),MiMo series,no_observations|wide_ci,2025/05/30
+77,77,GLM-130B,Zhipu AI (Z.ai),GLM series,5110,1.11,1.11,0.773,-0.317,2.636,0,series_prior,series prior mean of GLM series (no observation for this model),GLM series,no_observations|wide_ci,2022/08/03
+78,78,GLM-4-AirX,Zhipu AI (Z.ai),GLM series,5110,1.11,1.11,0.859,-0.488,2.717,0,series_prior,series prior mean of GLM series (no observation for this model),GLM series,no_observations|wide_ci,2024/06/05
+79,79,GLM-4-Flash,Zhipu AI (Z.ai),GLM series,5110,1.11,1.11,0.782,-0.447,2.667,0,series_prior,series prior mean of GLM series (no observation for this model),GLM series,no_observations|wide_ci,2024/06/05
+80,80,GLM-4-FlashX,Zhipu AI (Z.ai),GLM series,5110,1.11,1.11,0.805,-0.404,2.743,0,series_prior,series prior mean of GLM series (no observation for this model),GLM series,no_observations|wide_ci,2025/04/14
+81,81,GLM-4-Long,Zhipu AI (Z.ai),GLM series,5110,1.11,1.11,0.91,-0.654,2.994,0,series_prior,series prior mean of GLM series (no observation for this model),GLM series,no_observations|wide_ci,2024/08/13
+82,82,GLM-4.5-AirX,Zhipu AI (Z.ai),GLM series,5110,1.11,1.11,0.831,-0.583,2.739,0,series_prior,series prior mean of GLM series (no observation for this model),GLM series,no_observations|wide_ci,2025/07/20
+83,83,GLM-4.5-Flash,Zhipu AI (Z.ai),GLM series,5110,1.11,1.11,0.791,-0.514,2.611,0,series_prior,series prior mean of GLM series (no observation for this model),GLM series,no_observations|wide_ci,2025/07/20
+84,84,GLM-4.5-X,Zhipu AI (Z.ai),GLM series,5110,1.11,1.11,0.793,-0.298,2.759,0,series_prior,series prior mean of GLM series (no observation for this model),GLM series,no_observations|wide_ci,2025/07/20
+85,85,GLM-4.6V-Flash,Zhipu AI (Z.ai),GLM series,5110,1.11,1.11,0.834,-0.58,2.626,0,series_prior,series prior mean of GLM series (no observation for this model),GLM series,no_observations|wide_ci,2025/09/29
+86,86,GLM-4.6V-FlashX,Zhipu AI (Z.ai),GLM series,5110,1.11,1.11,0.808,-0.508,2.623,0,series_prior,series prior mean of GLM series (no observation for this model),GLM series,no_observations|wide_ci,2025/09/29
+87,87,GLM-4.7-FlashX,Zhipu AI (Z.ai),GLM series,5110,1.11,1.11,0.837,-0.574,2.664,0,series_prior,series prior mean of GLM series (no observation for this model),GLM series,no_observations|wide_ci,2025/12/22
+88,88,GLM-4V-Flash,Zhipu AI (Z.ai),GLM series,5110,1.11,1.11,0.787,-0.457,2.55,0,series_prior,series prior mean of GLM series (no observation for this model),GLM series,no_observations|wide_ci,2024/12/09
+89,89,GLM-Z1-32B,Zhipu AI (Z.ai),GLM series,5110,1.11,1.11,0.815,-0.437,2.626,0,series_prior,series prior mean of GLM series (no observation for this model),GLM series,no_observations|wide_ci,2025/04/08
+90,90,GLM-Z1-9B,Zhipu AI (Z.ai),GLM series,5110,1.11,1.11,0.815,-0.417,2.81,0,series_prior,series prior mean of GLM series (no observation for this model),GLM series,no_observations|wide_ci,2025/04/08
+91,91,GLM-Z1-Rumination-32B,Zhipu AI (Z.ai),GLM series,5110,1.11,1.11,0.804,-0.529,2.659,0,series_prior,series prior mean of GLM series (no observation for this model),GLM series,no_observations|wide_ci,2025/04/13
+119,119,MiniMax-VL-01,MiniMax,MiniMax series,4899,0.899,0.899,0.854,-0.675,2.513,0,series_prior,series prior mean of MiniMax series (no observation for this model),MiniMax series,no_observations|wide_ci,2025/01/12
+128,128,Grok 2 Vision,xAI,Grok series,4818,0.818,0.818,0.87,-0.995,2.413,0,series_prior,series prior mean of Grok series (no observation for this model),Grok series,no_observations|wide_ci,2025/08/22
+129,129,Grok 2.5,xAI,Grok series,4818,0.818,0.818,0.809,-0.886,2.364,0,series_prior,series prior mean of Grok series (no observation for this model),Grok series,no_observations|wide_ci,2025/08/22
+142,142,Step-1V,StepFun,Step series,4676,0.676,0.676,0.839,-1.067,2.236,0,series_prior,series prior mean of Step series (no observation for this model),Step series,no_observations|wide_ci,2024/03/23
+148,148,Claude 1.0,Anthropic,Claude series,4620,0.62,0.62,0.771,-0.963,1.942,0,series_prior,series prior mean of Claude series (no observation for this model),Claude series,no_observations|wide_ci,2023/03/14
+149,149,Claude 1.1,Anthropic,Claude series,4620,0.62,0.62,0.801,-1.053,2.039,0,series_prior,series prior mean of Claude series (no observation for this model),Claude series,no_observations|wide_ci,2023/03/14
+150,150,Claude 1.2,Anthropic,Claude series,4620,0.62,0.62,0.804,-0.79,2.248,0,series_prior,series prior mean of Claude series (no observation for this model),Claude series,no_observations|wide_ci,2023/05/11
+159,159,Hunyuan-Pro,Tencent,Hy series (Hunyuan / Tencent Hy),4577,0.577,0.577,0.866,-1.245,2.25,0,series_prior,series prior mean of Hy series (Hunyuan / Tencent Hy) (no observation for this model),Hy series (Hunyuan / Tencent Hy),no_observations|wide_ci,2024/05/17
+160,160,Hunyuan-Role,Tencent,Hy series (Hunyuan / Tencent Hy),4577,0.577,0.577,0.905,-1.215,2.378,0,series_prior,series prior mean of Hy series (Hunyuan / Tencent Hy) (no observation for this model),Hy series (Hunyuan / Tencent Hy),no_observations|wide_ci,2024/07/04
+161,161,Tencent HY 2.0 Instruct,Tencent,Hy series (Hunyuan / Tencent Hy),4577,0.577,0.577,0.898,-1.077,2.214,0,series_prior,series prior mean of Hy series (Hunyuan / Tencent Hy) (no observation for this model),Hy series (Hunyuan / Tencent Hy),no_observations|wide_ci,2025/12/05
+162,162,Tencent HY 2.0 Think,Tencent,Hy series (Hunyuan / Tencent Hy),4577,0.577,0.577,0.873,-0.96,2.221,0,series_prior,series prior mean of Hy series (Hunyuan / Tencent Hy) (no observation for this model),Hy series (Hunyuan / Tencent Hy),no_observations|wide_ci,2025/12/05
+164,164,Daybreak Blue,OpenAI,GPT series,4564,0.564,0.564,0.759,-1.032,1.946,0,series_prior,series prior mean of GPT series (no observation for this model),GPT series,no_observations|wide_ci,2026/08/10
+165,165,Daybreak Red,OpenAI,GPT series,4564,0.564,0.564,0.826,-0.947,2.183,0,series_prior,series prior mean of GPT series (no observation for this model),GPT series,no_observations|wide_ci,2026/08/10
+166,166,GPT-1,OpenAI,GPT series,4564,0.564,0.564,0.84,-1.092,2.178,0,series_prior,series prior mean of GPT series (no observation for this model),GPT series,no_observations|wide_ci,2018/06/11
+167,167,GPT-2,OpenAI,GPT series,4564,0.564,0.564,0.816,-1.025,2.143,0,series_prior,series prior mean of GPT series (no observation for this model),GPT series,no_observations|wide_ci,2019/02/14
+168,168,GPT-4-32k,OpenAI,GPT series,4564,0.564,0.564,0.758,-0.84,1.993,0,series_prior,series prior mean of GPT series (no observation for this model),GPT series,no_observations|wide_ci,
+169,169,GPT-5.6 Cyber,OpenAI,GPT series,4564,0.564,0.564,0.744,-0.897,1.985,0,series_prior,series prior mean of GPT series (no observation for this model),GPT series,no_observations|wide_ci,2026/08/10
+178,178,Qwen-VL,Alibaba,Qwen series,4506,0.506,0.506,0.805,-1.036,2.152,0,series_prior,series prior mean of Qwen series (no observation for this model),Qwen series,no_observations|wide_ci,2023/08/18
+179,179,Qwen-VL-Max,Alibaba,Qwen series,4506,0.506,0.506,0.81,-1.053,1.953,0,series_prior,series prior mean of Qwen series (no observation for this model),Qwen series,no_observations|wide_ci,2023/08/18
+180,180,Qwen3-Coder-Plus,Alibaba,Qwen series,4506,0.506,0.506,0.807,-1.158,2.053,0,series_prior,series prior mean of Qwen series (no observation for this model),Qwen series,no_observations|wide_ci,2025/09/23
+198,198,gpt-oss-safeguard-120b,OpenAI,GPT-OSS series,4418,0.418,0.418,0.798,-1.098,2.037,0,series_prior,series prior mean of GPT-OSS series (no observation for this model),GPT-OSS series,no_observations|wide_ci,2025/09/18
+199,199,gpt-oss-safeguard-20b,OpenAI,GPT-OSS series,4418,0.418,0.418,0.856,-1.309,2.057,0,series_prior,series prior mean of GPT-OSS series (no observation for this model),GPT-OSS series,no_observations|wide_ci,2025/10/29
+200,200,DeepSeek-Math 7B,DeepSeek,DeepSeek series,4412,0.412,0.412,0.804,-1.087,1.96,0,series_prior,series prior mean of DeepSeek series (no observation for this model),DeepSeek series,no_observations|wide_ci,2024/02/05
+201,201,DeepSeek-Math-V2,DeepSeek,DeepSeek series,4412,0.412,0.412,0.792,-1.143,1.884,0,series_prior,series prior mean of DeepSeek series (no observation for this model),DeepSeek series,no_observations|wide_ci,2025/11/27
+202,202,DeepSeek-Prover-V1.5,DeepSeek,DeepSeek series,4412,0.412,0.412,0.807,-1.213,1.97,0,series_prior,series prior mean of DeepSeek series (no observation for this model),DeepSeek series,no_observations|wide_ci,2024/08/15
+203,203,DeepSeek-Prover-V2-671B,DeepSeek,DeepSeek series,4412,0.412,0.412,0.817,-1.252,2.01,0,series_prior,series prior mean of DeepSeek series (no observation for this model),DeepSeek series,no_observations|wide_ci,2025/04/30
+237,237,Seed Diffusion Preview,ByteDance,Seed series,4163,0.163,0.163,0.822,-1.345,1.825,0,series_prior,series prior mean of Seed series (no observation for this model),Seed series,no_observations|wide_ci,2025/08/04
+242,242,Jamba 2 Mini,AI21 Labs,,4142,0.142,0.142,0.766,-1.427,1.717,0,series_prior,series prior mean of unassigned series (no observation for this model),,no_observations|wide_ci,2026/01/06
+243,243,MAI-1-preview,Microsoft,MAI series,4142,0.142,0.142,0.784,-1.311,1.721,0,series_prior,series prior mean of MAI series (no observation for this model),MAI series,no_observations|wide_ci,2025/08/25
+244,244,MAI-Code-1.1-Flash,Microsoft,MAI Code series,4142,0.142,0.142,0.799,-1.373,1.775,0,series_prior,series prior mean of MAI Code series (no observation for this model),MAI Code series,no_observations|wide_ci,2026/08/11
+245,245,Manus 1.5,Manus,Manus series,4142,0.142,0.142,0.775,-1.361,1.665,0,series_prior,series prior mean of Manus series (no observation for this model),Manus series,no_observations|wide_ci,2025/10/16
+246,246,Manus 1.6,Manus,Manus series,4142,0.142,0.142,0.802,-1.387,1.684,0,series_prior,series prior mean of Manus series (no observation for this model),Manus series,no_observations|wide_ci,2025/12/15
+247,247,Manus 1.6 Lite,Manus,Manus series,4142,0.142,0.142,0.845,-1.527,1.722,0,series_prior,series prior mean of Manus series (no observation for this model),Manus series,no_observations|wide_ci,
+248,248,Manus 1.6 Max,Manus,Manus series,4142,0.142,0.142,0.795,-1.45,1.8,0,series_prior,series prior mean of Manus series (no observation for this model),Manus series,no_observations|wide_ci,2025/12/15
+249,249,SWE-1.5,Cognition,SWE series,4142,0.142,0.142,0.823,-1.577,1.826,0,series_prior,series prior mean of SWE series (no observation for this model),SWE series,no_observations|wide_ci,2025/10/29
+250,250,Yi-Large-Turbo,01.AI,Yi series,4142,0.142,0.142,0.809,-1.369,1.755,0,series_prior,series prior mean of Yi series (no observation for this model),Yi series,no_observations|wide_ci,2024/08/02
+251,251,Yi-Medium,01.AI,Yi series,4142,0.142,0.142,0.796,-1.414,1.636,0,series_prior,series prior mean of Yi series (no observation for this model),Yi series,no_observations|wide_ci,2024/05/13
+259,259,ERNIE 4.0,Baidu,ERNIE series,4039,0.039,0.039,0.783,-1.552,1.454,0,series_prior,series prior mean of ERNIE series (no observation for this model),ERNIE series,no_observations|wide_ci,2023/10/17
+260,260,ERNIE 4.5 Turbo,Baidu,ERNIE series,4039,0.039,0.039,0.816,-1.543,1.622,0,series_prior,series prior mean of ERNIE series (no observation for this model),ERNIE series,no_observations|wide_ci,2025/04/25
+261,261,ERNIE 4.5 VL-28B-A3B,Baidu,ERNIE series,4039,0.039,0.039,0.832,-1.603,1.812,0,series_prior,series prior mean of ERNIE series (no observation for this model),ERNIE series,no_observations|wide_ci,2025/06/28
+262,262,ERNIE 4.5 VL-424B-A47B,Baidu,ERNIE series,4039,0.039,0.039,0.797,-1.433,1.496,0,series_prior,series prior mean of ERNIE series (no observation for this model),ERNIE series,no_observations|wide_ci,2025/06/30
+263,263,ERNIE Lite,Baidu,ERNIE series,4039,0.039,0.039,0.826,-1.583,1.588,0,series_prior,series prior mean of ERNIE series (no observation for this model),ERNIE series,no_observations|wide_ci,2024/03/21
+264,264,ERNIE Speed,Baidu,ERNIE series,4039,0.039,0.039,0.853,-1.674,1.64,0,series_prior,series prior mean of ERNIE series (no observation for this model),ERNIE series,no_observations|wide_ci,2024/03/21
+265,265,ERNIE Tiny,Baidu,ERNIE series,4039,0.039,0.039,0.799,-1.447,1.631,0,series_prior,series prior mean of ERNIE series (no observation for this model),ERNIE series,no_observations|wide_ci,2024/03/21
+266,266,ERNIE X1,Baidu,ERNIE series,4039,0.039,0.039,0.805,-1.622,1.594,0,series_prior,series prior mean of ERNIE series (no observation for this model),ERNIE series,no_observations|wide_ci,2025/03/16
+267,267,ERNIE X1 Turbo,Baidu,ERNIE series,4039,0.039,0.039,0.83,-1.557,1.812,0,series_prior,series prior mean of ERNIE series (no observation for this model),ERNIE series,no_observations|wide_ci,2025/04/25
+268,268,ERNIE X1.1,Baidu,ERNIE series,4039,0.039,0.039,0.832,-1.583,1.575,0,series_prior,series prior mean of ERNIE series (no observation for this model),ERNIE series,no_observations|wide_ci,2025/09/09
+330,330,Leanstral,Mistral AI,Ministral and other series,3616,-0.384,-0.384,0.779,-1.934,0.983,0,series_prior,series prior mean of Ministral and other series (no observation for this model),Ministral and other series,no_observations|wide_ci,2026/03/11
+331,331,Leanstral 1.5,Mistral AI,Ministral and other series,3616,-0.384,-0.384,0.783,-1.98,1.13,0,series_prior,series prior mean of Ministral and other series (no observation for this model),Ministral and other series,no_observations|wide_ci,2026/07/01
+332,332,Mathstral 7B,Mistral AI,Ministral and other series,3616,-0.384,-0.384,0.814,-2.065,1.384,0,series_prior,series prior mean of Ministral and other series (no observation for this model),Ministral and other series,no_observations|wide_ci,2024/07/16
+333,333,Shieldstral 1.0,Mistral AI,Ministral and other series,3616,-0.384,-0.384,0.782,-1.916,1.299,0,series_prior,series prior mean of Ministral and other series (no observation for this model),Ministral and other series,no_observations|wide_ci,2026/07/16
+372,372,Aya Vision,Cohere,Command and other series,3407,-0.593,-0.593,0.79,-2.147,0.919,0,series_prior,series prior mean of Command and other series (no observation for this model),Command and other series,no_observations|wide_ci,2025/03/02
+373,373,Command A Translate,Cohere,Command and other series,3407,-0.593,-0.593,0.792,-2.095,1.063,0,series_prior,series prior mean of Command and other series (no observation for this model),Command and other series,no_observations|wide_ci,2025/08/27
+374,374,Command A Vision,Cohere,Command and other series,3407,-0.593,-0.593,0.87,-2.355,0.989,0,series_prior,series prior mean of Command and other series (no observation for this model),Command and other series,no_observations|wide_ci,2025/07/28
+375,375,North Micro Vision Instruct,Cohere,Command and other series,3407,-0.593,-0.593,0.792,-2.103,0.806,0,series_prior,series prior mean of Command and other series (no observation for this model),Command and other series,no_observations|wide_ci,2026/08/10
+377,377,Sonar Deep Research,Perplexity,Sonar series,3399,-0.601,-0.601,0.808,-2.024,1.015,0,series_prior,series prior mean of Sonar series (no observation for this model),Sonar series,no_observations|wide_ci,2025/03/07
+393,393,Granite Vision 4.1 4B,IBM,Granite series,3292,-0.708,-0.708,0.798,-2.258,0.948,0,series_prior,series prior mean of Granite series (no observation for this model),Granite series,no_observations|wide_ci,2026/04/16
+407,407,Mistral Next,Mistral AI,Mistral series,3170,-0.83,-0.83,0.858,-2.554,0.886,0,series_prior,series prior mean of Mistral series (no observation for this model),Mistral series,no_observations|wide_ci,2024/02/26
+408,408,Mistral Small Creative,Mistral AI,Mistral series,3170,-0.83,-0.83,0.839,-2.429,0.893,0,series_prior,series prior mean of Mistral series (no observation for this model),Mistral series,no_observations|wide_ci,2025/12/16
+438,438,OLMo 2 1B,Allen Institute for AI,OLMo series,2937,-1.063,-1.063,0.751,-2.658,0.359,0,series_prior,series prior mean of OLMo series (no observation for this model),OLMo series,no_observations|wide_ci,2025/04/17
+439,439,OLMo RL Zero 7B Code,Allen Institute for AI,OLMo series,2937,-1.063,-1.063,0.826,-2.767,0.688,0,series_prior,series prior mean of OLMo series (no observation for this model),OLMo series,no_observations|wide_ci,2025/11/17
+440,440,OLMo RL Zero 7B Math,Allen Institute for AI,OLMo series,2937,-1.063,-1.063,0.786,-2.546,0.486,0,series_prior,series prior mean of OLMo series (no observation for this model),OLMo series,no_observations|wide_ci,2025/11/17
+455,455,LFM2-Audio-1.5B,Liquid AI,LFM series,2882,-1.118,-1.118,0.812,-2.656,0.344,0,series_prior,series prior mean of LFM series (no observation for this model),LFM series,no_observations|wide_ci,2025/08/28
+456,456,LFM2-VL-1.6B,Liquid AI,LFM series,2882,-1.118,-1.118,0.77,-2.582,0.336,0,series_prior,series prior mean of LFM series (no observation for this model),LFM series,no_observations|wide_ci,2025/08/12
+457,457,LFM2.5-1.2B-JP,Liquid AI,LFM series,2882,-1.118,-1.118,0.835,-2.666,0.395,0,series_prior,series prior mean of LFM series (no observation for this model),LFM series,no_observations|wide_ci,2026/01/04
+458,458,LFM2.5-Audio-1.5B,Liquid AI,LFM series,2882,-1.118,-1.118,0.82,-2.854,0.361,0,series_prior,series prior mean of LFM series (no observation for this model),LFM series,no_observations|wide_ci,2025/12/18
+497,497,Phi-3-vision,Microsoft,Phi series,2633,-1.367,-1.367,0.816,-2.977,0.287,0,series_prior,series prior mean of Phi series (no observation for this model),Phi series,no_observations|wide_ci,2024/05/19
+498,498,Phi-3.5-vision,Microsoft,Phi series,2633,-1.367,-1.367,0.774,-2.88,0.28,0,series_prior,series prior mean of Phi series (no observation for this model),Phi series,no_observations|wide_ci,2024/08/16
+499,499,Phi-4-reasoning-vision-15B,Microsoft,Phi series,2633,-1.367,-1.367,0.796,-2.95,0.176,0,series_prior,series prior mean of Phi series (no observation for this model),Phi series,no_observations|wide_ci,2026/03/04
+500,500,Jamba 2 3B,AI21 Labs,Jamba series,2625,-1.375,-1.375,0.813,-2.996,0.233,0,series_prior,series prior mean of Jamba series (no observation for this model),Jamba series,no_observations|wide_ci,2026/01/06
+501,501,Jamba Instruct,AI21 Labs,Jamba series,2625,-1.375,-1.375,0.833,-2.921,0.23,0,series_prior,series prior mean of Jamba series (no observation for this model),Jamba series,no_observations|wide_ci,2024/05/02
