@@ -190,6 +190,9 @@
     font-size:12px;color:var(--muted);
   }
   footer code{font-size:11.5px}
+  footer .credits{max-width:52em;line-height:1.7}
+  footer a{color:var(--accent);text-decoration:none}
+  footer a:hover{text-decoration:underline}
 
   @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
   header,.controls,.chart-panel,.leader-panel,footer{animation:rise .55s cubic-bezier(.25,.6,.3,1) both}
@@ -215,7 +218,8 @@
     <div class="kicker">Benchmark Tracker</div>
     <h1>ベンチマーク推移年表</h1>
     <p class="sub">各モデルファミリーのモデルをリリース順にグラフ化しています。</p>
-    <p class="sub">スコアは既存ベンチマークデータを取得したうえで合成し、同基準になるよう調整したうえで表示していますが、ベンチマークによって測定方法が異なるものや、特定の測定を行っていないモデルについては不正確な値が表示されることがあります。</p>
+    <p class="sub">スコアはコーディング系ベンチマークだけから算出しています。Epoch AIのCapabilities Indexと同じ項目反応理論のモデルを使い、Epochが公開している各ベンチマークの難易度と傾きに合わせて尺度をそろえているため、値はECI基準で考えられます。</p>
+    <p class="sub">ベンチマークごとに得意不得意があるため、個々のリーダーボードと順位が一致しない組み合わせもあります。信頼区間が重なるモデル同士は、ほぼ同等とみなします。</p>
     <p class="meta" id="meta">データを読み込み中…</p>
   </header>
 
@@ -229,7 +233,7 @@
           <span id="presets"></span>
           <span class="date-inputs">
             <input type="text" id="date-from" placeholder="YYYY/MM/DD" autocomplete="off" aria-label="開始日">
-            <span class="dash">—</span>
+            <span class="dash">-</span>
             <input type="text" id="date-to" placeholder="YYYY/MM/DD" autocomplete="off" aria-label="終了日">
           </span>
           <span class="date-hint">空欄 = 制限なし</span>
@@ -272,8 +276,21 @@
   </section>
 
   <footer>
-    <span> </span>
-    <span>実測値 = 実線 + 塗りつぶし点 / 推定値 = 破線 + 白抜き点</span>
+    <span class="credits">
+      データ出典:
+      <a href="https://epoch.ai/benchmarks" target="_blank" rel="noopener">Epoch AI Benchmarking Hub</a>（CC BY 4.0）、
+      <a href="https://artificialanalysis.ai/" target="_blank" rel="noopener">Artificial Analysis</a>、
+      <a href="https://www.vals.ai/benchmarks" target="_blank" rel="noopener">Vals AI</a>、
+      <a href="https://swe-rebench.com/" target="_blank" rel="noopener">SWE-rebench</a>、
+      <a href="https://www.swebench.com/" target="_blank" rel="noopener">SWE-bench</a>、
+      <a href="https://labs.scale.com/leaderboard/swe_bench_pro_public" target="_blank" rel="noopener">Scale SWE-Bench Pro</a>、
+      <a href="https://aider.chat/docs/leaderboards/" target="_blank" rel="noopener">Aider</a>、
+      <a href="https://evalplus.github.io/leaderboard.html" target="_blank" rel="noopener">EvalPlus</a>、
+      <a href="https://bigcode-bench.github.io/" target="_blank" rel="noopener">BigCodeBench</a>、
+      <a href="https://livecodebench.github.io/" target="_blank" rel="noopener">LiveCodeBench</a>、
+      <a href="https://arena.ai/leaderboard" target="_blank" rel="noopener">Arena</a>（検証のみ）
+    </span>
+    <span>実測値: 実線 + 塗りつぶし点 / 推定値: 破線 + 白抜き点</span>
   </footer>
 
 </div>
@@ -285,6 +302,7 @@
   const MEASURED_URL   = 'unified_scores.csv';
   const ESTIMATED_URL  = 'unified_scores_estimated.csv';
   const MODEL_LIST_URL = 'known_llm_models.md';
+  const SUMMARY_URL    = 'unified_scores_summary.json';
   const DAY = 86400000;
 
   const $ = s => document.querySelector(s);
@@ -679,7 +697,7 @@
     {key: 'vendor',          label: 'ベンダー',                type: 'order', primary: 1},
     {key: 'series',          label: 'ファミリー',              type: 'order', primary: 1},
     {key: 'score',           label: 'スコア',      num: true,  type: 'num',   primary: -1},
-    {key: 'theta',           label: 'θ',           num: true,  type: 'num',   primary: -1},
+    {key: 'theta',           label: 'ECI換算',     num: true,  type: 'num',   primary: -1},
     {key: 'se',              label: '標準誤差',    num: true,  type: 'num',   primary: -1},
     {key: 'ci_lo',           label: 'CI下限',      num: true,  type: 'num',   primary: -1},
     {key: 'ci_hi',           label: 'CI上限',      num: true,  type: 'num',   primary: -1},
@@ -687,14 +705,10 @@
     {key: 'n_measured',      label: '実測数',      num: true,  type: 'num',   primary: -1},
     {key: 'n_unknown',       label: '不明数',      num: true,  type: 'num',   primary: -1},
     {key: 'n_self',          label: '自己申告数',  num: true,  type: 'num',   primary: -1},
-    {key: 'reasoning',       label: '推論',        num: true,  type: 'num',   primary: -1},
-    {key: 'tool_use',        label: 'ツール使用',  num: true,  type: 'num',   primary: -1},
     {key: 'static_code',     label: '静的コード',  num: true,  type: 'num',   primary: -1},
-    {key: 'agentic_swe',     label: 'Agentic SWE', num: true, type: 'num', primary: -1},
-    {key: 'terminal_gui',    label: 'Terminal GUI', num: true, type: 'num',  primary: -1},
-    {key: 'webdev',          label: 'WebDev',     num: true,  type: 'num',   primary: -1},
-    {key: 'livebench_coding',label: 'LiveBench', num: true, type: 'num', primary: -1},
-    {key: 'composite_index', label: '複合指数',    num: true,  type: 'num',   primary: -1},
+    {key: 'agentic_swe',     label: 'Agentic SWE', num: true,  type: 'num',   primary: -1},
+    {key: 'terminal',        label: 'ターミナル',  num: true,  type: 'num',   primary: -1},
+    {key: 'security',        label: 'セキュリティ', num: true, type: 'num',   primary: -1},
     {key: 'flags',           label: '注釈',                  type: 'flags', primary: -1},
     {key: 'release_date',    label: 'リリース日',              type: 'date',  primary: -1},
   ];
@@ -704,6 +718,9 @@
     single_obs: '観測1件のみ',
     wide_ci: '信頼区間不足',
     no_observations: '観測なし',
+    interpolated: '補間推定',
+    no_release_date: 'リリース日不明',
+    low_information: '情報不足',
   };
   function formatCell(key, raw){
     const v = (raw ?? '').trim();
@@ -722,6 +739,7 @@
       .map(r => ({
         rank: r.est_rank, model: r.model, vendor: r.vendor, series: r.series,
         score: r.score, theta: r.theta_est, se: r.se, ci_lo: r.ci_lo, ci_hi: r.ci_hi,
+        n_obs: r.n_obs, flags: r.flags,
         method: r.method, release_date: r.release_date, __est: true,
       }));
     return state.rawMeasured.concat(estRows);
@@ -977,6 +995,16 @@
   metaEl.textContent =
     `${state.measured.length} モデル（実測値）+ ${state.estimated.length} モデル（推定値）` +
     ` ・ ${state.vendors.length} ベンダー ・ ${fmtDate(dataMinTs)} 〜 ${fmtDate(dataMaxTs)}`;
+  try{
+    const summary = JSON.parse(await fetchText(SUMMARY_URL));
+    const pct = v => (v * 100).toFixed(1) + '%';
+    const prev = summary.previous_method_same_pairs || {};
+    metaEl.textContent +=
+      ` ・ 各リーダーボードとの順位逆転率 ${pct(summary.inversion_rate)}` +
+      (prev.old_rate != null ? `（旧方式 ${pct(prev.old_rate)}）` : '') +
+      ` ・ 更新 ${summary.generated}`;
+    metaEl.title = '各リーダーボードで明確な差がある2モデルのうち、統合スコアで順序が逆になっている組の割合';
+  } catch{ /* ignore */ }
 
   if (!estimatedAvailable){
     estToggle.disabled = true;

@@ -2,7 +2,7 @@
 
 > List for coding benchmark, excepting image-generation, video-generation, translation, embedding, voice-recognization models.
 
-**Last updated: 2026-09-05**
+**Last updated: 2026-10-13**
 
 - **⚠️** : Annotations for name, tier, and delivery method
 
@@ -46,6 +46,9 @@
 - Daybreak Red
 - Daybreak Blue
 - GPT-6 Astra
+- GPT-6 Sol
+- GPT-6 Luna
+- GPT-6.1 Sol
 
 ### o series
 
@@ -110,6 +113,9 @@
 - Claude Opus 5
 - Claude Fable 5
 - Claude Fable 5.1
+- Claude Opus 5.5
+- Claude Sonnet 5.5
+- Claude Haiku 5.5
 - Claude Mythos Preview
 - Claude Mythos 5
 - Claude Mythos 5.1
@@ -145,6 +151,7 @@
 - Gemini 3.6 Flash
 - Gemini 3.7 Flash
 - Gemini 3.8 Flash
+- Gemini 4 Argon
 
 ### Gemma series
 
@@ -207,11 +214,9 @@
 - Grok 4.3
 - Grok 4.5
 - Grok 4.6
-- Grok 4.7 ⚠️
+- Grok 4.7
 - Grok Build 0.1
 - Grok Code Fast 1
-
-⚠️: Grok 4.7 is not released yet.
 
 ---
 
@@ -243,6 +248,7 @@
 - DeepSeek-V4-Flash-Vision-Exp ⚠️
 - DeepSeek-V4-Flash-DSpark
 - DeepSeek-V4-Pro-DSpark
+- DeepSeek-V4.1-Flash
 - DeepSeek-Prover-V1.5
 - DeepSeek-Prover-V2-671B
 
@@ -297,11 +303,12 @@
 - Qwen3.8 Flash
 - Qwen3.8 2.4T-A95B ⚠️
 - Qwen3.8 Max
+- Qwen3.8 Max (0902)
 - Qwen3.8-27B
 - Qwen3.8-Flash-Next
 
 ⚠️: Qwen3-Coder-Flash is internally Qwen3-Coder-30B-A3B.
-⚠️: Qwen3.8 max is internally Qwen3.8 2.4T-A95B.
+⚠️: Qwen3.8 Max is internally Qwen3.8 2.4T-A95B.
 
 ---
 
@@ -401,6 +408,7 @@
 - MiniMax-M2.5
 - MiniMax-M2.7
 - MiniMax-M3
+- MiniMax-M3.1-Flash-Preview
 - MiniMax-VL-01
 
 ---
@@ -413,6 +421,8 @@
 - MiMo-V2-Flash
 - MiMo-V2.5
 - MiMo-V2.5-Pro
+- MiMo-V2.6-Flash
+- MiMo-V2.6-Pro
 - MiMo-VL-7B
 
 ---
@@ -431,6 +441,7 @@
 - Mistral Large 2.0
 - Mistral Large 2.1
 - Mistral Large 3
+- Mistral Large 4
 - Mistral Small 1.0
 - Mistral Small 2.0
 - Mistral Small 3.0
@@ -665,6 +676,10 @@
 - OLMo RL Zero 7B Code
 - OLMo RL Zero 7B Math
 
+### Asta series
+
+- AstaBrief 8B
+
 ---
 
 ## Liquid AI
@@ -680,6 +695,8 @@
 - LFM2-2.6B
 - LFM2-8B-A1B
 - LFM2-24B-A2B
+- LFM2-1.2B-Longevity
+- LFM2-2.6B-Longevity
 - LFM2-VL-450M
 - LFM2-VL-1.6B
 - LFM2.5-230M
@@ -707,6 +724,7 @@
 - Step3-VL
 - Step-3.5-Flash
 - Step 3.7 Flash
+- Step 5 Preview
 
 ---
 
@@ -799,6 +817,7 @@
 - SWE-1.5
 - SWE-1.6
 - SWE-1.7
+- SWE-2
 
 ## Poolside
 
@@ -815,3 +834,4 @@
 - Manus 1.6
 - Manus 1.6 Lite
 - Manus 1.6 Max
+- Manus 2.0

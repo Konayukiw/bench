@@ -1,0 +1,8 @@
+tests/
+__pycache__/
+.claude/
+
+scripts/
+data/
+
+AGENTS.md
