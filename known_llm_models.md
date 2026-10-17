@@ -2,7 +2,7 @@
 
 > List for coding benchmark, excepting image-generation, video-generation, translation, embedding, voice-recognization models.
 
-**Last updated: 2026-10-13**
+**Last updated: 2026-10-18**
 
 - **⚠️** : Annotations for name, tier, and delivery method
 
@@ -186,6 +186,7 @@
 - Muse Spark 1.1
 - Muse Spark 1.2
 - Muse Spark 1.3
+- Muse Spark Open
 - Muse Glimmer
 - Muse Code
 
@@ -249,12 +250,14 @@
 - DeepSeek-V4-Flash-DSpark
 - DeepSeek-V4-Pro-DSpark
 - DeepSeek-V4.1-Flash
+- DeepSeek-V4.1-Flash-1017 ⚠️
 - DeepSeek-Prover-V1.5
 - DeepSeek-Prover-V2-671B
 
 ⚠️: DeepSeek-R1-Distill has 6 models with different bases (Qwen2.5-Math-1.5B, Qwen2.5-Math-7B, Llama3.1-8B, Llama3.3-70B-Instruct, Qwen2.5-14B, Qwen2.5-32B) 
 ⚠️: DeepSeek-V4-Flash-0731 is an updated version of DeepSeek-V4-Flash, and it has been shown as DeepSeek-V4-Flash on its API. DeepSeek-V4-Pro-0813 is as well.
 ⚠️: DeepSeek-V4-Flash-Vision-Exp is an image-support model based on DeepSeek-V4-Flash-0731 and they have no performance difference as an "LLM".
+⚠️: DeepSeek-V4.1-Flash-1017 is an updated version of DeepSeek-V4.1-Flash, and it is served as deepseek-flash on its API.
 
 ---
 
@@ -535,6 +538,8 @@
 - Nemotron 3 Ultra
 - Nemotron 3 Nano Omni
 - Nemotron 3.5 Lightning
+- Nemotron 3.5 Super VL
+- Nemotron 3.5 Bolt 74B-A9B
 
 ---
 
@@ -706,6 +711,7 @@
 - LFM2.5-1.2B-JP
 - LFM2.5-2.6B
 - LFM2.5-8B-A1B
+- LFM2.5-24B-A2B
 - LFM2.5-VL-3B
 - LFM2.5-VL-450M
 - LFM2.5-VL-1.6B

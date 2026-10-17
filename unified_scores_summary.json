@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-13",
+ "generated": "2026-10-18",
  "counts": {
-  "models_in_list": 564,
-  "models_ranked": 403,
-  "models_interpolated": 84,
+  "models_in_list": 569,
+  "models_ranked": 408,
+  "models_interpolated": 87,
   "models_low_information": 6,
-  "models_without_data": 71,
-  "observations_used": 2934,
+  "models_without_data": 68,
+  "observations_used": 2954,
   "benchmarks_used": 65,
   "benchmarks_dropped": [
    "DS-1000",
@@ -20,8 +20,8 @@
    "Vibe Code Bench"
   ]
  },
- "inversion_rate": 0.0285,
- "inversion_pairs": 82474,
+ "inversion_rate": 0.0286,
+ "inversion_pairs": 82618,
  "previous_method_same_pairs": {
   "pairs": 77626,
   "new_rate": 0.0289,
@@ -46,7 +46,7 @@
   {
    "benchmark": "Arena WebDev Elo",
    "role": "validate",
-   "rate": 0.0374,
+   "rate": 0.0377,
    "pairs": 3952,
    "models": 104
   },
@@ -67,9 +67,9 @@
   {
    "benchmark": "Code Migration (Vals)",
    "role": "fit",
-   "rate": 0.032,
-   "pairs": 1626,
-   "models": 69
+   "rate": 0.0341,
+   "pairs": 1673,
+   "models": 70
   },
   {
    "benchmark": "CursorBench",
@@ -102,7 +102,7 @@
   {
    "benchmark": "FrontierCode",
    "role": "fit",
-   "rate": 0.0432,
+   "rate": 0.045,
    "pairs": 556,
    "models": 38
   },
@@ -263,7 +263,7 @@
   {
    "benchmark": "SciCode",
    "role": "fit",
-   "rate": 0.0274,
+   "rate": 0.0272,
    "pairs": 5107,
    "models": 119
   },
@@ -319,9 +319,9 @@
   {
    "benchmark": "Terminal-Bench 4.0 (Vals)",
    "role": "fit",
-   "rate": 0.0807,
-   "pairs": 657,
-   "models": 41
+   "rate": 0.0729,
+   "pairs": 686,
+   "models": 42
   },
   {
    "benchmark": "Terminal-Bench Hard",
@@ -333,9 +333,9 @@
   {
    "benchmark": "Vibe Code Bench (Vals)",
    "role": "fit",
-   "rate": 0.0174,
-   "pairs": 3513,
-   "models": 95
+   "rate": 0.0179,
+   "pairs": 3581,
+   "models": 96
   },
   {
    "benchmark": "Vibe Code Bench 1-100 (Vals)",
