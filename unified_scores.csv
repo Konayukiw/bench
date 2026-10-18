@@ -1,409 +1,451 @@
 rank,model,vendor,series,score,theta,se,ci_lo,ci_hi,n_obs,n_measured,n_unknown,n_self,evidence,static_code,agentic_swe,terminal,security,flags,release_date
-1,Claude Opus 5.5,Anthropic,Claude series,5838,166.77,35,5762,5900,13,13,0,0,measured,5809,5852,5807,,,2026/09/22
-2,Claude Fable 5.1,Anthropic,Claude series,5772,165.44,38,5695,5833,18,18,0,0,measured,5760,5789,5744,,,2026/09/01
-3,GPT-6 Astra,OpenAI,GPT series,5770,165.41,38,5703,5853,17,17,0,0,measured,5907,5737,5753,,,2026/09/03
-4,Claude Sonnet 5.5,Anthropic,Claude series,5752,165.04,34,5670,5798,11,11,0,0,measured,5647,5775,5789,,,2026/09/28
-5,Gemini 4 Argon,Google,Gemini series,5750,164.99,33,5690,5821,7,7,0,0,measured,5921,5726,5741,,,2026/09/30
-6,GPT-6.1 Sol,OpenAI,GPT series,5745,164.91,41,5665,5824,8,8,0,0,measured,5831,5676,5719,,,2026/09/29
-7,Claude Mythos 5.1,Anthropic,Claude series,5705,164.09,112,5460,5838,4,0,0,4,self_reported,,5487,5745,,no_measured|self_heavy,2026/09/01
-8,Claude Opus 5,Anthropic,Claude series,5675,163.5,25,5611,5719,20,20,0,0,measured,5663,5653,5698,,,2026/07/24
-9,Claude Fable 5,Anthropic,Claude series,5665,163.3,40,5588,5742,22,21,0,1,mixed,5677,5712,5587,,,2026/06/09
-10,GPT-6 Sol,OpenAI,GPT series,5621,162.43,34,5554,5689,9,9,0,0,measured,5635,5589,5626,,,2026/09/22
-11,DeepSeek-V4.1-Flash-1017,DeepSeek,DeepSeek series,5576,161.52,318,4294,5711,3,0,0,3,self_reported,,5537,5581,,no_measured|self_heavy|wide_ci,2026/10/17
-12,GPT-5.6 Sol,OpenAI,GPT series,5569,161.38,42,5491,5655,24,24,0,0,measured,5681,5532,5563,,,2026/07/09
-13,SWE-2,Cognition,SWE series,5529,160.58,193,5150,5907,1,0,0,1,self_reported,,5529,,,no_measured|self_heavy|single_obs|wide_ci,2026/09/10
-14,Claude Mythos Preview,Anthropic,Claude series,5504,160.08,240,5049,6166,3,0,0,3,self_reported,,5910,5386,6044,no_measured|self_heavy|wide_ci,2026/04/07
-15,GLM-5.3,Zhipu AI (Z.ai),GLM series,5494,159.88,33,5426,5556,17,16,1,0,mixed,5473,5437,5574,,,2026/08/18
-16,GPT-5.6 Terra,OpenAI,GPT series,5479,159.58,44,5389,5563,18,18,0,0,measured,5642,5433,5404,,,2026/07/09
-17,Muse Spark 1.3,Meta,Muse series,5445,158.89,32,5383,5507,12,10,2,0,mixed,5387,5497,5452,,,2026/09/02
-18,Grok 4.7,xAI,Grok series,5442,158.84,29,5384,5501,11,11,0,0,measured,5396,5467,5461,,,2026/09/21
-19,Claude Haiku 5.5,Anthropic,Claude series,5427,158.53,68,5323,5560,6,6,0,0,measured,5307,5484,5545,,,2026/10/07
-20,Claude Opus 4.8,Anthropic,Claude series,5424,158.48,26,5373,5475,23,20,0,3,mixed,5600,5432,5378,,,2026/05/28
-21,Gemini 3.8 Flash,Google,Gemini series,5396,157.93,26,5346,5447,19,19,0,0,measured,5408,5382,5404,,,2026/09/02
-22,Kimi K3,Moonshot AI,Kimi series,5388,157.76,47,5310,5506,19,18,0,1,mixed,5401,5376,5394,,,2026/07/16
-23,GPT-5.5,OpenAI,GPT series,5387,157.75,29,5332,5451,21,21,0,0,measured,5640,5356,5403,5570,,2026/04/23
-24,GPT-6 Luna,OpenAI,GPT series,5381,157.63,35,5312,5451,9,9,0,0,measured,5374,5419,5313,,,2026/09/22
-25,Grok 4.6,xAI,Grok series,5380,157.6,27,5329,5438,17,17,0,0,measured,5308,5420,5392,,,2026/08/12
-26,Gemini 3.7 Flash,Google,Gemini series,5368,157.37,33,5302,5424,14,14,0,0,measured,5477,5329,5325,,,2026/08/13
-27,MiMo-V2.6-Pro,Xiaomi,MiMo series,5366,157.32,73,5252,5502,7,7,0,0,measured,5256,5439,5460,,,2026/09/21
-28,MiMo-V2.6-Flash,Xiaomi,MiMo series,5364,157.29,37,5292,5441,7,7,0,0,measured,5308,5387,5432,,,2026/09/21
-29,GPT-5.6 Luna,OpenAI,GPT series,5364,157.27,37,5275,5417,18,18,0,0,measured,5357,5384,5334,,,2026/07/09
-30,Claude Opus 4.7,Anthropic,Claude series,5361,157.22,33,5306,5432,19,19,0,0,measured,5393,5387,5299,5180,,2026/04/16
-31,SWE-1.7,Cognition,SWE series,5358,157.15,199,4967,5748,1,0,0,1,self_reported,,5358,,,no_measured|self_heavy|single_obs|wide_ci,2026/07/08
-32,Tencent Hy4 Preview,Tencent,Hy series (Hunyuan / Tencent Hy),5355,157.1,60,5183,5426,10,6,0,4,mixed,5403,5398,5146,,,2026/08/27
-33,Qwen3.8-Flash-Next,Alibaba,Qwen series,5355,157.09,103,5137,5557,4,2,0,2,mixed,5147,5205,5421,,self_heavy,2026/08/26
-34,Qwen3.8 Max,Alibaba,Qwen series,5347,156.94,56,5251,5453,13,13,0,0,measured,5475,5250,5465,,,2026/08/03
-35,DeepSeek-V4-Pro-0813,DeepSeek,DeepSeek series,5337,156.74,38,5235,5399,14,13,0,1,mixed,5327,5394,5185,,,2026/08/13
-36,Step 5 Preview,StepFun,Step series,5335,156.7,62,5261,5503,7,5,0,2,mixed,5243,5336,5508,,,2026/09/18
-37,Qwen3.8 2.4T-A95B,Alibaba,Qwen series,5334,156.67,106,5127,5540,2,2,0,0,measured,5306,,5330,,,2026/08/12
-38,Mistral Large 4,Mistral AI,Mistral series,5329,156.58,37,5256,5402,5,5,0,0,measured,5292,5338,5411,,,2026/10/06
-39,DeepSeek-V4.1-Flash,DeepSeek,DeepSeek series,5325,156.49,65,5164,5425,10,10,0,0,measured,5172,5448,5380,,,2026/09/09
-40,Claude Sonnet 5,Anthropic,Claude series,5323,156.45,28,5265,5373,22,19,0,3,mixed,5255,5370,5298,,,2026/06/30
-41,Muse Code,Meta,Muse series,5319,156.39,137,5051,5588,2,0,0,2,self_reported,,5321,5297,,no_measured|self_heavy,2026/08/05
-42,GPT-5.3-Codex,OpenAI,Codex series,5284,155.68,38,5221,5354,10,10,0,0,measured,5371,5222,5262,,,2026/02/05
-43,Muse Spark Open,Meta,Muse series,5283,155.65,61,5129,5362,6,3,0,3,mixed,5279,5301,5153,,self_heavy,2026/10/15
-44,Grok 4.5,xAI,Grok series,5281,155.62,29,5225,5338,17,17,0,0,measured,5235,5320,5259,,,2026/07/08
-45,GPT-5.4,OpenAI,GPT series,5276,155.52,27,5223,5329,20,20,0,0,measured,5437,5269,5271,,,2026/03/05
-46,Muse Spark 1.1,Meta,Muse series,5272,155.44,44,5159,5341,11,10,1,0,mixed,5064,5298,5285,,,2026/07/09
-47,DeepSeek-V4-Flash-0731,DeepSeek,DeepSeek series,5269,155.38,41,5176,5337,13,12,0,1,mixed,5180,5311,5301,,,2026/08/21
-48,Muse Spark 1.2,Meta,Muse series,5247,154.93,57,5140,5342,12,11,1,0,mixed,5091,5310,5251,,,2026/08/05
-49,DeepSeek-V4-Flash-Vision-Exp,DeepSeek,DeepSeek series,5236,154.71,83,5073,5398,3,2,0,1,mixed,5108,5321,5190,,,2026/08/21
-50,Gemini 3.6 Flash,Google,Gemini series,5233,154.66,31,5166,5294,12,12,0,0,measured,5186,5240,5312,,,2026/07/21
-51,GLM-5.2,Zhipu AI (Z.ai),GLM series,5229,154.59,37,5144,5304,20,18,2,0,mixed,5067,5249,5249,,,2026/06/16
-52,Qwen3.8 Max (0902),Alibaba,Qwen series,5228,154.55,86,5060,5396,2,2,0,0,measured,5215,5222,,,,2026/09/01
-53,Claude Opus 4.6,Anthropic,Claude series,5222,154.44,36,5157,5300,16,16,0,0,measured,5437,5218,5204,5349,,2026/02/05
-54,Qwen3.8-27B,Alibaba,Qwen series,5197,153.94,68,4998,5268,12,10,0,2,mixed,5140,5222,5198,,,2026/08/14
-55,Seed1.6,ByteDance,Seed series,5196,153.92,426,4361,6030,1,1,0,0,measured,,5196,,,single_obs|wide_ci,2025/06/11
-56,Qwen3.8 Flash,Alibaba,Qwen series,5193,153.86,257,4690,5696,2,0,0,2,self_reported,5059,5205,,,no_measured|self_heavy|wide_ci,2026/08/26
-57,GLM-5.3-Flash,Zhipu AI (Z.ai),GLM series,5179,153.59,80,5058,5328,15,14,1,0,mixed,5277,5128,5249,,,2026/08/26
-58,Gemini 3.5 Flash,Google,Gemini series,5164,153.29,29,5112,5233,17,17,0,0,measured,5114,5144,5223,,,2026/05/19
-59,DeepSeek-V4-Pro-DSpark,DeepSeek,DeepSeek series,5159,153.18,113,4938,5380,4,0,0,4,self_reported,5124,5085,5170,,no_measured|self_heavy,2026/06/27
-60,Gemini 3.1 Pro,Google,Gemini series,5147,152.94,55,5061,5277,24,24,0,0,measured,5349,5009,5250,5171,,2026/02/19
-61,Composer 2.5,Anysphere,Composer series,5141,152.82,45,5039,5214,5,4,0,1,mixed,,5146,5093,,,2026/05/18
-62,GPT-5.2,OpenAI,GPT series,5141,152.81,36,5046,5197,16,16,0,0,measured,5258,5149,5097,,,2025/12/11
-63,Qwen3.7 Max,Alibaba,Qwen series,5139,152.77,28,5085,5193,13,10,0,3,mixed,5132,5113,5178,,,2026/05/19
-64,Claude Sonnet 4.6,Anthropic,Claude series,5137,152.74,39,5061,5200,18,18,0,0,measured,5104,5154,5110,5114,,2026/02/17
-65,Kimi K2.7 Code,Moonshot AI,Kimi series,5097,151.94,40,5005,5161,14,13,0,1,mixed,4940,5116,5135,,,2026/06/12
-66,Kimi K2.6,Moonshot AI,Kimi series,5092,151.84,26,5040,5145,18,14,0,4,mixed,5035,5101,5089,4978,,2026/04/20
-67,Qwen3.7 Plus,Alibaba,Qwen series,5083,151.65,50,4965,5144,11,7,0,4,mixed,4960,5091,5072,,,2026/06/01
-68,MiMo-V2.5,Xiaomi,MiMo series,5080,151.59,35,4995,5141,9,8,0,1,mixed,4895,5084,5083,,,2026/04/22
-69,GPT-5.4 mini,OpenAI,GPT series,5079,151.58,41,4988,5133,14,13,0,1,mixed,5034,5116,5034,,,2026/03/17
-70,MiniMax-M3,MiniMax,MiniMax series,5074,151.47,39,4976,5124,18,17,0,1,mixed,5032,5112,5018,,,2026/06/01
-71,MiMo-V2.5-Pro,Xiaomi,MiMo series,5067,151.34,29,5011,5123,15,13,0,2,mixed,5041,5058,5080,,,2026/04/22
-72,GPT-5.2-Codex,OpenAI,Codex series,5065,151.29,36,4954,5135,10,10,0,0,measured,5203,5059,5069,,,2025/12/11
-73,GLM-5.1,Zhipu AI (Z.ai),GLM series,5064,151.28,27,5010,5118,16,15,0,1,mixed,4934,5067,5075,4969,,2026/04/07
-74,Claude Opus 4.5,Anthropic,Claude series,5050,150.99,47,4990,5151,17,17,0,0,measured,5089,5014,5121,5123,,2025/11/24
-75,Seed2.1,ByteDance,Seed series,5039,150.78,133,4851,5446,4,0,0,4,self_reported,5336,4913,5096,,no_measured|self_heavy,2026/06/24
-76,DeepSeek-V4-Flash-DSpark,DeepSeek,DeepSeek series,5037,150.73,101,4839,5235,4,0,0,4,self_reported,5048,5012,5034,,no_measured|self_heavy,2026/06/27
-77,GPT-5 Pro,OpenAI,GPT series,5029,150.58,186,4664,5394,1,1,0,0,measured,5029,,,,single_obs|wide_ci,2025/10/06
-78,Gemini 3 Pro Preview,Google,Gemini series,5023,150.45,57,4935,5143,16,16,0,0,measured,5249,4956,5113,,,2025/11/18
-79,Muse Spark,Meta,Muse series,5021,150.41,50,4957,5138,9,7,0,2,mixed,5189,4964,5083,,,2026/04/08
-80,Seed 2.0,ByteDance,Seed series,5009,150.18,96,4821,5197,4,1,0,3,mixed,4983,4957,5021,,self_heavy,2026/02/14
-81,Tencent Hy3,Tencent,Hy series (Hunyuan / Tencent Hy),5005,150.1,69,4848,5141,4,1,0,3,mixed,,4919,5049,,self_heavy,2026/07/06
-82,GPT-5.1 Codex mini,OpenAI,Codex series,4998,149.97,78,4839,5120,3,3,0,0,measured,4853,,5009,,,2025/11/13
-83,Gemini 3 Flash,Google,Gemini series,4996,149.92,29,4935,5052,18,18,0,0,measured,5089,4948,5050,,,2025/12/17
-84,GPT-5.1-Codex-Max,OpenAI,Codex series,4992,149.84,49,4896,5088,4,3,0,1,mixed,5010,4958,5063,,,2025/11/19
-85,Qwen3.6 Plus,Alibaba,Qwen series,4989,149.77,29,4932,5046,14,11,0,3,mixed,4943,4953,5020,,,2026/04/02
-86,GLM-5,Zhipu AI (Z.ai),GLM series,4973,149.46,33,4909,5037,11,11,0,0,measured,4805,4972,5002,,,2026/02/11
-87,Inkling-Small,Thinking Machines Lab,Inkling series,4968,149.35,43,4884,5080,9,9,0,0,measured,4946,4961,5014,,,2026/07/30
-88,Gemini 3.5 Flash-Lite,Google,Gemini series,4967,149.34,96,4699,5053,9,9,0,0,measured,4654,5044,4929,,,2026/07/21
-89,OpenAI o3-pro,OpenAI,o series,4956,149.12,133,4696,5216,2,2,0,0,measured,4956,,,,,2025/06/10
-90,GPT-5.4 Pro,OpenAI,GPT series,4956,149.11,183,4598,5313,1,1,0,0,measured,4956,,,,single_obs|wide_ci,2026/03/05
-91,GPT-5.1,OpenAI,GPT series,4951,149.02,30,4892,5011,13,13,0,0,measured,4957,4960,4942,,,2025/11/13
-92,GPT-5.4 nano,OpenAI,GPT series,4945,148.89,33,4868,5003,11,10,0,1,mixed,4871,4978,4932,,,2026/03/17
-93,GPT-5.1 Codex,OpenAI,Codex series,4934,148.68,48,4848,5028,9,8,1,0,mixed,4988,4882,4990,,,2025/11/13
-94,Step-3.5-Flash,StepFun,Step series,4933,148.66,66,4803,5063,5,3,0,2,mixed,4936,4989,4920,,,2026/01/29
-95,Qwen3.6 27B,Alibaba,Qwen series,4928,148.55,34,4850,4987,14,10,0,4,mixed,4705,4880,4983,,,2026/04/22
-96,Qwen3.6 Flash,Alibaba,Qwen series,4923,148.47,96,4734,5112,4,0,0,4,self_reported,4701,4849,4970,,no_measured|self_heavy,2026/04/27
-97,Nemotron 3.5 Super VL,NVIDIA,Nemotron series,4922,148.45,87,4752,5093,5,0,0,5,self_reported,4896,4835,4955,,no_measured|self_heavy,2026/10/15
-98,Claude Sonnet 4.5,Anthropic,Claude series,4918,148.36,30,4853,4976,20,20,0,0,measured,4663,4972,4913,4854,,2025/09/29
-99,Qwen3.5-Plus,Alibaba,Qwen series,4918,148.35,41,4838,4997,8,4,0,4,mixed,4983,4900,4933,,self_heavy,2026/02/16
-100,GPT-5-Codex,OpenAI,Codex series,4904,148.08,52,4801,5007,9,8,0,1,mixed,4922,4879,4900,,,2025/09/15
-101,MAI-Thinking-1,Microsoft,MAI series,4903,148.06,107,4694,5112,3,0,0,3,self_reported,4909,4798,4905,,no_measured|self_heavy,2026/06/02
-102,MiniMax-M2.5,MiniMax,MiniMax series,4898,147.96,36,4828,4968,10,9,1,0,mixed,4848,4918,4875,,,2026/02/12
-103,MiniMax-M2.7,MiniMax,MiniMax series,4897,147.94,31,4825,4955,14,13,0,1,mixed,4673,4880,4935,4809,,2026/03/18
-104,Inkling,Thinking Machines Lab,Inkling series,4891,147.82,76,4701,4978,13,13,0,0,measured,4740,4921,4906,,,2026/07/15
-105,Muse Glimmer,Meta,Muse series,4891,147.81,69,4755,5026,3,2,0,1,mixed,4891,4884,4887,,,2026/08/10
-106,GPT-5,OpenAI,GPT series,4885,147.7,40,4815,4958,20,19,0,1,mixed,5000,4929,4813,,,2025/08/07
-107,DeepSeek-V3.2-Speciale,DeepSeek,DeepSeek series,4884,147.67,65,4755,5012,5,3,0,2,mixed,4836,4785,4908,,,2025/12/01
-108,Grok Build 0.1,xAI,Grok series,4882,147.64,55,4774,5075,4,3,0,1,mixed,5132,4847,4891,,,2026/05/20
-109,Grok 4.20,xAI,Grok series,4880,147.59,45,4790,4956,9,9,0,0,measured,4897,4775,4941,,,2026/03/09
-110,Kimi K2.5,Moonshot AI,Kimi series,4875,147.49,29,4819,4931,17,15,0,2,mixed,4893,4908,4848,,,2026/01/27
-111,GLM-5-Turbo,Zhipu AI (Z.ai),GLM series,4871,147.43,101,4674,5069,1,1,0,0,measured,,,4871,,single_obs,2026/03/15
-112,Grok 4.3,xAI,Grok series,4865,147.31,40,4775,4937,11,11,0,0,measured,4888,4910,4834,,,2026/04/30
-113,Seed1.8,ByteDance,Seed series,4865,147.3,107,4655,5075,3,0,0,3,self_reported,4679,4778,4896,,no_measured|self_heavy,2025/12/01
-114,Nemotron 3.5 Bolt 74B-A9B,NVIDIA,Nemotron series,4860,147.19,99,4647,5053,2,0,0,2,self_reported,4668,,4870,,no_measured|self_heavy,2026/10/15
-115,Nemotron 3 Ultra,NVIDIA,Nemotron series,4859,147.18,37,4780,4931,14,11,0,3,mixed,4798,4787,4936,,,2026/06/04
-116,GLM-5V-Turbo,Zhipu AI (Z.ai),GLM series,4857,147.14,102,4657,5056,1,1,0,0,measured,,,4857,,single_obs,2026/04/01
-117,GLM-4.7,Zhipu AI (Z.ai),GLM series,4832,146.64,35,4764,4900,15,13,0,2,mixed,4932,4905,4798,,,2025/12/22
-118,OpenAI o3,OpenAI,o series,4832,146.64,54,4726,4938,17,17,0,0,measured,4845,4705,4943,,,2025/04/16
-119,MiniMax-M2.1,MiniMax,MiniMax series,4827,146.54,39,4751,4902,14,10,0,4,mixed,4810,4888,4792,,,2025/12/23
-120,Step 3.7 Flash,StepFun,Step series,4806,146.12,65,4696,4934,5,3,0,2,mixed,4666,4969,4784,,,2026/05/29
-121,DeepSeek-V3.2,DeepSeek,DeepSeek series,4793,145.85,32,4726,4856,16,16,0,0,measured,4809,4724,4831,,,2025/12/01
-122,DeepSeek-V3.1-Terminus,DeepSeek,DeepSeek series,4776,145.51,52,4674,4877,7,4,0,3,mixed,4747,4657,4806,,,2025/09/22
-123,Gemma 4,Google,Gemma series,4774,145.48,42,4677,4854,10,9,0,1,mixed,4731,4437,4835,,,2026/03/02
-124,MiMo-V2-Flash,Xiaomi,MiMo series,4771,145.41,69,4576,4905,6,2,0,4,mixed,4513,4924,4795,,self_heavy,2025/12/16
-125,OLMo 3.1 Think 32B,Allen Institute for AI,OLMo series,4758,145.15,384,3773,5088,3,1,0,2,mixed,4758,,,,self_heavy|wide_ci,2025/12/12
-126,Claude Opus 4.1,Anthropic,Claude series,4757,145.15,70,4595,4864,9,9,0,0,measured,4518,4913,4826,4674,,2025/08/05
-127,Kimi K2 Thinking,Moonshot AI,Kimi series,4757,145.13,38,4659,4829,14,11,0,3,mixed,4719,4724,4796,,,2025/11/06
-128,Claude Haiku 4.5,Anthropic,Claude series,4756,145.12,75,4513,4829,16,16,0,0,measured,4336,4851,4799,4824,,2025/10/15
-129,Qwen3.6 35B-A3B,Alibaba,Qwen series,4754,145.09,63,4625,4856,13,10,0,3,mixed,4717,4838,4746,,,2026/04/15
-130,Mistral Medium 3.5,Mistral AI,Mistral series,4749,144.99,44,4658,4821,12,11,0,1,mixed,4612,4721,4814,,,2026/04/29
-131,Grok 4,xAI,Grok series,4749,144.98,38,4673,4824,10,10,0,0,measured,4810,4695,4723,4684,,2025/07/09
-132,North Mini Code 1.0,Cohere,Command and other series,4711,144.22,51,4600,4812,6,4,2,0,mixed,4548,4776,4732,,,2026/06/05
-133,DeepSeek-V3.2-Exp,DeepSeek,DeepSeek series,4709,144.18,61,4590,4828,7,5,0,2,mixed,4690,4653,4826,,,2025/09/29
-134,Gemini 2.5 Pro,Google,Gemini series,4704,144.08,32,4637,4767,19,19,0,0,measured,4839,4546,4670,,,2025/03/25
-135,Qwen3.5,Alibaba,Qwen series,4701,144.03,99,4506,4876,13,10,0,3,mixed,4597,4666,4736,,,2026/02/16
-136,GLM-4.6,Zhipu AI (Z.ai),GLM series,4696,143.92,57,4551,4782,15,15,0,0,measured,4823,4469,4729,,,2025/09/30
-137,OpenAI o4-mini,OpenAI,o series,4696,143.91,62,4563,4798,15,15,0,0,measured,4819,4349,4425,,,2025/04/16
-138,MiniMax-M2,MiniMax,MiniMax series,4691,143.81,57,4579,4803,8,6,0,2,mixed,4756,4638,4699,,,2025/10/26
-139,OpenAI o1-preview,OpenAI,o series,4689,143.78,138,4337,4960,6,6,0,0,measured,4670,4715,,4242,wide_ci,2024/09/12
-140,ERNIE 5.0,Baidu,ERNIE series,4680,143.6,95,4459,4867,4,2,0,2,mixed,4657,,4696,,self_heavy,2026/01/10
-141,Gemini 3.1 Flash-Lite,Google,Gemini series,4680,143.6,38,4605,4755,11,11,0,0,measured,4839,4685,4638,,,2026/03/03
-142,Qwen3-Max-Thinking,Alibaba,Qwen series,4678,143.56,122,4439,4918,1,1,0,0,measured,,,4678,,single_obs,2026/01/26
-143,Grok 4 Heavy,xAI,Grok series,4676,143.53,223,4240,5113,1,0,0,1,self_reported,4676,,,,no_measured|self_heavy|single_obs|wide_ci,2025/07/09
-144,OLMo 3 32B,Allen Institute for AI,OLMo series,4654,143.07,370,3548,5044,3,0,0,3,self_reported,4654,,,,no_measured|self_heavy|wide_ci,2025/11/20
-145,Nemotron 3 Super,NVIDIA,Nemotron series,4652,143.04,60,4487,4756,8,4,0,4,mixed,4564,4347,4734,,self_heavy,2026/03/11
-146,Amazon Nova 2 Pro,Amazon,Nova series,4650,142.99,60,4532,4767,5,4,1,0,mixed,4667,4852,4619,,,2025/11/27
-147,GPT-5 mini,OpenAI,GPT series,4649,142.97,93,4466,4806,18,18,0,0,measured,4883,4659,4544,,,2025/08/07
-148,Claude Opus 4,Anthropic,Claude series,4640,142.79,61,4507,4750,9,9,0,0,measured,4590,4839,4826,4632,,2025/05/22
-149,Claude Sonnet 4,Anthropic,Claude series,4635,142.71,64,4527,4756,21,21,0,0,measured,4519,4805,4729,4600,,2025/05/22
-150,DeepSeek-V3.1,DeepSeek,DeepSeek series,4627,142.55,49,4532,4723,10,7,0,3,mixed,4668,4567,4605,,,2025/08/21
-151,Grok 4 Fast,xAI,Grok series,4624,142.48,59,4504,4730,7,7,0,0,measured,4747,4431,4630,4543,,2025/09/19
-152,Qwen3-Coder 480B-A35B,Alibaba,Qwen series,4621,142.43,63,4498,4745,15,13,0,2,mixed,4552,4663,4649,,,2025/07/23
-153,Qwen3-Max,Alibaba,Qwen series,4616,142.32,61,4496,4736,6,4,0,2,mixed,4645,4647,4589,,,2025/09/23
-154,Grok 4.1 Fast,xAI,Grok series,4609,142.18,80,4428,4737,6,6,0,0,measured,4854,4361,4626,,,2025/11/19
-155,Qwen3.5-Omni,Alibaba,Qwen series,4603,142.06,134,4340,4867,1,1,0,0,measured,,,4603,,single_obs,2026/03/30
-156,Qwen3.5-Omni Plus,Alibaba,Qwen series,4603,142.06,134,4340,4867,1,1,0,0,measured,,,4603,,single_obs,2026/03/30
-157,ERNIE 5.0 Preview,Baidu,ERNIE series,4603,142.05,202,4206,4999,1,0,0,1,self_reported,4603,,,,no_measured|self_heavy|single_obs|wide_ci,2025/11/13
-158,Qwen3-Coder-Next,Alibaba,Qwen series,4598,141.97,59,4455,4690,14,6,0,8,mixed,4457,4711,4697,,self_heavy,2026/02/03
-159,GLM-4.5,Zhipu AI (Z.ai),GLM series,4596,141.91,66,4467,4724,10,9,0,1,mixed,4566,4633,4623,,,2025/07/28
-160,DeepSeek-R1-0528,DeepSeek,DeepSeek series,4580,141.59,109,4224,4684,14,12,0,2,mixed,4680,4227,4450,,,2025/05/28
-161,Granite 4.2 30B,IBM,Granite series,4531,140.63,76,4293,4665,5,3,0,2,mixed,4640,4326,4550,,,2026/08/25
-162,OpenAI o3-mini,OpenAI,o series,4527,140.54,63,4379,4626,11,11,0,0,measured,4624,4132,4044,4482,,2025/01/31
-163,Qwen3,Alibaba,Qwen series,4523,140.45,59,4371,4619,24,23,0,1,mixed,4575,4331,3994,,,2025/04/27
-164,Kimi K2-Instruct-0905,Moonshot AI,Kimi series,4520,140.4,52,4408,4621,15,10,0,5,mixed,4471,4646,4660,,,2025/09/05
-165,Devstral 2,Mistral AI,Ministral and other series,4515,140.3,130,4221,4679,12,10,0,2,mixed,4098,4670,4632,,,2025/12/09
-166,Grok Code Fast 1,xAI,Grok series,4515,140.29,62,4393,4636,11,10,0,1,mixed,4416,4627,4592,,,2025/08/28
-167,OLMo 3 32B Think,Allen Institute for AI,OLMo series,4510,140.21,392,3470,4838,4,2,0,2,mixed,4761,,3610,,self_heavy|wide_ci,2025/11/20
-168,Kimi K2-Instruct,Moonshot AI,Kimi series,4508,140.16,54,4373,4593,13,11,0,2,mixed,4479,4470,4606,,,2025/07/11
-169,DeepSeek-R1,DeepSeek,DeepSeek series,4508,140.15,80,4330,4631,9,8,0,1,mixed,4576,4080,4332,,,2025/01/20
-170,GLM-4.5-Air,Zhipu AI (Z.ai),GLM series,4507,140.14,77,4356,4658,12,10,0,2,mixed,4493,4472,4583,,,2025/07/28
-171,Grok 3 mini,xAI,Grok series,4494,139.88,66,4358,4622,7,7,0,0,measured,4493,,4497,,,2025/02/19
-172,Command A+,Cohere,Command and other series,4491,139.81,69,4340,4649,4,4,0,0,measured,4593,,4482,,,2026/05/20
-173,Nemotron Nano 12B v2,NVIDIA,Nemotron series,4489,139.78,179,4139,4839,1,0,0,1,self_reported,4489,,,,no_measured|self_heavy|single_obs|wide_ci,2025/10/28
-174,Claude 3.7 Sonnet,Anthropic,Claude series,4486,139.72,98,4275,4607,9,9,0,0,measured,4457,4539,4603,4444,,2025/02/24
-175,Qwen3-Coder 30B-A3B,Alibaba,Qwen series,4486,139.71,107,4195,4695,9,9,0,0,measured,,4486,,,,2025/07/31
-176,GPT-5 nano,OpenAI,GPT series,4485,139.7,121,4133,4627,6,6,0,0,measured,4610,3858,4492,,,2025/08/07
-177,Amazon Nova 2 Lite,Amazon,Nova series,4480,139.59,72,4339,4620,4,3,1,0,mixed,4553,4681,4388,,,2025/10/29
-178,OpenAI o1,OpenAI,o series,4476,139.53,87,4253,4590,8,6,1,1,mixed,4502,4072,4343,,,2024/12/05
-179,Magistral Medium 1.2,Mistral AI,Ministral and other series,4462,139.24,77,4284,4587,6,6,0,0,measured,4666,,4291,,,2025/09/18
-180,Gemini 2.5 Flash,Google,Gemini series,4460,139.2,59,4303,4546,19,19,0,0,measured,4519,3953,4471,,,2025/04/17
-181,gpt-oss-120b,OpenAI,GPT-OSS series,4450,139.0,71,4314,4587,20,20,0,0,measured,4533,4084,4536,,,2025/08/05
-182,Falcon-H1R-7B,TII,Falcon series,4441,138.81,409,3534,4628,2,2,0,0,measured,4582,,3679,,wide_ci,2026/01/04
-183,GLM-4.7-Flash,Zhipu AI (Z.ai),GLM series,4440,138.79,156,4014,4684,4,3,0,1,mixed,,4282,4623,,wide_ci,2026/01/19
-184,Nemotron Nano 9B v2,NVIDIA,Nemotron series,4436,138.72,415,3445,4624,2,2,0,0,measured,4582,,3610,,wide_ci,2025/08/18
-185,Qwen3-VL Flash,Alibaba,Qwen series,4429,138.57,259,3849,4616,2,2,0,0,measured,4528,,3939,,wide_ci,2025/09/30
-186,Mistral Small 4,Mistral AI,Mistral series,4428,138.56,66,4298,4558,5,4,0,1,mixed,4355,3998,4449,,,2026/03/16
-187,OLMo 3 7B Think,Allen Institute for AI,OLMo series,4419,138.38,369,3359,4635,4,2,0,2,mixed,4575,,3542,,self_heavy|wide_ci,2025/11/20
-188,Step-3,StepFun,Step series,4418,138.37,168,4090,4747,1,0,0,1,self_reported,4418,,,,no_measured|self_heavy|single_obs|wide_ci,2025/07/28
-189,MiniMax-M1,MiniMax,MiniMax series,4414,138.28,183,4015,4596,3,2,0,1,mixed,4556,4269,3749,,,2025/06/17
-190,Seed1.5-Thinking,ByteDance,Seed series,4411,138.22,96,4019,4584,3,1,0,2,mixed,4448,4019,,,self_heavy,2025/04/17
-191,Nemotron 3.5 Lightning,NVIDIA,Nemotron series,4411,138.21,99,4127,4527,9,7,0,2,mixed,4278,4446,4374,,,2026/08/11
-192,Qwen3-VL Plus,Alibaba,Qwen series,4404,138.09,96,4215,4592,2,2,0,0,measured,4432,,4281,,,2025/09/22
-193,Step3-VL,StepFun,Step series,4403,138.06,229,3851,4643,2,1,0,1,mixed,4593,,3939,,self_heavy|wide_ci,2026/01/13
-194,Qwen3-Omni,Alibaba,Qwen series,4397,137.95,296,3707,4585,2,2,0,0,measured,4493,,3817,,wide_ci,2025/09/22
-195,Granite 4.2 3B,IBM,Granite series,4391,137.82,150,3963,4551,3,3,0,0,measured,4448,,4297,,,2026/08/25
-196,Seed-Thinking-v1.5,ByteDance,Seed series,4390,137.8,101,4019,4587,3,0,0,3,self_reported,4434,4019,,,no_measured|self_heavy,2025/04/17
-197,gpt-oss-20b,OpenAI,GPT-OSS series,4386,137.72,84,4229,4535,10,8,0,2,mixed,4505,4106,4222,,,2025/08/05
-198,Granite 4.2 8B,IBM,Granite series,4386,137.72,132,4035,4531,5,3,0,2,mixed,4545,4071,4401,,,2026/08/25
-199,Seed-OSS-36B,ByteDance,Seed series,4386,137.71,113,4129,4578,3,2,0,1,mixed,4483,4269,4044,,,2025/08/20
-200,Magistral Small 1.2,Mistral AI,Ministral and other series,4379,137.57,126,4022,4574,5,5,0,0,measured,4567,,3901,,,2025/09/17
-201,Amazon Nova 2 Omni,Amazon,Nova series,4378,137.57,239,3785,4566,2,2,0,0,measured,4457,,3880,,wide_ci,2025/11/26
-202,Hunyuan-T1,Tencent,Hy series (Hunyuan / Tencent Hy),4378,137.56,163,4059,4697,1,0,0,1,self_reported,4378,,,,no_measured|self_heavy|single_obs|wide_ci,2025/03/21
-203,GPT-4.5,OpenAI,GPT series,4378,137.55,124,4015,4558,5,3,0,2,mixed,4415,3763,,4403,,2025/02/27
-204,DeepSeek-V3-0324,DeepSeek,DeepSeek series,4364,137.27,77,4184,4470,20,19,1,0,mixed,4397,4222,4337,,,2025/03/24
-205,Nemotron 3 Nano,NVIDIA,Nemotron series,4358,137.16,206,3867,4538,5,3,0,2,mixed,4580,3786,4176,,wide_ci,2025/12/15
-206,Hunyuan-A13B-Instruct,Tencent,Hy series (Hunyuan / Tencent Hy),4351,137.02,149,4049,4644,2,0,0,2,self_reported,4360,4300,,,no_measured|self_heavy,2025/07/08
-207,GPT-4.1,OpenAI,GPT series,4346,136.92,66,4207,4444,23,23,0,0,measured,4338,4380,4353,,,2025/04/14
-208,Magistral Medium 1.0,Mistral AI,Ministral and other series,4342,136.85,82,4183,4502,3,2,0,1,mixed,4357,,4174,,,2025/06/10
-209,Llama-3.1-Nemotron-Ultra-253B,NVIDIA,Nemotron series,4341,136.82,328,3522,4529,2,2,0,0,measured,4423,,3679,,wide_ci,2025/03/18
-210,Magistral Medium 1.1,Mistral AI,Ministral and other series,4338,136.77,118,4107,4570,1,1,0,0,measured,4338,,,,single_obs,2025/07/18
-211,Magistral Small 1.1,Mistral AI,Ministral and other series,4335,136.71,118,4104,4566,1,1,0,0,measured,4335,,,,single_obs,2025/07/18
-212,Kimi K1.5,Moonshot AI,Kimi series,4335,136.7,158,4025,4645,1,0,0,1,self_reported,4335,,,,no_measured|self_heavy|single_obs|wide_ci,2025/01/20
-213,codex-mini-latest,OpenAI,Codex series,4328,136.56,225,3887,4768,1,1,0,0,measured,,,4328,,single_obs|wide_ci,2025/04/16
-214,Grok 3,xAI,Grok series,4318,136.35,105,4073,4452,6,6,0,0,measured,4319,,4281,,,2025/02/17
-215,GLM-4.5V,Zhipu AI (Z.ai),GLM series,4310,136.2,189,3852,4498,2,2,0,0,measured,4357,,3939,,wide_ci,2025/08/11
-216,Qwen3-Next,Alibaba,Qwen series,4282,135.63,85,4074,4429,10,8,0,2,mixed,4350,4214,4112,,,2025/09/09
-217,Claude 3.5 Sonnet,Anthropic,Claude series,4279,135.58,80,4106,4404,20,20,0,0,measured,4262,4353,,4403,,2024/06/20
-218,Devstral Small 2,Mistral AI,Ministral and other series,4266,135.31,167,4024,4570,12,10,0,2,mixed,3922,4545,4575,,,2025/12/09
-219,Gemini 2.5 Flash-Lite,Google,Gemini series,4259,135.18,93,4045,4420,6,4,0,2,mixed,4314,3570,3880,,,2025/06/17
-220,MAI-DS-R1,Microsoft,MAI series,4258,135.17,206,3718,4542,3,0,0,3,self_reported,4258,,,,no_measured|self_heavy|wide_ci,2025/04/24
-221,MiMo-7B,Xiaomi,MiMo series,4254,135.07,152,3955,4552,1,0,0,1,self_reported,4254,,,,no_measured|self_heavy|single_obs,2025/04/30
-222,Magistral Small 1.0,Mistral AI,Ministral and other series,4238,134.77,172,3790,4441,2,2,0,0,measured,4279,,3880,,wide_ci,2025/06/10
-223,Mistral Large 3,Mistral AI,Mistral series,4238,134.76,59,4128,4355,7,7,0,0,measured,4166,4360,4263,,,2025/12/02
-224,OpenAI o1-mini,OpenAI,o series,4235,134.69,66,4071,4365,8,8,0,0,measured,4235,,,4242,,2024/09/12
-225,Qwen3-Coder-Flash,Alibaba,Qwen series,4234,134.69,158,4029,4538,4,4,0,0,measured,4017,4471,4425,,,2025/09/17
-226,QVQ-72B-Preview,Alibaba,Qwen series,4232,134.65,114,4008,4457,1,1,0,0,measured,4232,,,,single_obs,2024/12/24
-227,DeepSeek-V3,DeepSeek,DeepSeek series,4225,134.51,115,3975,4394,23,22,0,1,mixed,4232,4152,4298,,,2024/12/26
-228,OLMo 3.1 Instruct 32B,Allen Institute for AI,OLMo series,4219,134.39,227,3420,4431,3,1,0,2,mixed,4219,,,,self_heavy|wide_ci,2026/01/13
-229,QwQ-32B,Alibaba,Qwen series,4201,134.02,141,3918,4441,5,5,0,0,measured,4201,,,,,2024/11/27
-230,Phi-4-reasoning,Microsoft,Phi series,4199,133.98,140,3925,4473,2,0,0,2,self_reported,4199,,,,no_measured|self_heavy,2025/04/30
-231,LFM2.5-2.6B,Liquid AI,LFM series,4189,133.77,494,3013,4368,3,3,0,0,measured,4236,,3924,,wide_ci,2026/08/04
-232,GPT-4.1 mini,OpenAI,GPT series,4187,133.75,61,4061,4303,21,21,0,0,measured,4238,3746,4159,,,2025/04/14
-233,Mistral Medium 3.1,Mistral AI,Mistral series,4152,133.03,101,3996,4340,5,5,0,0,measured,4116,,4286,,,2025/08/12
-234,Gemini 2.0 Pro Experimental,Google,Gemini series,4137,132.73,106,3941,4309,3,3,0,0,measured,4137,,,,,2025/02/05
-235,Qwen3.5-Omni-Flash,Alibaba,Qwen series,4134,132.68,296,3555,4713,1,1,0,0,measured,,,4134,,single_obs|wide_ci,2026/03/30
-236,DeepSeek-R1-Lite-Preview,DeepSeek,DeepSeek series,4133,132.66,114,3909,4357,1,1,0,0,measured,4133,,,,single_obs,2024/11/20
-237,LFM2.5-24B-A2B,Liquid AI,LFM series,4131,132.62,243,3654,4608,2,0,0,2,self_reported,4124,4130,,,no_measured|self_heavy|wide_ci,2026/10/13
-238,Llama-3.1-Nemotron-Nano-8B,NVIDIA,Nemotron series,4120,132.4,180,3671,4394,3,0,0,3,self_reported,4120,,,,no_measured|self_heavy|wide_ci,2024/12/06
-239,Phi-4-reasoning-plus,Microsoft,Phi series,4115,132.31,119,3882,4349,3,1,0,2,mixed,4115,,,,self_heavy,2025/04/30
-240,Qwen2.5-Plus,Alibaba,Qwen series,4115,132.3,138,3770,4385,3,0,0,3,self_reported,4115,,,,no_measured|self_heavy|wide_ci,2024/11/27
-241,GPT-4o,OpenAI,GPT series,4087,131.74,100,3901,4259,17,17,0,0,measured,4105,3977,4134,4305,,2024/05/13
-242,ERNIE 4.5,Baidu,ERNIE series,4082,131.65,188,3893,4589,4,3,0,1,mixed,4059,4275,,,wide_ci,2025/03/16
-243,Nemotron 3 Nano Omni,NVIDIA,Nemotron series,4082,131.64,209,3671,4492,2,2,0,0,measured,,,4082,,wide_ci,2026/04/29
-244,Qwen2.5-Max,Alibaba,Qwen series,4048,130.95,79,3894,4290,3,3,0,0,measured,4048,,,,,2025/01/29
-245,Granite 3.1,IBM,Granite series,4038,130.76,191,3664,4412,2,1,0,1,mixed,4038,,,,self_heavy|wide_ci,2024/12/06
-246,Falcon-H1 34B,TII,Falcon series,4036,130.71,139,3702,4274,5,0,0,5,self_reported,4036,,,,no_measured|self_heavy,2025/05/21
-247,Granite 3.2,IBM,Granite series,4031,130.62,189,3660,4402,2,1,0,1,mixed,4031,,,,self_heavy|wide_ci,2025/02/26
-248,ERNIE 4.5 300B-A47B,Baidu,ERNIE series,4027,130.55,116,3817,4377,3,2,0,1,mixed,3990,4275,3994,,,2025/06/30
-249,Gemini 2.0 Flash,Google,Gemini series,4010,130.2,136,3685,4195,18,17,1,0,mixed,4119,3127,3817,,,2024/12/11
-250,Mistral Medium 3,Mistral AI,Mistral series,4002,130.03,108,3713,4209,2,2,0,0,measured,4011,,3817,,,2025/05/07
-251,Claude 3.5 Haiku,Anthropic,Claude series,3997,129.93,63,3877,4105,12,11,0,1,mixed,3991,4029,4050,,,2024/11/04
-252,GPT-4 Turbo,OpenAI,GPT series,3968,129.35,66,3846,4115,9,9,0,0,measured,3968,,,,,2023/11/06
-253,Kimi-Linear-48B-A3B,Moonshot AI,Kimi series,3961,129.22,173,3533,4258,5,2,0,3,mixed,3939,,4281,,self_heavy|wide_ci,2025/10/30
-254,Llama-3.3-Nemotron-Super-49B,NVIDIA,Nemotron series,3951,129.02,166,3718,4267,4,3,0,1,mixed,3964,,3478,,,2024/12/09
-255,Qwen2.5-VL,Alibaba,Qwen series,3946,128.91,290,3377,4515,2,0,0,2,self_reported,3946,,,,no_measured|self_heavy|wide_ci,2025/01/26
-256,Ministral 3 14B,Mistral AI,Ministral and other series,3944,128.89,106,3737,4152,3,3,0,0,measured,3924,,4091,,,2025/12/02
-257,Gemini 2.0 Flash Thinking Experimental,Google,Gemini series,3938,128.75,86,3768,4107,3,3,0,0,measured,3938,,,,,2024/12/19
-258,Amazon Nova Premier,Amazon,Nova series,3927,128.53,112,3707,4147,3,3,0,0,measured,3860,4081,4044,,,2025/04/30
-259,Granite 4.1 30B,IBM,Granite series,3924,128.48,117,3695,4153,7,5,0,2,mixed,3972,,3707,,,2026/04/29
-260,DeepSeek-Coder-V2,DeepSeek,DeepSeek series,3923,128.45,75,3771,4062,8,6,0,2,mixed,3986,3517,,,,2024/06/17
-261,Llama 4 Maverick,Meta,Llama series,3918,128.36,72,3729,4028,21,20,0,1,mixed,3976,3481,3966,,,2025/04/05
-262,Step-2,StepFun,Step series,3897,127.94,225,3457,4337,1,1,0,0,measured,3897,,,,single_obs|wide_ci,2024/12/01
-263,Devstral Small 1.0,Mistral AI,Ministral and other series,3891,127.82,147,3693,4180,10,10,0,0,measured,3740,4142,3994,,,2025/05/21
-264,Llama 3.1 405B,Meta,Llama series,3887,127.75,87,3717,4057,7,5,2,0,mixed,3882,3900,4044,4163,,2024/07/23
-265,Gemini 1.5 Pro,Google,Gemini series,3887,127.73,61,3766,4007,9,9,0,0,measured,3887,,,4163,,2024/02/15
-266,Hunyuan-TurboS,Tencent,Hy series (Hunyuan / Tencent Hy),3884,127.67,121,3647,4121,3,1,0,2,mixed,3884,,,,self_heavy,2025/03/21
-267,DeepSeek-V2.5,DeepSeek,DeepSeek series,3883,127.66,84,3730,4014,9,7,0,2,mixed,3961,3038,,,,2024/09/06
-268,LFM2.5-8B-A1B,Liquid AI,LFM series,3880,127.61,494,2912,4849,1,1,0,0,measured,,,3880,,single_obs|wide_ci,2026/05/28
-269,Mistral Small 3.2,Mistral AI,Mistral series,3861,127.23,121,3674,4145,6,4,0,2,mixed,3849,,4012,,,2025/06/20
-270,GPT-4.1 nano,OpenAI,GPT series,3858,127.16,74,3714,4002,15,15,0,0,measured,3883,3187,3839,,,2025/04/14
-271,Qwen2.5-Coder,Alibaba,Qwen series,3853,127.06,116,3600,4055,17,17,0,0,measured,3961,2804,,,,2024/11/11
-272,ERNIE 4.5 21B-A3B,Baidu,ERNIE series,3845,126.89,146,3652,4246,4,3,0,1,mixed,3871,3664,,,,2025/06/30
-273,MiniMax-Text-01,MiniMax,MiniMax series,3841,126.82,255,3342,4340,2,0,0,2,self_reported,3841,,,,no_measured|self_heavy|wide_ci,2025/01/12
-274,Ministral 3 8B,Mistral AI,Ministral and other series,3837,126.73,118,3605,4068,3,3,0,0,measured,3833,,3885,,,2025/12/02
-275,Qwen2.5,Alibaba,Qwen series,3837,126.73,66,3707,3966,17,15,0,2,mixed,3817,3889,3880,,,2024/09/15
-276,Yi-Lightning,01.AI,Yi series,3837,126.73,178,3488,4185,2,1,0,1,mixed,3837,,,,self_heavy|wide_ci,2024/10/16
-277,Doubao-1.5-Pro,ByteDance,Seed series,3831,126.62,123,3590,4131,2,1,0,1,mixed,3831,,,,self_heavy,2025/01/22
-278,Mistral Large 2.1,Mistral AI,Mistral series,3831,126.62,104,3626,4035,3,3,0,0,measured,3827,,3994,,,2024/11/18
-279,Granite 4.1 8B,IBM,Granite series,3830,126.61,125,3585,4076,6,4,0,2,mixed,3865,,3611,,,2026/04/29
-280,Grok-2 mini,xAI,Grok series,3828,126.57,294,3251,4405,1,0,0,1,self_reported,3828,,,,no_measured|self_heavy|single_obs|wide_ci,2024/08/13
-281,DeepSeek-R1-Distill,DeepSeek,DeepSeek series,3827,126.54,77,3676,3977,4,4,0,0,measured,3827,,,,,2025/01/20
-282,Grok-2,xAI,Grok series,3814,126.28,85,3647,3981,5,4,0,1,mixed,3814,,,,,2024/08/13
-283,Falcon-H1 7B,TII,Falcon series,3810,126.21,117,3581,4040,5,0,0,5,self_reported,3810,,,,no_measured|self_heavy,2025/05/21
-284,Codestral 25.01,Mistral AI,Mistral series,3808,126.17,239,3340,4277,1,1,0,0,measured,3808,,,,single_obs|wide_ci,2025/01/13
-285,DeepSeek-V2,DeepSeek,DeepSeek series,3804,126.09,127,3453,3974,5,2,0,3,mixed,3804,,,,self_heavy,2024/04/22
-286,Gemini 2.0 Flash-Lite,Google,Gemini series,3801,126.03,131,3544,4059,2,1,0,1,mixed,3801,,,,self_heavy,2025/02/25
-287,Devstral Small 1.1,Mistral AI,Ministral and other series,3797,125.93,118,3566,4027,3,3,0,0,measured,3732,3952,3994,,,2025/07/10
-288,Mistral Large 2.0,Mistral AI,Mistral series,3794,125.87,167,3563,4208,2,1,0,1,mixed,3794,,,,self_heavy|wide_ci,2024/07/24
-289,Llama 3.3 70B,Meta,Llama series,3790,125.8,67,3659,3931,17,16,0,1,mixed,3776,3995,3861,,,2024/12/06
-290,Granite 4.0 H-Small,IBM,Granite series,3779,125.59,90,3603,3955,6,4,0,2,mixed,3783,,3679,,,2025/09/22
-291,Sonar Pro,Perplexity,Sonar series,3776,125.53,132,3518,4034,1,1,0,0,measured,3776,,,,single_obs,2025/01/21
-292,GLM-4.5-Base,Zhipu AI (Z.ai),GLM series,3774,125.49,108,3563,3986,2,2,0,0,measured,3774,,,,,2025/07/20
-293,Gemini 1.5 Flash,Google,Gemini series,3765,125.3,61,3640,3885,9,9,0,0,measured,3765,,,,,2024/05/14
-294,Hunyuan-7B-Instruct-0124,Tencent,Hy series (Hunyuan / Tencent Hy),3758,125.16,269,3231,4285,1,0,0,1,self_reported,3758,,,,no_measured|self_heavy|single_obs|wide_ci,2025/01/24
-295,GPT-4,OpenAI,GPT series,3756,125.12,82,3589,3909,7,7,0,0,measured,3793,3684,,,,2023/03/14
-296,GPT-4o mini,OpenAI,GPT series,3750,125.0,85,3573,3893,14,13,0,1,mixed,3793,2663,3991,,,2024/07/18
-297,Pixtral Large,Mistral AI,Ministral and other series,3747,124.93,136,3480,4013,1,1,0,0,measured,3747,,,,single_obs,2024/11/18
-298,OLMo 3 7B,Allen Institute for AI,OLMo series,3745,124.89,174,3273,4006,2,2,0,0,measured,3757,,3478,,wide_ci,2025/11/20
-299,Seed-Coder-8B,ByteDance,Seed series,3730,124.59,87,3559,3901,7,1,6,0,mixed,3761,3655,,,,2025/05/08
-300,Command A,Cohere,Command and other series,3722,124.43,96,3411,3899,6,6,0,0,measured,3773,3443,3551,,,2025/03/11
-301,Claude 3 Opus,Anthropic,Claude series,3709,124.18,71,3564,3840,11,11,0,0,measured,3779,3268,,4242,,2024/03/04
-302,Codestral,Mistral AI,Mistral series,3704,124.09,178,3356,4053,3,1,0,2,mixed,3704,,,,self_heavy|wide_ci,2024/05/29
-303,Sonar,Perplexity,Sonar series,3703,124.06,126,3404,3934,2,2,0,0,measured,3703,,,,,2025/01/21
-304,Ministral 3 3B,Mistral AI,Ministral and other series,3696,123.93,182,3234,3970,3,3,0,0,measured,3716,,3420,,wide_ci,2025/12/02
-305,Kimi K2-Base,Moonshot AI,Kimi series,3696,123.92,191,3322,4070,1,0,0,1,self_reported,3696,,,,no_measured|self_heavy|single_obs|wide_ci,2025/07/11
-306,Amazon Nova Pro,Amazon,Nova series,3686,123.72,107,3477,3962,4,3,0,1,mixed,3680,,3994,,,2024/12/03
-307,Mistral Small 3.1,Mistral AI,Mistral series,3683,123.66,220,3493,4427,7,5,0,2,mixed,3633,,4460,,wide_ci,2025/03/17
-308,Llama 3.1 70B,Meta,Llama series,3675,123.51,70,3538,3812,8,6,2,0,mixed,3675,,3749,,,2024/07/23
-309,Granite 4.0 H-Tiny,IBM,Granite series,3673,123.45,114,3450,3896,4,2,0,2,mixed,3673,,,,self_heavy,2025/09/22
-310,Mistral Small 3.0,Mistral AI,Mistral series,3660,123.19,78,3507,3812,5,4,0,1,mixed,3660,,,,,2025/01/30
-311,Granite 3.3,IBM,Granite series,3647,122.94,200,3304,4051,4,3,0,1,mixed,3652,,3478,,wide_ci,2025/04/16
-312,Gemini 1.5 Flash-8B,Google,Gemini series,3646,122.93,154,3345,3948,1,1,0,0,measured,3646,,,,single_obs|wide_ci,2024/10/03
-313,DeepSeek-Coder,DeepSeek,DeepSeek series,3639,122.78,71,3499,3778,6,6,0,0,measured,3639,,,,,2023/11/01
-314,Phi-4-14B,Microsoft,Phi series,3637,122.74,91,3457,3826,7,5,0,2,mixed,3635,,3817,,,2024/12/12
-315,Mistral Medium 1.0,Mistral AI,Mistral series,3629,122.57,277,3192,4063,2,2,0,0,measured,3629,,,,wide_ci,2023/12/11
-316,Jamba Reasoning 3B,AI21 Labs,Jamba series,3622,122.44,157,3315,3929,2,2,0,0,measured,3629,,3542,,wide_ci,2025/10/08
-317,Llama 3,Meta,Llama series,3609,122.18,64,3483,3735,8,8,0,0,measured,3611,,3542,4057,,2024/04/18
-318,Qwen2.5-Turbo,Alibaba,Qwen series,3590,121.8,125,3345,3838,3,1,0,2,mixed,3590,,,,self_heavy,2024/11/18
-319,Claude 3 Haiku,Anthropic,Claude series,3589,121.79,75,3428,3712,10,10,0,0,measured,3591,,3542,,,2024/03/13
-320,Gemma 3,Google,Gemma series,3583,121.65,96,3394,3772,16,14,0,2,mixed,3566,3749,3873,,,2025/03/12
-321,Qwen2,Alibaba,Qwen series,3574,121.47,82,3414,3733,6,4,0,2,mixed,3574,,,,,2024/05/22
-322,GLM-4-Plus,Zhipu AI (Z.ai),GLM series,3562,121.24,214,3143,3982,1,0,0,1,self_reported,3562,,,,no_measured|self_heavy|single_obs|wide_ci,2024/08/26
-323,Granite 4.1 3B,IBM,Granite series,3559,121.19,111,3283,3761,6,4,0,2,mixed,3560,,3622,,,2026/04/29
-324,Jamba 1.7 Large,AI21 Labs,Jamba series,3554,121.07,173,3214,3893,2,2,0,0,measured,3554,,3679,,wide_ci,2025/07/07
-325,LFM2-8B-A1B,Liquid AI,LFM series,3546,120.91,133,3264,3807,3,2,0,1,mixed,3554,,3478,,,2025/10/06
-326,GLM-4.6V,Zhipu AI (Z.ai),GLM series,3544,120.88,372,3200,4423,2,2,0,0,measured,3493,,4398,,wide_ci,2025/12/08
-327,Gemma 3n,Google,Gemma series,3536,120.71,214,2964,3792,5,3,0,2,mixed,3538,,3601,,wide_ci,2025/05/20
-328,GPT-3.5 Turbo,OpenAI,GPT series,3525,120.49,74,3382,3675,7,7,0,0,measured,3525,,,,,2022/11/30
-329,Granite 4.0 Micro,IBM,Granite series,3515,120.3,88,3343,3687,6,4,0,2,mixed,3516,,3610,,,2025/09/22
-330,Codestral 24.05,Mistral AI,Mistral series,3514,120.29,67,3383,3646,7,7,0,0,measured,3527,3134,,,,2024/05/29
-331,Llama-3.1-Nemotron-70B-Instruct,NVIDIA,Nemotron series,3500,120.0,96,3312,3688,4,4,0,0,measured,3494,,3880,,,2024/10/22
-332,Claude 3 Sonnet,Anthropic,Claude series,3497,119.94,93,3300,3681,8,8,0,0,measured,3497,,,,,2024/03/04
-333,LFM2-24B-A2B,Liquid AI,LFM series,3478,119.56,1184,1156,5799,1,1,0,0,measured,,,3478,,single_obs|wide_ci,2026/02/25
-334,LFM2.5-1.2B-Instruct,Liquid AI,LFM series,3478,119.56,1184,1156,5799,1,1,0,0,measured,,,3478,,single_obs|wide_ci,2026/01/05
-335,LFM2.5-1.2B-Thinking,Liquid AI,LFM series,3478,119.56,1184,1156,5799,1,1,0,0,measured,,,3478,,single_obs|wide_ci,2026/01/20
-336,LFM2.5-VL-1.6B,Liquid AI,LFM series,3478,119.56,1184,1156,5799,1,1,0,0,measured,,,3478,,single_obs|wide_ci,2026/01/05
-337,GLM-4-Air,Zhipu AI (Z.ai),GLM series,3476,119.51,196,3091,3860,1,0,0,1,self_reported,3476,,,,no_measured|self_heavy|single_obs|wide_ci,2024/01/16
-338,Amazon Nova Lite,Amazon,Nova series,3469,119.39,119,3217,3727,4,3,0,1,mixed,3471,,3542,,,2024/12/03
-339,Qwen2.5-Omni,Alibaba,Qwen series,3458,119.17,167,3132,3785,2,0,0,2,self_reported,3458,,,,no_measured|self_heavy|wide_ci,2025/03/22
-340,Mixtral 8x22B,Mistral AI,Mistral series,3456,119.12,62,3335,3577,8,8,0,0,measured,3456,,,4163,,2024/04/17
-341,Jamba 1.5 Large,AI21 Labs,Jamba series,3440,118.81,211,3027,3853,1,1,0,0,measured,3440,,,,single_obs|wide_ci,2024/08/22
-342,Gemini 1.0 Ultra,Google,Gemini series,3438,118.76,189,3067,3809,1,0,0,1,self_reported,3438,,,,no_measured|self_heavy|single_obs|wide_ci,2023/12/06
-343,Yi-Large,01.AI,Yi series,3435,118.7,96,3246,3624,3,2,0,1,mixed,3435,,,,,2024/05/13
-344,Grok-1.5,xAI,Grok series,3429,118.59,188,3061,3797,1,0,0,1,self_reported,3429,,,,no_measured|self_heavy|single_obs|wide_ci,2024/03/28
-345,Jamba 1.6 Large,AI21 Labs,Jamba series,3418,118.37,159,3107,3729,2,2,0,0,measured,3418,,,,wide_ci,2025/03/06
-346,Phi-3.5,Microsoft,Phi series,3415,118.3,160,3101,3730,2,0,0,2,self_reported,3415,,,,no_measured|self_heavy|wide_ci,2024/08/20
-347,Phi-4-multimodal-instruct,Microsoft,Phi series,3400,118.0,226,2958,3843,1,1,0,0,measured,3400,,,,single_obs|wide_ci,2025/02/26
-348,Mistral Small 2.0,Mistral AI,Mistral series,3394,117.88,101,3196,3592,3,3,0,0,measured,3394,,,,,2024/09/17
-349,Nemotron-4 340B Instruct,NVIDIA,Nemotron series,3388,117.76,157,3081,3695,2,0,0,2,self_reported,3388,,,,no_measured|self_heavy|wide_ci,2024/06/14
-350,Llama 4 Scout,Meta,Llama series,3387,117.74,262,2954,3811,14,13,0,1,mixed,3602,2851,3730,,wide_ci,2025/04/05
-351,Ministral 8B,Mistral AI,Ministral and other series,3381,117.62,156,3075,3686,2,0,0,2,self_reported,3381,,,,no_measured|self_heavy|wide_ci,2024/10/16
-352,Pixtral 12B,Mistral AI,Ministral and other series,3371,117.42,179,3021,3721,1,0,0,1,self_reported,3371,,,,no_measured|self_heavy|single_obs|wide_ci,2024/09/17
-353,Ministral 3B,Mistral AI,Ministral and other series,3362,117.23,153,3046,3663,2,0,0,2,self_reported,3362,,,,no_measured|self_heavy|wide_ci,2024/10/16
-354,Code Llama,Meta,Llama series,3332,116.64,68,3186,3459,6,6,0,0,measured,3332,,,,,2023/08/24
-355,Mistral Small 1.0,Mistral AI,Mistral series,3332,116.64,147,3012,3558,5,5,0,0,measured,3332,,,,,2024/02/26
-356,Amazon Nova Micro,Amazon,Nova series,3326,116.51,168,2905,3642,4,3,0,1,mixed,3325,,3610,,wide_ci,2024/12/03
-357,Codestral Mamba 7B,Mistral AI,Ministral and other series,3315,116.29,90,3119,3491,4,2,0,2,mixed,3315,,,,self_heavy,2024/07/16
-358,OLMo 2 13B,Allen Institute for AI,OLMo series,3303,116.06,292,2731,3875,1,1,0,0,measured,3303,,,,single_obs|wide_ci,2024/11/26
-359,Phi-4-mini-instruct,Microsoft,Phi series,3291,115.82,93,3062,3473,8,4,0,4,mixed,3292,,3438,,self_heavy,2025/02/26
-360,Gemma 2,Google,Gemma series,3280,115.6,194,2925,3652,5,3,2,0,mixed,3280,,,,wide_ci,2024/06/27
-361,Llama 2,Meta,Llama series,3274,115.49,284,2718,3831,1,1,0,0,measured,3274,,,,single_obs|wide_ci,2023/07/18
-362,Mistral Large 1.0,Mistral AI,Mistral series,3266,115.33,78,3112,3409,7,7,0,0,measured,3266,,,,,2024/02/26
-363,LFM 40B,Liquid AI,LFM series,3266,115.32,288,2701,3831,1,1,0,0,measured,3266,,,,single_obs|wide_ci,2024/09/30
-364,Qwen1.5,Alibaba,Qwen series,3249,114.99,69,3132,3385,6,6,0,0,measured,3249,,,,,2024/01/22
-365,Phi-3-medium,Microsoft,Phi series,3245,114.9,130,3044,3482,4,2,0,2,mixed,3245,,,,self_heavy,2024/05/21
-366,Yi-1.5-34B,01.AI,Yi series,3238,114.75,115,3013,3463,2,2,0,0,measured,3238,,,,,2024/05/10
-367,GPT-3.5,OpenAI,GPT series,3229,114.59,343,2016,3452,4,4,0,0,measured,3361,2219,,,wide_ci,2022/11/28
-368,DeepSeek LLM,DeepSeek,DeepSeek series,3225,114.51,185,2842,3498,2,0,0,2,self_reported,3225,,,,no_measured|self_heavy|wide_ci,2023/11/29
-369,Phi-3.5-mini,Microsoft,Phi series,3218,114.36,85,3052,3367,7,2,0,5,mixed,3218,,,,self_heavy,2024/08/20
-370,Yi-1.5-9B,01.AI,Yi series,3212,114.23,115,2985,3438,2,2,0,0,measured,3212,,,,,2024/05/10
-371,Claude 2.0,Anthropic,Claude series,3209,114.19,171,2857,3428,5,5,0,0,measured,3296,2523,,,,2023/07/11
-372,Llama 3.1 8B,Meta,Llama series,3209,114.17,74,3034,3348,11,11,0,0,measured,3208,,3549,,,2024/07/23
-373,LFM2-2.6B,Liquid AI,LFM series,3207,114.13,138,2936,3493,3,2,0,1,mixed,3207,,3542,,,2025/09/22
-374,Gemini 1.0 Pro,Google,Gemini series,3204,114.08,96,3049,3412,5,5,0,0,measured,3204,,,,,2023/12/06
-375,Command R+,Cohere,Command and other series,3184,113.69,83,3036,3332,9,9,0,0,measured,3184,,,,,2024/02/04
-376,Grok-1,xAI,Grok series,3151,113.03,154,2849,3453,1,0,0,1,self_reported,3151,,,,no_measured|self_heavy|single_obs|wide_ci,2024/03/17
-377,Phi-3,Microsoft,Phi series,3138,112.76,73,2995,3282,4,4,0,0,measured,3138,,,,,2024/04/23
-378,OLMoE-1B-7B,Allen Institute for AI,OLMo series,3123,112.46,105,2917,3330,2,0,0,2,self_reported,3123,,,,no_measured|self_heavy,2024/09/11
-379,Command R,Cohere,Command and other series,3115,112.31,133,2861,3374,4,4,0,0,measured,3115,,,,,2024/02/04
-380,Phi-3-mini,Microsoft,Phi series,3104,112.07,80,2948,3260,9,9,0,0,measured,3104,,3478,,,2024/04/23
-381,Jamba 1.5 Mini,AI21 Labs,Jamba series,3103,112.06,398,2323,3883,1,1,0,0,measured,3103,,,,single_obs|wide_ci,2024/08/22
-382,Jamba 1.7 Mini,AI21 Labs,Jamba series,3093,111.85,402,2304,3881,2,2,0,0,measured,3098,,3478,,wide_ci,2025/07/07
-383,Claude 2.1,Anthropic,Claude series,3067,111.34,262,2785,3614,3,2,0,1,mixed,3067,,,,wide_ci,2023/11/21
-384,Phi-3-small,Microsoft,Phi series,3063,111.27,86,2899,3232,5,3,0,2,mixed,3063,,,,,2024/05/21
-385,Nemotron-4 Base,NVIDIA,Nemotron series,3017,110.35,146,2731,3304,1,0,0,1,self_reported,3017,,,,no_measured|self_heavy|single_obs,2024/06/14
-386,Claude 1.3,Anthropic,Claude series,2989,109.78,145,2705,3273,1,0,0,1,self_reported,2989,,,,no_measured|self_heavy|single_obs,2023/03/14
-387,Claude Instant 1.2,Anthropic,Claude series,2966,109.33,80,2826,3140,2,2,0,0,measured,2966,,,,,2023/08/09
-388,Granite 3.0,IBM,Granite series,2929,108.58,177,2540,3204,4,2,0,2,mixed,2929,,,,self_heavy|wide_ci,2024/10/21
-389,Phi-2,Microsoft,Phi series,2888,107.77,107,2723,3135,4,4,0,0,measured,2888,,,,,2023/12/12
-390,Jamba 1.6 Mini,AI21 Labs,Jamba series,2886,107.72,340,2220,3552,2,2,0,0,measured,2886,,,,wide_ci,2025/03/06
-391,Moonlight-16B-A3B,Moonshot AI,Kimi series,2870,107.41,106,2696,3143,5,0,0,5,self_reported,2870,,,,no_measured|self_heavy,2025/02/22
-392,LFM2-1.2B,Liquid AI,LFM series,2845,106.91,682,1510,4181,2,2,0,0,measured,2849,,3478,,wide_ci,2025/07/10
-393,Phi-1,Microsoft,Phi series,2825,106.5,122,2587,3063,2,0,0,2,self_reported,2825,,,,no_measured|self_heavy,2023/06/15
-394,DeepSeek-V2-Lite,DeepSeek,DeepSeek series,2813,106.26,211,2378,3133,2,0,0,2,self_reported,2813,,,,no_measured|self_heavy|wide_ci,2024/05/15
-395,Mixtral 8x7B,Mistral AI,Mistral series,2771,105.42,105,2601,2996,5,5,0,0,measured,2771,,,,,2023/12/11
-396,OLMo 2 32B,Allen Institute for AI,OLMo series,2758,105.15,131,2501,3113,4,2,0,2,mixed,2758,,3478,,self_heavy|wide_ci,2025/03/13
-397,OLMo Hybrid 7B,Allen Institute for AI,OLMo series,2748,104.96,126,2510,2987,2,0,0,2,self_reported,2748,,,,no_measured|self_heavy,2026/01/28
-398,Gemma (Gemma 1),Google,Gemma series,2683,103.66,116,2497,2938,4,4,0,0,measured,2683,,,,,2024/02/21
-399,Mistral 7B,Mistral AI,Mistral series,2610,102.2,111,2391,2823,7,7,0,0,measured,2610,,,,,2023/09/27
-400,Llama 3.2 3B,Meta,Llama series,2569,101.37,213,2242,3158,3,3,0,0,measured,2569,,,,wide_ci,2024/09/25
-401,Granite 4.0 350M,IBM,Granite series,2567,101.33,110,2365,2802,6,4,0,2,mixed,2567,,3478,,,2025/10/28
-402,ERNIE 4.5 0.3B,Baidu,ERNIE series,2529,100.58,193,2052,2786,4,3,0,1,mixed,2575,2305,,,wide_ci,2025/06/30
-403,OLMo 7B,Allen Institute for AI,OLMo series,2468,99.36,160,2155,2781,1,0,0,1,self_reported,2468,,,,no_measured|self_heavy|single_obs|wide_ci,2024/01/09
-404,Phi-1.5,Microsoft,Phi series,2399,97.99,147,2122,2740,2,0,0,2,self_reported,2399,,,,no_measured|self_heavy|wide_ci,2023/09/11
-405,OLMo 2 7B,Allen Institute for AI,OLMo series,2309,96.18,213,1922,2712,6,2,0,4,mixed,2309,,3478,,self_heavy|wide_ci,2024/11/26
-406,OLMo 1B,Allen Institute for AI,OLMo series,2026,90.53,238,1560,2493,1,0,0,1,self_reported,2026,,,,no_measured|self_heavy|single_obs|wide_ci,2024/01/26
-407,Gemini 1.0 Nano,Google,Gemini series,1999,89.98,275,1461,2537,1,0,0,1,self_reported,1999,,,,no_measured|self_heavy|single_obs|wide_ci,2023/12/06
-408,Llama 3.2 1B,Meta,Llama series,1335,76.69,469,843,2810,4,4,0,0,measured,1335,,3478,,wide_ci,2024/09/25
+1,Claude Opus 5.5,Anthropic,Claude series,5833,166.66,34,5751,5895,13,13,0,0,measured,5809,5845,5797,,,2026/09/22
+2,Claude Fable 5.1,Anthropic,Claude series,5767,165.35,43,5682,5849,18,18,0,0,measured,5762,5786,5733,,,2026/09/01
+3,GPT-6 Astra,OpenAI,GPT series,5766,165.33,37,5698,5840,17,17,0,0,measured,5904,5736,5742,,,2026/09/03
+4,Claude Sonnet 5.5,Anthropic,Claude series,5749,164.98,39,5657,5799,11,11,0,0,measured,5655,5772,5779,,,2026/09/28
+5,Gemini 4 Argon,Google,Gemini series,5747,164.94,35,5694,5814,7,7,0,0,measured,5943,5725,5731,,,2026/09/30
+6,GPT-6.1 Sol,OpenAI,GPT series,5742,164.85,41,5666,5817,8,8,0,0,measured,5831,5674,5709,,,2026/09/29
+7,Muse Wonder Full,Meta,Muse series,5696,163.93,43,5585,5756,8,6,0,2,mixed,5614,5666,5724,,,2026/10/12
+8,Claude Mythos 5.1,Anthropic,Claude series,5692,163.84,107,5461,5819,4,0,0,4,self_reported,,5483,5730,,no_measured|self_heavy,2026/09/01
+9,Claude Opus 5,Anthropic,Claude series,5672,163.43,23,5619,5714,20,20,0,0,measured,5669,5651,5688,,,2026/07/24
+10,Claude Fable 5,Anthropic,Claude series,5661,163.22,40,5597,5732,22,21,0,1,mixed,5674,5711,5581,,,2026/06/09
+11,GPT-6 Sol,OpenAI,GPT series,5621,162.42,33,5553,5686,9,9,0,0,measured,5644,5588,5620,,,2026/09/22
+12,Muse Wonder,Meta,Muse series,5620,162.41,57,5477,5697,8,6,0,2,mixed,5482,5638,5661,,,2026/10/12
+13,GPT-5.6 Sol,OpenAI,GPT series,5567,161.35,41,5486,5657,24,24,0,0,measured,5685,5531,5556,,,2026/07/09
+14,DeepSeek-V4.1-Flash-1017,DeepSeek,DeepSeek series,5566,161.33,270,5066,5695,3,0,0,3,self_reported,,5535,5570,,no_measured|self_heavy|wide_ci,2026/10/17
+15,Ling-3.1-flash,Ant Group,Ling series,5526,160.52,111,5298,5645,5,0,0,5,self_reported,,5362,5583,,no_measured|self_heavy,2026/10/01
+16,SWE-2,Cognition,SWE series,5525,160.49,195,5142,5907,1,0,0,1,self_reported,,5525,,,no_measured|self_heavy|single_obs|wide_ci,2026/09/10
+17,Claude Mythos Preview,Anthropic,Claude series,5502,160.05,243,5036,6158,3,0,0,3,self_reported,,5908,5386,6044,no_measured|self_heavy|wide_ci,2026/04/07
+18,GLM-5.3,Zhipu AI (Z.ai),GLM series,5495,159.9,32,5422,5544,17,16,1,0,mixed,5480,5437,5567,,,2026/08/18
+19,GPT-5.6 Terra,OpenAI,GPT series,5476,159.53,45,5386,5547,18,18,0,0,measured,5654,5433,5401,,,2026/07/09
+20,Muse Spark 1.3,Meta,Muse series,5447,158.95,31,5386,5513,12,10,2,0,mixed,5391,5495,5449,,,2026/09/02
+21,Grok 4.7,xAI,Grok series,5445,158.9,29,5388,5502,11,11,0,0,measured,5401,5467,5458,,,2026/09/21
+22,Claude Haiku 5.5,Anthropic,Claude series,5432,158.65,62,5347,5560,6,6,0,0,measured,5307,5483,5539,,,2026/10/07
+23,Claude Opus 4.8,Anthropic,Claude series,5423,158.46,26,5373,5474,23,20,0,3,mixed,5600,5433,5377,,,2026/05/28
+24,Gemini 3.8 Flash,Google,Gemini series,5397,157.93,25,5347,5455,19,19,0,0,measured,5413,5382,5400,,,2026/09/02
+25,Kimi K3,Moonshot AI,Kimi series,5389,157.78,47,5307,5482,19,18,0,1,mixed,5408,5375,5391,,,2026/07/16
+26,GPT-5.5,OpenAI,GPT series,5388,157.76,32,5332,5463,21,21,0,0,measured,5640,5357,5403,5570,,2026/04/23
+27,GPT-6 Luna,OpenAI,GPT series,5383,157.65,36,5313,5452,9,9,0,0,measured,5378,5420,5312,,,2026/09/22
+28,Grok 4.6,xAI,Grok series,5381,157.62,26,5330,5439,17,17,0,0,measured,5307,5420,5388,,,2026/08/12
+29,MiMo-V2.6-Pro,Xiaomi,MiMo series,5371,157.41,65,5284,5506,7,7,0,0,measured,5253,5440,5458,,,2026/09/21
+30,MiMo-V2.6-Flash,Xiaomi,MiMo series,5367,157.34,37,5294,5440,7,7,0,0,measured,5307,5388,5429,,,2026/09/21
+31,Gemini 3.7 Flash,Google,Gemini series,5367,157.34,37,5298,5431,14,14,0,0,measured,5486,5330,5322,,,2026/08/13
+32,GPT-5.6 Luna,OpenAI,GPT series,5363,157.25,34,5288,5425,18,18,0,0,measured,5356,5385,5331,,,2026/07/09
+33,Claude Opus 4.7,Anthropic,Claude series,5362,157.24,36,5298,5433,19,19,0,0,measured,5392,5388,5298,5180,,2026/04/16
+34,Tencent Hy4 Preview,Tencent,Hy series (Hunyuan / Tencent Hy),5355,157.09,59,5214,5441,10,6,0,4,mixed,5408,5400,5143,,,2026/08/27
+35,SWE-1.7,Cognition,SWE series,5353,157.06,201,4959,5747,1,0,0,1,self_reported,,5353,,,no_measured|self_heavy|single_obs|wide_ci,2026/07/08
+36,Qwen3.8-Flash-Next,Alibaba,Qwen series,5350,157.0,103,5125,5551,4,2,0,2,mixed,5140,5192,5419,,self_heavy,2026/08/26
+37,Qwen3.8 Max,Alibaba,Qwen series,5346,156.92,60,5240,5450,13,13,0,0,measured,5483,5249,5465,,,2026/08/03
+38,Step 5 Preview,StepFun,Step series,5339,156.79,61,5263,5495,7,5,0,2,mixed,5239,5337,5501,,,2026/09/18
+39,DeepSeek-V4-Pro-0813,DeepSeek,DeepSeek series,5337,156.75,44,5214,5399,14,13,0,1,mixed,5326,5394,5184,,,2026/08/13
+40,Qwen3.8 2.4T-A95B,Alibaba,Qwen series,5331,156.62,106,5124,5538,2,2,0,0,measured,5301,,5328,,,2026/08/12
+41,Mistral Large 4,Mistral AI,Mistral series,5330,156.6,38,5256,5404,5,5,0,0,measured,5290,5337,5407,,,2026/10/06
+42,DeepSeek-V4.1-Flash,DeepSeek,DeepSeek series,5326,156.52,86,5096,5446,10,10,0,0,measured,5161,5448,5378,,,2026/09/09
+43,Claude Sonnet 5,Anthropic,Claude series,5322,156.45,27,5268,5373,22,19,0,3,mixed,5250,5370,5295,,,2026/06/30
+44,Muse Code,Meta,Muse series,5317,156.34,137,5049,5585,2,0,0,2,self_reported,,5320,5292,,no_measured|self_heavy,2026/08/05
+45,GPT-5.3-Codex,OpenAI,Codex series,5282,155.64,41,5215,5367,10,10,0,0,measured,5374,5220,5260,,,2026/02/05
+46,Muse Spark Open,Meta,Muse series,5281,155.62,66,5132,5361,6,3,0,3,mixed,5270,5300,5150,,self_heavy,2026/10/15
+47,Grok 4.5,xAI,Grok series,5281,155.61,29,5224,5338,17,17,0,0,measured,5231,5322,5257,,,2026/07/08
+48,GPT-5.4,OpenAI,GPT series,5275,155.51,27,5222,5329,20,20,0,0,measured,5435,5269,5270,,,2026/03/05
+49,Muse Spark 1.1,Meta,Muse series,5271,155.42,44,5154,5341,11,10,1,0,mixed,5062,5298,5283,,,2026/07/09
+50,DeepSeek-V4-Flash-0731,DeepSeek,DeepSeek series,5269,155.37,42,5184,5343,13,12,0,1,mixed,5172,5311,5300,,,2026/08/21
+51,Muse Spark 1.2,Meta,Muse series,5246,154.92,55,5136,5335,12,11,1,0,mixed,5080,5309,5248,,,2026/08/05
+52,DeepSeek-V4-Flash-Vision-Exp,DeepSeek,DeepSeek series,5233,154.67,83,5070,5396,3,2,0,1,mixed,5102,5320,5187,,,2026/08/21
+53,Gemini 3.6 Flash,Google,Gemini series,5231,154.62,32,5169,5293,12,12,0,0,measured,5178,5239,5311,,,2026/07/21
+54,GLM-5.2,Zhipu AI (Z.ai),GLM series,5229,154.57,42,5149,5296,20,18,2,0,mixed,5066,5250,5246,,,2026/06/16
+55,Qwen3.8 Max (0902),Alibaba,Qwen series,5227,154.54,86,5059,5395,2,2,0,0,measured,5210,5222,,,,2026/09/01
+56,Claude Opus 4.6,Anthropic,Claude series,5221,154.41,40,5157,5307,16,16,0,0,measured,5437,5216,5202,5347,,2026/02/05
+57,Seed1.6,ByteDance,Seed series,5196,153.92,423,4367,6025,1,1,0,0,measured,,5196,,,single_obs|wide_ci,2025/06/11
+58,Qwen3.8 Omni Flash,Alibaba,Qwen series,5193,153.86,136,4927,5459,2,0,0,2,self_reported,5075,5199,,,no_measured|self_heavy,2026/09/18
+59,Qwen3.8-27B,Alibaba,Qwen series,5193,153.86,71,5017,5271,12,10,0,2,mixed,5127,5220,5196,,,2026/08/14
+60,Qwen3.8 Flash,Alibaba,Qwen series,5180,153.6,243,4703,5657,2,0,0,2,self_reported,5047,5192,,,no_measured|self_heavy|wide_ci,2026/08/26
+61,GLM-5.3-Flash,Zhipu AI (Z.ai),GLM series,5176,153.52,78,5070,5338,15,14,1,0,mixed,5271,5127,5247,,,2026/08/26
+62,Gemini 3.5 Flash,Google,Gemini series,5162,153.24,27,5109,5215,17,17,0,0,measured,5113,5142,5220,,,2026/05/19
+63,DeepSeek-V4-Pro-DSpark,DeepSeek,DeepSeek series,5156,153.12,114,4932,5380,4,0,0,4,self_reported,5112,5078,5170,,no_measured|self_heavy,2026/06/27
+64,Gemini 3.1 Pro,Google,Gemini series,5143,152.85,61,5036,5277,24,24,0,0,measured,5351,5004,5248,5171,,2026/02/19
+65,Composer 2.5,Anysphere,Composer series,5138,152.76,39,5039,5212,5,4,0,1,mixed,,5143,5089,,,2026/05/18
+66,GPT-5.2,OpenAI,GPT series,5137,152.74,37,5046,5194,16,16,0,0,measured,5256,5145,5095,,,2025/12/11
+67,Qwen3.7 Max,Alibaba,Qwen series,5136,152.71,28,5074,5191,13,10,0,3,mixed,5125,5109,5176,,,2026/05/19
+68,Claude Sonnet 4.6,Anthropic,Claude series,5134,152.68,44,5045,5202,18,18,0,0,measured,5102,5151,5106,5114,,2026/02/17
+69,LongCat-2.0,Meituan,LongCat series,5097,151.95,87,4926,5269,3,0,0,3,self_reported,,5103,5086,,no_measured|self_heavy,2026/06/30
+70,Kimi K2.7 Code,Moonshot AI,Kimi series,5093,151.86,40,4992,5153,14,13,0,1,mixed,4939,5113,5131,,,2026/06/12
+71,Kimi K2.6,Moonshot AI,Kimi series,5088,151.76,27,5036,5140,18,14,0,4,mixed,5029,5098,5086,4978,,2026/04/20
+72,DeepSeek-V4-Pro,DeepSeek,DeepSeek series,5082,151.65,57,4936,5156,21,17,0,4,mixed,4873,5129,5092,,,2026/04/24
+73,Qwen3.7 Plus,Alibaba,Qwen series,5078,151.57,49,4939,5141,11,7,0,4,mixed,4951,5086,5069,,,2026/06/01
+74,MiMo-V2.5,Xiaomi,MiMo series,5075,151.51,33,4976,5138,9,8,0,1,mixed,4889,5079,5080,,,2026/04/22
+75,GPT-5.4 mini,OpenAI,GPT series,5075,151.5,42,4978,5129,14,13,0,1,mixed,5031,5112,5030,,,2026/03/17
+76,MiniMax-M3,MiniMax,MiniMax series,5070,151.4,39,4995,5133,18,17,0,1,mixed,5031,5109,5013,,,2026/06/01
+77,MiMo-V2.5-Pro,Xiaomi,MiMo series,5064,151.27,30,5006,5122,15,13,0,2,mixed,5035,5055,5078,,,2026/04/22
+78,GPT-5.2-Codex,OpenAI,Codex series,5060,151.2,38,4949,5131,10,10,0,0,measured,5197,5053,5068,,,2025/12/11
+79,GLM-5.1,Zhipu AI (Z.ai),GLM series,5060,151.2,28,5006,5115,16,15,0,1,mixed,4932,5063,5072,4969,,2026/04/07
+80,GPT-5.5 Instant,OpenAI,GPT series,5053,151.06,196,4669,5437,1,1,0,0,measured,5053,,,,single_obs|wide_ci,2026/05/05
+81,Claude Opus 4.5,Anthropic,Claude series,5046,150.93,51,4979,5153,17,17,0,0,measured,5086,5009,5119,5121,,2025/11/24
+82,Seed2.1,ByteDance,Seed series,5034,150.68,158,4846,5664,4,0,0,4,self_reported,5327,4911,5089,,no_measured|self_heavy|wide_ci,2026/06/24
+83,DeepSeek-V4-Flash-DSpark,DeepSeek,DeepSeek series,5034,150.68,102,4834,5234,4,0,0,4,self_reported,5035,5007,5033,,no_measured|self_heavy,2026/06/27
+84,GPT-5 Pro,OpenAI,GPT series,5029,150.58,188,4661,5397,1,1,0,0,measured,5029,,,,single_obs|wide_ci,2025/10/06
+85,Qwen3.6 Max Preview,Alibaba,Qwen series,5028,150.57,56,4918,5139,3,3,0,0,measured,,5006,5037,,,2026/04/20
+86,MiMo-V2-Pro,Xiaomi,MiMo series,5023,150.46,105,4817,5228,3,0,0,3,self_reported,,4968,5036,,no_measured|self_heavy,2026/03/18
+87,Gemini 3 Pro Preview,Google,Gemini series,5019,150.38,58,4939,5137,16,16,0,0,measured,5246,4951,5111,,,2025/11/18
+88,Muse Spark,Meta,Muse series,5016,150.32,44,4953,5121,9,7,0,2,mixed,5184,4957,5080,,,2026/04/08
+89,Seed 2.0,ByteDance,Seed series,5006,150.13,97,4816,5196,4,1,0,3,mixed,4974,4952,5020,,self_heavy,2026/02/14
+90,Tencent Hy3,Tencent,Hy series (Hunyuan / Tencent Hy),5001,150.02,69,4834,5136,4,1,0,3,mixed,,4918,5045,,self_heavy,2026/07/06
+91,GPT-5.1 Codex mini,OpenAI,Codex series,4997,149.94,82,4834,5121,3,3,0,0,measured,4844,,5008,,,2025/11/13
+92,Gemini 3 Flash,Google,Gemini series,4992,149.83,30,4935,5056,18,18,0,0,measured,5086,4944,5047,,,2025/12/17
+93,GPT-5.1-Codex-Max,OpenAI,Codex series,4987,149.75,50,4889,5085,4,3,0,1,mixed,5004,4950,5063,,,2025/11/19
+94,Qwen3.6 Plus,Alibaba,Qwen series,4984,149.67,29,4925,5041,14,11,0,3,mixed,4936,4946,5016,,,2026/04/02
+95,GLM-5,Zhipu AI (Z.ai),GLM series,4969,149.37,33,4904,5033,11,11,0,0,measured,4803,4966,5000,,,2026/02/11
+96,Gemini 3.5 Flash-Lite,Google,Gemini series,4960,149.21,83,4732,5049,9,9,0,0,measured,4652,5038,4922,,,2026/07/21
+97,Inkling-Small,Thinking Machines Lab,Inkling series,4959,149.19,44,4874,5073,9,9,0,0,measured,4930,4955,5008,,,2026/07/30
+98,OpenAI o3-pro,OpenAI,o series,4956,149.12,134,4694,5219,2,2,0,0,measured,4956,,,,,2025/06/10
+99,Seed2.1 Turbo,ByteDance,Seed series,4956,149.12,109,4750,5147,4,0,0,4,self_reported,5239,4815,5040,,no_measured|self_heavy,2026/06/24
+100,GPT-5.4 Pro,OpenAI,GPT series,4956,149.11,184,4595,5316,1,1,0,0,measured,4956,,,,single_obs|wide_ci,2026/03/05
+101,GPT-5.1,OpenAI,GPT series,4946,148.93,31,4886,5007,13,13,0,0,measured,4953,4953,4938,,,2025/11/13
+102,Solar Mini 4,Upstage,Solar series,4941,148.82,397,4008,5284,2,2,0,0,measured,5007,,4012,,wide_ci,2026/09/22
+103,GPT-5.4 nano,OpenAI,GPT series,4939,148.79,30,4876,4999,11,10,0,1,mixed,4868,4971,4927,,,2026/03/17
+104,DeepSeek-V4-Flash,DeepSeek,DeepSeek series,4937,148.74,62,4797,5058,9,4,0,5,mixed,4766,4955,5030,,self_heavy,2026/04/24
+105,Step-3.5-Flash,StepFun,Step series,4931,148.61,67,4799,5063,5,3,0,2,mixed,4927,4987,4918,,,2026/01/29
+106,GPT-5.1 Codex,OpenAI,Codex series,4930,148.59,47,4842,5026,9,8,1,0,mixed,4980,4874,4988,,,2025/11/13
+107,Qwen3.6 27B,Alibaba,Qwen series,4923,148.45,37,4851,4984,14,10,0,4,mixed,4696,4874,4979,,,2026/04/22
+108,Qwen3.6 Flash,Alibaba,Qwen series,4921,148.42,97,4724,5112,4,0,0,4,self_reported,4690,4847,4969,,no_measured|self_heavy,2026/04/27
+109,Claude Sonnet 4.5,Anthropic,Claude series,4913,148.26,30,4854,4971,20,20,0,0,measured,4658,4966,4910,4852,,2025/09/29
+110,Nemotron 3.5 Super VL,NVIDIA,Nemotron series,4912,148.24,72,4770,5054,6,0,0,6,self_reported,4884,4850,4947,,no_measured|self_heavy,2026/10/15
+111,Qwen3.5-Plus,Alibaba,Qwen series,4911,148.23,41,4831,4992,8,4,0,4,mixed,4975,4892,4929,,self_heavy,2026/02/16
+112,MAI-Thinking-1,Microsoft,MAI series,4904,148.07,84,4738,5069,4,0,0,4,self_reported,4897,4871,4905,,no_measured|self_heavy,2026/06/02
+113,GPT-5-Codex,OpenAI,Codex series,4902,148.05,53,4798,5006,9,8,0,1,mixed,4919,4877,4900,,,2025/09/15
+114,MiniMax-M2.5,MiniMax,MiniMax series,4893,147.87,36,4823,4964,10,9,1,0,mixed,4843,4912,4872,,,2026/02/12
+115,MiniMax-M2.7,MiniMax,MiniMax series,4892,147.83,34,4803,4950,14,13,0,1,mixed,4671,4874,4931,4809,,2026/03/18
+116,Solar Pro 4,Upstage,Solar series,4888,147.76,100,4693,5083,3,0,0,3,self_reported,4900,4704,4900,,no_measured|self_heavy,2026/08/06
+117,Muse Glimmer,Meta,Muse series,4885,147.71,70,4749,5022,3,2,0,1,mixed,4884,4886,4881,,,2026/08/10
+118,Inkling,Thinking Machines Lab,Inkling series,4882,147.65,85,4671,4976,13,13,0,0,measured,4737,4915,4898,,,2026/07/15
+119,DeepSeek-V3.2-Speciale,DeepSeek,DeepSeek series,4881,147.63,66,4752,5011,5,3,0,2,mixed,4833,4786,4907,,,2025/12/01
+120,GPT-5,OpenAI,GPT series,4881,147.62,41,4800,4954,20,19,0,1,mixed,4997,4923,4809,,,2025/08/07
+121,Grok 4.20,xAI,Grok series,4875,147.49,46,4771,4947,9,9,0,0,measured,4895,4767,4938,,,2026/03/09
+122,Grok Build 0.1,xAI,Grok series,4874,147.49,55,4766,4983,4,3,0,1,mixed,5126,4836,4886,,,2026/05/20
+123,Kimi K2.5,Moonshot AI,Kimi series,4869,147.39,29,4813,4925,17,15,0,2,mixed,4885,4902,4843,,,2026/01/27
+124,GLM-5-Turbo,Zhipu AI (Z.ai),GLM series,4868,147.37,101,4670,5066,1,1,0,0,measured,,,4868,,single_obs,2026/03/15
+125,Seed1.8,ByteDance,Seed series,4864,147.27,110,4647,5080,3,0,0,3,self_reported,4668,4779,4895,,no_measured|self_heavy,2025/12/01
+126,Grok 4.3,xAI,Grok series,4859,147.17,36,4791,4928,11,11,0,0,measured,4885,4903,4827,,,2026/04/30
+127,GLM-5V-Turbo,Zhipu AI (Z.ai),GLM series,4854,147.07,102,4653,5054,1,1,0,0,measured,,,4854,,single_obs,2026/04/01
+128,Nemotron 3 Ultra,NVIDIA,Nemotron series,4852,147.05,37,4773,4925,14,11,0,3,mixed,4794,4781,4930,,,2026/06/04
+129,Nemotron 3.5 Bolt 74B-A9B,NVIDIA,Nemotron series,4851,147.02,99,4639,5046,2,0,0,2,self_reported,4655,,4862,,no_measured|self_heavy,2026/10/15
+130,Ling-3.0-flash,Ant Group,Ling series,4834,146.68,46,4747,4929,9,5,0,4,mixed,4928,4763,4929,,,2026/08/04
+131,OpenAI o3,OpenAI,o series,4830,146.6,54,4723,4936,17,17,0,0,measured,4843,4703,4940,,,2025/04/16
+132,GLM-4.7,Zhipu AI (Z.ai),GLM series,4827,146.54,35,4759,4895,15,13,0,2,mixed,4924,4899,4793,,,2025/12/22
+133,MiniMax-M2.1,MiniMax,MiniMax series,4823,146.45,39,4747,4899,14,10,0,4,mixed,4803,4883,4788,,,2025/12/23
+134,Step 3.7 Flash,StepFun,Step series,4802,146.03,68,4692,4952,5,3,0,2,mixed,4658,4964,4779,,,2026/05/29
+135,Solar Open2 250B,Upstage,Solar series,4794,145.87,123,4553,5072,3,0,0,3,self_reported,5067,4698,4699,,no_measured|self_heavy,2026/07/08
+136,DeepSeek-V3.2,DeepSeek,DeepSeek series,4788,145.76,32,4700,4851,16,16,0,0,measured,4805,4720,4826,,,2025/12/01
+137,DeepSeek-V3.1-Terminus,DeepSeek,DeepSeek series,4770,145.41,52,4669,4872,7,4,0,3,mixed,4743,4659,4801,,,2025/09/22
+138,MiMo-V2-Flash,Xiaomi,MiMo series,4769,145.38,82,4538,4904,6,2,0,4,mixed,4504,4921,4794,,self_heavy,2025/12/16
+139,Gemma 4,Google,Gemma series,4768,145.37,42,4686,4851,10,9,0,1,mixed,4730,4421,4829,,,2026/03/02
+140,Seed2.0 Lite,ByteDance,Seed series,4765,145.3,225,4324,5205,2,0,0,2,self_reported,4723,4800,,,no_measured|self_heavy|wide_ci,2026/02/14
+141,Claude Opus 4.1,Anthropic,Claude series,4755,145.11,79,4563,4863,9,9,0,0,measured,4513,4911,4825,4672,,2025/08/05
+142,Qwen3.6 35B-A3B,Alibaba,Qwen series,4751,145.03,62,4619,4861,13,10,0,3,mixed,4716,4836,4742,,,2026/04/15
+143,Kimi K2 Thinking,Moonshot AI,Kimi series,4751,145.02,37,4671,4823,14,11,0,3,mixed,4710,4720,4792,,,2025/11/06
+144,Claude Haiku 4.5,Anthropic,Claude series,4750,145.01,66,4571,4815,16,16,0,0,measured,4330,4846,4793,4824,,2025/10/15
+145,OLMo 3.1 Think 32B,Allen Institute for AI,OLMo series,4748,144.96,401,3592,5075,3,1,0,2,mixed,4748,,,,self_heavy|wide_ci,2025/12/12
+146,Grok 4,xAI,Grok series,4746,144.91,44,4670,4847,10,10,0,0,measured,4808,4689,4720,4682,,2025/07/09
+147,Mistral Medium 3.5,Mistral AI,Mistral series,4743,144.86,43,4643,4813,12,11,0,1,mixed,4612,4714,4806,,,2026/04/29
+148,LongCat-Flash-Thinking-2601,Meituan,LongCat series,4735,144.71,99,4541,4930,3,0,0,3,self_reported,4739,4685,,,no_measured|self_heavy,2026/01/14
+149,SWE-1.6 Fast,Cognition,SWE series,4727,144.54,184,4365,5088,1,1,0,0,measured,,4727,,,single_obs|wide_ci,2026/04/07
+150,LongCat-Flash-Thinking-ZigZag,Meituan,LongCat series,4721,144.41,102,4521,4920,2,0,0,2,self_reported,4721,,,,no_measured|self_heavy,2026/01/23
+151,LongCat-Flash-Lite-Sparse,Meituan,LongCat series,4707,144.15,84,4542,4872,4,0,0,4,self_reported,,4649,4753,,no_measured|self_heavy,2026/07/31
+152,DeepSeek-V3.2-Exp,DeepSeek,DeepSeek series,4707,144.14,60,4589,4826,7,5,0,2,mixed,4688,4655,4823,,,2025/09/29
+153,North Mini Code 1.0,Cohere,Command and other series,4707,144.13,52,4605,4808,6,4,2,0,mixed,4540,4776,4728,,,2026/06/05
+154,Gemini 2.5 Pro,Google,Gemini series,4700,143.99,35,4616,4768,19,19,0,0,measured,4837,4540,4664,,,2025/03/25
+155,Qwen3.5,Alibaba,Qwen series,4698,143.97,115,4435,4873,13,10,0,3,mixed,4592,4667,4733,,,2026/02/16
+156,OpenAI o4-mini,OpenAI,o series,4693,143.87,64,4546,4807,15,15,0,0,measured,4817,4347,4421,,,2025/04/16
+157,GLM-4.6,Zhipu AI (Z.ai),GLM series,4690,143.8,55,4569,4785,15,15,0,0,measured,4816,4466,4724,,,2025/09/30
+158,MiniMax-M2,MiniMax,MiniMax series,4688,143.76,57,4576,4801,8,6,0,2,mixed,4747,4638,4698,,,2025/10/26
+159,OpenAI o1-preview,OpenAI,o series,4687,143.74,138,4350,4958,6,6,0,0,measured,4667,4715,,4242,wide_ci,2024/09/12
+160,Qwen3-Max-Thinking,Alibaba,Qwen series,4675,143.5,123,4435,4915,1,1,0,0,measured,,,4675,,single_obs,2026/01/26
+161,ERNIE 5.0,Baidu,ERNIE series,4674,143.48,95,4452,4861,4,2,0,2,mixed,4648,,4693,,self_heavy,2026/01/10
+162,Gemini 3.1 Flash-Lite,Google,Gemini series,4672,143.44,38,4597,4747,11,11,0,0,measured,4837,4676,4628,,,2026/03/03
+163,Grok 4 Heavy,xAI,Grok series,4665,143.31,221,4232,5099,1,0,0,1,self_reported,4665,,,,no_measured|self_heavy|single_obs|wide_ci,2025/07/09
+164,LongCat-Flash-Thinking,Meituan,LongCat series,4650,143.0,100,4374,4846,3,0,0,3,self_reported,4699,4367,,,no_measured|self_heavy,2025/09/22
+165,Nemotron 3 Super,NVIDIA,Nemotron series,4647,142.94,56,4511,4751,8,4,0,4,mixed,4559,4356,4729,,self_heavy,2026/03/11
+166,Mercury 2.5,Inception Labs,Mercury series,4647,142.93,84,4482,4811,6,6,0,0,measured,4580,4579,4674,,,2026/09/08
+167,GPT-5 mini,OpenAI,GPT series,4644,142.87,83,4493,4780,18,18,0,0,measured,4879,4654,4536,,,2025/08/07
+168,Amazon Nova 2 Pro,Amazon,Nova series,4644,142.87,60,4526,4777,5,4,1,0,mixed,4659,4852,4612,,,2025/11/27
+169,OLMo 3 32B,Allen Institute for AI,OLMo series,4641,142.81,349,3712,5026,3,0,0,3,self_reported,4641,,,,no_measured|self_heavy|wide_ci,2025/11/20
+170,Claude Opus 4,Anthropic,Claude series,4638,142.75,68,4490,4754,9,9,0,0,measured,4588,4839,4823,4630,,2025/05/22
+171,Nemotron Cascade 2 30B A3B,NVIDIA,Nemotron series,4632,142.64,116,4277,4884,3,0,0,3,self_reported,4733,,4562,,no_measured|self_heavy|wide_ci,2026/03/19
+172,Claude Sonnet 4,Anthropic,Claude series,4632,142.64,55,4530,4739,21,21,0,0,measured,4516,4803,4723,4598,,2025/05/22
+173,DeepSeek-V3.1,DeepSeek,DeepSeek series,4623,142.46,49,4528,4719,10,7,0,3,mixed,4665,4568,4596,,,2025/08/21
+174,Qwen3-Coder 480B-A35B,Alibaba,Qwen series,4621,142.41,63,4496,4745,15,13,0,2,mixed,4551,4661,4649,,,2025/07/23
+175,Grok 4 Fast,xAI,Grok series,4617,142.34,57,4510,4721,7,7,0,0,measured,4743,4419,4621,4541,,2025/09/19
+176,Qwen3-Max,Alibaba,Qwen series,4608,142.16,61,4487,4728,6,4,0,2,mixed,4639,4639,4579,,,2025/09/23
+177,Laguna M.1,Poolside,Laguna series,4603,142.05,72,4460,4737,7,7,0,0,measured,4421,4704,4689,,,2026/04/28
+178,Grok 4.1 Fast,xAI,Grok series,4602,142.03,91,4435,4732,6,6,0,0,measured,4847,4349,4617,,,2025/11/19
+179,Qwen3.5-Omni,Alibaba,Qwen series,4600,142.0,135,4335,4864,1,1,0,0,measured,,,4600,,single_obs,2026/03/30
+180,Qwen3.5-Omni Plus,Alibaba,Qwen series,4600,142.0,135,4335,4864,1,1,0,0,measured,,,4600,,single_obs,2026/03/30
+181,Qwen3-Coder-Next,Alibaba,Qwen series,4594,141.87,64,4431,4692,14,6,0,8,mixed,4451,4710,4692,,self_heavy,2026/02/03
+182,ERNIE 5.0 Preview,Baidu,ERNIE series,4592,141.84,201,4198,4986,1,0,0,1,self_reported,4592,,,,no_measured|self_heavy|single_obs|wide_ci,2025/11/13
+183,GLM-4.5,Zhipu AI (Z.ai),GLM series,4592,141.83,66,4463,4720,10,9,0,1,mixed,4561,4631,4619,,,2025/07/28
+184,Laguna XS.2,Poolside,Laguna series,4579,141.57,53,4471,4682,6,6,0,0,measured,4499,4611,4574,,,2026/04/28
+185,DeepSeek-R1-0528,DeepSeek,DeepSeek series,4577,141.54,98,4242,4681,14,12,0,2,mixed,4678,4231,4446,,,2025/05/28
+186,Mercury 2,Inception Labs,Mercury series,4535,140.7,112,4315,4755,3,2,0,1,mixed,4535,,,,,2026/02/24
+187,Granite 4.2 30B,IBM,Granite series,4525,140.51,68,4361,4658,5,3,0,2,mixed,4632,4334,4542,,,2026/08/25
+188,OpenAI o3-mini,OpenAI,o series,4525,140.49,66,4365,4623,11,11,0,0,measured,4622,4130,4041,4482,,2025/01/31
+189,Qwen3,Alibaba,Qwen series,4520,140.4,56,4357,4617,24,23,0,1,mixed,4573,4328,3990,,,2025/04/27
+190,Kimi K2-Instruct-0905,Moonshot AI,Kimi series,4517,140.34,51,4393,4616,15,10,0,5,mixed,4468,4645,4657,,,2025/09/05
+191,Grok Code Fast 1,xAI,Grok series,4511,140.23,62,4389,4634,11,10,0,1,mixed,4412,4624,4591,,,2025/08/28
+192,Devstral 2,Mistral AI,Ministral and other series,4509,140.17,120,4214,4672,12,10,0,2,mixed,4094,4666,4627,,,2025/12/09
+193,OLMo 3 32B Think,Allen Institute for AI,OLMo series,4505,140.1,409,3487,4835,4,2,0,2,mixed,4751,,3607,,self_heavy|wide_ci,2025/11/20
+194,DeepSeek-R1,DeepSeek,DeepSeek series,4504,140.09,79,4326,4602,9,8,0,1,mixed,4573,4081,4324,,,2025/01/20
+195,Kimi K2-Instruct,Moonshot AI,Kimi series,4504,140.08,59,4364,4591,13,11,0,2,mixed,4475,4470,4601,,,2025/07/11
+196,GLM-4.5-Air,Zhipu AI (Z.ai),GLM series,4502,140.04,77,4351,4653,12,10,0,2,mixed,4486,4470,4580,,,2025/07/28
+197,Grok 3 mini,xAI,Grok series,4492,139.83,58,4380,4599,7,7,0,0,measured,4491,,4494,,,2025/02/19
+198,Claude 3.7 Sonnet,Anthropic,Claude series,4484,139.67,91,4269,4605,9,9,0,0,measured,4455,4537,4600,4444,,2025/02/24
+199,Qwen3-Coder 30B-A3B,Alibaba,Qwen series,4483,139.66,107,4124,4693,9,9,0,0,measured,,4483,,,,2025/07/31
+200,GPT-5 nano,OpenAI,GPT series,4482,139.64,128,4136,4616,6,6,0,0,measured,4606,3858,4490,,,2025/08/07
+201,Command A+,Cohere,Command and other series,4480,139.6,83,4315,4668,4,4,0,0,measured,4585,,4471,,,2026/05/20
+202,LongCat-Flash-Lite,Meituan,LongCat series,4479,139.59,182,4148,4734,3,0,0,3,self_reported,,4256,4753,,no_measured|self_heavy,2026/02/05
+203,Nemotron Nano 12B v2,NVIDIA,Nemotron series,4479,139.58,177,4132,4827,1,0,0,1,self_reported,4479,,,,no_measured|self_heavy|single_obs|wide_ci,2025/10/28
+204,OpenAI o1,OpenAI,o series,4474,139.49,82,4257,4588,8,6,1,1,mixed,4500,4073,4339,,,2024/12/05
+205,Amazon Nova 2 Lite,Amazon,Nova series,4474,139.47,72,4333,4614,4,3,1,0,mixed,4546,4681,4381,,,2025/10/29
+206,Gemini 2.5 Flash,Google,Gemini series,4457,139.14,58,4306,4543,19,19,0,0,measured,4517,3953,4464,,,2025/04/17
+207,Magistral Medium 1.2,Mistral AI,Ministral and other series,4454,139.09,88,4264,4593,6,6,0,0,measured,4659,,4279,,,2025/09/18
+208,DiffusionGemma 26B A4B,Google,Gemma series,4446,138.93,172,4109,4783,1,0,0,1,self_reported,4446,,,,no_measured|self_heavy|single_obs|wide_ci,2026/06/10
+209,gpt-oss-120b,OpenAI,GPT-OSS series,4446,138.92,69,4300,4564,20,20,0,0,measured,4531,4074,4530,,,2025/08/05
+210,GLM-4.7-Flash,Zhipu AI (Z.ai),GLM series,4437,138.75,146,4040,4682,4,3,0,1,mixed,,4281,4619,,wide_ci,2026/01/19
+211,Falcon-H1R-7B,TII,Falcon series,4436,138.71,382,3511,4623,2,2,0,0,measured,4575,,3677,,wide_ci,2026/01/04
+212,Nemotron Nano 9B v2,NVIDIA,Nemotron series,4431,138.62,449,3421,4618,2,2,0,0,measured,4575,,3607,,wide_ci,2025/08/18
+213,Qwen3-VL Flash,Alibaba,Qwen series,4423,138.47,243,3843,4610,2,2,0,0,measured,4521,,3936,,wide_ci,2025/09/30
+214,Mistral Small 4,Mistral AI,Mistral series,4418,138.35,67,4287,4548,5,4,0,1,mixed,4345,3997,4439,,,2026/03/16
+215,OLMo 3 7B Think,Allen Institute for AI,OLMo series,4413,138.27,381,3344,4631,4,2,0,2,mixed,4567,,3539,,self_heavy|wide_ci,2025/11/20
+216,MiniMax-M1,MiniMax,MiniMax series,4410,138.19,192,3676,4592,3,2,0,1,mixed,4548,4271,3746,,wide_ci,2025/06/17
+217,Step-3,StepFun,Step series,4409,138.17,166,4082,4735,1,0,0,1,self_reported,4409,,,,no_measured|self_heavy|single_obs|wide_ci,2025/07/28
+218,Seed1.5-Thinking,ByteDance,Seed series,4408,138.16,89,4021,4581,3,1,0,2,mixed,4445,4020,,,self_heavy,2025/04/17
+219,Nemotron 3.5 Lightning,NVIDIA,Nemotron series,4401,138.02,103,4095,4523,9,7,0,2,mixed,4267,4440,4359,,,2026/08/11
+220,Qwen3-VL Plus,Alibaba,Qwen series,4399,137.97,95,4212,4586,2,2,0,0,measured,4425,,4278,,,2025/09/22
+221,Step3-VL,StepFun,Step series,4396,137.93,258,3820,4637,2,1,0,1,mixed,4583,,3936,,self_heavy|wide_ci,2026/01/13
+222,Qwen3-Omni,Alibaba,Qwen series,4392,137.84,292,3690,4579,2,2,0,0,measured,4486,,3814,,wide_ci,2025/09/22
+223,Seed-Thinking-v1.5,ByteDance,Seed series,4387,137.73,101,4184,4585,3,0,0,3,self_reported,4430,4020,,,no_measured|self_heavy,2025/04/17
+224,Granite 4.2 3B,IBM,Granite series,4384,137.68,149,3911,4543,3,3,0,0,measured,4442,,4287,,wide_ci,2026/08/25
+225,gpt-oss-20b,OpenAI,GPT-OSS series,4383,137.65,89,4200,4553,10,8,0,2,mixed,4501,4105,4217,,,2025/08/05
+226,Seed-OSS-36B,ByteDance,Seed series,4381,137.63,116,4072,4574,3,2,0,1,mixed,4476,4271,4041,,,2025/08/20
+227,Granite 4.2 8B,IBM,Granite series,4381,137.62,124,4055,4524,5,3,0,2,mixed,4538,4082,4392,,,2026/08/25
+228,GPT-4.5,OpenAI,GPT series,4377,137.54,121,4086,4595,5,3,0,2,mixed,4415,3765,,4403,,2025/02/27
+229,Amazon Nova 2 Omni,Amazon,Nova series,4373,137.47,248,3760,4560,2,2,0,0,measured,4451,,3877,,wide_ci,2025/11/26
+230,Magistral Small 1.2,Mistral AI,Ministral and other series,4373,137.46,138,3961,4557,5,5,0,0,measured,4561,,3893,,,2025/09/17
+231,Hunyuan-T1,Tencent,Hy series (Hunyuan / Tencent Hy),4369,137.37,161,4052,4685,1,0,0,1,self_reported,4369,,,,no_measured|self_heavy|single_obs|wide_ci,2025/03/21
+232,DeepSeek-V3-0324,DeepSeek,DeepSeek series,4361,137.21,78,4178,4467,20,19,1,0,mixed,4395,4220,4329,,,2025/03/24
+233,Seed2.0 Mini,ByteDance,Seed series,4354,137.08,160,4041,4668,1,0,0,1,self_reported,4354,,,,no_measured|self_heavy|single_obs|wide_ci,2026/02/14
+234,Nemotron 3 Nano,NVIDIA,Nemotron series,4352,137.04,217,3848,4555,5,3,0,2,mixed,4572,3788,4167,,wide_ci,2025/12/15
+235,GPT-4.1,OpenAI,GPT series,4343,136.86,70,4181,4441,23,23,0,0,measured,4335,4378,4340,,,2025/04/14
+236,Hunyuan-A13B-Instruct,Tencent,Hy series (Hunyuan / Tencent Hy),4342,136.84,149,4051,4646,2,0,0,2,self_reported,4351,4293,,,no_measured|self_heavy,2025/07/08
+237,Magistral Medium 1.0,Mistral AI,Ministral and other series,4339,136.78,82,4156,4499,3,2,0,1,mixed,4354,,4171,,,2025/06/10
+238,Llama-3.1-Nemotron-Ultra-253B,NVIDIA,Nemotron series,4336,136.72,335,3510,4523,2,2,0,0,measured,4416,,3677,,wide_ci,2025/03/18
+239,Magistral Medium 1.1,Mistral AI,Ministral and other series,4332,136.65,117,4103,4562,1,1,0,0,measured,4332,,,,single_obs,2025/07/18
+240,Magistral Small 1.1,Mistral AI,Ministral and other series,4329,136.59,117,4100,4559,1,1,0,0,measured,4329,,,,single_obs,2025/07/18
+241,codex-mini-latest,OpenAI,Codex series,4328,136.56,232,3873,4782,1,1,0,0,measured,,,4328,,single_obs|wide_ci,2025/04/16
+242,Kimi K1.5,Moonshot AI,Kimi series,4326,136.52,157,4018,4634,1,0,0,1,self_reported,4326,,,,no_measured|self_heavy|single_obs|wide_ci,2025/01/20
+243,Grok 3,xAI,Grok series,4315,136.3,107,4095,4445,6,6,0,0,measured,4316,,4278,,,2025/02/17
+244,Ling-1T,Ant Group,Ling series,4311,136.23,156,4006,4617,1,0,0,1,self_reported,4311,,,,no_measured|self_heavy|single_obs|wide_ci,2025/10/08
+245,GLM-4.5V,Zhipu AI (Z.ai),GLM series,4305,136.1,195,3825,4492,2,2,0,0,measured,4351,,3936,,wide_ci,2025/08/11
+246,Qwen3-Next,Alibaba,Qwen series,4276,135.53,83,4057,4424,10,8,0,2,mixed,4347,4210,4103,,,2025/09/09
+247,Claude 3.5 Sonnet,Anthropic,Claude series,4276,135.52,77,4100,4379,20,20,0,0,measured,4259,4351,,4403,,2024/06/20
+248,Devstral Small 2,Mistral AI,Ministral and other series,4263,135.26,163,3982,4543,12,10,0,2,mixed,3918,4545,4570,,,2025/12/09
+249,Gemini 2.5 Flash-Lite,Google,Gemini series,4257,135.14,94,4050,4410,6,4,0,2,mixed,4311,3571,3877,,,2025/06/17
+250,MAI-DS-R1,Microsoft,MAI series,4250,134.99,224,3666,4531,3,0,0,3,self_reported,4250,,,,no_measured|self_heavy|wide_ci,2025/04/24
+251,MiMo-7B,Xiaomi,MiMo series,4245,134.9,151,3949,4541,1,0,0,1,self_reported,4245,,,,no_measured|self_heavy|single_obs,2025/04/30
+252,Magistral Small 1.0,Mistral AI,Ministral and other series,4233,134.67,187,3763,4435,2,2,0,0,measured,4273,,3877,,wide_ci,2025/06/10
+253,OpenAI o1-mini,OpenAI,o series,4232,134.65,68,4085,4369,8,8,0,0,measured,4232,,,4242,,2024/09/12
+254,Qwen3-Coder-Flash,Alibaba,Qwen series,4230,134.6,148,4034,4536,4,4,0,0,measured,4012,4469,4421,,,2025/09/17
+255,Mistral Large 3,Mistral AI,Mistral series,4228,134.57,64,4104,4354,7,7,0,0,measured,4161,4348,4251,,,2025/12/02
+256,QVQ-72B-Preview,Alibaba,Qwen series,4227,134.54,114,4004,4450,1,1,0,0,measured,4227,,,,single_obs,2024/12/24
+257,DeepSeek-V3,DeepSeek,DeepSeek series,4222,134.43,110,3995,4392,23,22,0,1,mixed,4229,4150,4290,,,2024/12/26
+258,OLMo 3.1 Instruct 32B,Allen Institute for AI,OLMo series,4213,134.26,258,3394,4422,3,1,0,2,mixed,4213,,,,self_heavy|wide_ci,2026/01/13
+259,QwQ-32B,Alibaba,Qwen series,4199,133.99,142,3875,4447,5,5,0,0,measured,4199,,,,,2024/11/27
+260,Phi-4-reasoning,Microsoft,Phi series,4190,133.8,138,3919,4461,2,0,0,2,self_reported,4190,,,,no_measured|self_heavy,2025/04/30
+261,GPT-4.1 mini,OpenAI,GPT series,4185,133.69,77,3998,4294,21,21,0,0,measured,4236,3746,4151,,,2025/04/14
+262,LFM2.5-2.6B,Liquid AI,LFM series,4183,133.65,493,3021,4361,3,3,0,0,measured,4231,,3912,,wide_ci,2026/08/04
+263,LongCat-Flash-Omni,Meituan,LongCat series,4171,133.43,133,3910,4432,3,0,0,3,self_reported,4171,,,,no_measured|self_heavy,2025/11/03
+264,LongCat-Flash-Chat,Meituan,LongCat series,4164,133.29,125,3918,4410,4,0,0,4,self_reported,4093,4396,,,no_measured|self_heavy,2025/08/29
+265,Mistral Medium 3.1,Mistral AI,Mistral series,4146,132.92,105,3991,4344,5,5,0,0,measured,4111,,4278,,,2025/08/12
+266,Ling-flash-2.0,Ant Group,Ling series,4138,132.76,148,3848,4427,1,0,0,1,self_reported,4138,,,,no_measured|self_heavy|single_obs,2025/09/17
+267,Gemini 2.0 Pro Experimental,Google,Gemini series,4134,132.67,102,3912,4279,3,3,0,0,measured,4134,,,,,2025/02/05
+268,Qwen3.5-Omni-Flash,Alibaba,Qwen series,4131,132.61,297,3549,4712,1,1,0,0,measured,,,4131,,single_obs|wide_ci,2026/03/30
+269,LFM2.5-24B-A2B,Liquid AI,LFM series,4129,132.57,242,3655,4602,2,0,0,2,self_reported,4109,4131,,,no_measured|self_heavy|wide_ci,2026/10/13
+270,DeepSeek-R1-Lite-Preview,DeepSeek,DeepSeek series,4128,132.57,114,3906,4351,1,1,0,0,measured,4128,,,,single_obs,2024/11/20
+271,Llama-3.1-Nemotron-Nano-8B,NVIDIA,Nemotron series,4111,132.23,194,3657,4383,3,0,0,3,self_reported,4111,,,,no_measured|self_heavy|wide_ci,2024/12/06
+272,Phi-4-reasoning-plus,Microsoft,Phi series,4109,132.18,118,3877,4340,3,1,0,2,mixed,4109,,,,self_heavy,2025/04/30
+273,Qwen2.5-Plus,Alibaba,Qwen series,4106,132.13,137,3766,4375,3,0,0,3,self_reported,4106,,,,no_measured|self_heavy|wide_ci,2024/11/27
+274,GPT-4o,OpenAI,GPT series,4084,131.67,94,3907,4248,17,17,0,0,measured,4101,3975,4131,4305,,2024/05/13
+275,ERNIE 4.5,Baidu,ERNIE series,4077,131.55,199,3891,4599,4,3,0,1,mixed,4055,4269,,,wide_ci,2025/03/16
+276,Nemotron 3 Nano Omni,NVIDIA,Nemotron series,4073,131.46,210,3661,4485,2,2,0,0,measured,,,4073,,wide_ci,2026/04/29
+277,Qwen2.5-Max,Alibaba,Qwen series,4045,130.9,79,3891,4311,3,3,0,0,measured,4045,,,,,2025/01/29
+278,Falcon-H1 34B,TII,Falcon series,4026,130.52,133,3706,4262,5,0,0,5,self_reported,4026,,,,no_measured|self_heavy,2025/05/21
+279,Granite 3.1,IBM,Granite series,4025,130.5,185,3662,4388,2,1,0,1,mixed,4025,,,,self_heavy|wide_ci,2024/12/06
+280,ERNIE 4.5 300B-A47B,Baidu,ERNIE series,4023,130.46,122,3814,4396,3,2,0,1,mixed,3986,4269,3990,,,2025/06/30
+281,Granite 3.2,IBM,Granite series,4018,130.36,184,3658,4378,2,1,0,1,mixed,4018,,,,self_heavy|wide_ci,2025/02/26
+282,Gemini 2.0 Flash,Google,Gemini series,4008,130.15,150,3618,4201,18,17,1,0,mixed,4116,3127,3814,,,2024/12/11
+283,Mistral Medium 3,Mistral AI,Mistral series,3998,129.95,106,3700,4204,2,2,0,0,measured,4007,,3814,,,2025/05/07
+284,Claude 3.5 Haiku,Anthropic,Claude series,3993,129.86,61,3882,4116,12,11,0,1,mixed,3987,4029,4042,,,2024/11/04
+285,GPT-4 Turbo,OpenAI,GPT series,3964,129.28,62,3843,4085,9,9,0,0,measured,3964,,,,,2023/11/06
+286,Kimi-Linear-48B-A3B,Moonshot AI,Kimi series,3955,129.1,171,3441,4150,5,2,0,3,mixed,3934,,4278,,self_heavy|wide_ci,2025/10/30
+287,Llama-3.3-Nemotron-Super-49B,NVIDIA,Nemotron series,3948,128.96,163,3698,4260,4,3,0,1,mixed,3961,,3475,,,2024/12/09
+288,Ministral 3 14B,Mistral AI,Ministral and other series,3940,128.81,105,3734,4147,3,3,0,0,measured,3920,,4083,,,2025/12/02
+289,Gemini 2.0 Flash Thinking Experimental,Google,Gemini series,3935,128.7,86,3766,4104,3,3,0,0,measured,3935,,,,,2024/12/19
+290,Qwen2.5-VL,Alibaba,Qwen series,3931,128.63,287,3370,4493,2,0,0,2,self_reported,3931,,,,no_measured|self_heavy|wide_ci,2025/01/26
+291,Amazon Nova Premier,Amazon,Nova series,3924,128.47,112,3705,4142,3,3,0,0,measured,3857,4081,4041,,,2025/04/30
+292,DeepSeek-Coder-V2,DeepSeek,DeepSeek series,3917,128.34,73,3756,4055,8,6,0,2,mixed,3980,3510,,,,2024/06/17
+293,Llama 4 Maverick,Meta,Llama series,3915,128.31,72,3738,4025,21,20,0,1,mixed,3974,3481,3950,,,2025/04/05
+294,Granite 4.1 30B,IBM,Granite series,3915,128.3,115,3690,4140,7,5,0,2,mixed,3962,,3699,,,2026/04/29
+295,Step-2,StepFun,Step series,3894,127.88,224,3454,4334,1,1,0,0,measured,3894,,,,single_obs|wide_ci,2024/12/01
+296,Devstral Small 1.0,Mistral AI,Ministral and other series,3888,127.76,145,3690,4174,10,10,0,0,measured,3738,4141,3990,,,2025/05/21
+297,Llama 3.1 405B,Meta,Llama series,3884,127.67,86,3715,4052,7,5,2,0,mixed,3879,3897,4041,4163,,2024/07/23
+298,Gemini 1.5 Pro,Google,Gemini series,3883,127.66,61,3764,4002,9,9,0,0,measured,3883,,,4163,,2024/02/15
+299,DeepSeek-V2.5,DeepSeek,DeepSeek series,3880,127.6,101,3627,4010,9,7,0,2,mixed,3957,3040,,,,2024/09/06
+300,Hunyuan-TurboS,Tencent,Hy series (Hunyuan / Tencent Hy),3878,127.55,120,3641,4114,3,1,0,2,mixed,3878,,,,self_heavy,2025/03/21
+301,LFM2.5-8B-A1B,Liquid AI,LFM series,3877,127.54,495,2906,4848,1,1,0,0,measured,,,3877,,single_obs|wide_ci,2026/05/28
+302,Mistral Small 3.2,Mistral AI,Mistral series,3856,127.13,116,3671,4136,6,4,0,2,mixed,3844,,4003,,,2025/06/20
+303,GPT-4.1 nano,OpenAI,GPT series,3856,127.11,73,3712,3999,15,15,0,0,measured,3880,3185,3831,,,2025/04/14
+304,Qwen2.5-Coder,Alibaba,Qwen series,3851,127.01,113,3603,4019,17,17,0,0,measured,3958,2804,,,,2024/11/11
+305,ERNIE 4.5 21B-A3B,Baidu,ERNIE series,3841,126.83,145,3652,4251,4,3,0,1,mixed,3867,3661,,,,2025/06/30
+306,Qwen2.5,Alibaba,Qwen series,3833,126.67,66,3704,3963,17,15,0,2,mixed,3814,3887,3877,,,2024/09/15
+307,Ministral 3 8B,Mistral AI,Ministral and other series,3833,126.66,117,3603,4063,3,3,0,0,measured,3830,,3877,,,2025/12/02
+308,Yi-Lightning,01.AI,Yi series,3833,126.66,181,3479,4187,2,1,0,1,mixed,3833,,,,self_heavy|wide_ci,2024/10/16
+309,Mistral Large 2.1,Mistral AI,Mistral series,3828,126.56,104,3624,4031,3,3,0,0,measured,3823,,3990,,,2024/11/18
+310,Doubao-1.5-Pro,ByteDance,Seed series,3826,126.52,122,3586,4109,2,1,0,1,mixed,3826,,,,self_heavy,2025/01/22
+311,DeepSeek-R1-Distill,DeepSeek,DeepSeek series,3824,126.47,76,3674,3979,4,4,0,0,measured,3824,,,,,2025/01/20
+312,Granite 4.1 8B,IBM,Granite series,3824,126.47,122,3584,4063,6,4,0,2,mixed,3857,,3607,,,2026/04/29
+313,MiniMax-Text-01,MiniMax,MiniMax series,3823,126.47,249,3335,4312,2,0,0,2,self_reported,3823,,,,no_measured|self_heavy|wide_ci,2025/01/12
+314,Grok-2,xAI,Grok series,3811,126.21,85,3645,3976,5,4,0,1,mixed,3811,,,,,2024/08/13
+315,Codestral 25.01,Mistral AI,Mistral series,3808,126.17,242,3335,4282,1,1,0,0,measured,3808,,,,single_obs|wide_ci,2025/01/13
+316,Grok-2 mini,xAI,Grok series,3808,126.16,290,3240,4376,1,0,0,1,self_reported,3808,,,,no_measured|self_heavy|single_obs|wide_ci,2024/08/13
+317,Falcon-H1 7B,TII,Falcon series,3802,126.03,116,3575,4028,5,0,0,5,self_reported,3802,,,,no_measured|self_heavy,2025/05/21
+318,DeepSeek-V2,DeepSeek,DeepSeek series,3798,125.95,112,3499,3967,5,2,0,3,mixed,3798,,,,self_heavy,2024/04/22
+319,Gemini 2.0 Flash-Lite,Google,Gemini series,3797,125.93,131,3540,4053,2,1,0,1,mixed,3797,,,,self_heavy,2025/02/25
+320,Devstral Small 1.1,Mistral AI,Ministral and other series,3794,125.88,117,3565,4023,3,3,0,0,measured,3729,3952,3990,,,2025/07/10
+321,Mistral Large 2.0,Mistral AI,Mistral series,3789,125.78,162,3559,4188,2,1,0,1,mixed,3789,,,,self_heavy|wide_ci,2024/07/24
+322,Llama 3.3 70B,Meta,Llama series,3787,125.74,67,3657,3926,17,16,0,1,mixed,3773,3992,3853,,,2024/12/06
+323,Granite 4.0 H-Small,IBM,Granite series,3775,125.5,88,3602,3948,6,4,0,2,mixed,3778,,3677,,,2025/09/22
+324,Sonar Pro,Perplexity,Sonar series,3774,125.47,131,3518,4030,1,1,0,0,measured,3774,,,,single_obs,2025/01/21
+325,GLM-4.5-Base,Zhipu AI (Z.ai),GLM series,3771,125.42,106,3563,3978,2,2,0,0,measured,3771,,,,,2025/07/20
+326,Gemini 1.5 Flash,Google,Gemini series,3762,125.24,67,3636,3890,9,9,0,0,measured,3762,,,,,2024/05/14
+327,GPT-4,OpenAI,GPT series,3752,125.04,84,3593,3903,7,7,0,0,measured,3787,3683,,,,2023/03/14
+328,GPT-4o mini,OpenAI,GPT series,3748,124.96,90,3530,3889,14,13,0,1,mixed,3790,2664,3980,,,2024/07/18
+329,Pixtral Large,Mistral AI,Ministral and other series,3744,124.88,135,3480,4009,1,1,0,0,measured,3744,,,,single_obs,2024/11/18
+330,OLMo 3 7B,Allen Institute for AI,OLMo series,3742,124.84,188,3271,4002,2,2,0,0,measured,3755,,3475,,wide_ci,2025/11/20
+331,Hunyuan-7B-Instruct-0124,Tencent,Hy series (Hunyuan / Tencent Hy),3739,124.78,265,3220,4257,1,0,0,1,self_reported,3739,,,,no_measured|self_heavy|single_obs|wide_ci,2025/01/24
+332,Seed-Coder-8B,ByteDance,Seed series,3728,124.56,98,3547,3931,7,1,6,0,mixed,3758,3657,,,,2025/05/08
+333,Command A,Cohere,Command and other series,3716,124.32,90,3535,3892,6,6,0,0,measured,3771,3419,3538,,,2025/03/11
+334,Ling-lite,Ant Group,Ling series,3707,124.14,150,3413,4005,2,0,0,2,self_reported,3707,,,,no_measured|self_heavy,2025/02/28
+335,Claude 3 Opus,Anthropic,Claude series,3707,124.13,71,3567,3836,11,11,0,0,measured,3776,3267,,4242,,2024/03/04
+336,Sonar,Perplexity,Sonar series,3701,124.02,127,3405,3931,2,2,0,0,measured,3701,,,,,2025/01/21
+337,Codestral,Mistral AI,Mistral series,3697,123.95,179,3347,4047,3,1,0,2,mixed,3697,,,,self_heavy|wide_ci,2024/05/29
+338,Ministral 3 3B,Mistral AI,Ministral and other series,3693,123.87,181,3207,3965,3,3,0,0,measured,3714,,3414,,wide_ci,2025/12/02
+339,Kimi K2-Base,Moonshot AI,Kimi series,3691,123.81,189,3319,4062,1,0,0,1,self_reported,3691,,,,no_measured|self_heavy|single_obs|wide_ci,2025/07/11
+340,Mercury Coder Small,Inception Labs,Mercury series,3686,123.72,141,3409,3962,3,0,0,3,self_reported,3686,,,,no_measured|self_heavy,2025/02/26
+341,Amazon Nova Pro,Amazon,Nova series,3682,123.64,106,3474,3977,4,3,0,1,mixed,3676,,3990,,,2024/12/03
+342,Mistral Small 3.1,Mistral AI,Mistral series,3679,123.58,251,3491,4461,7,5,0,2,mixed,3629,,4453,,wide_ci,2025/03/17
+343,Llama 3.1 70B,Meta,Llama series,3672,123.45,69,3537,3808,8,6,2,0,mixed,3672,,3746,,,2024/07/23
+344,Ling-lite-1.5,Ant Group,Ling series,3672,123.45,151,3376,3969,2,0,0,2,self_reported,3672,,,,no_measured|self_heavy,2025/05/11
+345,Granite 4.0 H-Tiny,IBM,Granite series,3667,123.34,111,3450,3884,4,2,0,2,mixed,3667,,,,self_heavy,2025/09/22
+346,Mistral Small 3.0,Mistral AI,Mistral series,3656,123.12,78,3496,3808,5,4,0,1,mixed,3656,,,,,2025/01/30
+347,Gemini 1.5 Flash-8B,Google,Gemini series,3644,122.89,153,3345,3944,1,1,0,0,measured,3644,,,,single_obs,2024/10/03
+348,Granite 3.3,IBM,Granite series,3643,122.86,192,3403,4050,4,3,0,1,mixed,3648,,3475,,wide_ci,2025/04/16
+349,DeepSeek-Coder,DeepSeek,DeepSeek series,3635,122.71,70,3498,3773,6,6,0,0,measured,3635,,,,,2023/11/01
+350,Phi-4-14B,Microsoft,Phi series,3633,122.66,94,3467,3802,7,5,0,2,mixed,3631,,3814,,,2024/12/12
+351,Mistral Medium 1.0,Mistral AI,Mistral series,3626,122.51,252,3171,4039,2,2,0,0,measured,3626,,,,wide_ci,2023/12/11
+352,Jamba Reasoning 3B,AI21 Labs,Jamba series,3620,122.4,155,3316,3925,2,2,0,0,measured,3627,,3539,,wide_ci,2025/10/08
+353,Solar Pro 3,Upstage,Solar series,3611,122.22,250,3138,4309,3,1,0,2,mixed,3859,3475,4302,,self_heavy|wide_ci,2026/01/26
+354,Llama 3,Meta,Llama series,3606,122.12,68,3474,3741,8,8,0,0,measured,3608,,3539,4057,,2024/04/18
+355,Claude 3 Haiku,Anthropic,Claude series,3587,121.73,74,3456,3724,10,10,0,0,measured,3588,,3539,,,2024/03/13
+356,Qwen2.5-Turbo,Alibaba,Qwen series,3586,121.72,124,3342,3830,3,1,0,2,mixed,3586,,,,self_heavy,2024/11/18
+357,Gemma 3,Google,Gemma series,3579,121.57,96,3390,3767,16,14,0,2,mixed,3562,3746,3865,,,2025/03/12
+358,Mercury Coder Mini,Inception Labs,Mercury series,3574,121.47,142,3296,3851,3,0,0,3,self_reported,3574,,,,no_measured|self_heavy,2025/02/26
+359,Qwen2,Alibaba,Qwen series,3570,121.4,81,3411,3730,6,4,0,2,mixed,3570,,,,,2024/05/22
+360,Granite 4.1 3B,IBM,Granite series,3555,121.09,106,3272,3750,6,4,0,2,mixed,3556,,3614,,,2026/04/29
+361,Jamba 1.7 Large,AI21 Labs,Jamba series,3552,121.04,172,3215,3889,2,2,0,0,measured,3552,,3677,,wide_ci,2025/07/07
+362,GLM-4-Plus,Zhipu AI (Z.ai),GLM series,3546,120.93,210,3134,3959,1,0,0,1,self_reported,3546,,,,no_measured|self_heavy|single_obs|wide_ci,2024/08/26
+363,GLM-4.6V,Zhipu AI (Z.ai),GLM series,3542,120.85,386,3200,4414,2,2,0,0,measured,3492,,4395,,wide_ci,2025/12/08
+364,LFM2-8B-A1B,Liquid AI,LFM series,3542,120.84,131,3229,3799,3,2,0,1,mixed,3550,,3475,,,2025/10/06
+365,Gemma 3n,Google,Gemma series,3529,120.58,208,3009,3784,5,3,0,2,mixed,3531,,3593,,wide_ci,2025/05/20
+366,GPT-3.5 Turbo,OpenAI,GPT series,3523,120.46,76,3389,3662,7,7,0,0,measured,3523,,,,,2022/11/30
+367,Granite 4.0 Micro,IBM,Granite series,3512,120.24,86,3338,3681,6,4,0,2,mixed,3513,,3607,,,2025/09/22
+368,Codestral 24.05,Mistral AI,Mistral series,3511,120.23,68,3365,3640,7,7,0,0,measured,3524,3133,,,,2024/05/29
+369,Llama-3.1-Nemotron-70B-Instruct,NVIDIA,Nemotron series,3498,119.97,96,3311,3686,4,4,0,0,measured,3492,,3877,,,2024/10/22
+370,Claude 3 Sonnet,Anthropic,Claude series,3495,119.9,91,3335,3681,8,8,0,0,measured,3495,,,,,2024/03/04
+371,LFM2-24B-A2B,Liquid AI,LFM series,3475,119.5,1186,1151,5799,1,1,0,0,measured,,,3475,,single_obs|wide_ci,2026/02/25
+372,LFM2.5-1.2B-Instruct,Liquid AI,LFM series,3475,119.5,1186,1151,5799,1,1,0,0,measured,,,3475,,single_obs|wide_ci,2026/01/05
+373,LFM2.5-1.2B-Thinking,Liquid AI,LFM series,3475,119.5,1186,1151,5799,1,1,0,0,measured,,,3475,,single_obs|wide_ci,2026/01/20
+374,LFM2.5-VL-1.6B,Liquid AI,LFM series,3475,119.5,1186,1151,5799,1,1,0,0,measured,,,3475,,single_obs|wide_ci,2026/01/05
+375,Amazon Nova Lite,Amazon,Nova series,3465,119.31,127,3197,3705,4,3,0,1,mixed,3467,,3539,,,2024/12/03
+376,GLM-4-Air,Zhipu AI (Z.ai),GLM series,3462,119.23,193,3084,3839,1,0,0,1,self_reported,3462,,,,no_measured|self_heavy|single_obs|wide_ci,2024/01/16
+377,Mixtral 8x22B,Mistral AI,Mistral series,3454,119.08,61,3335,3573,8,8,0,0,measured,3454,,,4163,,2024/04/17
+378,Qwen2.5-Omni,Alibaba,Qwen series,3451,119.02,164,3129,3773,2,0,0,2,self_reported,3451,,,,no_measured|self_heavy|wide_ci,2025/03/22
+379,Jamba 1.5 Large,AI21 Labs,Jamba series,3439,118.79,209,3029,3849,1,1,0,0,measured,3439,,,,single_obs|wide_ci,2024/08/22
+380,Yi-Large,01.AI,Yi series,3428,118.56,96,3240,3616,3,2,0,1,mixed,3428,,,,,2024/05/13
+381,Gemini 1.0 Ultra,Google,Gemini series,3425,118.49,186,3060,3789,1,0,0,1,self_reported,3425,,,,no_measured|self_heavy|single_obs|wide_ci,2023/12/06
+382,Jamba 1.6 Large,AI21 Labs,Jamba series,3418,118.36,157,3110,3726,2,2,0,0,measured,3418,,,,wide_ci,2025/03/06
+383,Grok-1.5,xAI,Grok series,3416,118.32,185,3055,3778,1,0,0,1,self_reported,3416,,,,no_measured|self_heavy|single_obs|wide_ci,2024/03/28
+384,Phi-3.5,Microsoft,Phi series,3408,118.15,158,3098,3717,2,0,0,2,self_reported,3408,,,,no_measured|self_heavy|wide_ci,2024/08/20
+385,Phi-4-multimodal-instruct,Microsoft,Phi series,3399,117.99,224,2960,3839,1,1,0,0,measured,3399,,,,single_obs|wide_ci,2025/02/26
+386,Mistral Small 2.0,Mistral AI,Mistral series,3393,117.86,101,3195,3590,3,3,0,0,measured,3393,,,,,2024/09/17
+387,Llama 4 Scout,Meta,Llama series,3387,117.73,250,2967,3775,14,13,0,1,mixed,3599,2851,3723,,wide_ci,2025/04/05
+388,Nemotron-4 340B Instruct,NVIDIA,Nemotron series,3381,117.62,154,3079,3684,2,0,0,2,self_reported,3381,,,,no_measured|self_heavy|wide_ci,2024/06/14
+389,Ministral 8B,Mistral AI,Ministral and other series,3375,117.49,153,3074,3675,2,0,0,2,self_reported,3375,,,,no_measured|self_heavy|wide_ci,2024/10/16
+390,Pixtral 12B,Mistral AI,Ministral and other series,3359,117.18,175,3015,3703,1,0,0,1,self_reported,3359,,,,no_measured|self_heavy|single_obs|wide_ci,2024/09/17
+391,Ministral 3B,Mistral AI,Ministral and other series,3356,117.12,162,3028,3652,2,0,0,2,self_reported,3356,,,,no_measured|self_heavy|wide_ci,2024/10/16
+392,Code Llama,Meta,Llama series,3331,116.61,70,3207,3472,6,6,0,0,measured,3331,,,,,2023/08/24
+393,Mistral Small 1.0,Mistral AI,Mistral series,3331,116.61,166,2987,3636,5,5,0,0,measured,3331,,,,wide_ci,2024/02/26
+394,Amazon Nova Micro,Amazon,Nova series,3322,116.44,171,2870,3595,4,3,0,1,mixed,3322,,3607,,wide_ci,2024/12/03
+395,Codestral Mamba 7B,Mistral AI,Ministral and other series,3311,116.22,98,3075,3487,4,2,0,2,mixed,3311,,,,self_heavy,2024/07/16
+396,OLMo 2 13B,Allen Institute for AI,OLMo series,3303,116.06,290,2735,3871,1,1,0,0,measured,3303,,,,single_obs|wide_ci,2024/11/26
+397,Granite 4.0 H-1B,IBM,Granite series,3293,115.86,101,3095,3492,4,0,0,4,self_reported,3293,,,,no_measured|self_heavy,2025/10/28
+398,Phi-4-mini-instruct,Microsoft,Phi series,3287,115.73,91,3072,3466,8,4,0,4,mixed,3288,,3433,,self_heavy,2025/02/26
+399,Gemma 2,Google,Gemma series,3276,115.51,195,2940,3622,5,3,2,0,mixed,3276,,,,wide_ci,2024/06/27
+400,Llama 2,Meta,Llama series,3274,115.49,282,2722,3827,1,1,0,0,measured,3274,,,,single_obs|wide_ci,2023/07/18
+401,Granite 4.0 1B,IBM,Granite series,3270,115.4,108,2975,3466,4,0,0,4,self_reported,3270,,,,no_measured|self_heavy,2025/10/28
+402,Mistral Large 1.0,Mistral AI,Mistral series,3266,115.33,81,3094,3418,7,7,0,0,measured,3266,,,,,2024/02/26
+403,LFM 40B,Liquid AI,LFM series,3266,115.32,286,2705,3827,1,1,0,0,measured,3266,,,,single_obs|wide_ci,2024/09/30
+404,Qwen1.5,Alibaba,Qwen series,3250,114.99,68,3117,3376,6,6,0,0,measured,3250,,,,,2024/01/22
+405,Phi-3-medium,Microsoft,Phi series,3240,114.8,130,3002,3471,4,2,0,2,mixed,3240,,,,self_heavy,2024/05/21
+406,Yi-1.5-34B,01.AI,Yi series,3236,114.72,115,3011,3461,2,2,0,0,measured,3236,,,,,2024/05/10
+407,GPT-3.5,OpenAI,GPT series,3228,114.56,351,1956,3425,4,4,0,0,measured,3356,2219,,,wide_ci,2022/11/28
+408,DeepSeek LLM,DeepSeek,DeepSeek series,3222,114.44,174,2830,3491,2,0,0,2,self_reported,3222,,,,no_measured|self_heavy|wide_ci,2023/11/29
+409,Phi-3.5-mini,Microsoft,Phi series,3215,114.3,73,3054,3359,7,2,0,5,mixed,3215,,,,self_heavy,2024/08/20
+410,Yi-1.5-9B,01.AI,Yi series,3210,114.2,115,2984,3436,2,2,0,0,measured,3210,,,,,2024/05/10
+411,Llama 3.1 8B,Meta,Llama series,3209,114.18,73,3039,3329,11,11,0,0,measured,3209,,3543,,,2024/07/23
+412,Claude 2.0,Anthropic,Claude series,3207,114.15,136,2894,3430,5,5,0,0,measured,3292,2523,,,,2023/07/11
+413,Gemini 1.0 Pro,Google,Gemini series,3205,114.09,98,3041,3391,5,5,0,0,measured,3205,,,,,2023/12/06
+414,LFM2-2.6B,Liquid AI,LFM series,3203,114.05,148,2939,3497,3,2,0,1,mixed,3203,,3539,,,2025/09/22
+415,Command R+,Cohere,Command and other series,3185,113.7,78,3025,3319,9,9,0,0,measured,3185,,,,,2024/02/04
+416,Grok-1,xAI,Grok series,3144,112.88,151,2847,3440,1,0,0,1,self_reported,3144,,,,no_measured|self_heavy|single_obs,2024/03/17
+417,Phi-3,Microsoft,Phi series,3139,112.79,71,3000,3278,4,4,0,0,measured,3139,,,,,2024/04/23
+418,OLMoE-1B-7B,Allen Institute for AI,OLMo series,3118,112.36,103,2917,3319,2,0,0,2,self_reported,3118,,,,no_measured|self_heavy,2024/09/11
+419,Command R,Cohere,Command and other series,3114,112.28,129,2841,3339,4,4,0,0,measured,3114,,,,,2024/02/04
+420,Phi-3-mini,Microsoft,Phi series,3105,112.1,78,2944,3252,9,9,0,0,measured,3105,,3475,,,2024/04/23
+421,Jamba 1.5 Mini,AI21 Labs,Jamba series,3104,112.08,395,2329,3878,1,1,0,0,measured,3104,,,,single_obs|wide_ci,2024/08/22
+422,Jamba 1.7 Mini,AI21 Labs,Jamba series,3093,111.87,400,2310,3877,2,2,0,0,measured,3099,,3475,,wide_ci,2025/07/07
+423,Phi-3-small,Microsoft,Phi series,3061,111.23,83,2899,3224,5,3,0,2,mixed,3061,,,,,2024/05/21
+424,Claude 2.1,Anthropic,Claude series,3056,111.13,260,2767,3615,3,2,0,1,mixed,3056,,,,wide_ci,2023/11/21
+425,Nemotron-4 Base,NVIDIA,Nemotron series,3013,110.26,143,2732,3294,1,0,0,1,self_reported,3013,,,,no_measured|self_heavy|single_obs,2024/06/14
+426,Claude 1.3,Anthropic,Claude series,2985,109.7,142,2706,3264,1,0,0,1,self_reported,2985,,,,no_measured|self_heavy|single_obs,2023/03/14
+427,Claude Instant 1.2,Anthropic,Claude series,2967,109.33,80,2828,3143,2,2,0,0,measured,2967,,,,,2023/08/09
+428,Solar Pro Preview,Upstage,Solar series,2952,109.03,239,2484,3420,1,0,0,1,self_reported,2952,,,,no_measured|self_heavy|single_obs|wide_ci,2024/09/10
+429,Granite 3.0,IBM,Granite series,2930,108.61,178,2556,3191,4,2,0,2,mixed,2930,,,,self_heavy|wide_ci,2024/10/21
+430,Phi-2,Microsoft,Phi series,2893,107.86,107,2715,3133,4,4,0,0,measured,2893,,,,,2023/12/12
+431,Jamba 1.6 Mini,AI21 Labs,Jamba series,2888,107.76,336,2230,3546,2,2,0,0,measured,2888,,,,wide_ci,2025/03/06
+432,Moonlight-16B-A3B,Moonshot AI,Kimi series,2871,107.43,105,2701,3089,5,0,0,5,self_reported,2871,,,,no_measured|self_heavy,2025/02/22
+433,LFM2-1.2B,Liquid AI,LFM series,2847,106.94,678,1518,4176,2,2,0,0,measured,2850,,3475,,wide_ci,2025/07/10
+434,Phi-1,Microsoft,Phi series,2827,106.54,119,2593,3061,2,0,0,2,self_reported,2827,,,,no_measured|self_heavy,2023/06/15
+435,DeepSeek-V2-Lite,DeepSeek,DeepSeek series,2817,106.34,209,2393,3090,2,0,0,2,self_reported,2817,,,,no_measured|self_heavy|wide_ci,2024/05/15
+436,Mixtral 8x7B,Mistral AI,Mistral series,2777,105.55,107,2596,3000,5,5,0,0,measured,2777,,,,,2023/12/11
+437,OLMo 2 32B,Allen Institute for AI,OLMo series,2761,105.21,127,2512,3028,4,2,0,2,mixed,2761,,3475,,self_heavy,2025/03/13
+438,OLMo Hybrid 7B,Allen Institute for AI,OLMo series,2752,105.04,120,2512,2986,2,0,0,2,self_reported,2752,,,,no_measured|self_heavy,2026/01/28
+439,Gemma (Gemma 1),Google,Gemma series,2690,103.81,105,2484,2908,4,4,0,0,measured,2690,,,,,2024/02/21
+440,Mistral 7B,Mistral AI,Mistral series,2618,102.36,119,2361,2841,7,7,0,0,measured,2618,,,,,2023/09/27
+441,Granite 4.0 350M,IBM,Granite series,2575,101.5,119,2317,2791,6,4,0,2,mixed,2575,,3475,,,2025/10/28
+442,Llama 3.2 3B,Meta,Llama series,2568,101.37,223,2240,3138,3,3,0,0,measured,2568,,,,wide_ci,2024/09/25
+443,Granite 4.0 H-350M,IBM,Granite series,2551,101.01,108,2326,2776,4,0,0,4,self_reported,2551,,,,no_measured|self_heavy,2025/10/28
+444,ERNIE 4.5 0.3B,Baidu,ERNIE series,2541,100.81,205,1962,2795,4,3,0,1,mixed,2586,2310,,,wide_ci,2025/06/30
+445,OLMo 7B,Allen Institute for AI,OLMo series,2474,99.49,157,2167,2782,1,0,0,1,self_reported,2474,,,,no_measured|self_heavy|single_obs|wide_ci,2024/01/09
+446,Phi-1.5,Microsoft,Phi series,2408,98.16,143,2147,2673,2,0,0,2,self_reported,2408,,,,no_measured|self_heavy,2023/09/11
+447,OLMo 2 7B,Allen Institute for AI,OLMo series,2320,96.41,219,1856,2702,6,2,0,4,mixed,2320,,3475,,self_heavy|wide_ci,2024/11/26
+448,OLMo 1B,Allen Institute for AI,OLMo series,2041,90.82,234,1582,2500,1,0,0,1,self_reported,2041,,,,no_measured|self_heavy|single_obs|wide_ci,2024/01/26
+449,Gemini 1.0 Nano,Google,Gemini series,2007,90.14,270,1478,2536,1,0,0,1,self_reported,2007,,,,no_measured|self_heavy|single_obs|wide_ci,2023/12/06
+450,Llama 3.2 1B,Meta,Llama series,1337,76.73,473,844,2813,4,4,0,0,measured,1337,,3475,,wide_ci,2024/09/25

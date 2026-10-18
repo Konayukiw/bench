@@ -2,7 +2,7 @@
 
 > List for coding benchmark, excepting image-generation, video-generation, translation, embedding, voice-recognization models.
 
-**Last updated: 2026-10-18**
+**Last updated: 2026-10-19**
 
 - **⚠️** : Annotations for name, tier, and delivery method
 
@@ -37,18 +37,28 @@
 - GPT-5.4 mini
 - GPT-5.4 nano
 - GPT-5.4 Pro
+- GPT-5.4-Cyber
 - GPT-5.5
 - GPT-5.5 Pro
+- GPT-5.5 Instant
+- GPT-5.5 Cyber
 - GPT-5.6 Sol
 - GPT-5.6 Terra
 - GPT-5.6 Luna
+- GPT-5.6 Sol Pro
+- GPT-5.6 Terra Pro
+- GPT-5.6 Luna Pro
 - GPT-5.6 Cyber
 - Daybreak Red
 - Daybreak Blue
 - GPT-6 Astra
+- GPT-6 Astra Pro
 - GPT-6 Sol
 - GPT-6 Luna
+- GPT-6 Sol Pro
+- GPT-6 Luna Pro
 - GPT-6.1 Sol
+- GPT-6.1 Sol Pro
 
 ### o series
 
@@ -72,6 +82,7 @@
 - GPT-5.1 Codex mini
 - GPT-5.2-Codex
 - GPT-5.3-Codex
+- GPT-5.3-Codex-Spark
 
 ### GPT-OSS series
 
@@ -148,9 +159,11 @@
 - Gemini 3.1 Pro
 - Gemini 3.5 Flash
 - Gemini 3.5 Flash-Lite
+- Gemini 3.5 Flash Cyber
 - Gemini 3.6 Flash
 - Gemini 3.7 Flash
 - Gemini 3.8 Flash
+- Gemini 3.8 Flash Cyber
 - Gemini 4 Argon
 
 ### Gemma series
@@ -160,6 +173,7 @@
 - Gemma 3
 - Gemma 3n
 - Gemma 4
+- DiffusionGemma 26B A4B
 
 ---
 
@@ -185,10 +199,16 @@
 - Muse Spark
 - Muse Spark 1.1
 - Muse Spark 1.2
+- Muse Spark 1.2 Contributor ⚠️
 - Muse Spark 1.3
+- Muse Spark 1.3 Contributor ⚠️
 - Muse Spark Open
+- Muse Wonder
+- Muse Wonder Full
 - Muse Glimmer
 - Muse Code
+
+⚠️: Muse Spark 1.2 Contributor and Muse Spark 1.3 Contributor are discounted API tiers of Muse Spark 1.2 and Muse Spark 1.3, which allow Meta to use prompts and outputs for training. Their specs should be the same as its non-contributor model.
 
 ---
 
@@ -212,6 +232,7 @@
 - Grok 4.1 Fast
 - Grok 4.20
 - Grok 4.20 Multi-agent
+- Grok 4.20 0309 v2
 - Grok 4.3
 - Grok 4.5
 - Grok 4.6
@@ -244,6 +265,8 @@
 - DeepSeek-R1-0528
 - DeepSeek-R1-Lite-Preview
 - DeepSeek-R1-Distill ⚠️
+- DeepSeek-V4-Flash
+- DeepSeek-V4-Pro
 - DeepSeek-V4-Flash-0731 ⚠️
 - DeepSeek-V4-Pro-0813 ⚠️
 - DeepSeek-V4-Flash-Vision-Exp ⚠️
@@ -301,17 +324,23 @@
 - Qwen3.6 35B-A3B
 - Qwen3.6 Flash
 - Qwen3.6 Plus
+- Qwen3.6 Max Preview
 - Qwen3.7 Plus
 - Qwen3.7 Max
+- Qwen-AgentWorld-35B-A3B
+- Qwen3.7 Flash
 - Qwen3.8 Flash
 - Qwen3.8 2.4T-A95B ⚠️
 - Qwen3.8 Max
 - Qwen3.8 Max (0902)
 - Qwen3.8-27B
 - Qwen3.8-Flash-Next
+- Qwen3.8 Omni Flash
+- Qwen3.8 Max Prime ⚠️
 
 ⚠️: Qwen3-Coder-Flash is internally Qwen3-Coder-30B-A3B.
 ⚠️: Qwen3.8 Max is internally Qwen3.8 2.4T-A95B.
+⚠️: Qwen3.8 Max Prime is a faster serving tier of Qwen3.8 Max with the same weights.
 
 ---
 
@@ -371,8 +400,12 @@
 - GLM-5.2
 - GLM-5.3
 - GLM-5.3-Flash
+- GLM-5.3-FlashX ⚠️
+- GLM-5.3-Prime ⚠️
 - GLM-5-Turbo
 - GLM-5V-Turbo
+
+⚠️: GLM-5.3-FlashX and GLM-5.3-Prime are faster serving tiers of GLM-5.3-Flash and GLM-5.3 with the same weights.
 
 ---
 
@@ -422,6 +455,9 @@
 
 - MiMo-7B
 - MiMo-V2-Flash
+- MiMo-V2-Pro
+- MiMo-V2-Omni
+- MiMo-V2-Omni-0327
 - MiMo-V2.5
 - MiMo-V2.5-Pro
 - MiMo-V2.6-Flash
@@ -516,6 +552,12 @@
 - MAI-DS-R1
 - MAI-1-preview
 - MAI-Thinking-1
+- MAI-Cyber-1-Flash
+
+### MAI Code series
+
+- MAI-Code-1-Flash
+- MAI-Code-1.1-Flash
 
 ---
 
@@ -532,11 +574,13 @@
 - Llama-3.1-Nemotron-Nano-8B
 - Nemotron Nano 9B v2
 - Nemotron Nano 12B v2
+- Nemotron Nano 12B v2 VL
 - Nemotron-H 8B
 - Nemotron 3 Nano
 - Nemotron 3 Super
 - Nemotron 3 Ultra
 - Nemotron 3 Nano Omni
+- Nemotron Cascade 2 30B A3B
 - Nemotron 3.5 Lightning
 - Nemotron 3.5 Super VL
 - Nemotron 3.5 Bolt 74B-A9B
@@ -574,6 +618,7 @@
 - Aya 23
 - Aya Expanse
 - Aya Vision
+- Tiny Aya
 
 ---
 
@@ -608,6 +653,9 @@
 - Granite 4.0 H-Tiny
 - Granite 4.0 Micro
 - Granite 4.0 350M
+- Granite 4.0 1B
+- Granite 4.0 H-1B
+- Granite 4.0 H-350M
 - Granite 4.1 3B
 - Granite 4.1 8B
 - Granite 4.1 30B
@@ -625,14 +673,20 @@
 - Seed1.5-VL
 - Seed1.5-Thinking
 - Seed1.6
+- Seed1.6-Flash
 - Seed1.8
 - Seed 2.0
+- Seed2.0 Mini
+- Seed2.0 Lite
+- Seed2.0 Code
 - Seed2.1
+- Seed2.1 Turbo
 - Seed Diffusion Preview
 - Seed-OSS-36B
 - Seed-Coder-8B
 - Seed-Thinking-v1.5
 - Doubao-1.5-Pro
+- Doubao Seed Code
 
 ---
 
@@ -729,6 +783,7 @@
 - Step-3
 - Step3-VL
 - Step-3.5-Flash
+- Step 3.5 Flash 2603
 - Step 3.7 Flash
 - Step 5 Preview
 
@@ -802,13 +857,6 @@
 - Inkling
 - Inkling-Small
 
-## Microsoft
-
-### MAI Code series
-
-- MAI-Code-1-Flash
-- MAI-Code-1.1-Flash
-
 ## Anysphere
 
 ### Composer series
@@ -822,13 +870,18 @@
 
 - SWE-1.5
 - SWE-1.6
+- SWE-1.6 Fast ⚠️
 - SWE-1.7
 - SWE-2
+
+⚠️: SWE-1.6 Fast is the Cerebras-served fast tier of SWE-1.6.
 
 ## Poolside
 
 ### Laguna series
 
+- Laguna M.1
+- Laguna XS.2
 - Laguna XS 2.1
 - Laguna S 2.1
 
@@ -841,3 +894,69 @@
 - Manus 1.6 Lite
 - Manus 1.6 Max
 - Manus 2.0
+
+## Inception Labs
+
+### Mercury series
+
+- Mercury Coder Mini
+- Mercury Coder Small
+- Mercury
+- Mercury 2
+- Mercury Edit 2
+- Mercury 2.5
+
+## Meituan
+
+### LongCat series
+
+- LongCat-Flash-Chat
+- LongCat-Flash-Thinking
+- LongCat-Flash-Omni
+- LongCat-Flash-Thinking-2601
+- LongCat-Flash-Thinking-ZigZag
+- LongCat-Flash-Lite
+- LongCat-Flash-Omni-2603
+- LongCat-Flash-Prover
+- LongCat-Next
+- LongCat-2.0-Preview
+- LongCat-2.0
+- LongCat-Flash-Lite-Sparse
+- LongCat-2.5-Preview
+
+## Ant Group
+
+### Ling series
+
+- Ling-lite
+- Ling-plus
+- Ling-Coder-lite
+- Ling-lite-1.5
+- Ling-lite-1.5-2506
+- Ling-lite-1.5-2507
+- Ling-mini-2.0
+- Ling-flash-2.0
+- Ling-1T
+- Ling-2.5-1T
+- Ling-2.6-flash
+- Ling-2.6-1T
+- Ling-3.0-flash
+- Ling-3.0-tiny
+- Ling-3.0-flash-VL
+- Ling-3.0-flash-Fin
+- Ling-3.1-flash
+
+## Upstage
+
+### Solar series
+
+- SOLAR 10.7B
+- Solar Mini
+- Solar Pro Preview
+- Solar Pro
+- Solar Pro 2
+- Solar Open 100B
+- Solar Pro 3
+- Solar Open2 250B
+- Solar Pro 4
+- Solar Mini 4
