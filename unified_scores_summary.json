@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-19",
+ "generated": "2026-10-24",
  "counts": {
-  "models_in_list": 663,
-  "models_ranked": 450,
-  "models_interpolated": 126,
+  "models_in_list": 665,
+  "models_ranked": 452,
+  "models_interpolated": 127,
   "models_low_information": 11,
-  "models_without_data": 76,
-  "observations_used": 3128,
+  "models_without_data": 75,
+  "observations_used": 3136,
   "benchmarks_used": 66,
   "benchmarks_dropped": [
    "DS-1000",
@@ -20,10 +20,10 @@
   ]
  },
  "inversion_rate": 0.0283,
- "inversion_pairs": 87679,
+ "inversion_pairs": 87987,
  "previous_method_same_pairs": {
   "pairs": 77626,
-  "new_rate": 0.029,
+  "new_rate": 0.0289,
   "old_rate": 0.0486
  },
  "epoch_swe_eci_spearman": 0.9703,
@@ -31,7 +31,7 @@
   {
    "benchmark": "AA Coding Index",
    "role": "validate",
-   "rate": 0.0207,
+   "rate": 0.0205,
    "pairs": 8833,
    "models": 149
   },
@@ -45,7 +45,7 @@
   {
    "benchmark": "Arena WebDev Elo",
    "role": "validate",
-   "rate": 0.0373,
+   "rate": 0.0371,
    "pairs": 4501,
    "models": 111
   },
@@ -262,9 +262,9 @@
   {
    "benchmark": "SciCode",
    "role": "fit",
-   "rate": 0.0251,
-   "pairs": 5814,
-   "models": 127
+   "rate": 0.0249,
+   "pairs": 5984,
+   "models": 129
   },
   {
    "benchmark": "SkillsBench (Vals)",
@@ -311,16 +311,16 @@
   {
    "benchmark": "Terminal-Bench 4.0",
    "role": "fit",
-   "rate": 0.0114,
-   "pairs": 88,
-   "models": 15
+   "rate": 0.0174,
+   "pairs": 115,
+   "models": 17
   },
   {
    "benchmark": "Terminal-Bench 4.0 (Vals)",
    "role": "fit",
-   "rate": 0.059,
-   "pairs": 831,
-   "models": 46
+   "rate": 0.0588,
+   "pairs": 867,
+   "models": 47
   },
   {
    "benchmark": "Terminal-Bench Hard",
@@ -332,9 +332,9 @@
   {
    "benchmark": "Vibe Code Bench (Vals)",
    "role": "fit",
-   "rate": 0.0169,
-   "pairs": 4202,
-   "models": 104
+   "rate": 0.0173,
+   "pairs": 4277,
+   "models": 105
   },
   {
    "benchmark": "Vibe Code Bench 1-100 (Vals)",

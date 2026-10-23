@@ -2,7 +2,7 @@
 
 > List for coding benchmark, excepting image-generation, video-generation, translation, embedding, voice-recognization models.
 
-**Last updated: 2026-10-19**
+**Last updated: 2026-10-24**
 
 - **⚠️** : Annotations for name, tier, and delivery method
 
@@ -445,6 +445,7 @@
 - MiniMax-M2.7
 - MiniMax-M3
 - MiniMax-M3.1-Flash-Preview
+- MiniMax-M3.1-Flash
 - MiniMax-VL-01
 
 ---
@@ -945,6 +946,9 @@
 - Ling-3.0-flash-VL
 - Ling-3.0-flash-Fin
 - Ling-3.1-flash
+- Ling-3.1-flash-1019 ⚠️
+
+⚠️ Ling-3.1-flash-1019 hasn't released the weights and datas aren't enough yet.
 
 ## Upstage
 
