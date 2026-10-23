@@ -357,10 +357,13 @@
 - Kimi K2.6
 - Kimi K2.7 Code
 - Kimi K3
+- Kimi K3.1 Pro ⚠️
 - Kimi-VL-A3B
 - Kimi-Linear-48B-A3B
 - Kimi-Dev-72B
 - Moonlight-16B-A3B
+
+⚠️ Kimi K3.1 Pro scores the highest on SWE Marathon, ALE, HLE, etc but bench hasn't adopted them so overall score can be lower than actual.
 
 ---
 

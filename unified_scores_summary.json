@@ -1,12 +1,12 @@
 {
  "generated": "2026-10-24",
  "counts": {
-  "models_in_list": 665,
-  "models_ranked": 452,
+  "models_in_list": 666,
+  "models_ranked": 453,
   "models_interpolated": 127,
   "models_low_information": 11,
   "models_without_data": 75,
-  "observations_used": 3136,
+  "observations_used": 3139,
   "benchmarks_used": 66,
   "benchmarks_dropped": [
    "DS-1000",
@@ -262,7 +262,7 @@
   {
    "benchmark": "SciCode",
    "role": "fit",
-   "rate": 0.0249,
+   "rate": 0.0247,
    "pairs": 5984,
    "models": 129
   },
@@ -332,7 +332,7 @@
   {
    "benchmark": "Vibe Code Bench (Vals)",
    "role": "fit",
-   "rate": 0.0173,
+   "rate": 0.0175,
    "pairs": 4277,
    "models": 105
   },
