@@ -31,7 +31,7 @@ class Problem:
         self.alpha_fixed = np.full(len(self.benches), np.nan)
         for j, b in enumerate(self.benches):
             anchor = config.spec(b).get("anchor")
-            if anchor:
+            if anchor and anchor in edi:
                 self.D_fixed[j] = edi[anchor]["edi"]
                 self.alpha_fixed[j] = edi[anchor]["slope"]
         self.free = np.where(np.isnan(self.D_fixed))[0]
@@ -163,7 +163,7 @@ def refit_external(observations, edi, model_index):
     groups = defaultdict(list)
     for o in observations:
         anchor = config.spec(o["bench"]).get("anchor")
-        if anchor and o["model"] in model_index:
+        if anchor and anchor in edi and o["model"] in model_index:
             groups[model_index[o["model"]]].append((o["value"], o["weight"], o["offset"], edi[anchor]["edi"], edi[anchor]["slope"]))
     out = {}
     for i, rows in groups.items():

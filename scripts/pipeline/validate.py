@@ -52,7 +52,7 @@ def load_old_theta():
 
 
 def epoch_swe_refit(processed, edi):
-    anchors = {spec["anchor"] for spec in config.BENCHMARKS.values() if spec.get("anchor")}
+    anchors = {spec["anchor"] for spec in config.BENCHMARKS.values() if spec.get("anchor") and spec["anchor"] in edi}
     out = {}
     sub = processed[processed.benchmark.isin(anchors)]
     for model, g in sub.groupby("Model"):

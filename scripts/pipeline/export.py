@@ -82,8 +82,10 @@ def benchmark_diagnostics(result):
     for j, b in enumerate(prob.benches):
         sel = prob.bi == j
         groups = Counter(result["fit_obs"][i]["group"] for i in np.where(sel)[0])
-        out.append({"benchmark": b, "family": config.spec(b)["family"], "anchored_to_epoch": bool(config.spec(b).get("anchor")),
-                    "epoch_name": config.spec(b).get("anchor"), "difficulty_eci": round(float(D[j]), 2), "slope": round(float(alpha[j]), 4),
+        anchor = config.spec(b).get("anchor")
+        fixed = bool(anchor) and anchor in result["edi"]
+        out.append({"benchmark": b, "family": config.spec(b)["family"], "anchored_to_epoch": fixed,
+                    "epoch_name": anchor if fixed else None, "difficulty_eci": round(float(D[j]), 2), "slope": round(float(alpha[j]), 4),
                     "n_obs": int(sel.sum()), "by_group": dict(groups), "rmse": round(float(np.sqrt(np.mean((prob.y[sel] - pred[sel]) ** 2))), 4)})
     return sorted(out, key=lambda d: (not d["anchored_to_epoch"], d["family"], d["benchmark"]))
 

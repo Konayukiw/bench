@@ -53,6 +53,13 @@ def main():
 
     eci_scores, edi_df, processed = sources.load_epoch_eci()
     edi = {r.benchmark_name: {"edi": r.edi, "slope": r.estimated_slope_scaled} for r in edi_df.itertuples()}
+    missing_anchors = set()
+    for o in fit_obs + sub_obs:
+        anchor = config.spec(o["bench"]).get("anchor")
+        if anchor and anchor not in edi:
+            missing_anchors.add(anchor)
+    if missing_anchors:
+        print("edi: missing " + ", ".join(sorted(missing_anchors)) + ". difficulty and slope will be estimated")
 
     prob = Problem(fit_obs, edi)
     x_hat, res = prob.solve()

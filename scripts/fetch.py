@@ -5,6 +5,7 @@ import os
 import re
 import sys
 import time
+import zipfile
 from pathlib import Path
 
 import requests
@@ -54,13 +55,30 @@ def save(dest_dir, name, content, url):
     return {"file": name, "url": url, "bytes": len(content), "sha256": hashlib.sha256(content).hexdigest()}
 
 
+def extract_benchmark_data(dest_dir, zip_path):
+    with zipfile.ZipFile(zip_path) as zf:
+        names = [n for n in zf.namelist() if n and not n.endswith("/")]
+        nested = bool(names) and all(n.replace("\\", "/").startswith("benchmark_data/") for n in names)
+        target = dest_dir if nested else dest_dir / "benchmark_data"
+        target.mkdir(parents=True, exist_ok=True)
+        zf.extractall(target)
+    extracted = dest_dir / "benchmark_data" / "model_metadata.csv"
+    if not extracted.is_file():
+        raise FileNotFoundError(extracted)
+    return len(names)
+
+
 def fetch_files(source, urls, dest_dir):
     entries = []
     for url in urls:
         r = requests.get(url, headers=UA, timeout=120)
         r.raise_for_status()
-        entries.append(save(dest_dir, url.rsplit("/", 1)[-1], r.content, url))
+        name = url.rsplit("/", 1)[-1]
+        entries.append(save(dest_dir, name, r.content, url))
         print(f"  {source}: {entries[-1]['file']} {entries[-1]['bytes']:,} bytes")
+        if name == "benchmark_data.zip":
+            n = extract_benchmark_data(dest_dir, dest_dir / name)
+            print(f"  {source}: extracted {n} files into benchmark_data/")
     return entries
 
 
