@@ -1,0 +1,2 @@
+model,benchmark,value,unit,provenance,config,source_url,retrieved,note
+GPT-6.1 Terra,Terminal-Bench 4.0,50.3,percent,self,reasoning effort=max,https://openai.com/index/introducing-gpt-6-1-terra,2026-10-27,"Stated in the OpenAI launch post: at maximum reasoning effort GPT-6.1 Terra solves 50.3% of Terminal-Bench 4.0 tasks (more than double GPT-5.6 Terra's published 21.5%)."

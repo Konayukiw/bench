@@ -2,7 +2,7 @@
 
 > List for coding benchmark, excepting image-generation, video-generation, translation, embedding, voice-recognization models.
 
-**Last updated: 2026-10-24**
+**Last updated: 2026-10-27**
 
 - **⚠️** : Annotations for name, tier, and delivery method
 
@@ -59,6 +59,7 @@
 - GPT-6 Luna Pro
 - GPT-6.1 Sol
 - GPT-6.1 Sol Pro
+- GPT-6.1 Terra
 
 ### o series
 
