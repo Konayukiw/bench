@@ -1,0 +1,11 @@
+{
+ "fetched_at": "2026-10-13T01:48:26",
+ "files": [
+  {
+   "file": "results.json",
+   "url": "https://bigcode-bench.github.io/results.json",
+   "bytes": 76120,
+   "sha256": "2e24b0322c5b8f3059616cf8428300e1aa8e619bb1520bd09aa397067c66cf7c"
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "fetched_at": "2026-10-13T01:48:23",
+ "files": [
+  {
+   "file": "polyglot_leaderboard.yml",
+   "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
+   "bytes": 45725,
+   "sha256": "85a50b25953512d18ba4bb0c23c0b8e626fcf9a5b52d287644b8a0b44b9535de"
+  }
+ ]
+}

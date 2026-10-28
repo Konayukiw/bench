@@ -1,0 +1,2830 @@
+{
+    "Magicoder-S-DS-6.7B": {
+        "link": "https://huggingface.co/ise-uiuc/Magicoder-S-DS-6.7B",
+        "open-data": "Partial",
+        "pass@1": {
+            "instruct": 36.2,
+            "complete": 47.6
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 6.7,
+        "act_param": 6.7,
+        "date": "2024-12-04",
+        "prefill": true
+    },
+    "StarCoder2-15B-Instruct-v0.1": {
+        "link": "https://huggingface.co/bigcode/starcoder2-15b-instruct-v0.1",
+        "open-data": "Full",
+        "pass@1": {
+            "instruct": 37.6,
+            "complete": 45.1
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 15,
+        "act_param": 15,
+        "date": "2024-04-30",
+        "prefill": true
+    },
+    "StarCoder2-3B": {
+        "link": "https://huggingface.co/bigcode/starcoder2-3b",
+        "open-data": "Full",
+        "pass@1": {
+            "instruct": null,
+            "complete": 21.4
+        },
+        "prompted": false,
+        "moe": false,
+        "size": 3,
+        "act_param": 3,
+        "date": "2024-02-29",
+        "prefill": true
+    },
+    "StarCoder2-7B": {
+        "link": "https://huggingface.co/bigcode/starcoder2-7b",
+        "open-data": "Full",
+        "pass@1": {
+            "instruct": null,
+            "complete": 27.7
+        },
+        "prompted": false,
+        "moe": false,
+        "size": 7,
+        "act_param": 7,
+        "date": "2024-02-29",
+        "prefill": true
+    },
+    "StarCoder2-15B": {
+        "link": "https://huggingface.co/bigcode/starcoder2-15b",
+        "open-data": "Full",
+        "pass@1": {
+            "instruct": null,
+            "complete": 38.4
+        },
+        "prompted": false,
+        "moe": false,
+        "size": 15,
+        "act_param": 15,
+        "date": "2024-02-29",
+        "prefill": true
+    },
+    "CodeQwen1.5-7B": {
+        "link": "https://huggingface.co/Qwen/CodeQwen1.5-7B",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 45.6
+        },
+        "prompted": false,
+        "moe": false,
+        "size": 7,
+        "act_param": 7,
+        "date": "2024-04-16",
+        "prefill": true
+    },
+    "CodeGemma-2B": {
+        "link": "https://huggingface.co/google/codegemma-2b",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 23.9
+        },
+        "prompted": false,
+        "moe": false,
+        "size": 2,
+        "act_param": 2,
+        "date": "2024-04-10",
+        "prefill": true
+    },
+    "CodeGemma-7B": {
+        "link": "https://huggingface.co/google/codegemma-7b",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 38.3
+        },
+        "prompted": false,
+        "moe": false,
+        "size": 7,
+        "act_param": 7,
+        "date": "2024-04-10",
+        "prefill": true
+    },
+    "CodeGemma-7B-Instruct": {
+        "link": "https://huggingface.co/google/codegemma-7b-it",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 32.3,
+            "complete": 39.3
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 7,
+        "act_param": 7,
+        "date": "2024-04-10",
+        "prefill": true
+    },
+    "GPT-3.5-Turbo-0125": {
+        "link": "https://openai.com/index/new-embedding-models-and-api-updates",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 39.1,
+            "complete": 50.6
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-01-25",
+        "prefill": true
+    },
+    "GPT-4o-2024-05-13": {
+        "link": "https://openai.com/index/hello-gpt-4o/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 51.1,
+            "complete": 61.1
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-05-13",
+        "prefill": true
+    },
+    "GPT-4-Turbo-2024-04-09": {
+        "link": "https://openai.com/blog/new-models-and-developer-products-announced-at-devday",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 48.2,
+            "complete": 58.2
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-04-09",
+        "prefill": true
+    },
+    "GPT-4-0613": {
+        "link": "https://openai.com/blog/new-models-and-developer-products-announced-at-devday",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 46.0,
+            "complete": 57.2
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-06-13",
+        "prefill": true
+    },
+    "CodeLlama-7B-Base": {
+        "link": "https://huggingface.co/codellama/CodeLlama-7b-hf",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 28.7
+        },
+        "prompted": false,
+        "moe": false,
+        "size": 7,
+        "act_param": 7,
+        "date": "2023-08-25",
+        "prefill": true
+    },
+    "CodeLlama-13B-Base": {
+        "link": "https://huggingface.co/codellama/CodeLlama-13b-hf",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 32.0
+        },
+        "prompted": false,
+        "moe": false,
+        "size": 13,
+        "act_param": 13,
+        "date": "2023-08-25",
+        "prefill": true
+    },
+    "CodeLlama-7B-Instruct": {
+        "link": "https://huggingface.co/codellama/CodeLlama-7b-Instruct-hf",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 21.9,
+            "complete": 25.7
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 7,
+        "act_param": 7,
+        "date": "2023-08-25",
+        "prefill": true
+    },
+    "CodeLlama-13B-Instruct": {
+        "link": "https://huggingface.co/codellama/CodeLlama-13b-Instruct-hf",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 28.5,
+            "complete": 31.7
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 13,
+        "act_param": 13,
+        "date": "2023-08-25",
+        "prefill": true
+    },
+    "Mistral-Large-2402": {
+        "link": "https://mistral.ai/news/mistral-large/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 30.0,
+            "complete": 38.3
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-02-26",
+        "prefill": true
+    },
+    "Mistral-Small-2402": {
+        "link": "https://mistral.ai/news/mistral-large/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 32.1,
+            "complete": 41.3
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-02-26",
+        "prefill": true
+    },
+    "Mixtral-8x22B-Base": {
+        "link": "https://huggingface.co/mistralai/Mixtral-8x22B-v0.1",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 45.3
+        },
+        "prompted": false,
+        "moe": true,
+        "size": 176,
+        "act_param": 44,
+        "date": "2024-04-17",
+        "prefill": true
+    },
+    "Mixtral-8x22B-Instruct": {
+        "link": "https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 40.6,
+            "complete": 50.2
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 176,
+        "act_param": 44,
+        "date": "2024-04-17",
+        "prefill": true
+    },
+    "CodeLlama-34B-Base": {
+        "link": "https://huggingface.co/codellama/CodeLlama-34b-hf",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 37.1
+        },
+        "prompted": false,
+        "moe": false,
+        "size": 34,
+        "act_param": 34,
+        "date": "2023-08-25",
+        "prefill": true
+    },
+    "CodeLlama-34B-Instruct": {
+        "link": "https://huggingface.co/codellama/CodeLlama-34b-Instruct-hf",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 29.0,
+            "complete": 35.6
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 34,
+        "act_param": 34,
+        "date": "2023-08-25",
+        "prefill": true
+    },
+    "CodeLlama-70B-Base": {
+        "link": "https://huggingface.co/codellama/CodeLlama-70b-hf",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 44.0
+        },
+        "prompted": false,
+        "moe": false,
+        "size": 70,
+        "act_param": 70,
+        "date": "2023-08-25",
+        "prefill": true
+    },
+    "CodeLlama-70B-Instruct": {
+        "link": "https://huggingface.co/codellama/CodeLlama-70b-Instruct-hf",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 40.7,
+            "complete": 49.6
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 70,
+        "act_param": 70,
+        "date": "2023-08-25",
+        "prefill": true
+    },
+    "CodeQwen1.5-7B-Chat": {
+        "link": "https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 39.6,
+            "complete": 43.6
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 7,
+        "act_param": 7,
+        "date": "2024-04-16",
+        "prefill": true
+    },
+    "Qwen1.5-110B-Chat": {
+        "link": "https://huggingface.co/Qwen/Qwen1.5-110B-Chat",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 35.0,
+            "complete": 44.4
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 110,
+        "act_param": 110,
+        "date": "2024-04-26",
+        "prefill": true
+    },
+    "Qwen1.5-72B-Chat": {
+        "link": "https://huggingface.co/Qwen/Qwen1.5-72B-Chat",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 33.2,
+            "complete": 40.3
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 72,
+        "act_param": 72,
+        "date": "2024-04-26",
+        "prefill": true
+    },
+    "Qwen1.5-32B-Chat": {
+        "link": "https://huggingface.co/Qwen/Qwen1.5-32B-Chat",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 32.3,
+            "complete": 42.0
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 32,
+        "act_param": 32,
+        "date": "2024-04-26",
+        "prefill": true
+    },
+    "DeepSeek-V2-Chat": {
+        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 40.4,
+            "complete": 49.0
+        },
+        "prompted": true,
+        "moe": true,
+        "size": 236,
+        "act_param": 21,
+        "date": "2024-04-06",
+        "prefill": true
+    },
+    "DeepSeek-Coder-1.3B-Base": {
+        "link": "https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-base",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 22.2
+        },
+        "prompted": false,
+        "moe": false,
+        "size": 1.3,
+        "act_param": 1.3,
+        "date": "2023-10-28",
+        "prefill": true
+    },
+    "DeepSeek-Coder-1.3B-Instruct": {
+        "link": "https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 22.8,
+            "complete": 29.6
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 1.3,
+        "act_param": 1.3,
+        "date": "2023-10-28",
+        "prefill": true
+    },
+    "DeepSeek-Coder-33B-Base": {
+        "link": "https://huggingface.co/deepseek-ai/deepseek-coder-33b-base",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 46.6
+        },
+        "prompted": false,
+        "moe": false,
+        "size": 33,
+        "act_param": 33,
+        "date": "2023-10-28",
+        "prefill": true
+    },
+    "DeepSeek-Coder-33B-Instruct": {
+        "link": "https://huggingface.co/deepseek-ai/deepseek-coder-33b-instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 42.0,
+            "complete": 51.1
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 33,
+        "act_param": 33,
+        "date": "2023-10-28",
+        "prefill": true
+    },
+    "DeepSeek-Coder-6.7B-Base": {
+        "link": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 41.8
+        },
+        "prompted": false,
+        "moe": false,
+        "size": 6.7,
+        "act_param": 6.7,
+        "date": "2023-10-28",
+        "prefill": true
+    },
+    "DeepSeek-Coder-6.7B-Instruct": {
+        "link": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 35.5,
+            "complete": 43.8
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 6.7,
+        "act_param": 6.7,
+        "date": "2023-10-28",
+        "prefill": true
+    },
+    "Llama-3-70B-Base": {
+        "link": "https://huggingface.co/meta-llama/Meta-Llama-3-70B",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 43.3
+        },
+        "prompted": false,
+        "moe": false,
+        "size": 70,
+        "act_param": 70,
+        "date": "2024-04-18",
+        "prefill": true
+    },
+    "Llama-3-70B-Instruct": {
+        "link": "https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 43.6,
+            "complete": 54.5
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 70,
+        "act_param": 70,
+        "date": "2024-04-18",
+        "prefill": true
+    },
+    "Llama-3-8B-Base": {
+        "link": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 28.8
+        },
+        "prompted": false,
+        "moe": false,
+        "size": 8,
+        "act_param": 8,
+        "date": "2024-04-18",
+        "prefill": true
+    },
+    "Llama-3-8B-Instruct": {
+        "link": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 31.9,
+            "complete": 36.9
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 8,
+        "act_param": 8,
+        "date": "2024-04-18",
+        "prefill": true
+    },
+    "Granite-Code-3B-Instruct": {
+        "link": "https://huggingface.co/ibm-granite/granite-3b-code-instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 31.4
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 3,
+        "act_param": 3,
+        "date": "2024-05-06",
+        "prefill": true
+    },
+    "Granite-Code-8B-Instruct": {
+        "link": "https://huggingface.co/ibm-granite/granite-8b-code-instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 39.7
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 8,
+        "act_param": 8,
+        "date": "2024-05-06",
+        "prefill": true
+    },
+    "Granite-Code-20B-Instruct": {
+        "link": "https://huggingface.co/ibm-granite/granite-20b-code-instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 34.0,
+            "complete": 42.0
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 20,
+        "act_param": 20,
+        "date": "2024-05-06",
+        "prefill": true
+    },
+    "Granite-Code-34B-Instruct": {
+        "link": "https://huggingface.co/ibm-granite/granite-34b-code-instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 36.1,
+            "complete": 44.4
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 34,
+        "act_param": 34,
+        "date": "2024-05-06",
+        "prefill": true
+    },
+    "Granite-Code-3B-Base": {
+        "link": "https://huggingface.co/ibm-granite/granite-3b-code-base",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 20.0
+        },
+        "prompted": false,
+        "moe": false,
+        "size": 3,
+        "act_param": 3,
+        "date": "2024-05-06",
+        "prefill": true
+    },
+    "Granite-Code-8B-Base": {
+        "link": "https://huggingface.co/ibm-granite/granite-8b-code-base",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 35.7
+        },
+        "prompted": false,
+        "moe": false,
+        "size": 8,
+        "act_param": 8,
+        "date": "2024-05-06",
+        "prefill": true
+    },
+    "Granite-Code-20B-Base": {
+        "link": "https://huggingface.co/ibm-granite/granite-20b-code-base",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 25.6
+        },
+        "prompted": false,
+        "moe": false,
+        "size": 20,
+        "act_param": 20,
+        "date": "2024-05-06",
+        "prefill": true
+    },
+    "Granite-Code-34B-Base": {
+        "link": "https://huggingface.co/ibm-granite/granite-34b-code-base",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 38.4
+        },
+        "prompted": false,
+        "moe": false,
+        "size": 34,
+        "act_param": 34,
+        "date": "2024-05-06",
+        "prefill": true
+    },
+    "Claude-3-Haiku-20240307": {
+        "link": "https://www.anthropic.com/news/claude-3-family",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 39.4,
+            "complete": 50.1
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-03-07",
+        "prefill": false
+    },
+    "Claude-3-Sonnet-20240229": {
+        "link": "https://www.anthropic.com/news/claude-3-family",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 42.7,
+            "complete": 53.8
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-02-29",
+        "prefill": false
+    },
+    "Claude-3-Opus-20240229": {
+        "link": "https://www.anthropic.com/news/claude-3-family",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 45.5,
+            "complete": 57.4
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-02-29",
+        "prefill": false
+    },
+    "Yi-1.5-34B-Chat": {
+        "link": "https://huggingface.co/01-ai/Yi-1.5-34B-Chat",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 33.9,
+            "complete": 43.8
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 34,
+        "act_param": 34,
+        "date": "2024-05-20",
+        "prefill": true
+    },
+    "Yi-1.5-34B": {
+        "link": "https://huggingface.co/01-ai/Yi-1.5-34B",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 40.0
+        },
+        "prompted": false,
+        "moe": false,
+        "size": 34,
+        "act_param": 34,
+        "date": "2024-05-20",
+        "prefill": true
+    },
+    "Yi-1.5-9B-Chat": {
+        "link": "https://huggingface.co/01-ai/Yi-1.5-9B-Chat",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 34.5,
+            "complete": 42.4
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 9,
+        "act_param": 9,
+        "date": "2024-05-20",
+        "prefill": true
+    },
+    "Yi-1.5-9B": {
+        "link": "https://huggingface.co/01-ai/Yi-1.5-9B",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 35.5
+        },
+        "prompted": false,
+        "moe": false,
+        "size": 9,
+        "act_param": 9,
+        "date": "2024-05-20",
+        "prefill": true
+    },
+    "Yi-1.5-6B-Chat": {
+        "link": "https://huggingface.co/01-ai/Yi-1.5-6B-Chat",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 25.6,
+            "complete": 33.9
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 6,
+        "act_param": 6,
+        "date": "2024-05-20",
+        "prefill": true
+    },
+    "Yi-1.5-6B": {
+        "link": "https://huggingface.co/01-ai/Yi-1.5-6B",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 27.5
+        },
+        "prompted": false,
+        "moe": false,
+        "size": 6,
+        "act_param": 6,
+        "date": "2024-05-20",
+        "prefill": true
+    },
+    "Qwen2-57B-A14B": {
+        "link": "https://huggingface.co/Qwen/Qwen2-57B-A14B",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 36.1,
+            "complete": 46.8
+        },
+        "prompted": true,
+        "moe": true,
+        "size": 57,
+        "act_param": 14,
+        "date": "2024-06-07",
+        "prefill": true
+    },
+    "Qwen2-7B-Instruct": {
+        "link": "https://huggingface.co/Qwen/Qwen2-7B-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 29.1,
+            "complete": 42.1
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 7,
+        "act_param": 7,
+        "date": "2024-06-07",
+        "prefill": true
+    },
+    "Qwen2-72B-Chat": {
+        "link": "https://huggingface.co/Qwen/Qwen2-72B-Chat",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 38.5,
+            "complete": 54.0
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 72,
+        "act_param": 72,
+        "date": "2024-06-07",
+        "prefill": true
+    },
+    "Gemini-1.5-Pro-API-0514": {
+        "link": "https://deepmind.google/technologies/gemini/pro",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 43.8,
+            "complete": 57.5
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-05-14",
+        "prefill": true
+    },
+    "Gemini-1.5-Flash-API-0514": {
+        "link": "https://deepmind.google/technologies/gemini/flash/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 43.5,
+            "complete": 55.1
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-05-14",
+        "prefill": true
+    },
+    "OpenCodeInterpreter-DS-33B": {
+        "link": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B",
+        "open-data": "Partial",
+        "pass@1": {
+            "instruct": null,
+            "complete": 51.0
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 33,
+        "act_param": 33,
+        "date": "2024-02-22",
+        "prefill": true
+    },
+    "OpenCodeInterpreter-DS-6.7B": {
+        "link": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B",
+        "open-data": "Partial",
+        "pass@1": {
+            "instruct": 37.1,
+            "complete": 44.6
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 6.7,
+        "act_param": 6.7,
+        "date": "2024-02-22",
+        "prefill": true
+    },
+    "OpenCodeInterpreter-DS-1.3B": {
+        "link": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-1.3B",
+        "open-data": "Partial",
+        "pass@1": {
+            "instruct": 25.3,
+            "complete": 29.8
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 1.3,
+        "act_param": 1.3,
+        "date": "2024-02-22",
+        "prefill": true
+    },
+    "Phi-3-Medium-128K-Instruct": {
+        "link": "https://huggingface.co/microsoft/Phi-3-medium-128k-instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 37.6,
+            "complete": 48.7
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 14,
+        "act_param": 14,
+        "date": "2024-05-21",
+        "prefill": true
+    },
+    "Phi-3-Small-128K-Instruct": {
+        "link": "https://huggingface.co/microsoft/Phi-3-small-128k-instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 31.1,
+            "complete": 39.4
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 7,
+        "act_param": 7,
+        "date": "2024-05-21",
+        "prefill": true
+    },
+    "Codestral-22B-v0.1": {
+        "link": "https://huggingface.co/mistralai/Codestral-22B-v0.1",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 41.8,
+            "complete": 52.5
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 22,
+        "act_param": 22,
+        "date": "2024-05-23",
+        "prefill": true
+    },
+    "Codestral-Mamba": {
+        "link": "https://huggingface.co/mistralai/mamba-codestral-7B-v0.1",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 35.9,
+            "complete": 44.6
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 7,
+        "act_param": 7,
+        "date": "2024-07-16",
+        "prefill": true
+    },
+    "Mistral-7B-Instruct-v0.3": {
+        "link": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 19.5,
+            "complete": 27.3
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 7,
+        "act_param": 7,
+        "date": "2024-05-22",
+        "prefill": true
+    },
+    "Mistral-7B-v0.3": {
+        "link": "https://huggingface.co/mistralai/Mistral-7B-v0.3",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 23.5
+        },
+        "prompted": false,
+        "moe": false,
+        "size": 7,
+        "act_param": 7,
+        "date": "2024-05-22",
+        "prefill": true
+    },
+    "Command R+": {
+        "link": "https://huggingface.co/CohereForAI/c4ai-command-r-plus",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 33.8,
+            "complete": 41.9
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 104,
+        "act_param": 104,
+        "date": "2024-04-04",
+        "prefill": true
+    },
+    "DeepSeek-Coder-V2-Instruct": {
+        "link": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 48.2,
+            "complete": 59.7
+        },
+        "prompted": true,
+        "moe": true,
+        "size": 236,
+        "act_param": 21,
+        "date": "2024-06-17",
+        "prefill": false
+    },
+    "DeepSeek-Coder-V2-Lite-Instruct": {
+        "link": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 36.8,
+            "complete": 47.6
+        },
+        "prompted": true,
+        "moe": true,
+        "size": 16,
+        "act_param": 2.4,
+        "date": "2024-06-17",
+        "prefill": true
+    },
+    "DeepSeek-Coder-V2-Lite-Base": {
+        "link": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Base",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 30.6
+        },
+        "prompted": false,
+        "moe": true,
+        "size": 16,
+        "act_param": 2.4,
+        "date": "2024-06-17",
+        "prefill": true
+    },
+    "Claude-3.5-Sonnet-20240620": {
+        "link": "https://claude.ai/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 46.8,
+            "complete": 58.6
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-06-20",
+        "prefill": false
+    },
+    "Hermes-2-Theta-Llama-3-70B": {
+        "link": "https://huggingface.co/NousResearch/Hermes-2-Theta-Llama-3-70B",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 45.6,
+            "complete": 55.6
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 70,
+        "act_param": 70,
+        "date": "2024-06-24",
+        "prefill": true
+    },
+    "WaveCoder-Ultra-6.7B": {
+        "link": "https://huggingface.co/microsoft/wavecoder-ultra-6.7b",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 33.9,
+            "complete": 43.7
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 6.7,
+        "act_param": 6.7,
+        "date": "2023-12-26",
+        "prefill": true
+    },
+    "Gemma-2-9B-Instruct": {
+        "link": "https://huggingface.co/google/gemma-2-9b-it",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 34.7,
+            "complete": 40.6
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 9,
+        "act_param": 9,
+        "date": "2024-06-19",
+        "prefill": true
+    },
+    "AutoCoder": {
+        "link": "https://huggingface.co/Bin12345/AutoCoder",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 40.7,
+            "complete": 52.5
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 33,
+        "act_param": 33,
+        "date": "2024-05-23",
+        "prefill": true
+    },
+    "AutoCoder-S-6.7B": {
+        "link": "https://huggingface.co/Bin12345/AutoCoder_S_6.7B",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 36.1,
+            "complete": 46.5
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 6.7,
+        "act_param": 6.7,
+        "date": "2024-05-23",
+        "prefill": true
+    },
+    "AutoCoder-QW-7B": {
+        "link": "https://huggingface.co/Bin12345/AutoCoder_QW_7B",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 32.2,
+            "complete": 41.8
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 7,
+        "act_param": 7,
+        "date": "2024-05-23",
+        "prefill": true
+    },
+    "ReflectionCoder-DS-33B": {
+        "link": "https://huggingface.co/SenseLLM/ReflectionCoder-DS-33B",
+        "open-data": "Partial",
+        "pass@1": {
+            "instruct": 42.4,
+            "complete": 52.9
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 33,
+        "act_param": 33,
+        "date": "2024-05-27",
+        "prefill": true
+    },
+    "ReflectionCoder-DS-6.7B": {
+        "link": "https://huggingface.co/SenseLLM/ReflectionCoder-DS-6.7B",
+        "open-data": "Partial",
+        "pass@1": {
+            "instruct": 36.8,
+            "complete": 47.8
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 6.7,
+        "act_param": 6.7,
+        "date": "2024-05-27",
+        "prefill": true
+    },
+    "ReflectionCoder-CL-34B": {
+        "link": "https://huggingface.co/SenseLLM/ReflectionCoder-CL-34B",
+        "open-data": "Partial",
+        "pass@1": {
+            "instruct": 37.7,
+            "complete": 46.8
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 34,
+        "act_param": 34,
+        "date": "2024-05-27",
+        "prefill": true
+    },
+    "ReflectionCoder-CL-7B": {
+        "link": "https://huggingface.co/SenseLLM/ReflectionCoder-CL-7B",
+        "open-data": "Partial",
+        "pass@1": {
+            "instruct": 28.4,
+            "complete": 40.5
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 7,
+        "act_param": 7,
+        "date": "2024-05-27",
+        "prefill": true
+    },
+    "Phi-3.1-Mini-128K-Instruct": {
+        "link": "https://huggingface.co/microsoft/Phi-3-mini-128k-instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 36.8,
+            "complete": 46.2
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 3.8,
+        "act_param": 3.8,
+        "date": "2024-05-21",
+        "prefill": true
+    },
+    "Phi-3-Mini-128K-Instruct": {
+        "link": "https://huggingface.co/microsoft/Phi-3-mini-128k-instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 29.6,
+            "complete": 40.6
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 3.8,
+        "act_param": 3.8,
+        "date": "2024-05-21",
+        "prefill": true
+    },
+    "InternLM2.5-7B-Chat": {
+        "link": "https://huggingface.co/internlm/internlm2_5-7b-chat",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 25.8,
+            "complete": 33.1
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 7,
+        "act_param": 7,
+        "date": "2024-07-03",
+        "prefill": true
+    },
+    "Hermes-2-Pro-Llama-3-70B": {
+        "link": "https://huggingface.co/NousResearch/Hermes-2-Pro-Llama-3-70B",
+        "open-data": "Partial",
+        "pass@1": {
+            "instruct": 37.2,
+            "complete": 54.5
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 70,
+        "act_param": 70,
+        "date": "2024-06-27",
+        "prefill": true
+    },
+    "DeepSeek-V2-Chat (2024-06-28)": {
+        "link": "https://www.deepseek.com/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 48.9,
+            "complete": 59.4
+        },
+        "prompted": true,
+        "moe": true,
+        "size": 236,
+        "act_param": 21,
+        "date": "2024-06-28",
+        "prefill": false
+    },
+    "Gemma-2-27B-Instruct": {
+        "link": "https://huggingface.co/google/gemma-2-27b-it",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 42.8,
+            "complete": 52.5
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 27,
+        "act_param": 27,
+        "date": "2024-06-19",
+        "prefill": true
+    },
+    "Artigenz-Coder-DS-6.7B": {
+        "link": "https://huggingface.co/Artigenz/Artigenz-Coder-DS-6.7B",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 38.0,
+            "complete": 47.1
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 6.7,
+        "act_param": 6.7,
+        "date": "2024-04-16",
+        "prefill": true
+    },
+    "OpenChat-3.6-8B-20240522": {
+        "link": "https://huggingface.co/openchat/openchat-3.6-8b-20240522",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 28.1,
+            "complete": 37.1
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 8,
+        "act_param": 8,
+        "date": "2024-05-22",
+        "prefill": true
+    },
+    "Phind-CodeLlama-34B-v2": {
+        "link": "https://huggingface.co/Phind/Phind-CodeLlama-34B-v2",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 38.2,
+            "complete": 47.5
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 34,
+        "act_param": 34,
+        "date": "2023-08-25",
+        "prefill": true
+    },
+    "Yi-Large": {
+        "link": "https://www.lingyiwanwu.com/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 37.7,
+            "complete": 47.2
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-05-13",
+        "prefill": true
+    },
+    "CodeGeex4-All-9B": {
+        "link": "https://huggingface.co/THUDM/codegeex4-all-9b",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 40.0,
+            "complete": 49.0
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 9,
+        "act_param": 9,
+        "date": "2024-07-05",
+        "prefill": true
+    },
+    "GPT-4o-mini-2024-07-18": {
+        "link": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 46.1,
+            "complete": 57.4
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-07-18",
+        "prefill": true
+    },
+    "Athene-70B": {
+        "link": "https://huggingface.co/Nexusflow/Athene-70B",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 36.8,
+            "complete": 47.5
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 70,
+        "act_param": 70,
+        "date": "2024-07-20",
+        "prefill": true
+    },
+    "Nxcode-CQ-7B-Orpo": {
+        "link": "https://huggingface.co/NTQAI/Nxcode-CQ-7B-orpo",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 39.6,
+            "complete": 44.6
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 7,
+        "act_param": 7,
+        "date": "2024-04-25",
+        "prefill": true
+    },
+    "Llama-3-70B-Synthia-v3.5": {
+        "link": "https://huggingface.co/migtissera/Llama-3-70B-Synthia-v3.5",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 42.8,
+            "complete": 54.1
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 70,
+        "act_param": 70,
+        "date": "2024-05-27",
+        "prefill": true
+    },
+    "Tess-v2.5.2-Qwen2-72B": {
+        "link": "https://huggingface.co/migtissera/Tess-v2.5.2-Qwen2-72B",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 37.0,
+            "complete": 46.3
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 72,
+        "act_param": 72,
+        "date": "2024-07-18",
+        "prefill": true
+    },
+    "WhiteRabbitNeo-33B-v1.5": {
+        "link": "https://huggingface.co/WhiteRabbitNeo/WhiteRabbitNeo-33B-v1.5",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 41.7,
+            "complete": 52.6
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 33,
+        "act_param": 33,
+        "date": "2024-02-10",
+        "prefill": true
+    },
+    "Mistral-Large-Instruct-2407": {
+        "link": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 123,
+        "act_param": 123,
+        "date": "2024-07-24",
+        "prefill": false
+    },
+    "Llama-3.1-8B-Instruct": {
+        "link": "https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 32.8,
+            "complete": 40.5
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 8,
+        "act_param": 8,
+        "date": "2024-07-23",
+        "prefill": true
+    },
+    "Llama-3.1-70B-Instruct": {
+        "link": "https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 46.1,
+            "complete": 54.8
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 70,
+        "act_param": 70,
+        "date": "2024-07-23",
+        "prefill": true
+    },
+    "Llama-3.1-405B-Instruct": {
+        "link": "https://huggingface.co/meta-llama/Meta-Llama-3.1-405B-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 405,
+        "act_param": 405,
+        "date": "2024-07-23",
+        "prefill": true
+    },
+    "DeepSeek-Coder-V2-Instruct (2024-07-24)": {
+        "link": "https://www.deepseek.com/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": true,
+        "size": 236,
+        "act_param": 21,
+        "date": "2024-07-24",
+        "prefill": true
+    },
+    "Phi-3.5-Mini-Instruct": {
+        "link": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 32.8,
+            "complete": 38.5
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 3.8,
+        "act_param": 3.8,
+        "date": "2024-08-21",
+        "prefill": true
+    },
+    "Mistral-Nemo-12B-Instruct": {
+        "link": "https://huggingface.co/nv-mistralai/Mistral-Nemo-12B-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 12,
+        "act_param": 12,
+        "date": "2024-07-18",
+        "prefill": true
+    },
+    "InverseCoder-CL-13B": {
+        "link": "https://huggingface.co/wyt2000/InverseCoder-CL-13B",
+        "open-data": "Partial",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 13,
+        "act_param": 13,
+        "date": "2024-07-08",
+        "prefill": true
+    },
+    "InverseCoder-CL-7B": {
+        "link": "https://huggingface.co/wyt2000/InverseCoder-CL-7B",
+        "open-data": "Partial",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 7,
+        "act_param": 7,
+        "date": "2024-07-08",
+        "prefill": true
+    },
+    "InverseCoder-DS-6.7B": {
+        "link": "https://huggingface.co/wyt2000/InverseCoder-DS-6.7B",
+        "open-data": "Partial",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 6.7,
+        "act_param": 6.7,
+        "date": "2024-07-08",
+        "prefill": true
+    },
+    "Gemini-1.5-Pro-Exp-0801": {
+        "link": "https://deepmind.google/technologies/gemini/pro",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-08-01",
+        "prefill": false
+    },
+    "GPT-4o-2024-08-06": {
+        "link": "https://openai.com/index/introducing-structured-outputs-in-the-api/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-08-06",
+        "prefill": true
+    },
+    "Dracarys-Llama-3.1-70B-Instruct": {
+        "link": "https://huggingface.co/abacusai/Dracarys-Llama-3.1-70B-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 70,
+        "act_param": 70,
+        "date": "2024-04-23",
+        "prefill": true
+    },
+    "Dracarys-72B-Instruct": {
+        "link": "https://huggingface.co/abacusai/Dracarys-72B-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 72,
+        "act_param": 72,
+        "date": "2024-04-23",
+        "prefill": true
+    },
+    "Gemini-1.5-Pro-Exp-0827": {
+        "link": "https://deepmind.google/technologies/gemini/pro",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-08-27",
+        "prefill": true
+    },
+    "Gemini-1.5-Flash-Exp-0827": {
+        "link": "https://deepmind.google/technologies/gemini/flash/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-08-27",
+        "prefill": true
+    },
+    "DeepSeek-V2.5": {
+        "link": "https://www.deepseek.com/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": true,
+        "size": 236,
+        "act_param": 21,
+        "date": "2024-09-18",
+        "prefill": true
+    },
+    "C4AI-Command-R-08-2024": {
+        "link": "https://huggingface.co/CohereForAI/c4ai-command-r-08-2024",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 37.1,
+            "complete": 45.2
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 32.3,
+        "act_param": 32.3,
+        "date": "2024-08-30",
+        "prefill": true
+    },
+    "C4AI-Command-R-Plus-08-2024": {
+        "link": "https://huggingface.co/CohereForAI/c4ai-command-r-plus-08-2024",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 104,
+        "act_param": 104,
+        "date": "2024-08-30",
+        "prefill": true
+    },
+    "Yi-Coder-9B-Chat": {
+        "link": "https://huggingface.co/01-ai/Yi-Coder-9B-Chat",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 38.1,
+            "complete": 49.0
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 9,
+        "act_param": 9,
+        "date": "2024-09-04",
+        "prefill": true
+    },
+    "o1-Preview-2024-09-12 (temperature=1)": {
+        "link": "https://openai.com/index/introducing-openai-o1-preview/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-09-12",
+        "prefill": false
+    },
+    "o1-Mini-2024-09-12 (temperature=1)": {
+        "link": "https://openai.com/index/introducing-openai-o1-preview/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-09-12",
+        "prefill": false
+    },
+    "Qwen2.5-Coder-1.5B-Instruct": {
+        "link": "https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 27.0,
+            "complete": 32.7
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 1.5,
+        "act_param": 1.5,
+        "date": "2024-11-12",
+        "prefill": true
+    },
+    "Qwen2.5-Coder-7B-Instruct": {
+        "link": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 40.4,
+            "complete": 48.8
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 7,
+        "act_param": 7,
+        "date": "2024-11-12",
+        "prefill": true
+    },
+    "Gemini-1.5-Pro-002": {
+        "link": "https://deepmind.google/technologies/gemini/pro",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-09-25",
+        "prefill": false
+    },
+    "Mistral-Small-Instruct-2409": {
+        "link": "https://huggingface.co/mistralai/Mistral-Small-Instruct-2409",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 36.1,
+            "complete": 46.6
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 22.2,
+        "act_param": 22.2,
+        "date": "2024-09-18",
+        "prefill": true
+    },
+    "Qwen2.5-0.5B-Instruct": {
+        "link": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 8.8,
+            "complete": 11.3
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 0.5,
+        "act_param": 0.5,
+        "date": "2024-09-19",
+        "prefill": true
+    },
+    "Qwen2.5-1.5B-Instruct": {
+        "link": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 20.3,
+            "complete": 27.1
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 1.5,
+        "act_param": 1.5,
+        "date": "2024-09-19",
+        "prefill": true
+    },
+    "Qwen2.5-7B-Instruct": {
+        "link": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 37.6,
+            "complete": 46.1
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 7,
+        "act_param": 7,
+        "date": "2024-09-19",
+        "prefill": true
+    },
+    "Qwen2.5-14B-Instruct": {
+        "link": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 39.8,
+            "complete": 52.2
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 14,
+        "act_param": 14,
+        "date": "2024-09-19",
+        "prefill": true
+    },
+    "Qwen2.5-32B-Instruct": {
+        "link": "https://huggingface.co/Qwen/Qwen2.5-32B-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 45.0,
+            "complete": 52.3
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 32,
+        "act_param": 32,
+        "date": "2024-09-19",
+        "prefill": true
+    },
+    "Qwen2.5-72B-Instruct": {
+        "link": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 45.8,
+            "complete": 55.9
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 72,
+        "act_param": 72,
+        "date": "2024-09-19",
+        "prefill": true
+    },
+    "Llama-3.2-1B-Instruct": {
+        "link": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 8.2,
+            "complete": 11.3
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 1,
+        "act_param": 1,
+        "date": "2024-09-25",
+        "prefill": true
+    },
+    "Llama-3.2-3B-Instruct": {
+        "link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 23.4,
+            "complete": 28.3
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 3,
+        "act_param": 3,
+        "date": "2024-09-25",
+        "prefill": true
+    },
+    "Llama-3.1-Nemotron-70B-Instruct": {
+        "link": "https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
+        "open-data": "Partial",
+        "pass@1": {
+            "instruct": 38.7,
+            "complete": 48.2
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 70,
+        "act_param": 70,
+        "date": "2024-09-25",
+        "prefill": true
+    },
+    "Claude-3.5-Sonnet-20241022": {
+        "link": "https://claude.ai/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 44.6,
+            "complete": 57.5
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-10-22",
+        "prefill": true
+    },
+    "Granite-3.0-8B-Instruct": {
+        "link": "https://huggingface.co/ibm-granite/granite-3.0-8b-instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 29.3,
+            "complete": 35.4
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 8,
+        "act_param": 8,
+        "date": "2024-10-21",
+        "prefill": true
+    },
+    "Granite-3.0-2B-Instruct": {
+        "link": "https://huggingface.co/ibm-granite/granite-3.0-2b-instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 20.5,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 2,
+        "act_param": 2,
+        "date": "2024-10-21",
+        "prefill": true
+    },
+    "Grok-Beta": {
+        "link": "https://grok.com/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-03-17",
+        "prefill": false
+    },
+    "Claude-3.5-Haiku-20241022": {
+        "link": "https://claude.ai/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 46.1,
+            "complete": 59.0
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-10-22",
+        "prefill": false
+    },
+    "Qwen2.5-Coder-14B-Instruct": {
+        "link": "https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 48.2,
+            "complete": 56.7
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 14,
+        "act_param": 14,
+        "date": "2024-09-19",
+        "prefill": true
+    },
+    "Qwen2.5-Coder-32B-Instruct": {
+        "link": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 49.0,
+            "complete": 58.0
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 32,
+        "act_param": 32,
+        "date": "2024-09-19",
+        "prefill": true
+    },
+    "OpenCoder-1.5B-Instruct": {
+        "link": "https://huggingface.co/infly/OpenCoder-1.5B-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 34.9,
+            "complete": 38.8
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 1.5,
+        "act_param": 1.5,
+        "date": "2024-11-09",
+        "prefill": true
+    },
+    "OpenCoder-8B-Instruct": {
+        "link": "https://huggingface.co/infly/OpenCoder-8B-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 43.2,
+            "complete": 50.9
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 8,
+        "act_param": 8,
+        "date": "2024-11-09",
+        "prefill": true
+    },
+    "Athene-V2-Agent": {
+        "link": "https://huggingface.co/Nexusflow/Athene-V2-Agent",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 46.2,
+            "complete": 56.1
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 72,
+        "act_param": 72,
+        "date": "2024-11-14",
+        "prefill": true
+    },
+    "Athene-V2-Chat": {
+        "link": "https://huggingface.co/Nexusflow/Athene-V2-Chat",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 47.2,
+            "complete": 56.8
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 72,
+        "act_param": 72,
+        "date": "2024-11-14",
+        "prefill": true
+    },
+    "Gemini-Exp-1114": {
+        "link": "https://deepmind.google/technologies/gemini",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 49.2,
+            "complete": 59.3
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-11-14",
+        "prefill": false
+    },
+    "GPT-4o-2024-11-20": {
+        "link": "https://openai.com/gpt-4o/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 48.0,
+            "complete": 58.9
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-11-20",
+        "prefill": false
+    },
+    "Gemini-Exp-1121": {
+        "link": "https://deepmind.google/technologies/gemini",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 45.4,
+            "complete": 58.1
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-11-21",
+        "prefill": true
+    },
+    "Gemini-Exp-1206": {
+        "link": "https://deepmind.google/technologies/gemini",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 47.0,
+            "complete": 62.4
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-12-06",
+        "prefill": false
+    },
+    "Llama-3.3-70B-Instruct": {
+        "link": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 46.9,
+            "complete": 57.5
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 70,
+        "act_param": 70,
+        "date": "2024-12-19",
+        "prefill": true
+    },
+    "DeepSeek-V2.5-1210": {
+        "link": "deepseek-ai/DeepSeek-V2.5-1210",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 48.6,
+            "complete": 53.2
+        },
+        "prompted": true,
+        "moe": true,
+        "size": 236,
+        "act_param": 21,
+        "date": "2024-12-10",
+        "prefill": true
+    },
+    "Gemini-2.0-Flash-Exp": {
+        "link": "https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 45.9,
+            "complete": 59.9
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2025-02-05",
+        "prefill": true
+    },
+    "Gemini-2.0-Flash-Thinking-Exp-1219": {
+        "link": "https://deepmind.google/technologies/gemini",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-12-19",
+        "prefill": true
+    },
+    "Gemini-2.0-Flash-Thinking-Exp-01-21": {
+        "link": "https://deepmind.google/technologies/gemini",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2025-01-21",
+        "prefill": true
+    },
+    "o1-2024-12-17 (temperature=1, reasoning=medium)": {
+        "link": "https://openai.com/o1/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-12-17",
+        "prefill": false
+    },
+    "o1-2024-12-17 (temperature=1, reasoning=low)": {
+        "link": "https://openai.com/o1/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-12-17",
+        "prefill": false
+    },
+    "o1-2024-12-17 (temperature=1, reasoning=high)": {
+        "link": "https://openai.com/o1/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2024-12-17",
+        "prefill": false
+    },
+    "DeepSeek-V3": {
+        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V3",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 50.0,
+            "complete": 62.2
+        },
+        "prompted": true,
+        "moe": true,
+        "size": 671,
+        "act_param": 37,
+        "date": "2024-12-26",
+        "prefill": false
+    },
+    "Phi-4": {
+        "link": "https://huggingface.co/microsoft/phi-4",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 45.5,
+            "complete": 55.4
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 14.7,
+        "act_param": 14.7,
+        "date": "2024-12-13",
+        "prefill": true
+    },
+    "DeepSeek-R1": {
+        "link": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": true,
+        "size": 671,
+        "act_param": 37,
+        "date": "2025-01-20",
+        "prefill": false
+    },
+    "DeepSeek-R1-Distill-Llama-70B": {
+        "link": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 35.3,
+            "complete": 49.9
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 70,
+        "act_param": 70,
+        "date": "2025-01-20",
+        "prefill": true
+    },
+    "DeepSeek-R1-Distill-Qwen-32B": {
+        "link": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 43.9,
+            "complete": 54.9
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 32,
+        "act_param": 32,
+        "date": "2025-01-20",
+        "prefill": true
+    },
+    "DeepSeek-R1-Distill-Qwen-14B": {
+        "link": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 38.1,
+            "complete": 48.4
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 14,
+        "act_param": 14,
+        "date": "2025-01-20",
+        "prefill": true
+    },
+    "DeepSeek-R1-Distill-Llama-8B": {
+        "link": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 10.6,
+            "complete": 15.3
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 8,
+        "act_param": 8,
+        "date": "2025-01-20",
+        "prefill": true
+    },
+    "DeepSeek-R1-Distill-Qwen-7B": {
+        "link": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 17.5,
+            "complete": 24.9
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 7,
+        "act_param": 7,
+        "date": "2025-01-20",
+        "prefill": true
+    },
+    "DeepSeek-R1-Distill-Qwen-1.5B": {
+        "link": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 7.0,
+            "complete": 7.9
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 1.5,
+        "act_param": 1.5,
+        "date": "2025-01-20",
+        "prefill": true
+    },
+    "Mistral-Small-24B-Instruct-2501": {
+        "link": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 45.3,
+            "complete": 50.4
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 24,
+        "act_param": 24,
+        "date": "2025-01-31",
+        "prefill": true
+    },
+    "o3-mini-2025-01-31 (temperature=1, reasoning=medium)": {
+        "link": "https://openai.com/index/openai-o3-mini/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2025-01-31",
+        "prefill": false
+    },
+    "o3-mini-2025-01-31 (temperature=1, reasoning=low)": {
+        "link": "https://openai.com/index/openai-o3-mini/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2025-01-31",
+        "prefill": false
+    },
+    "o3-mini-2025-01-31 (temperature=1, reasoning=high)": {
+        "link": "https://openai.com/index/openai-o3-mini/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2025-01-31",
+        "prefill": false
+    },
+    "Gemini-2.0-Flash-001": {
+        "link": "https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2025-02-05",
+        "prefill": true
+    },
+    "Gemini-2.0-Flash-Lite-Preview-02-05": {
+        "link": "https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2025-02-05",
+        "prefill": true
+    },
+    "Gemini-2.0-Pro-Exp-02-05": {
+        "link": "https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2025-02-05",
+        "prefill": true
+    },
+    "Sky-T1-32B-Flash": {
+        "link": "https://huggingface.co/NovaSky-AI/Sky-T1-32B-Flash",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 45.1,
+            "complete": 51.2
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 32,
+        "act_param": 32,
+        "date": "2025-01-12",
+        "prefill": true
+    },
+    "Sky-T1-32B-Preview": {
+        "link": "https://huggingface.co/NovaSky-AI/Sky-T1-32B-Preview",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 44.9,
+            "complete": 51.1
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 32,
+        "act_param": 32,
+        "date": "2025-01-12",
+        "prefill": true
+    },
+    "QwQ-32B-Preview": {
+        "link": "https://huggingface.co/Qwen/QwQ-32B-Preview",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 44.6,
+            "complete": 54.4
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 32,
+        "act_param": 32,
+        "date": "2024-11-28",
+        "prefill": true
+    },
+    "Claude-3.7-Sonnet-20250219": {
+        "link": "https://www.anthropic.com/news/claude-3-7-sonnet",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2025-02-19",
+        "prefill": false
+    },
+    "ChatGPT-4o-latest-20250129": {
+        "link": "https://chat.openai.com/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2025-01-29",
+        "prefill": false
+    },
+    "KwaiCoder-23B-A4B-v1": {
+        "link": "https://huggingface.co/Kwaipilot/KwaiCoder-23B-A4B-v1",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 49.9
+        },
+        "prompted": false,
+        "moe": true,
+        "size": 23,
+        "act_param": 4,
+        "date": "2025-01-25",
+        "prefill": true
+    },
+    "Qwen2.5-Max": {
+        "link": "https://qwenlm.github.io/blog/qwen2.5-max/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": true,
+        "size": null,
+        "act_param": null,
+        "date": "2025-01-28",
+        "prefill": false
+    },
+    "Claude-3.7-Sonnet-20250219 (temperature=1, length=12800, reasoning=3200)": {
+        "link": "https://www.anthropic.com/news/claude-3-7-sonnet",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2025-02-19",
+        "prefill": false
+    },
+    "WarriorCoder-6.7B (Reproduced)": {
+        "link": "https://arxiv.org/abs/2412.17395",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 39.9,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 6.7,
+        "act_param": 6.7,
+        "date": "2025-02-18",
+        "prefill": true
+    },
+    "Gemma-3-27B-Instruct": {
+        "link": "https://huggingface.co/google/gemma-3-27b-it",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 27,
+        "act_param": 27,
+        "date": "2025-03-12",
+        "prefill": true
+    },
+    "QwQ-32B (w/ Reasoning)": {
+        "link": "https://huggingface.co/Qwen/QwQ-32B",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 32,
+        "act_param": 32,
+        "date": "2025-03-06",
+        "prefill": false
+    },
+    "DeepSeek-V3-0324": {
+        "link": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": true,
+        "size": 671,
+        "act_param": 37,
+        "date": "2025-03-24",
+        "prefill": false
+    },
+    "Gemini-2.5-Pro-Exp-03-25": {
+        "link": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": 37,
+        "date": "2025-03-25",
+        "prefill": false
+    },
+    "Llama-4-Scout": {
+        "link": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 43.1
+        },
+        "prompted": true,
+        "moe": true,
+        "size": 109,
+        "act_param": 17,
+        "date": "2025-04-05",
+        "prefill": false
+    },
+    "Llama-4-Maverick": {
+        "link": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 49.7,
+            "complete": 61.4
+        },
+        "prompted": true,
+        "moe": true,
+        "size": 109,
+        "act_param": 17,
+        "date": "2025-04-05",
+        "prefill": false
+    },
+    "DeepCoder-14B-Preview": {
+        "link": "https://huggingface.co/agentica-org/DeepCoder-14B-Preview",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 38.2,
+            "complete": 49.6
+        },
+        "prompted": true,
+        "moe": true,
+        "size": 14,
+        "act_param": 14,
+        "date": "2025-04-09",
+        "prefill": true
+    },
+    "Quasar-Alpha": {
+        "link": "https://openrouter.ai/openrouter/quasar-alpha",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 49.6,
+            "complete": 60.6
+        },
+        "prompted": true,
+        "moe": true,
+        "size": null,
+        "act_param": null,
+        "date": "2025-04-02",
+        "prefill": false
+    },
+    "DeepCoder-14B-Preview (w/ Reasoning, 64k tokens, temperature=0.6)": {
+        "link": "https://huggingface.co/agentica-org/DeepCoder-14B-Preview",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": 14,
+        "act_param": 14,
+        "date": "2025-04-09",
+        "prefill": false
+    },
+    "Optimus-Alpha": {
+        "link": "https://openrouter.ai/openrouter/optimus-alpha",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": true,
+        "size": null,
+        "act_param": null,
+        "date": "2025-04-10",
+        "prefill": false
+    },
+    "Grok-3-Mini-Beta (temperature=1, reasoning=low)": {
+        "link": "https://x.ai/news/grok-3",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2025-04-11",
+        "prefill": false
+    },
+    "Grok-3-Mini-Beta (temperature=1, reasoning=high)": {
+        "link": "https://x.ai/news/grok-3",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2025-04-11",
+        "prefill": false
+    },
+    "Grok-3-Beta": {
+        "link": "https://x.ai/news/grok-3",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2025-04-11",
+        "prefill": false
+    },
+    "GPT-4.1-2025-04-14": {
+        "link": "https://openai.com/index/gpt-4-1/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2025-04-14",
+        "prefill": false
+    },
+    "GPT-4.1-Nano-2025-04-14": {
+        "link": "https://openai.com/index/gpt-4-1/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2025-04-14",
+        "prefill": false
+    },
+    "GPT-4.1-Mini-2025-04-14": {
+        "link": "https://openai.com/index/gpt-4-1/",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": 48.9,
+            "complete": null
+        },
+        "prompted": true,
+        "moe": false,
+        "size": null,
+        "act_param": null,
+        "date": "2025-04-14",
+        "prefill": false
+    }
+}

@@ -1,0 +1,11 @@
+Model version,mean_score,Best score (across scorers),Release date,Organization,Country,Training compute (FLOP),Training compute notes,stderr,Log viewer,Logs,Started at,id
+claude-sonnet-5-5_max,0.029,0.029,2026-09-28,Anthropic,United States of America,,,0.021,,,2026-10-08T13:40:19.965Z,bloom68-0ov6a268920re3sz
+claude-opus-5-5_max,0.0294,0.0294,2026-09-22,Anthropic,United States of America,,,0.0206,,,2026-09-24T13:30:00.000Z,bloom68-opus55-m1pc5wbymin28jdj
+claude-fable-5-1_max,0.0,0.0,2026-09-01,Anthropic,United States of America,,,0.0,,,2026-09-01T18:56:31.000Z,bloom68-fable51-8t9up8nw9358oyrl
+gpt-5.5_xhigh,0.0,0.0,2026-04-23,OpenAI,United States of America,,,0.0,,,2026-08-28T18:05:03.000Z,bloom68-gpt55-4nh07xafb8lf7jqp
+gpt-6-astra_max,0.029411764705882353,0.029411764705882353,2026-09-03,OpenAI,United States of America,1.0001e+27,"per OpenAI and affiliates (e.g. Nvidia), 6 Astra was trained on at least 100,000 GB200s in Abilene, Texas (so 100,000 in ""Hardware quantity"" is a lower bound/underestimate).
+
+This suggests around 1e27 FLOP (corresponding to ~100k GB200s over 90 days at 25% FP8 MFU). See more detailed estimate in this notebook, yielding a CI of ~[5e26, 2e27] FLOP.
+https://colab.research.google.com/drive/1DRlugIQs-_zoV66AJT1gQg6I1-NX7NqN ",0.0206414713705158,,,2026-08-28T16:33:49.000Z,bloom68-ultima-e1dhs43ykrmakree
+claude-fable-5_max,0.0,0.0,2026-06-09,Anthropic,United States of America,,,0.0,,,2026-08-28T16:33:06.000Z,bloom68-fable-vn2l2xoe9902k9rt
+gpt-5.6-sol_max,0.0,0.0,2026-07-09,OpenAI,United States of America,,,0.0,,,2026-08-28T15:05:09.000Z,bloom68-sol-jx4yy8n4naukwwge

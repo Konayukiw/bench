@@ -1,0 +1,186 @@
+model,benchmark,value,unit,provenance,config,source_url,retrieved,note
+Muse Spark 1.1,SWE-bench Pro (Scale; mini-swe-agent),61.50,percent,standard,public set; mini-swe-agent; listed as Muse Spark 1.1,https://labs.scale.com/leaderboard/swe_bench_pro_public,2026-10-13,±3.10
+GPT-5.4,SWE-bench Pro (Scale; mini-swe-agent),59.10,percent,standard,public set; mini-swe-agent; effort=xhigh,https://labs.scale.com/leaderboard/swe_bench_pro_public,2026-10-13,±3.56
+Muse Spark,SWE-bench Pro (Scale; mini-swe-agent),55.00,percent,standard,public set; mini-swe-agent,https://labs.scale.com/leaderboard/swe_bench_pro_public,2026-10-13,±3.60
+Claude Opus 4.6,SWE-bench Pro (Scale; mini-swe-agent),51.90,percent,standard,public set; mini-swe-agent; thinking,https://labs.scale.com/leaderboard/swe_bench_pro_public,2026-10-13,±3.61
+Gemini 3.1 Pro,SWE-bench Pro (Scale; mini-swe-agent),46.10,percent,standard,public set; mini-swe-agent; thinking,https://labs.scale.com/leaderboard/swe_bench_pro_public,2026-10-13,±3.60
+Claude Opus 4.5,SWE-bench Pro (Scale; SWE-Agent),45.89,percent,standard,public set; SWE-Agent; listed as claude-opus-4-5-20251101,https://labs.scale.com/leaderboard/swe_bench_pro_public,2026-10-13,±3.60
+Claude Sonnet 4.5,SWE-bench Pro (Scale; SWE-Agent),43.60,percent,standard,public set; SWE-Agent,https://labs.scale.com/leaderboard/swe_bench_pro_public,2026-10-13,±3.60
+Gemini 3 Pro Preview,SWE-bench Pro (Scale; SWE-Agent),43.30,percent,standard,public set; SWE-Agent,https://labs.scale.com/leaderboard/swe_bench_pro_public,2026-10-13,±3.60
+Claude Sonnet 4,SWE-bench Pro (Scale; SWE-Agent),42.70,percent,standard,public set; SWE-Agent,https://labs.scale.com/leaderboard/swe_bench_pro_public,2026-10-13,±3.59
+GPT-5,SWE-bench Pro (Scale; SWE-Agent),41.78,percent,standard,public set; SWE-Agent; effort=high,https://labs.scale.com/leaderboard/swe_bench_pro_public,2026-10-13,±3.49
+GPT-5.2-Codex,SWE-bench Pro (Scale; SWE-Agent),41.04,percent,standard,public set; SWE-Agent,https://labs.scale.com/leaderboard/swe_bench_pro_public,2026-10-13,±3.57
+Claude Haiku 4.5,SWE-bench Pro (Scale; SWE-Agent),39.45,percent,standard,public set; SWE-Agent,https://labs.scale.com/leaderboard/swe_bench_pro_public,2026-10-13,±3.55
+Qwen3-Coder 480B-A35B,SWE-bench Pro (Scale; SWE-Agent),38.70,percent,standard,public set; SWE-Agent,https://labs.scale.com/leaderboard/swe_bench_pro_public,2026-10-13,±3.55
+MiniMax-M2.1,SWE-bench Pro (Scale; SWE-Agent),36.81,percent,standard,public set; SWE-Agent,https://labs.scale.com/leaderboard/swe_bench_pro_public,2026-10-13,±3.55
+Gemini 3 Flash,SWE-bench Pro (Scale; SWE-Agent),34.63,percent,standard,public set; SWE-Agent,https://labs.scale.com/leaderboard/swe_bench_pro_public,2026-10-13,±3.55
+GPT-5.2,SWE-bench Pro (Scale; SWE-Agent),29.94,percent,standard,public set; SWE-Agent,https://labs.scale.com/leaderboard/swe_bench_pro_public,2026-10-13,±2.15
+Kimi K2-Instruct,SWE-bench Pro (Scale; SWE-Agent),27.67,percent,standard,public set; SWE-Agent,https://labs.scale.com/leaderboard/swe_bench_pro_public,2026-10-13,±3.25
+Qwen3,SWE-bench Pro (Scale; SWE-Agent),21.41,percent,standard,public set; SWE-Agent; listed as qwen3-235b-a22b,https://labs.scale.com/leaderboard/swe_bench_pro_public,2026-10-13,±2.25
+gpt-oss-120b,SWE-bench Pro (Scale; SWE-Agent),16.20,percent,standard,public set; SWE-Agent,https://labs.scale.com/leaderboard/swe_bench_pro_public,2026-10-13,±2.67
+DeepSeek-V3.2,SWE-bench Pro (Scale; SWE-Agent),15.56,percent,standard,public set; SWE-Agent,https://labs.scale.com/leaderboard/swe_bench_pro_public,2026-10-13,±2.63
+Gemma 3,SWE-bench Pro (Scale; SWE-Agent),11.38,percent,standard,public set; SWE-Agent; listed as gemma-3-27b-it,https://labs.scale.com/leaderboard/swe_bench_pro_public,2026-10-13,±2.15
+Llama 3.1 405B,SWE-bench Pro (Scale; SWE-Agent),11.18,percent,standard,public set; SWE-Agent,https://labs.scale.com/leaderboard/swe_bench_pro_public,2026-10-13,±2.15
+GLM-4.6,SWE-bench Pro (Scale; SWE-Agent),9.67,percent,standard,public set; SWE-Agent,https://labs.scale.com/leaderboard/swe_bench_pro_public,2026-10-13,±2.15
+Llama 4 Maverick,SWE-bench Pro (Scale; SWE-Agent),5.24,percent,standard,public set; SWE-Agent,https://labs.scale.com/leaderboard/swe_bench_pro_public,2026-10-13,±1.24
+Codestral 24.05,SWE-bench Pro (Scale; SWE-Agent),1.51,percent,standard,public set; SWE-Agent; listed as codestral-2405,https://labs.scale.com/leaderboard/swe_bench_pro_public,2026-10-13,±1.51
+LFM2.5-24B-A2B,SWE-bench Verified,51.00,percent,self,OpenCode harness; vLLM; temperature=0.6; max_tokens=32768,https://huggingface.co/LiquidAI/LFM2.5-24B-A2B,2026-10-18,vendor model card
+LFM2.5-24B-A2B,SciCode,32.71,percent,self,vLLM; temperature=0.6; max_tokens=32768,https://huggingface.co/LiquidAI/LFM2.5-24B-A2B,2026-10-18,vendor model card
+Nemotron 3.5 Super VL,SWE-bench Verified,71.10,percent,self,BF16; NeMo Gym,https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,2026-10-18,vendor model card
+Nemotron 3.5 Super VL,SWE-bench Multilingual,67.72,percent,self,BF16; NeMo Gym,https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,2026-10-18,vendor model card
+Nemotron 3.5 Super VL,SWE-bench Pro,51.78,percent,self,BF16; NeMo Gym,https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,2026-10-18,vendor model card
+Nemotron 3.5 Super VL,Terminal-Bench 2.1,60.67,percent,self,BF16; NeMo Gym,https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,2026-10-18,vendor model card
+Nemotron 3.5 Super VL,LiveCodeBench,88.22,percent,self,BF16; NeMo Gym; LCB v6,https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,2026-10-18,vendor model card
+Nemotron 3.5 Super VL,SciCode,47.13,percent,self,BF16; NeMo Gym; subtask,https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,2026-10-18,vendor model card
+Nemotron 3.5 Bolt 74B-A9B,Terminal-Bench 2.1,53.93,percent,self,BF16,https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16,2026-10-18,vendor model card
+Nemotron 3.5 Bolt 74B-A9B,SciCode,44.49,percent,self,BF16,https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16,2026-10-18,vendor model card
+Nemotron 3.5 Bolt 74B-A9B,Terminal-Bench 2.1,50.98,percent,self,24GB (IQ2),https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB,2026-10-18,vendor model card
+Nemotron 3.5 Bolt 74B-A9B,SciCode,41.02,percent,self,24GB (IQ2),https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB,2026-10-18,vendor model card
+Muse Spark Open,Terminal-Bench 4.0 (Vals),6.566,percent,standard,effort=xhigh; harness=Mini-SWE-agent; listed as meta/muse-spark-open,https://www.vals.ai/benchmarks/terminal-bench-4,2026-10-18,±0.99
+Muse Spark Open,Vibe Code Bench (Vals),76.187,percent,standard,effort=xhigh; harness=OpenHands; listed as meta/muse-spark-open,https://www.vals.ai/benchmarks/vibe-code,2026-10-18,±6.50
+Muse Spark Open,Code Migration (Vals),21.171,percent,standard,effort=xhigh; listed as meta/muse-spark-open,https://www.vals.ai/benchmarks/code-migration,2026-10-18,±6.81
+Muse Spark Open,DeepSWE,60.0,percent,self,DeepSWE 1.1; preferred harness; effort=xhigh,https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B,2026-10-18,vendor model card
+Muse Spark Open,Terminal-Bench 2.1,76.4,percent,self,Terminus 2 agent; effort=xhigh,https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B,2026-10-18,vendor model card
+Muse Spark Open,SciCode,58.5,percent,self,effort=xhigh,https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B,2026-10-18,vendor model card
+Step 5 Preview,DeepSWE,67.7,percent,self,DeepSWE v1.1; SWE-agent harness; temperature=1.0; top_p=0.95; effort=high,https://huggingface.co/stepfun-ai/Step-5-Preview,2026-10-18,vendor model card (open weights 2026-10-15)
+Step 5 Preview,Terminal-Bench 4.0,33.3,percent,self,effort=high,https://huggingface.co/stepfun-ai/Step-5-Preview,2026-10-18,vendor model card (open weights 2026-10-15)
+DeepSeek-V4.1-Flash-1017,Terminal-Bench 4.0,42.3,percent,self,Claude Code harness,https://api-docs.deepseek.com/updates/,2026-10-18,vendor changelog
+DeepSeek-V4.1-Flash-1017,DeepSWE,77.0,percent,self,DeepSWE v1.1; Mini-SWE-V2 harness,https://api-docs.deepseek.com/updates/,2026-10-18,vendor changelog
+DeepSeek-V4.1-Flash-1017,ProgramBench,29.1,percent,self,,https://api-docs.deepseek.com/updates/,2026-10-18,vendor changelog
+Muse Wonder,SciCode,60.3,percent,standard,max; listed as muse-wonder-1.0_max; via epoch.ai benchmark hub,https://artificialanalysis.ai/evaluations/scicode,2026-10-19,Artificial Analysis harness
+Muse Wonder,Terminal-Bench 4.0 (Vals),49.495,percent,standard,effort=max; harness=Mini-SWE-agent; listed as meta/muse-wonder,https://www.vals.ai/benchmarks/terminal-bench-4,2026-10-19,±4.31
+Muse Wonder,Vibe Code Bench (Vals),83.089,percent,standard,effort=max; harness=OpenHands; listed as meta/muse-wonder,https://www.vals.ai/benchmarks/vibe-code,2026-10-19,±4.88
+Muse Wonder,Vibe Code Bench 1-100 (Vals),26.55,percent,standard,effort=max; harness=OpenHands; listed as meta/muse-wonder,https://www.vals.ai/benchmarks/vcb-1-100,2026-10-19,±8.49
+Muse Wonder,IOI (Vals),66.944,percent,standard,effort=max; listed as meta/muse-wonder,https://www.vals.ai/benchmarks/ioi,2026-10-19,±9.62
+Muse Wonder,Code Migration (Vals),62.552,percent,standard,effort=max; listed as meta/muse-wonder,https://www.vals.ai/benchmarks/code-migration,2026-10-19,±8.53
+Muse Wonder Full,Terminal-Bench 4.0 (Vals),58.081,percent,standard,effort=max; harness=Mini-SWE-agent; listed as meta/muse-wonder-full,https://www.vals.ai/benchmarks/terminal-bench-4,2026-10-19,±6.49
+Muse Wonder Full,Vibe Code Bench (Vals),85.996,percent,standard,effort=max; harness=OpenHands; listed as meta/muse-wonder-full,https://www.vals.ai/benchmarks/vibe-code,2026-10-19,±3.79
+Muse Wonder Full,Vibe Code Bench 1-100 (Vals),33.978,percent,standard,effort=max; harness=OpenHands; listed as meta/muse-wonder-full,https://www.vals.ai/benchmarks/vcb-1-100,2026-10-19,±10.42
+Muse Wonder Full,ProgramBench (Vals),0.5,percent,standard,effort=max; listed as meta/muse-wonder-full,https://www.vals.ai/benchmarks/programbench,2026-10-19,±0.98
+Muse Wonder Full,IOI (Vals),79.833,percent,standard,effort=max; listed as meta/muse-wonder-full,https://www.vals.ai/benchmarks/ioi,2026-10-19,±5.86
+Muse Wonder Full,Code Migration (Vals),61.033,percent,standard,effort=max; listed as meta/muse-wonder-full,https://www.vals.ai/benchmarks/code-migration,2026-10-19,±8.66
+Muse Wonder,DeepSWE,78.8,percent,self,DeepSWE 1.1,https://research.meta.ai/static/muse-wonder-model-card,2026-10-19,vendor model card via llm-stats
+Muse Wonder,Terminal-Bench 4.0,52,percent,self,Terminal-Bench 4.0-AA,https://research.meta.ai/static/muse-wonder-model-card,2026-10-19,vendor model card via llm-stats
+Muse Wonder Full,DeepSWE,79,percent,self,DeepSWE 1.1,https://research.meta.ai/static/muse-wonder-model-card,2026-10-19,vendor model card via llm-stats
+Muse Wonder Full,Terminal-Bench 4.0,57.1,percent,self,Terminal-Bench 4.0-AA,https://research.meta.ai/static/muse-wonder-model-card,2026-10-19,vendor model card via llm-stats
+Solar Mini 4,SciCode,47.6,percent,standard,Artificial Analysis harness,https://artificialanalysis.ai/articles/korean-ai-lab-upstage-releases-solar-mini-4,2026-10-19,via llm-stats
+Solar Mini 4,Terminal-Bench 4.0,1,percent,standard,Artificial Analysis harness,https://artificialanalysis.ai/articles/korean-ai-lab-upstage-releases-solar-mini-4,2026-10-19,via llm-stats
+Mercury Coder Mini,HumanEval,88,percent,self,pass@1; Table 1,https://arxiv.org/abs/2506.17298,2026-10-19,vendor technical report
+Mercury Coder Mini,MBPP,77.1,percent,self,pass@1; Table 1,https://arxiv.org/abs/2506.17298,2026-10-19,vendor technical report
+Mercury Coder Mini,LiveCodeBench,17,percent,self,pass@1; Table 1,https://arxiv.org/abs/2506.17298,2026-10-19,vendor technical report
+Mercury Coder Small,HumanEval,90,percent,self,pass@1; Table 1,https://arxiv.org/abs/2506.17298,2026-10-19,vendor technical report
+Mercury Coder Small,MBPP,76.6,percent,self,pass@1; Table 1,https://arxiv.org/abs/2506.17298,2026-10-19,vendor technical report
+Mercury Coder Small,LiveCodeBench,25,percent,self,pass@1; Table 1,https://arxiv.org/abs/2506.17298,2026-10-19,vendor technical report
+Mercury 2,LiveCodeBench,67,percent,self,,https://www.inceptionlabs.ai/blog/introducing-mercury-2,2026-10-19,vendor blog via llm-stats
+LongCat-Flash-Chat,LiveCodeBench,48.02,percent,self,pass@1,https://huggingface.co/meituan-longcat/LongCat-Flash-Chat,2026-10-19,vendor model card
+LongCat-Flash-Chat,HumanEval+,88.41,percent,self,pass@1,https://huggingface.co/meituan-longcat/LongCat-Flash-Chat,2026-10-19,vendor model card
+LongCat-Flash-Chat,MBPP+,79.63,percent,self,pass@1,https://huggingface.co/meituan-longcat/LongCat-Flash-Chat,2026-10-19,vendor model card
+LongCat-Flash-Chat,SWE-bench Verified,60.4,percent,self,acc,https://huggingface.co/meituan-longcat/LongCat-Flash-Chat,2026-10-19,vendor model card
+LongCat-Flash-Thinking,LiveCodeBench,79.4,percent,self,Mean@4,https://huggingface.co/meituan-longcat/LongCat-Flash-Thinking,2026-10-19,vendor model card
+LongCat-Flash-Thinking,OJBench,40.7,percent,self,Mean@1,https://huggingface.co/meituan-longcat/LongCat-Flash-Thinking,2026-10-19,vendor model card
+LongCat-Flash-Thinking,SWE-bench Verified,59.4,percent,self,Pass@1,https://huggingface.co/meituan-longcat/LongCat-Flash-Thinking,2026-10-19,vendor model card
+LongCat-Flash-Thinking-2601,LiveCodeBench,82.8,percent,self,LCB 24.08-25.05; Avg@4,https://huggingface.co/meituan-longcat/LongCat-Flash-Thinking-2601,2026-10-19,vendor model card
+LongCat-Flash-Thinking-2601,OJBench,42.2,percent,self,Pass@1,https://huggingface.co/meituan-longcat/LongCat-Flash-Thinking-2601,2026-10-19,vendor model card
+LongCat-Flash-Thinking-2601,SWE-bench Verified,70,percent,self,Avg@5,https://huggingface.co/meituan-longcat/LongCat-Flash-Thinking-2601,2026-10-19,vendor model card
+LongCat-Flash-Thinking-ZigZag,LiveCodeBench,81.7,percent,self,LCB 24.08-25.05; Avg@4,https://huggingface.co/meituan-longcat/LongCat-Flash-Thinking-ZigZag,2026-10-19,vendor model card
+LongCat-Flash-Thinking-ZigZag,OJBench,41.2,percent,self,Pass@1,https://huggingface.co/meituan-longcat/LongCat-Flash-Thinking-ZigZag,2026-10-19,vendor model card
+LongCat-Flash-Lite,SWE-bench Verified,54.4,percent,self,acc,https://huggingface.co/meituan-longcat/LongCat-Flash-Lite,2026-10-19,vendor model card
+LongCat-Flash-Lite,SWE-bench Multilingual,38.1,percent,self,acc,https://huggingface.co/meituan-longcat/LongCat-Flash-Lite,2026-10-19,vendor model card
+LongCat-Flash-Lite,Terminal-Bench 2.0,33.75,percent,self,acc; listed as TerminalBench 2.0 on the Lite-Sparse card,https://huggingface.co/meituan-longcat/LongCat-Flash-Lite,2026-10-19,vendor model card
+LongCat-Flash-Omni,LiveCodeBench,52.64,percent,self,pass@1; Instruct,https://huggingface.co/meituan-longcat/LongCat-Flash-Omni,2026-10-19,vendor model card
+LongCat-Flash-Omni,HumanEval+,90.85,percent,self,pass@1; Instruct,https://huggingface.co/meituan-longcat/LongCat-Flash-Omni,2026-10-19,vendor model card
+LongCat-Flash-Omni,MBPP+,80.16,percent,self,pass@1; Instruct,https://huggingface.co/meituan-longcat/LongCat-Flash-Omni,2026-10-19,vendor model card
+LongCat-2.0,Terminal-Bench 2.1,70.8,percent,self,,https://huggingface.co/meituan-longcat/LongCat-2.0,2026-10-19,vendor model card
+LongCat-2.0,SWE-bench Pro,59.5,percent,self,,https://huggingface.co/meituan-longcat/LongCat-2.0,2026-10-19,vendor model card
+LongCat-2.0,SWE-bench Multilingual,77.3,percent,self,,https://huggingface.co/meituan-longcat/LongCat-2.0,2026-10-19,vendor model card
+LongCat-Flash-Lite-Sparse,SWE-bench Verified,68.2,percent,self,without hierarchical indexing,https://huggingface.co/meituan-longcat/LongCat-Flash-Lite-Sparse,2026-10-19,vendor model card
+LongCat-Flash-Lite-Sparse,SWE-bench Pro,40.63,percent,self,without hierarchical indexing,https://huggingface.co/meituan-longcat/LongCat-Flash-Lite-Sparse,2026-10-19,vendor model card
+LongCat-Flash-Lite-Sparse,SWE-bench Multilingual,59.33,percent,self,without hierarchical indexing,https://huggingface.co/meituan-longcat/LongCat-Flash-Lite-Sparse,2026-10-19,vendor model card
+LongCat-Flash-Lite-Sparse,Terminal-Bench 2.0,33.7,percent,self,without hierarchical indexing,https://huggingface.co/meituan-longcat/LongCat-Flash-Lite-Sparse,2026-10-19,vendor model card
+LongCat-Flash-Lite-Sparse,SWE-bench Verified,65.2,percent,self,with hierarchical indexing,https://huggingface.co/meituan-longcat/LongCat-Flash-Lite-Sparse,2026-10-19,vendor model card
+LongCat-Flash-Lite-Sparse,SWE-bench Pro,39.4,percent,self,with hierarchical indexing,https://huggingface.co/meituan-longcat/LongCat-Flash-Lite-Sparse,2026-10-19,vendor model card
+LongCat-Flash-Lite-Sparse,SWE-bench Multilingual,56,percent,self,with hierarchical indexing,https://huggingface.co/meituan-longcat/LongCat-Flash-Lite-Sparse,2026-10-19,vendor model card
+LongCat-Flash-Lite-Sparse,Terminal-Bench 2.0,32.58,percent,self,with hierarchical indexing,https://huggingface.co/meituan-longcat/LongCat-Flash-Lite-Sparse,2026-10-19,vendor model card
+Ling-lite,HumanEval,89.02,percent,self,Pass@1; Ling-Lite-0415,https://huggingface.co/inclusionAI/Ling-lite,2026-10-19,vendor model card
+Ling-lite,LiveCodeBench,24.11,percent,self,LiveCodeBench 2408-2411; Pass@1; Ling-Lite-0415,https://huggingface.co/inclusionAI/Ling-lite,2026-10-19,vendor model card
+Ling-lite-1.5,HumanEval,87.27,percent,self,Pass@1,https://huggingface.co/inclusionAI/Ling-lite-1.5,2026-10-19,vendor model card
+Ling-lite-1.5,LiveCodeBench,22.7,percent,self,LiveCodeBench 2408-2502; Pass@1,https://huggingface.co/inclusionAI/Ling-lite-1.5,2026-10-19,vendor model card
+Ling-flash-2.0,LiveCodeBench,51.38,percent,self,Pass@1,https://arxiv.org/abs/2510.22115,2026-10-19,vendor technical report
+Ling-1T,LiveCodeBench,61.68,percent,self,Pass@1,https://arxiv.org/abs/2510.22115,2026-10-19,vendor technical report
+Ling-2.6-flash,SWE-bench Verified,61.2,percent,self,,https://huggingface.co/inclusionAI/Ling-2.6-flash,2026-10-19,vendor model card eval results
+Ling-2.6-1T,SWE-bench Verified,72.2,percent,self,,https://huggingface.co/inclusionAI/Ling-2.6-1T,2026-10-19,vendor model card eval results
+Ling-3.0-flash,LiveCodeBench,82.8,percent,self,LiveCodeBench v6,https://huggingface.co/inclusionAI/Ling-3.0-flash,2026-10-19,vendor model card via llm-stats
+Ling-3.0-flash,SWE-bench Multilingual,72.4,percent,self,,https://huggingface.co/inclusionAI/Ling-3.0-flash,2026-10-19,vendor model card eval results
+Ling-3.0-flash,SWE-bench Pro,56.6,percent,self,,https://huggingface.co/inclusionAI/Ling-3.0-flash,2026-10-19,vendor model card eval results
+Ling-3.0-flash,Terminal-Bench 2.1,57,percent,self,,https://huggingface.co/inclusionAI/Ling-3.0-flash,2026-10-19,vendor model card via llm-stats
+Ling-3.1-flash,SWE-bench Pro,68.74,percent,self,,https://huggingface.co/inclusionAI/Ling-3.1-flash,2026-10-19,vendor model card
+Ling-3.1-flash,SWE-bench Multilingual,88.5,percent,self,,https://huggingface.co/inclusionAI/Ling-3.1-flash,2026-10-19,vendor model card
+Ling-3.1-flash,Terminal-Bench 2.1,81.18,percent,self,,https://huggingface.co/inclusionAI/Ling-3.1-flash,2026-10-19,vendor model card
+Ling-3.1-flash,Terminal-Bench 4.0,46.03,percent,self,,https://huggingface.co/inclusionAI/Ling-3.1-flash,2026-10-19,vendor model card
+Ling-3.1-flash,DeepSWE,59.7,percent,self,,https://huggingface.co/inclusionAI/Ling-3.1-flash,2026-10-19,vendor model card
+Solar Pro Preview,MBPP,61.59,percent,self,0-shot; pass@1; bigcode-evaluation-harness,https://huggingface.co/upstage/solar-pro-preview-instruct,2026-10-19,vendor model card
+Solar Open 100B,LiveCodeBench,74.2,percent,self,LiveCodeBench v1-v6 cumulative,https://huggingface.co/upstage/Solar-Open-100B,2026-10-19,vendor model card
+Solar Open 100B,LiveCodeBench,56.5,percent,self,LiveCodeBench v6; comparison column on the Solar Open2 card,https://huggingface.co/upstage/Solar-Open2-250B,2026-10-19,vendor model card
+Solar Open 100B,SWE-bench Verified,15.4,percent,self,comparison column on the Solar Open2 card,https://huggingface.co/upstage/Solar-Open2-250B,2026-10-19,vendor model card
+Solar Open 100B,Terminal-Bench Hard,2.3,percent,self,comparison column on the Solar Open2 card,https://huggingface.co/upstage/Solar-Open2-250B,2026-10-19,vendor model card
+Solar Open2 250B,LiveCodeBench,92.4,percent,self,LiveCodeBench v6,https://huggingface.co/upstage/Solar-Open2-250B,2026-10-19,vendor model card
+Solar Open2 250B,SWE-bench Verified,70.4,percent,self,,https://huggingface.co/upstage/Solar-Open2-250B,2026-10-19,vendor model card
+Solar Open2 250B,Terminal-Bench Hard,28.3,percent,self,,https://huggingface.co/upstage/Solar-Open2-250B,2026-10-19,vendor model card
+Solar Pro 2,SWE-bench Verified,14.5,percent,self,comparison column in the Solar Pro 3 0323 post,https://www.upstage.ai/blog/en/solar-pro-3-0323,2026-10-19,vendor blog
+Solar Pro 2,Terminal-Bench 2.0,2.2,percent,self,comparison column in the Solar Pro 3 0323 post,https://www.upstage.ai/blog/en/solar-pro-3-0323,2026-10-19,vendor blog
+Solar Pro 3,SWE-bench Verified,28.6,percent,self,solar-pro3-260323,https://www.upstage.ai/blog/en/solar-pro-3-0323,2026-10-19,vendor blog
+Solar Pro 3,Terminal-Bench 2.0,10.1,percent,self,solar-pro3-260323,https://www.upstage.ai/blog/en/solar-pro-3-0323,2026-10-19,vendor blog
+Solar Pro 4,LiveCodeBench,87.8,percent,self,,https://www.upstage.ai/blog/en/solar-pro-4,2026-10-19,vendor blog via llm-stats
+Solar Pro 4,SWE-bench Verified,70.6,percent,self,,https://www.upstage.ai/blog/en/solar-pro-4,2026-10-19,vendor blog via llm-stats
+Solar Pro 4,Terminal-Bench 2.1,57,percent,self,,https://www.upstage.ai/blog/en/solar-pro-4,2026-10-19,vendor blog via llm-stats
+DeepSeek-V4-Flash,LiveCodeBench,88.4,percent,self,max,https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash,2026-10-19,vendor model card via llm-stats
+DeepSeek-V4-Flash,SWE-bench Multilingual,70.2,percent,self,max,https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash,2026-10-19,vendor model card via llm-stats
+DeepSeek-V4-Flash,SWE-bench Pro,52.3,percent,self,max,https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash,2026-10-19,vendor model card via llm-stats
+DeepSeek-V4-Flash,SWE-bench Verified,78.6,percent,self,max,https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash,2026-10-19,vendor model card via llm-stats
+DeepSeek-V4-Flash,Terminal-Bench 2.0,56.6,percent,self,max,https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash,2026-10-19,vendor model card via llm-stats
+DeepSeek-V4-Pro,LiveCodeBench,93.5,percent,self,max,https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro,2026-10-19,vendor model card via llm-stats
+DeepSeek-V4-Pro,SWE-bench Multilingual,76.2,percent,self,max,https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro,2026-10-19,vendor model card via llm-stats
+DeepSeek-V4-Pro,SWE-bench Pro,55.4,percent,self,max,https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro,2026-10-19,vendor model card via llm-stats
+DeepSeek-V4-Pro,SWE-bench Verified,80.6,percent,self,max,https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro,2026-10-19,vendor model card via llm-stats
+DeepSeek-V4-Pro,Terminal-Bench 2.0,67.9,percent,self,max,https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro,2026-10-19,vendor model card via llm-stats
+DiffusionGemma 26B A4B,LiveCodeBench,69.1,percent,self,LiveCodeBench v6,https://huggingface.co/google/diffusiongemma-26B-A4B-it,2026-10-19,vendor model card
+MiMo-V2-Pro,SWE-bench Verified,78,percent,self,,https://mimo.xiaomi.com/mimo-v2-pro,2026-10-19,vendor page via llm-stats
+MiMo-V2-Pro,SWE-bench Multilingual,71.7,percent,self,,https://mimo.xiaomi.com/mimo-v2-pro,2026-10-19,vendor page via llm-stats
+MiMo-V2-Pro,Terminal-Bench 2.0,57.1,percent,self,,https://mimo.xiaomi.com/mimo-v2-pro,2026-10-19,vendor page via llm-stats
+MiMo-V2-Omni,SWE-bench Verified,74.8,percent,self,,https://mimo.xiaomi.com/mimo-v2-omni,2026-10-19,vendor page via llm-stats
+Seed2.0 Mini,LiveCodeBench,64.1,percent,self,LiveCodeBench v6,https://seed.bytedance.com/en/seed2,2026-10-19,vendor model card via llm-stats
+Seed2.0 Lite,LiveCodeBench,81.7,percent,self,LiveCodeBench v6,https://seed.bytedance.com/en/seed2,2026-10-19,vendor page via llm-stats
+Seed2.0 Lite,SWE-bench Verified,73.5,percent,self,,https://seed.bytedance.com/en/seed2,2026-10-19,vendor page via llm-stats
+Seed2.1 Turbo,DeepSWE,23,percent,self,,https://seed.bytedance.com/en/seed2_1,2026-10-19,vendor page via llm-stats
+Seed2.1 Turbo,SciCode,57.8,percent,self,,https://seed.bytedance.com/en/seed2_1,2026-10-19,vendor page via llm-stats
+Seed2.1 Turbo,SWE-bench Pro,57,percent,self,,https://seed.bytedance.com/en/seed2_1,2026-10-19,vendor page via llm-stats
+Seed2.1 Turbo,Terminal-Bench 2.1,67.6,percent,self,,https://seed.bytedance.com/en/seed2_1,2026-10-19,vendor page via llm-stats
+Nemotron Cascade 2 30B A3B,LiveCodeBench,87.2,percent,self,LiveCodeBench v6 2408-2505,https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B,2026-10-19,vendor model card
+Nemotron Cascade 2 30B A3B,SciCode,36.4,percent,self,,https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B,2026-10-19,vendor model card
+Nemotron Cascade 2 30B A3B,Terminal-Bench 2.0,21.1,percent,self,,https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B,2026-10-19,vendor model card
+Qwen3.8 Omni Flash,LiveCodeBench,92.6,percent,self,LiveCodeBench v6,https://arxiv.org/abs/2609.25611,2026-10-19,vendor technical report
+Qwen3.8 Omni Flash,SWE-bench Pro,63.3,percent,self,Claude Code harness,https://arxiv.org/abs/2609.25611,2026-10-19,vendor technical report
+Granite 4.0 1B,HumanEval,74,percent,self,pass@1; 1B Dense column,https://huggingface.co/ibm-granite/granite-4.0-1b,2026-10-19,vendor model card
+Granite 4.0 1B,HumanEval+,69,percent,self,pass@1; 1B Dense column,https://huggingface.co/ibm-granite/granite-4.0-1b,2026-10-19,vendor model card
+Granite 4.0 1B,MBPP,65,percent,self,pass@1; 1B Dense column,https://huggingface.co/ibm-granite/granite-4.0-1b,2026-10-19,vendor model card
+Granite 4.0 1B,MBPP+,57,percent,self,pass@1; 1B Dense column,https://huggingface.co/ibm-granite/granite-4.0-1b,2026-10-19,vendor model card
+Granite 4.0 H-1B,HumanEval,73,percent,self,pass@1; H 1B Dense column,https://huggingface.co/ibm-granite/granite-4.0-1b,2026-10-19,vendor model card
+Granite 4.0 H-1B,HumanEval+,68,percent,self,pass@1; H 1B Dense column,https://huggingface.co/ibm-granite/granite-4.0-1b,2026-10-19,vendor model card
+Granite 4.0 H-1B,MBPP,69,percent,self,pass@1; H 1B Dense column,https://huggingface.co/ibm-granite/granite-4.0-1b,2026-10-19,vendor model card
+Granite 4.0 H-1B,MBPP+,60,percent,self,pass@1; H 1B Dense column,https://huggingface.co/ibm-granite/granite-4.0-1b,2026-10-19,vendor model card
+Granite 4.0 H-350M,HumanEval,38,percent,self,pass@1; H 350M Dense column,https://huggingface.co/ibm-granite/granite-4.0-1b,2026-10-19,vendor model card
+Granite 4.0 H-350M,HumanEval+,35,percent,self,pass@1; H 350M Dense column,https://huggingface.co/ibm-granite/granite-4.0-1b,2026-10-19,vendor model card
+Granite 4.0 H-350M,MBPP,49,percent,self,pass@1; H 350M Dense column,https://huggingface.co/ibm-granite/granite-4.0-1b,2026-10-19,vendor model card
+Granite 4.0 H-350M,MBPP+,44,percent,self,pass@1; H 350M Dense column,https://huggingface.co/ibm-granite/granite-4.0-1b,2026-10-19,vendor model card
+MiniMax-M3.1-Flash,SciCode,53.356,percent,standard,listed as minimax-m3-1-flash; via artificialanalysis.ai,https://artificialanalysis.ai/evaluations/scicode,2026-10-24,Artificial Analysis harness
+MiniMax-M3.1-Flash,Terminal-Bench 4.0,25.758,percent,standard,listed as minimax-m3-1-flash; via artificialanalysis.ai,https://artificialanalysis.ai/evaluations/terminalbench-4-0,2026-10-24,Artificial Analysis harness
+MiniMax-M3.1-Flash,Terminal-Bench 4.0,38.1,percent,self,Codex 0.149.1 harness,https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash,2026-10-24,vendor model card
+MiniMax-M3.1-Flash,Terminal-Bench 4.0 (Vals),25.253,percent,standard,effort=max; harness=Mini-SWE-agent; listed as minimax/MiniMax-M3.1-flash,https://www.vals.ai/benchmarks/terminal-bench-4,2026-10-24,±1.98
+MiniMax-M3.1-Flash,Vibe Code Bench (Vals),73.944,percent,standard,effort=max; harness=OpenHands; listed as minimax/MiniMax-M3.1-flash,https://www.vals.ai/benchmarks/vibe-code,2026-10-24,±8.33
+MiniMax-M3.1-Flash,DeepSWE,73.7,percent,self,DeepSWE v1.1; mini-SWE-agent 2.4.5; 512K context,https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash,2026-10-24,vendor model card
+MiniMax-M3.1-Flash,PostTrainBench,39.3,percent,self,PostTrain Bench v1.1; Claude Code 2.1.251; 512K context,https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash,2026-10-24,vendor model card
+Ling-3.1-flash-1019,Terminal-Bench 4.0,32.828,percent,standard,listed as ling-3-1-flash-1019; via artificialanalysis.ai,https://artificialanalysis.ai/evaluations/terminalbench-4-0,2026-10-24,Artificial Analysis harness
+Ling-3.1-flash-1019,SciCode,56.829,percent,standard,listed as ling-3-1-flash-1019; via artificialanalysis.ai,https://artificialanalysis.ai/evaluations/scicode,2026-10-24,Artificial Analysis harness; SciCode under review on AA
+Kimi K3.1 Pro,Terminal-Bench 4.0,65.7,percent,self,effort=max; harness=Claude Code; temperature=1.0; top_p=0.95,https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart,2026-10-24,vendor quickstart benchmark image
+Kimi K3.1 Pro,DeepSWE,75.5,percent,self,effort=max; harness=Claude Code; temperature=1.0; top_p=0.95,https://www.kimi.com/en/blog/kimi-k3-1-pro,2026-10-24,vendor tech blog benchmark table
+Kimi K3.1 Pro,PostTrainBench,36.5,percent,self,PostTrain Bench v1.2; effort=max; harness=Claude Code; H20 GPUs; judge=DeepSeek-V4.1-Flash-1017 max,https://www.kimi.com/en/blog/kimi-k3-1-pro,2026-10-24,vendor tech blog benchmark table

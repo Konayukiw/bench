@@ -1,0 +1,29 @@
+{
+ "fetched_at": "2026-10-13T01:48:21",
+ "files": [
+  {
+   "file": "eci_scores.csv",
+   "url": "https://epoch.ai/data/eci_scores.csv",
+   "bytes": 33807,
+   "sha256": "30844141e711b775a0970cbe0504d1d96f4abd8b8e86b7f9e24ecf70281de159"
+  },
+  {
+   "file": "eci_benchmarks.csv",
+   "url": "https://epoch.ai/data/eci_benchmarks.csv",
+   "bytes": 367502,
+   "sha256": "84423df0ed6e137365e2d8039f54e16ddb1b4747f8b11793498416b4340c32fe"
+  },
+  {
+   "file": "edi_scores.csv",
+   "url": "https://epoch.ai/data/edi_scores.csv",
+   "bytes": 4192,
+   "sha256": "f8d98e1088e763a1328037bd74b8181875b4f367feac76b81aa8df3b3b423879"
+  },
+  {
+   "file": "benchmark_data.zip",
+   "url": "https://epoch.ai/data/benchmark_data.zip",
+   "bytes": 2379428,
+   "sha256": "08a52672880add233a8e42ad00e3cb3722a274ae060212ecd14185b57f1bf673"
+  }
+ ]
+}

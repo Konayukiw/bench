@@ -1,0 +1,11 @@
+{
+ "fetched_at": "2026-10-13T01:48:22",
+ "files": [
+  {
+   "file": "leaderboards.json",
+   "url": "https://raw.githubusercontent.com/SWE-bench/swe-bench.github.io/master/data/leaderboards.json",
+   "bytes": 4091442,
+   "sha256": "83cd949a9582f4dd68b0a07148cd86ff0eae6a05b0f2d2298a8f3717baf89d2d"
+  }
+ ]
+}

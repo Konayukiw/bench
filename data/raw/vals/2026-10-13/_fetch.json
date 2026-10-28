@@ -1,0 +1,137 @@
+{
+ "fetched_at": "2026-10-13T02:19:26",
+ "files": [
+  {
+   "file": "terminal-bench-4.html",
+   "url": "https://www.vals.ai/benchmarks/terminal-bench-4",
+   "bytes": 118018,
+   "sha256": "60dda707ecb12721722826abd213c2aa0b0c0682da0c4165db51bd6e627f3d5e"
+  },
+  {
+   "file": "terminal-bench-4.json",
+   "url": "https://www.vals.ai/_astro/benchmark_view_terminal_bench_4.CP6-_fta.json",
+   "bytes": 207769,
+   "sha256": "6a08f519724dcaa638ea4c72d775cd9311bb3b2717cce62094dba08ca8b9a634"
+  },
+  {
+   "file": "terminal-bench-2-1.html",
+   "url": "https://www.vals.ai/benchmarks/terminal-bench-2-1",
+   "bytes": 128655,
+   "sha256": "f6b4446dbdd1a619191f216e3dc8be1cdfdffd773db7d2d217dd53ff6b4e56a0"
+  },
+  {
+   "file": "terminal-bench-2-1.json",
+   "url": "https://www.vals.ai/_astro/benchmark_view_terminal_bench_2_1.CdyoObsA.json",
+   "bytes": 189827,
+   "sha256": "a5306805cdf86495bdcceff6b2c8534a3768b9853f5077895dab975b809b054f"
+  },
+  {
+   "file": "terminal-bench-2.html",
+   "url": "https://www.vals.ai/benchmarks/terminal-bench-2",
+   "bytes": 124572,
+   "sha256": "def18991772d1f2854ea6b7dfc09b1aafe99c3b609474e6fc6ec10c05ebbb8f7"
+  },
+  {
+   "file": "terminal-bench-2.json",
+   "url": "https://www.vals.ai/_astro/benchmark_view_terminal_bench_2.T48tPR4O.json",
+   "bytes": 148985,
+   "sha256": "38e640d995259778e531f048b2f2c7b3b281cb05b56be643ddc9dc53eb85adf7"
+  },
+  {
+   "file": "swebench.html",
+   "url": "https://www.vals.ai/benchmarks/swebench",
+   "bytes": 1820407,
+   "sha256": "c98ae9bd448c9273e2904ca100e333f497f7bba4d35ed18e6fb8531a0f8f05a4"
+  },
+  {
+   "file": "swebench.json",
+   "url": "https://www.vals.ai/_astro/benchmark_view_swebench.Ae8ni7h0.json",
+   "bytes": 242064,
+   "sha256": "7a4e2e8485283caac500127419f68ec4bd5414c837ade114fc6afa5b2d34ccaa"
+  },
+  {
+   "file": "lcb.html",
+   "url": "https://www.vals.ai/benchmarks/lcb",
+   "bytes": 448283,
+   "sha256": "992d206390988ec28650dbda815feb17cfa16cf9a62dafcfb74808a54f4f5873"
+  },
+  {
+   "file": "lcb.json",
+   "url": "https://www.vals.ai/_astro/benchmark_view_lcb.miyRUvVa.json",
+   "bytes": 317636,
+   "sha256": "1a7c7dabc9d95a0182886b1edc42623987cac2095a0d407a5e334f37acdfa2f5"
+  },
+  {
+   "file": "vibe-code.html",
+   "url": "https://www.vals.ai/benchmarks/vibe-code",
+   "bytes": 1083628,
+   "sha256": "caa42e10c7f6d816a4960fb45ac4c7f16c1b5fff49a67c8b346ae5b2ee67e280"
+  },
+  {
+   "file": "vibe-code.json",
+   "url": "https://www.vals.ai/_astro/benchmark_view_vibe_code_bench.BNpZMKl6.json",
+   "bytes": 93983,
+   "sha256": "9ea88fa14fd7555ea5d7b47626b680ed66f234f3856e0d756475e8f8b271d312"
+  },
+  {
+   "file": "vcb-1-100.html",
+   "url": "https://www.vals.ai/benchmarks/vcb-1-100",
+   "bytes": 704761,
+   "sha256": "4eb550dc2e19521ea3f61f40227fcb8aafee44e8b2a6f10d39804cd90c1d8d25"
+  },
+  {
+   "file": "vcb-1-100.json",
+   "url": "https://www.vals.ai/_astro/benchmark_view_vcb_1_100.CDFsYll6.json",
+   "bytes": 20253,
+   "sha256": "ece35b8345073f3d138035108e0ecf4b6020ba75772327ddbc52fbeb407f2d89"
+  },
+  {
+   "file": "programbench.html",
+   "url": "https://www.vals.ai/benchmarks/programbench",
+   "bytes": 121834,
+   "sha256": "bfef71f228863517a6ebef98397d7f711cd1521216f8692e79856de9c3de2165"
+  },
+  {
+   "file": "programbench.json",
+   "url": "https://www.vals.ai/_astro/benchmark_view_programbench.I7CIsUQT.json",
+   "bytes": 147188,
+   "sha256": "b4a44a2b07693d26f8c69b1656156796ff09f59642eb9009e8601c6432bd7213"
+  },
+  {
+   "file": "ioi.html",
+   "url": "https://www.vals.ai/benchmarks/ioi",
+   "bytes": 116003,
+   "sha256": "386dabc8f20238e45a9dda64213ab6566f6d831ebbb4d4bb18fd0f36ad21b7ac"
+  },
+  {
+   "file": "ioi.json",
+   "url": "https://www.vals.ai/_astro/benchmark_view_ioi.DPfs-Fm5.json",
+   "bytes": 141724,
+   "sha256": "6469b362e6aab87bf3de5c6dd08ed2ce5432aefb499b0db75658ee225ef3e5b3"
+  },
+  {
+   "file": "code-migration.html",
+   "url": "https://www.vals.ai/benchmarks/code-migration",
+   "bytes": 811506,
+   "sha256": "433070bb6eb12ce6020a0425043bed63d573f7e6a9b45863f848d1a4e427915f"
+  },
+  {
+   "file": "code-migration.json",
+   "url": "https://www.vals.ai/_astro/benchmark_view_code_migration.CYbgXDPs.json",
+   "bytes": 188164,
+   "sha256": "4f4c95c2fa1a6c65cd53e1c180a40a5f5cba8c4fc0502a8df58c6fd8fac8999c"
+  },
+  {
+   "file": "skillsbench.html",
+   "url": "https://www.vals.ai/benchmarks/skillsbench",
+   "bytes": 453470,
+   "sha256": "e973dc7af17c3e3f5bbb3f6bf0015a2ddf3d736ccf49511e5cf3bfe39ac910f6"
+  },
+  {
+   "file": "skillsbench.json",
+   "url": "https://www.vals.ai/_astro/benchmark_view_skillsbench.BE2TXB-M.json",
+   "bytes": 62100,
+   "sha256": "aaad242949d81b7c7c61c36d4895d4460e9146760c1e6b4b38d235a16043bc61"
+  }
+ ]
+}

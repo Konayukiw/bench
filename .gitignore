@@ -1,6 +1,5 @@
 .claude
 tests/
-data/
 __pycache__/
 
 AGENTS.md

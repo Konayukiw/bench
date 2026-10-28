@@ -1,0 +1,11 @@
+{
+ "fetched_at": "2026-10-13T01:48:33",
+ "files": [
+  {
+   "file": "aa_models.json",
+   "url": "https://artificialanalysis.ai/api/v2/language/models/free",
+   "bytes": 857113,
+   "sha256": "ea0802fbeae41d7f384bd25ac502de68ee7ed9a3329e113b51cf6de8701e4f47"
+  }
+ ]
+}
