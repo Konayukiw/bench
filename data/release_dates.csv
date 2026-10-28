@@ -1,0 +1,666 @@
+model,release_date
+GPT-1,2018-06-11
+GPT-2,2019-02-14
+GPT-3,2020-06-11
+GPT-3.5,2022-11-28
+GPT-3.5 Turbo,2022-11-30
+GPT-4,2023-03-14
+GPT-4 Turbo,2023-11-06
+GPT-4o,2024-05-13
+GPT-4o mini,2024-07-18
+GPT-4.1,2025-04-14
+GPT-4.1 mini,2025-04-14
+GPT-4.1 nano,2025-04-14
+GPT-4.5,2025-02-27
+GPT-5,2025-08-07
+GPT-5 mini,2025-08-07
+GPT-5 nano,2025-08-07
+GPT-5 Pro,2025-10-06
+GPT-5.1,2025-11-13
+GPT-5.2,2025-12-11
+GPT-5.2 Pro,2025-12-11
+GPT-5.4,2026-03-05
+GPT-5.4 mini,2026-03-17
+GPT-5.4 nano,2026-03-17
+GPT-5.4 Pro,2026-03-05
+GPT-5.4-Cyber,2026-04-14
+GPT-5.5,2026-04-23
+GPT-5.5 Pro,2026-04-23
+GPT-5.5 Instant,2026-05-05
+GPT-5.5 Cyber,2026-05-07
+GPT-5.6 Sol,2026-07-09
+GPT-5.6 Terra,2026-07-09
+GPT-5.6 Luna,2026-07-09
+GPT-5.6 Sol Pro,2026-07-09
+GPT-5.6 Terra Pro,2026-07-09
+GPT-5.6 Luna Pro,2026-07-09
+GPT-5.6 Cyber,2026-08-10
+Daybreak Red,2026-08-10
+Daybreak Blue,2026-08-10
+GPT-6 Astra,2026-09-03
+GPT-6 Astra Pro,2026-09-03
+GPT-6 Sol,2026-09-22
+GPT-6 Luna,2026-09-22
+GPT-6 Sol Pro,2026-09-22
+GPT-6 Luna Pro,2026-09-22
+GPT-6.1 Sol,2026-09-29
+GPT-6.1 Sol Pro,2026-09-29
+OpenAI o1,2024-12-05
+OpenAI o1-preview,2024-09-12
+OpenAI o1-mini,2024-09-12
+OpenAI o1-pro,2025-03-19
+OpenAI o3,2025-04-16
+OpenAI o3-mini,2025-01-31
+OpenAI o3-pro,2025-06-10
+OpenAI o4-mini,2025-04-16
+OpenAI o3-deep-research,2025-06-26
+OpenAI o4-mini-deep-research,2025-06-26
+codex-mini-latest,2025-04-16
+GPT-5-Codex,2025-09-15
+GPT-5.1 Codex,2025-11-13
+GPT-5.1-Codex-Max,2025-11-19
+GPT-5.1 Codex mini,2025-11-13
+GPT-5.2-Codex,2025-12-11
+GPT-5.3-Codex,2026-02-05
+GPT-5.3-Codex-Spark,2026-02-12
+gpt-oss-120b,2025-08-05
+gpt-oss-20b,2025-08-05
+gpt-oss-safeguard-120b,2025-09-18
+gpt-oss-safeguard-20b,2025-10-29
+Claude Instant 1.2,2023-08-09
+Claude 1.0,2023-03-14
+Claude 1.1,2023-03-14
+Claude 1.2,2023-05-11
+Claude 1.3,2023-03-14
+Claude 2.0,2023-07-11
+Claude 2.1,2023-11-21
+Claude 3 Haiku,2024-03-13
+Claude 3 Sonnet,2024-03-04
+Claude 3 Opus,2024-03-04
+Claude 3.5 Sonnet,2024-06-20
+Claude 3.5 Haiku,2024-11-04
+Claude 3.7 Sonnet,2025-02-24
+Claude Opus 4,2025-05-22
+Claude Sonnet 4,2025-05-22
+Claude Opus 4.1,2025-08-05
+Claude Sonnet 4.5,2025-09-29
+Claude Haiku 4.5,2025-10-15
+Claude Opus 4.5,2025-11-24
+Claude Opus 4.6,2026-02-05
+Claude Sonnet 4.6,2026-02-17
+Claude Opus 4.7,2026-04-16
+Claude Opus 4.8,2026-05-28
+Claude Sonnet 5,2026-06-30
+Claude Opus 5,2026-07-24
+Claude Fable 5,2026-06-09
+Claude Fable 5.1,2026-09-01
+Claude Opus 5.5,2026-09-22
+Claude Sonnet 5.5,2026-09-28
+Claude Haiku 5.5,2026-10-07
+Claude Mythos Preview,2026-04-07
+Claude Mythos 5,2026-06-09
+Claude Mythos 5.1,2026-09-01
+Gemini 1.0 Nano,2023-12-06
+Gemini 1.0 Pro,2023-12-06
+Gemini 1.0 Ultra,2023-12-06
+Gemini 1.5 Pro,2024-02-15
+Gemini 1.5 Flash,2024-05-14
+Gemini 1.5 Flash-8B,2024-10-03
+Gemini 2.0 Flash,2024-12-11
+Gemini 2.0 Flash-Lite,2025-02-25
+Gemini 2.0 Pro Experimental,2025-02-05
+Gemini 2.0 Flash Thinking Experimental,2024-12-19
+Gemini 2.5 Pro,2025-03-25
+Gemini 2.5 Flash,2025-04-17
+Gemini 2.5 Flash-Lite,2025-06-17
+Gemini 3 Pro Preview,2025-11-18
+Gemini 3 Flash,2025-12-17
+Gemini 3 Deep Think,2026-02-05
+Gemini 3.1 Flash-Lite,2026-03-03
+Gemini 3.1 Pro,2026-02-19
+Gemini 3.5 Flash,2026-05-19
+Gemini 3.5 Flash-Lite,2026-07-21
+Gemini 3.5 Flash Cyber,2026-07-21
+Gemini 3.6 Flash,2026-07-21
+Gemini 3.7 Flash,2026-08-13
+Gemini 3.8 Flash,2026-09-02
+Gemini 3.8 Flash Cyber,2026-09-02
+Gemini 4 Argon,2026-09-30
+Gemma (Gemma 1),2024-02-21
+Gemma 2,2024-06-27
+Gemma 3,2025-03-12
+Gemma 3n,2025-05-20
+Gemma 4,2026-03-02
+DiffusionGemma 26B A4B,2026-06-10
+Llama 1 (LLaMA),2023-02-24
+Llama 2,2023-07-18
+Llama 3,2024-04-18
+Llama 3.1 8B,2024-07-23
+Llama 3.1 70B,2024-07-23
+Llama 3.1 405B,2024-07-23
+Llama 3.2 1B,2024-09-25
+Llama 3.2 3B,2024-09-25
+Llama 3.3 70B,2024-12-06
+Llama 4 Scout,2025-04-05
+Llama 4 Maverick,2025-04-05
+Code Llama,2023-08-24
+Muse Spark,2026-04-08
+Muse Spark 1.1,2026-07-09
+Muse Spark 1.2,2026-08-05
+Muse Spark 1.2 Contributor,2026-08-21
+Muse Spark 1.3,2026-09-02
+Muse Spark 1.3 Contributor,2026-09-02
+Muse Spark Open,2026-10-15
+Muse Wonder,2026-10-12
+Muse Wonder Full,2026-10-12
+Muse Glimmer,2026-08-10
+Muse Code,2026-08-05
+Grok-1,2024-03-17
+Grok-1.5,2024-03-28
+Grok-2,2024-08-13
+Grok-2 mini,2024-08-13
+Grok 2 Vision,2025-08-22
+Grok 2.5,2025-08-22
+Grok 3,2025-02-17
+Grok 3 mini,2025-02-19
+Grok 4,2025-07-09
+Grok 4 Heavy,2025-07-09
+Grok 4 Fast,2025-09-19
+Grok 4.1,2025-11-17
+Grok 4.1 Thinking,2025-11-17
+Grok 4.1 Fast,2025-11-19
+Grok 4.20,2026-03-09
+Grok 4.20 Multi-agent,2026-03-09
+Grok 4.20 0309 v2,2026-04-07
+Grok 4.3,2026-04-30
+Grok 4.5,2026-07-08
+Grok 4.6,2026-08-12
+Grok 4.7,2026-09-21
+Grok Build 0.1,2026-05-20
+Grok Code Fast 1,2025-08-28
+DeepSeek LLM,2023-11-29
+DeepSeek-Coder,2023-11-01
+DeepSeek-Coder-V2,2024-06-17
+DeepSeek-Math 7B,2024-02-05
+DeepSeek-Math-V2,2025-11-27
+DeepSeek-V2,2024-04-22
+DeepSeek-V2-Lite,2024-05-15
+DeepSeek-V2.5,2024-09-06
+DeepSeek-V3,2024-12-26
+DeepSeek-V3-0324,2025-03-24
+DeepSeek-V3.1,2025-08-21
+DeepSeek-V3.1-Terminus,2025-09-22
+DeepSeek-V3.2,2025-12-01
+DeepSeek-V3.2-Exp,2025-09-29
+DeepSeek-V3.2-Speciale,2025-12-01
+DeepSeek-R1,2025-01-20
+DeepSeek-R1-0528,2025-05-28
+DeepSeek-R1-Lite-Preview,2024-11-20
+DeepSeek-R1-Distill,2025-01-20
+DeepSeek-V4-Flash,2026-04-24
+DeepSeek-V4-Pro,2026-04-24
+DeepSeek-V4-Flash-0731,2026-08-21
+DeepSeek-V4-Pro-0813,2026-08-13
+DeepSeek-V4-Flash-Vision-Exp,2026-08-21
+DeepSeek-V4-Flash-DSpark,2026-06-27
+DeepSeek-V4-Pro-DSpark,2026-06-27
+DeepSeek-V4.1-Flash,2026-09-09
+DeepSeek-V4.1-Flash-1017,2026-10-17
+DeepSeek-Prover-V1.5,2024-08-15
+DeepSeek-Prover-V2-671B,2025-04-30
+Qwen,2023-08-03
+Qwen1.5,2024-01-22
+Qwen2,2024-05-22
+Qwen-VL,2023-08-18
+Qwen-VL-Max,2023-08-18
+Qwen2-VL,2024-08-28
+Qwen2.5,2024-09-15
+Qwen2.5-Coder,2024-11-11
+Qwen2.5-VL,2025-01-26
+Qwen2.5-Omni,2025-03-22
+Qwen2.5-Turbo,2024-11-18
+Qwen2.5-Plus,2024-11-27
+Qwen2.5-Max,2025-01-29
+QwQ-32B,2024-11-27
+QVQ-72B-Preview,2024-12-24
+Qwen3,2025-04-27
+Qwen3-Max,2025-09-23
+Qwen3-Max-Thinking,2026-01-26
+Qwen3-Coder 480B-A35B,2025-07-23
+Qwen3-Coder 30B-A3B,2025-07-31
+Qwen3-Coder-Next,2026-02-03
+Qwen3-Coder-Plus,2025-09-23
+Qwen3-Coder-Flash,2025-09-17
+Qwen3-Next,2025-09-09
+Qwen3-VL Plus,2025-09-22
+Qwen3-VL Flash,2025-09-30
+Qwen3-Omni,2025-09-22
+Qwen3.5,2026-02-16
+Qwen3.5-Plus,2026-02-16
+Qwen3.5-Omni,2026-03-30
+Qwen3.5-Omni-Flash,2026-03-30
+Qwen3.5-Omni Plus,2026-03-30
+Qwen3.6 27B,2026-04-22
+Qwen3.6 35B-A3B,2026-04-15
+Qwen3.6 Flash,2026-04-27
+Qwen3.6 Plus,2026-04-02
+Qwen3.6 Max Preview,2026-04-20
+Qwen3.7 Plus,2026-06-01
+Qwen3.7 Max,2026-05-19
+Qwen-AgentWorld-35B-A3B,2026-06-24
+Qwen3.7 Flash,2026-07-27
+Qwen3.8 Flash,2026-08-26
+Qwen3.8 2.4T-A95B,2026-08-12
+Qwen3.8 Max,2026-08-03
+Qwen3.8 Max (0902),2026-09-01
+Qwen3.8-27B,2026-08-14
+Qwen3.8-Flash-Next,2026-08-26
+Qwen3.8 Omni Flash,2026-09-18
+Qwen3.8 Max Prime,2026-09-23
+Kimi K1.5,2025-01-20
+Kimi K2-Base,2025-07-11
+Kimi K2-Instruct,2025-07-11
+Kimi K2-Instruct-0905,2025-09-05
+Kimi K2 Thinking,2025-11-06
+Kimi K2.5,2026-01-27
+Kimi K2.6,2026-04-20
+Kimi K2.7 Code,2026-06-12
+Kimi K3,2026-07-16
+Kimi K3.1 Pro,2026-10-24
+Kimi-VL-A3B,2025-04-09
+Kimi-Linear-48B-A3B,2025-10-30
+Kimi-Dev-72B,2025-06-16
+Moonlight-16B-A3B,2025-02-22
+GLM-130B,2022-08-03
+GLM-Z1-32B,2025-04-08
+GLM-Z1-9B,2025-04-08
+GLM-Z1-Rumination-32B,2025-04-13
+GLM-4-Plus,2024-08-26
+GLM-4-Air,2024-01-16
+GLM-4-AirX,2024-06-05
+GLM-4-Flash,2024-06-05
+GLM-4-FlashX,2025-04-14
+GLM-4-Long,2024-08-13
+GLM-4-32B,2025-04-07
+GLM-4V-Flash,2024-12-09
+GLM-4.1V-9B-Thinking,2025-06-28
+GLM-4.5,2025-07-28
+GLM-4.5-Air,2025-07-28
+GLM-4.5-X,2025-07-20
+GLM-4.5-AirX,2025-07-20
+GLM-4.5-Flash,2025-07-20
+GLM-4.5V,2025-08-11
+GLM-4.5-Base,2025-07-20
+GLM-4.6,2025-09-30
+GLM-4.6V,2025-12-08
+GLM-4.6V-Flash,2025-09-29
+GLM-4.6V-FlashX,2025-09-29
+GLM-4.7,2025-12-22
+GLM-4.7-Flash,2026-01-19
+GLM-4.7-FlashX,2025-12-22
+GLM-5,2026-02-11
+GLM-5.1,2026-04-07
+GLM-5.2,2026-06-16
+GLM-5.3,2026-08-18
+GLM-5.3-Flash,2026-08-26
+GLM-5.3-FlashX,2026-09-18
+GLM-5.3-Prime,2026-09-23
+GLM-5-Turbo,2026-03-15
+GLM-5V-Turbo,2026-04-01
+Hunyuan-Large,2024-11-05
+Hunyuan-Large-Vision,2024-12-21
+Hunyuan-7B-Instruct-0124,2025-01-24
+Hunyuan-A13B-Instruct,2025-07-08
+Hunyuan-Turbo,2024-11-15
+Hunyuan-TurboS,2025-03-21
+Hunyuan-T1,2025-03-21
+Hunyuan-Pro,2024-05-17
+Hunyuan-Standard,2024-05-17
+Hunyuan-Standard-256K,2024-05-17
+Hunyuan-Role,2024-07-04
+Tencent HY 2.0 Think,2025-12-05
+Tencent HY 2.0 Instruct,2025-12-05
+Tencent Hy3,2026-07-06
+Tencent Hy4 Preview,2026-08-27
+MiniMax-Text-01,2025-01-12
+MiniMax-M1,2025-06-17
+MiniMax-M2,2025-10-26
+MiniMax-M2.1,2025-12-23
+MiniMax-M2.5,2026-02-12
+MiniMax-M2.7,2026-03-18
+MiniMax-M3,2026-06-01
+MiniMax-M3.1-Flash-Preview,2026-09-27
+MiniMax-M3.1-Flash,2026-10-19
+MiniMax-VL-01,2025-01-12
+MiMo-7B,2025-04-30
+MiMo-V2-Flash,2025-12-16
+MiMo-V2-Pro,2026-03-18
+MiMo-V2-Omni,2026-03-18
+MiMo-V2-Omni-0327,2026-03-27
+MiMo-V2.5,2026-04-22
+MiMo-V2.5-Pro,2026-04-22
+MiMo-V2.6-Flash,2026-09-21
+MiMo-V2.6-Pro,2026-09-21
+MiMo-VL-7B,2025-05-30
+Mistral 7B,2023-09-27
+Mixtral 8x7B,2023-12-11
+Mixtral 8x22B,2024-04-17
+Mistral Medium 1.0,2023-12-11
+Mistral Medium 3,2025-05-07
+Mistral Medium 3.1,2025-08-12
+Mistral Medium 3.5,2026-04-29
+Mistral Large 1.0,2024-02-26
+Mistral Large 2.0,2024-07-24
+Mistral Large 2.1,2024-11-18
+Mistral Large 3,2025-12-02
+Mistral Large 4,2026-10-06
+Mistral Small 1.0,2024-02-26
+Mistral Small 2.0,2024-09-17
+Mistral Small 3.0,2025-01-30
+Mistral Small 3.1,2025-03-17
+Mistral Small 3.2,2025-06-20
+Mistral Small 4,2026-03-16
+Mistral Small Creative,2025-12-16
+Mistral NeMo 12B,2024-07-18
+Mistral Saba,2025-02-13
+Mistral Next,2024-02-26
+Codestral,2024-05-29
+Codestral 24.05,2024-05-29
+Codestral 25.01,2025-01-13
+Ministral 3B,2024-10-16
+Ministral 8B,2024-10-16
+Ministral 3 3B,2025-12-02
+Ministral 3 8B,2025-12-02
+Ministral 3 14B,2025-12-02
+Devstral Small 1.0,2025-05-21
+Devstral Small 1.1,2025-07-10
+Devstral Small 2,2025-12-09
+Devstral Medium 1.0,2025-07-10
+Devstral 2,2025-12-09
+Magistral Small 1.0,2025-06-10
+Magistral Small 1.1,2025-07-18
+Magistral Small 1.2,2025-09-17
+Magistral Medium 1.0,2025-06-10
+Magistral Medium 1.1,2025-07-18
+Magistral Medium 1.2,2025-09-18
+Pixtral 12B,2024-09-17
+Pixtral Large,2024-11-18
+Codestral Mamba 7B,2024-07-16
+Mathstral 7B,2024-07-16
+Leanstral,2026-03-11
+Leanstral 1.5,2026-07-01
+Shieldstral 1.0,2026-07-16
+Phi-1,2023-06-15
+Phi-1.5,2023-09-11
+Phi-2,2023-12-12
+Phi-3,2024-04-23
+Phi-3-mini,2024-04-23
+Phi-3-small,2024-05-21
+Phi-3-medium,2024-05-21
+Phi-3-vision,2024-05-19
+Phi-3.5,2024-08-20
+Phi-3.5-mini,2024-08-20
+Phi-3.5-vision,2024-08-16
+Phi-4-14B,2024-12-12
+Phi-4-mini-instruct,2025-02-26
+Phi-4-multimodal-instruct,2025-02-26
+Phi-4-reasoning,2025-04-30
+Phi-4-reasoning-plus,2025-04-30
+Phi-4-reasoning-vision-15B,2026-03-04
+Phi-4-mini-reasoning,2025-04-30
+Phi-4-mini-flash-reasoning,2025-07-02
+MAI-DS-R1,2025-04-24
+MAI-1-preview,2025-08-25
+MAI-Thinking-1,2026-06-02
+MAI-Cyber-1-Flash,2026-07-27
+MAI-Code-1-Flash,2026-06-02
+MAI-Code-1.1-Flash,2026-08-11
+Nemotron-4 340B Instruct,2024-06-14
+Nemotron-4 Base,2024-06-14
+Llama-3.1-Nemotron-70B-Instruct,2024-10-22
+Llama-3.1-Nemotron-51B-Instruct,2024-11-12
+Llama-3.3-Nemotron-Super-49B,2024-12-09
+Llama-3.1-Nemotron-Ultra-253B,2025-03-18
+Llama-3.1-Nemotron-Nano-8B,2024-12-06
+Nemotron Nano 9B v2,2025-08-18
+Nemotron Nano 12B v2,2025-10-28
+Nemotron Nano 12B v2 VL,2025-10-28
+Nemotron-H 8B,2025-04-29
+Nemotron 3 Nano,2025-12-15
+Nemotron 3 Super,2026-03-11
+Nemotron 3 Ultra,2026-06-04
+Nemotron 3 Nano Omni,2026-04-29
+Nemotron Cascade 2 30B A3B,2026-03-19
+Nemotron 3.5 Lightning,2026-08-11
+Nemotron 3.5 Super VL,2026-10-15
+Nemotron 3.5 Bolt 74B-A9B,2026-10-15
+Amazon Nova Micro,2024-12-03
+Amazon Nova Lite,2024-12-03
+Amazon Nova Pro,2024-12-03
+Amazon Nova Premier,2025-04-30
+Amazon Nova 2 Lite,2025-10-29
+Amazon Nova 2 Omni,2025-11-26
+Amazon Nova 2 Pro,2025-11-27
+Command R,2024-02-04
+Command R+,2024-02-04
+Command R7B,2024-12-13
+Command A,2025-03-11
+Command A Reasoning,2025-08-12
+Command A Vision,2025-07-28
+Command A Translate,2025-08-27
+Command A+,2026-05-20
+North Mini Code 1.0,2026-06-05
+North Micro Vision Instruct,2026-08-10
+Aya 23,2024-05-22
+Aya Expanse,2024-10-24
+Aya Vision,2025-03-02
+Tiny Aya,2026-02-17
+Jamba 1.5 Large,2024-08-22
+Jamba 1.5 Mini,2024-08-22
+Jamba 1.6 Large,2025-03-06
+Jamba 1.6 Mini,2025-03-06
+Jamba 1.7 Large,2025-07-07
+Jamba 1.7 Mini,2025-07-07
+Jamba Mini 2,2026-01-06
+Jamba 2 3B,2026-01-06
+Jamba Reasoning 3B,2025-10-08
+Jamba Instruct,2024-05-02
+Granite 3.0,2024-10-21
+Granite 3.1,2024-12-06
+Granite 3.2,2025-02-26
+Granite 3.3,2025-04-16
+Granite 4.0 H-Small,2025-09-22
+Granite 4.0 H-Tiny,2025-09-22
+Granite 4.0 Micro,2025-09-22
+Granite 4.0 350M,2025-10-28
+Granite 4.0 1B,2025-10-28
+Granite 4.0 H-1B,2025-10-28
+Granite 4.0 H-350M,2025-10-28
+Granite 4.1 3B,2026-04-29
+Granite 4.1 8B,2026-04-29
+Granite 4.1 30B,2026-04-29
+Granite Vision 4.1 4B,2026-04-16
+Granite 4.2 3B,2026-08-25
+Granite 4.2 8B,2026-08-25
+Granite 4.2 30B,2026-08-25
+Seed1.5-VL,2025-05-13
+Seed1.5-Thinking,2025-04-17
+Seed1.6,2025-06-11
+Seed1.6-Flash,2025-06-11
+Seed1.8,2025-12-01
+Seed 2.0,2026-02-14
+Seed2.0 Mini,2026-02-14
+Seed2.0 Lite,2026-02-14
+Seed2.0 Code,2026-04-29
+Seed2.1,2026-06-24
+Seed2.1 Turbo,2026-06-24
+Seed Diffusion Preview,2025-08-04
+Seed-OSS-36B,2025-08-20
+Seed-Coder-8B,2025-05-08
+Seed-Thinking-v1.5,2025-04-17
+Doubao-1.5-Pro,2025-01-22
+Doubao Seed Code,2025-11-11
+ERNIE 4.0,2023-10-17
+ERNIE 4.5,2025-03-16
+ERNIE 4.5 Turbo,2025-04-25
+ERNIE 4.5 0.3B,2025-06-30
+ERNIE 4.5 21B-A3B,2025-06-30
+ERNIE 4.5 300B-A47B,2025-06-30
+ERNIE 4.5 VL-28B-A3B,2025-06-28
+ERNIE 4.5 VL-424B-A47B,2025-06-30
+ERNIE Speed,2024-03-21
+ERNIE Lite,2024-03-21
+ERNIE Tiny,2024-03-21
+ERNIE X1,2025-03-16
+ERNIE X1 Turbo,2025-04-25
+ERNIE X1.1,2025-09-09
+ERNIE 5.0 Preview,2025-11-13
+ERNIE 5.0,2026-01-10
+ERNIE 5.1,2026-05-08
+OLMo 1B,2024-01-26
+OLMo 7B,2024-01-09
+OLMoE-1B-7B,2024-09-11
+OLMo 2 1B,2025-04-17
+OLMo 2 7B,2024-11-26
+OLMo 2 13B,2024-11-26
+OLMo 2 32B,2025-03-13
+OLMo 3 7B,2025-11-20
+OLMo 3 32B,2025-11-20
+OLMo 3 7B Think,2025-11-20
+OLMo 3 32B Think,2025-11-20
+OLMo 3.1 Think 32B,2025-12-12
+OLMo 3.1 Instruct 32B,2026-01-13
+OLMo Hybrid 7B,2026-01-28
+OLMo RL Zero 7B Code,2025-11-17
+OLMo RL Zero 7B Math,2025-11-17
+AstaBrief 8B,2026-10-02
+LFM 2.6B,2025-09-22
+LFM 40B,2024-09-30
+LFM2-350M,2025-07-10
+LFM2-700M,2025-07-10
+LFM2-1.2B,2025-07-10
+LFM2-2.6B,2025-09-22
+LFM2-8B-A1B,2025-10-06
+LFM2-24B-A2B,2026-02-25
+LFM2-1.2B-Longevity,2026-09-17
+LFM2-2.6B-Longevity,2026-09-17
+LFM2-VL-450M,2025-08-12
+LFM2-VL-1.6B,2025-08-12
+LFM2.5-230M,2026-06-11
+LFM2.5-350M,2026-03-25
+LFM2.5-1.2B-Instruct,2026-01-05
+LFM2.5-1.2B-Thinking,2026-01-20
+LFM2.5-1.2B-JP,2026-01-04
+LFM2.5-2.6B,2026-08-04
+LFM2.5-8B-A1B,2026-05-28
+LFM2.5-24B-A2B,2026-10-13
+LFM2.5-VL-3B,2026-08-06
+LFM2.5-VL-450M,2026-04-04
+LFM2.5-VL-1.6B,2026-01-05
+LFM2-Audio-1.5B,2025-08-28
+LFM2.5-Audio-1.5B,2025-12-18
+Step-1V,2024-03-23
+Step-2,2024-12-01
+Step-3,2025-07-28
+Step3-VL,2026-01-13
+Step-3.5-Flash,2026-01-29
+Step 3.5 Flash 2603,2026-04-02
+Step 3.7 Flash,2026-05-29
+Step 5 Preview,2026-09-18
+Sonar,2025-01-21
+Sonar Pro,2025-01-21
+Sonar Reasoning Pro,2025-01-28
+Sonar Deep Research,2025-03-07
+Sonar Reasoning,2025-01-28
+R1-1776,2025-02-18
+Yi-6B,2023-11-01
+Yi-9B,2024-03-01
+Yi-34B,2023-11-01
+Yi-1.5-9B,2024-05-10
+Yi-1.5-34B,2024-05-10
+Yi-Large,2024-05-13
+Yi-Large-Turbo,2024-08-02
+Yi-Medium,2024-05-13
+Yi-Lightning,2024-10-16
+Falcon 7B,2023-05-25
+Falcon 40B,2023-05-25
+Falcon 180B,2023-09-06
+Falcon 2 11B,2024-05-13
+Falcon 3 3B,2024-12-05
+Falcon 3 7B,2024-12-05
+Falcon 3 10B,2024-12-05
+Falcon-H1 7B,2025-05-21
+Falcon-H1 34B,2025-05-21
+Falcon-H1R-7B,2026-01-04
+StableLM 3B 4E1T,2023-04-20
+StableLM 2 1.6B Chat,2024-03-18
+StableLM 2 12B Chat,2024-03-18
+Inkling,2026-07-15
+Inkling-Small,2026-07-30
+Composer 2,2026-03-19
+Composer 2.5,2026-05-18
+SWE-1.5,2025-10-29
+SWE-1.6,2026-04-07
+SWE-1.6 Fast,2026-04-07
+SWE-1.7,2026-07-08
+SWE-2,2026-09-10
+Laguna M.1,2026-04-28
+Laguna XS.2,2026-04-28
+Laguna XS 2.1,2026-07-02
+Laguna S 2.1,2026-07-21
+Manus 1.5,2025-10-16
+Manus 1.6,2025-12-15
+Manus 1.6 Max,2025-12-15
+Manus 2.0,2026-09-28
+Mercury Coder Mini,2025-02-26
+Mercury Coder Small,2025-02-26
+Mercury,2025-06-26
+Mercury 2,2026-02-24
+Mercury Edit 2,2026-03-30
+Mercury 2.5,2026-09-08
+LongCat-Flash-Chat,2025-08-29
+LongCat-Flash-Thinking,2025-09-22
+LongCat-Flash-Omni,2025-11-03
+LongCat-Flash-Thinking-2601,2026-01-14
+LongCat-Flash-Thinking-ZigZag,2026-01-23
+LongCat-Flash-Lite,2026-02-05
+LongCat-Flash-Omni-2603,2026-03-11
+LongCat-Flash-Prover,2026-03-20
+LongCat-Next,2026-03-25
+LongCat-2.0-Preview,2026-04-20
+LongCat-2.0,2026-06-30
+LongCat-Flash-Lite-Sparse,2026-07-31
+LongCat-2.5-Preview,2026-09-25
+Ling-lite,2025-02-28
+Ling-plus,2025-02-28
+Ling-Coder-lite,2025-03-08
+Ling-lite-1.5,2025-05-11
+Ling-lite-1.5-2506,2025-07-23
+Ling-lite-1.5-2507,2025-08-08
+Ling-mini-2.0,2025-09-09
+Ling-flash-2.0,2025-09-17
+Ling-1T,2025-10-08
+Ling-2.5-1T,2026-02-14
+Ling-2.6-flash,2026-04-21
+Ling-2.6-1T,2026-04-23
+Ling-3.0-flash,2026-08-04
+Ling-3.0-tiny,2026-08-06
+Ling-3.0-flash-VL,2026-09-10
+Ling-3.0-flash-Fin,2026-09-11
+Ling-3.1-flash,2026-10-01
+Ling-3.1-flash-1019,2026-10-22
+SOLAR 10.7B,2023-12-13
+Solar Mini,2024-01-25
+Solar Pro Preview,2024-09-10
+Solar Pro,2024-11-26
+Solar Pro 2,2025-07-10
+Solar Open 100B,2025-12-17
+Solar Pro 3,2026-01-26
+Solar Open2 250B,2026-07-08
+Solar Pro 4,2026-08-06
+Solar Mini 4,2026-09-22
+LFM3-1.7B,2026-10-27
+LFM3-1.7B-Base,2026-10-27
+LFM3-VL-2B,2026-10-27
+LFM3-Audio-2B,2026-10-27
+LFM3-Omni-2B,2026-10-27

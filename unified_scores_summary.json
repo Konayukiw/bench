@@ -1,16 +1,17 @@
 {
- "generated": "2026-10-24",
+ "generated": "2026-10-28",
  "counts": {
-  "models_in_list": 666,
-  "models_ranked": 453,
-  "models_interpolated": 127,
-  "models_low_information": 11,
-  "models_without_data": 75,
-  "observations_used": 3139,
-  "benchmarks_used": 66,
+  "models_in_list": 671,
+  "models_ranked": 421,
+  "models_interpolated": 126,
+  "models_low_information": 6,
+  "models_without_data": 118,
+  "observations_used": 2958,
+  "benchmarks_used": 63,
   "benchmarks_dropped": [
    "DS-1000",
    "KernelBench",
+   "SWE-bench Pro",
    "SWE-rebench [text] 2025-08",
    "SWE-rebench [tools] 2025-01",
    "SWE-rebench [tools] 2025-02",
@@ -19,63 +20,56 @@
    "Vibe Code Bench"
   ]
  },
- "inversion_rate": 0.0283,
- "inversion_pairs": 87987,
+ "inversion_rate": 0.0296,
+ "inversion_pairs": 77999,
  "previous_method_same_pairs": {
-  "pairs": 77626,
-  "new_rate": 0.0289,
-  "old_rate": 0.0486
+  "pairs": 0,
+  "new_rate": null,
+  "old_rate": null
  },
- "epoch_swe_eci_spearman": 0.9703,
+ "epoch_swe_eci_spearman": 0.9645,
  "per_benchmark": [
-  {
-   "benchmark": "AA Coding Index",
-   "role": "validate",
-   "rate": 0.0205,
-   "pairs": 8833,
-   "models": 149
-  },
   {
    "benchmark": "Aider Polyglot",
    "role": "fit",
    "rate": 0.0296,
-   "pairs": 844,
-   "models": 46
+   "pairs": 811,
+   "models": 45
   },
   {
    "benchmark": "Arena WebDev Elo",
    "role": "validate",
-   "rate": 0.0371,
-   "pairs": 4501,
-   "models": 111
+   "rate": 0.0361,
+   "pairs": 4427,
+   "models": 110
   },
   {
    "benchmark": "BigCodeBench",
    "role": "fit",
-   "rate": 0.0203,
-   "pairs": 938,
-   "models": 54
+   "rate": 0.02,
+   "pairs": 550,
+   "models": 41
   },
   {
    "benchmark": "BigCodeBench-Instruct",
    "role": "fit",
-   "rate": 0.0251,
-   "pairs": 958,
-   "models": 54
+   "rate": 0.0183,
+   "pairs": 547,
+   "models": 41
   },
   {
    "benchmark": "Code Migration (Vals)",
    "role": "fit",
-   "rate": 0.0304,
-   "pairs": 1971,
-   "models": 75
+   "rate": 0.0282,
+   "pairs": 2018,
+   "models": 76
   },
   {
    "benchmark": "CursorBench",
    "role": "fit",
-   "rate": 0.0822,
-   "pairs": 73,
-   "models": 14
+   "rate": 0.0796,
+   "pairs": 113,
+   "models": 17
   },
   {
    "benchmark": "Cybench",
@@ -101,16 +95,16 @@
   {
    "benchmark": "FrontierCode",
    "role": "fit",
-   "rate": 0.0441,
-   "pairs": 590,
-   "models": 39
+   "rate": 0.0486,
+   "pairs": 700,
+   "models": 43
   },
   {
    "benchmark": "FrontierSWE",
    "role": "fit",
-   "rate": 0.0216,
-   "pairs": 139,
-   "models": 19
+   "rate": 0.0291,
+   "pairs": 172,
+   "models": 21
   },
   {
    "benchmark": "GSO",
@@ -122,42 +116,42 @@
   {
    "benchmark": "HumanEval",
    "role": "fit",
-   "rate": 0.0118,
-   "pairs": 507,
-   "models": 36
+   "rate": 0.018,
+   "pairs": 444,
+   "models": 35
   },
   {
    "benchmark": "HumanEval+",
    "role": "fit",
-   "rate": 0.019,
-   "pairs": 946,
+   "rate": 0.0288,
+   "pairs": 904,
    "models": 50
   },
   {
    "benchmark": "IOI (Vals)",
    "role": "fit",
-   "rate": 0.0678,
-   "pairs": 575,
-   "models": 42
+   "rate": 0.063,
+   "pairs": 603,
+   "models": 43
   },
   {
    "benchmark": "LiveBench Coding",
    "role": "fit",
-   "rate": 0.0595,
-   "pairs": 1260,
-   "models": 57
+   "rate": 0.0699,
+   "pairs": 1159,
+   "models": 55
   },
   {
    "benchmark": "LiveCodeBench",
    "role": "fit",
-   "rate": 0.0225,
+   "rate": 0.022,
    "pairs": 14419,
    "models": 191
   },
   {
    "benchmark": "LiveCodeBench (Vals)",
    "role": "fit",
-   "rate": 0.054,
+   "rate": 0.0533,
    "pairs": 4259,
    "models": 122
   },
@@ -178,16 +172,16 @@
   {
    "benchmark": "MBPP+",
    "role": "fit",
-   "rate": 0.0272,
-   "pairs": 662,
+   "rate": 0.0287,
+   "pairs": 661,
    "models": 42
   },
   {
    "benchmark": "MirrorCode",
    "role": "fit",
    "rate": 0.0,
-   "pairs": 20,
-   "models": 9
+   "pairs": 24,
+   "models": 10
   },
   {
    "benchmark": "PostTrainBench",
@@ -200,7 +194,7 @@
    "benchmark": "ProgramBench (Vals)",
    "role": "fit",
    "rate": 0.0,
-   "pairs": 476,
+   "pairs": 484,
    "models": 62
   },
   {
@@ -225,46 +219,32 @@
    "models": 7
   },
   {
-   "benchmark": "SWE-bench Pro (Scale; SWE-Agent)",
-   "role": "fit",
-   "rate": 0.1824,
-   "pairs": 148,
-   "models": 20
-  },
-  {
-   "benchmark": "SWE-bench Pro (Scale; mini-swe-agent)",
-   "role": "fit",
-   "rate": 0.1429,
-   "pairs": 7,
-   "models": 5
-  },
-  {
    "benchmark": "SWE-bench Verified",
    "role": "fit",
-   "rate": 0.0469,
-   "pairs": 1769,
-   "models": 69
+   "rate": 0.0393,
+   "pairs": 1503,
+   "models": 64
   },
   {
    "benchmark": "SWE-bench Verified (Vals)",
    "role": "fit",
-   "rate": 0.0196,
+   "rate": 0.0191,
    "pairs": 2038,
    "models": 84
   },
   {
    "benchmark": "SWE-rebench (common windows)",
    "role": "fit",
-   "rate": 0.0861,
-   "pairs": 534,
-   "models": 85
+   "rate": 0.0761,
+   "pairs": 473,
+   "models": 79
   },
   {
    "benchmark": "SciCode",
    "role": "fit",
-   "rate": 0.0247,
-   "pairs": 5984,
-   "models": 129
+   "rate": 0.026,
+   "pairs": 5840,
+   "models": 128
   },
   {
    "benchmark": "SkillsBench (Vals)",
@@ -276,86 +256,86 @@
   {
    "benchmark": "Surface Evolver Bench",
    "role": "fit",
-   "rate": 0.0673,
-   "pairs": 223,
-   "models": 24
+   "rate": 0.0984,
+   "pairs": 244,
+   "models": 25
   },
   {
    "benchmark": "Terminal-Bench 2.0",
    "role": "fit",
-   "rate": 0.03,
-   "pairs": 799,
+   "rate": 0.0313,
+   "pairs": 798,
    "models": 45
   },
   {
    "benchmark": "Terminal-Bench 2.0 (Vals)",
    "role": "fit",
-   "rate": 0.0009,
+   "rate": 0.0018,
    "pairs": 1098,
    "models": 61
   },
   {
    "benchmark": "Terminal-Bench 2.1",
    "role": "fit",
-   "rate": 0.0173,
+   "rate": 0.0171,
    "pairs": 4965,
    "models": 111
   },
   {
    "benchmark": "Terminal-Bench 2.1 (Vals)",
    "role": "fit",
-   "rate": 0.0246,
-   "pairs": 1751,
-   "models": 70
+   "rate": 0.0411,
+   "pairs": 1800,
+   "models": 71
   },
   {
    "benchmark": "Terminal-Bench 4.0",
    "role": "fit",
-   "rate": 0.0174,
-   "pairs": 115,
-   "models": 17
+   "rate": 0.0132,
+   "pairs": 76,
+   "models": 14
   },
   {
    "benchmark": "Terminal-Bench 4.0 (Vals)",
    "role": "fit",
-   "rate": 0.0588,
-   "pairs": 867,
-   "models": 47
+   "rate": 0.0888,
+   "pairs": 991,
+   "models": 50
   },
   {
    "benchmark": "Terminal-Bench Hard",
    "role": "fit",
-   "rate": 0.0261,
+   "rate": 0.0264,
    "pairs": 14155,
    "models": 195
   },
   {
    "benchmark": "Vibe Code Bench (Vals)",
    "role": "fit",
-   "rate": 0.0175,
-   "pairs": 4277,
-   "models": 105
+   "rate": 0.0153,
+   "pairs": 4431,
+   "models": 107
   },
   {
    "benchmark": "Vibe Code Bench 1-100 (Vals)",
    "role": "fit",
    "rate": 0.0,
-   "pairs": 98,
-   "models": 24
+   "pairs": 101,
+   "models": 25
   },
   {
    "benchmark": "WeirdML",
    "role": "fit",
-   "rate": 0.0305,
-   "pairs": 5483,
-   "models": 122
+   "rate": 0.0307,
+   "pairs": 5403,
+   "models": 121
   },
   {
    "benchmark": "WeirdML v3",
    "role": "fit",
-   "rate": 0.0583,
-   "pairs": 103,
-   "models": 17
+   "rate": 0.0323,
+   "pairs": 186,
+   "models": 23
   }
  ]
 }

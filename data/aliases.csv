@@ -1,0 +1,27 @@
+source,name,model
+vals,ling-3.0-flash-2607,Ling-3.0-flash
+vals,nemotron-lightning-3p5-30b-a3b,Nemotron 3.5 Lightning
+vals,grok-4-0709,Grok 4
+vals,grok-4.20-0309-reasoning,Grok 4.20
+vals,mistral-large-2512,Mistral Large 3
+vals,devstral-2512,Devstral 2
+vals,labs-devstral-small-2512,Devstral Small 2
+vals,magistral-medium-2509,Magistral Medium 1.2
+vals,magistral-small-2509,Magistral Small 1.2
+vals,mistral-small-2603,Mistral Small 4
+vals,llama4-maverick-instruct-basic,Llama 4 Maverick
+vals,muse_spark_1_3_max,Muse Spark 1.3
+vals,deepseek-v3p2,DeepSeek-V3.2
+vals,deepseek-v3p2-thinking,DeepSeek-V3.2
+vals,deepseek-v3p1,DeepSeek-V3.1
+vals,command-a-plus-05-2026,Command A+
+vals,command-r-plus,Command R+
+vals,gemini-1.5-flash-002,Gemini 1.5 Flash
+vals,gemini-1.5-pro-002,Gemini 1.5 Pro
+vals,gemini-2.0-flash-001,Gemini 2.0 Flash
+vals,grok-2-1212,Grok-2
+vals,grok-3-mini-fast-high-reasoning,Grok 3 mini
+vals,grok-3-mini-fast-low-reasoning,Grok 3 mini
+vals,langston/nim/nvidia/llama-3.3-nemotron-super-49b-v1-42e84561,Llama-3.3-Nemotron-Super-49B
+vals,langston/nim/nvidia/llama-3.3-nemotron-super-49b-v1-42e84561-thinking,Llama-3.3-Nemotron-Super-49B
+vals,mistral-small-2402,Mistral Small 1.0
