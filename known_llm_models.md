@@ -2,7 +2,7 @@
 
 > List for coding benchmark, excepting image-generation, video-generation, translation, embedding, voice-recognization models.
 
-**Last updated: 2026-10-24**
+**Last updated: 2026-10-28**
 
 - **⚠️** : Annotations for name, tier, and delivery method
 
@@ -775,6 +775,13 @@
 - LFM2.5-VL-1.6B
 - LFM2-Audio-1.5B
 - LFM2.5-Audio-1.5B
+- LFM3-1.7B
+- LFM3-1.7B-Base
+- LFM3-VL-2B
+- LFM3-Audio-2B
+- LFM3-Omni-2B
+
+⚠️: The 2026-10-27 LFM3 release also includes d1-2B and d1-Omni-2B. They return calibrated decisions in one forward pass instead of generated text, so they are omitted, consistent with d1-3B never being listed.
 
 ---
 
