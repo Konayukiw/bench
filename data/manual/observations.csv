@@ -184,3 +184,27 @@ Ling-3.1-flash-1019,SciCode,56.829,percent,standard,listed as ling-3-1-flash-101
 Kimi K3.1 Pro,Terminal-Bench 4.0,65.7,percent,self,effort=max; harness=Claude Code; temperature=1.0; top_p=0.95,https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart,2026-10-24,vendor quickstart benchmark image
 Kimi K3.1 Pro,DeepSWE,75.5,percent,self,effort=max; harness=Claude Code; temperature=1.0; top_p=0.95,https://www.kimi.com/en/blog/kimi-k3-1-pro,2026-10-24,vendor tech blog benchmark table
 Kimi K3.1 Pro,PostTrainBench,36.5,percent,self,PostTrain Bench v1.2; effort=max; harness=Claude Code; H20 GPUs; judge=DeepSeek-V4.1-Flash-1017 max,https://www.kimi.com/en/blog/kimi-k3-1-pro,2026-10-24,vendor tech blog benchmark table
+Claude Fable 5.2,FrontierCode 2.0 (AA),49.1,percent,self,effort=xhigh,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-12,vendor blog; FrontierCode 2.0
+Claude Fable 5.2,FrontierSWE,69.9,percent,self,FrontierSWE v2,https://www.anthropic.com/claude-fable-and-mythos-5-2,2026-11-12,vendor blog
+Claude Fable 5.2,CursorBench,60.0,percent,standard,Reasoning level=Max,https://cursor.com/cursorbench,2026-11-12,CursorBench 4.0
+Gemini 4 Carbon,CursorBench,60.4,percent,standard,Reasoning level=High,https://cursor.com/cursorbench,2026-11-12,CursorBench 4.0
+Gemini 4 Carbon,Arena WebDev Elo,1768,elo,self,WebDev Arena,https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/,2026-11-12,vendor announcement; +89 elo to rank 4
+Muse Ember,Terminal-Bench 4.0,40.9,percent,self,effort=max; harness=mini-swe-agent; best published harness,https://research.meta.ai/blog/muse-ember,2026-11-12,vendor blog
+Muse Ember,FrontierCode 2.0 (AA),27.2,percent,self,effort=max; FrontierCode 2.0-AA,https://research.meta.ai/blog/muse-ember,2026-11-12,vendor blog citing Artificial Analysis
+Inkling 2 Small,FrontierCode 2.0 (AA),25.4,percent,self,FrontierCode v2.0; effort=xhigh; temperature=1.0,https://thinkingmachines.ai/news/inkling-2-small/,2026-11-12,vendor blog
+Inkling 2 Small,DeepSWE,72.1,percent,self,DeepSWE v1.1; effort=xhigh; temperature=1.0,https://thinkingmachines.ai/news/inkling-2-small/,2026-11-12,vendor blog
+Inkling 2 Small,Vibe Code Bench,81.6,percent,self,Vibe Code Bench v1.1; effort=xhigh; temperature=1.0,https://thinkingmachines.ai/news/inkling-2-small/,2026-11-12,vendor blog
+Inkling 2 Small,PostTrainBench,31.9,percent,self,PostTrainBench v1.2; effort=xhigh; temperature=1.0,https://thinkingmachines.ai/news/inkling-2-small/,2026-11-12,vendor blog
+LongCat-2.5,Terminal-Bench 2.1,88.4,percent,self,Terminal Bench v2.1; Claude Code v2.1.280; max_seq_length=512K; mean of 3 runs,https://longcat.ai/blog/longcat-2.5/,2026-11-12,vendor blog table
+LongCat-2.5,Terminal-Bench 4.0,38.5,percent,self,Terminal Bench v4.0; Claude Code v2.1.280; max_seq_length=512K,https://longcat.ai/blog/longcat-2.5/,2026-11-12,vendor blog table
+LongCat-2.5,DeepSWE,64.6,percent,self,DeepSWE v1.1; mini-swe-agent; temperature=1.0; top_p=0.95; max_seq_length=1M; mean of 3 runs,https://longcat.ai/blog/longcat-2.5/,2026-11-12,vendor blog table
+LongCat-2.5,ProgramBench,25.5,percent,self,Program Bench Almost Resolved; Claude Code v2.1.280; max_seq_length=512K,https://longcat.ai/blog/longcat-2.5/,2026-11-12,vendor blog table
+SWE-2 Flash,Terminal-Bench 4.0,20.0,percent,self,,https://cognition.com/blog/swe-2-flash,2026-11-12,vendor blog table
+SWE-2 Flash,Terminal-Bench 2.1,89.2,percent,self,,https://cognition.com/blog/swe-2-flash,2026-11-12,vendor blog table
+SWE-2 Flash,FrontierCode 2.0 (AA),24.0,percent,self,FrontierCode 2.0,https://cognition.com/blog/swe-2-flash,2026-11-12,vendor blog table
+SWE-2 Flash,FrontierCode,45.5,percent,self,FrontierCode 1.1 Main,https://cognition.com/blog/swe-2-flash,2026-11-12,vendor blog table
+SWE-2 Flash,DeepSWE,60.1,percent,self,DeepSWE 1.1,https://cognition.com/blog/swe-2-flash,2026-11-12,vendor blog table
+SWE-2 Flash,ExploitBench,34.8,percent,self,,https://cognition.com/blog/swe-2-flash,2026-11-12,vendor blog table
+ERNIE 5.5 Flash Preview,Terminal-Bench 4.0,46.5,percent,self,harness=Claude Code 2.1246,https://ernie.baidu.com/release/ernie-5-5-flash-preview/,2026-11-12,vendor benchmark table
+ERNIE 5.5 Flash Preview,DeepSWE,71.2,percent,self,DeepSWE v1.1; mini-swe-agent 2.4.8,https://ernie.baidu.com/release/ernie-5-5-flash-preview/,2026-11-12,vendor benchmark table
+ERNIE 5.5 Flash Preview,ProgramBench,29.5,percent,self,ProgramBench Almost Solved; harness=Claude Opus 5.5,https://ernie.baidu.com/release/ernie-5-5-flash-preview/,2026-11-12,vendor benchmark table
