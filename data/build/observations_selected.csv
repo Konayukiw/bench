@@ -1423,6 +1423,14 @@ GPT-6.1 Sol,Terminal-Bench 4.0,0.5606,standard,aa,GPT-6.1 Sol (Max),Max,https://
 GPT-6.1 Sol,Terminal-Bench 4.0 (Vals),0.5505,standard,vals,gpt-6.1-sol,effort=max; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,1
 GPT-6.1 Sol,Vibe Code Bench (Vals),0.8893,standard,vals,gpt-6.1-sol,effort=max; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
 GPT-6.1 Sol,WeirdML v3,0.3825,standard,epoch,GPT-6.1 Sol,xhigh; Agent=codex_cli; Reasoning effort=xhigh,https://htihle.github.io/weirdml.html,1
+GPT-6.1 Terra,FrontierCode 1.1 (AA),0.4372,standard,aa,GPT-6.1 Terra (Medium),Medium,https://artificialanalysis.ai/models/gpt-6-1-terra-medium,6
+GPT-6.1 Terra,FrontierCode 2.0 (AA),0.4232,standard,aa,GPT-6.1 Terra (Max),Max,https://artificialanalysis.ai/models/gpt-6-1-terra,6
+GPT-6.1 Terra,MirrorCode,0.7667,standard,epoch,GPT-6.1 Terra,max,https://epoch.ai/benchmarks,1
+GPT-6.1 Terra,SciCode,0.5509,standard,aa,GPT-6.1 Terra (Max),Max,https://artificialanalysis.ai/models/gpt-6-1-terra,12
+GPT-6.1 Terra,Terminal-Bench 4.0,0.5556,standard,aa,GPT-6.1 Terra (Max),Max,https://artificialanalysis.ai/models/gpt-6-1-terra,7
+GPT-6.1 Terra,Terminal-Bench 4.0 (Vals),0.495,standard,vals,gpt-6.1-terra,effort=max; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,1
+GPT-6.1 Terra,Vibe Code Bench (Vals),0.84,standard,vals,gpt-6.1-terra,effort=max; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
+GPT-6.1 Terra,WeirdML v3,0.2809,standard,epoch,GPT-6.1 Terra,xhigh; Agent=codex_cli; Reasoning effort=xhigh,https://htihle.github.io/weirdml.html,1
 Gemini 1.0 Nano,MBPP,0.272,self,legacy,Gemini 1.0 Nano,"pass@1, Gemini Nano-2 (3.25B), Table 3 of Gemini 1.0 report",https://arxiv.org/html/2312.11805v2,1
 Gemini 1.0 Pro,HumanEval,0.634,standard,evalplus,Gemini Pro 1.0,,https://evalplus.github.io/leaderboard.html,2
 Gemini 1.0 Pro,HumanEval+,0.555,standard,evalplus,Gemini Pro 1.0,,https://evalplus.github.io/leaderboard.html,2
@@ -2174,6 +2182,11 @@ LFM2.5-24B-A2B,SWE-bench Verified,0.51,self,manual,LFM2.5-24B-A2B,OpenCode harne
 LFM2.5-24B-A2B,SciCode,0.3271,self,manual,LFM2.5-24B-A2B,vLLM; temperature=0.6; max_tokens=32768,https://huggingface.co/LiquidAI/LFM2.5-24B-A2B,1
 LFM2.5-8B-A1B,Terminal-Bench Hard,0.0455,standard,legacy,LFM2.5-8B-A1B,"AA harness, AA release 'LFM2.5-8B-A1B', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,2
 LFM2.5-VL-1.6B,Terminal-Bench Hard,0.0,standard,aa,LFM2.5-VL-1.6B,,https://artificialanalysis.ai/models/lfm2-5-vl-1-6b,2
+LFM3-1.7B,LiveCodeBench,0.7346,self,manual,LFM3-1.7B,"LiveCodeBench v6 (release_v6: problems from May 2023 through April 2025, 1055 problems); vLLM BF16; temperature 0.6; top_p 0.95",https://huggingface.co/LiquidAI/LFM3-1.7B,1
+LFM3-1.7B,SWE-bench Multilingual,0.23,self,manual,LFM3-1.7B,OpenCode agent; up to 250 turns; vLLM BF16; full context; temperature 0.6; top_p 0.95,https://huggingface.co/LiquidAI/LFM3-1.7B,1
+LFM3-1.7B,SWE-bench Verified,0.434,self,manual,LFM3-1.7B,OpenCode agent; up to 250 turns; vLLM BF16; full context; temperature 0.6; top_p 0.95,https://huggingface.co/LiquidAI/LFM3-1.7B,1
+LFM3-1.7B,SciCode,0.2847,self,manual,LFM3-1.7B,vLLM BF16; full context; temperature 0.6; top_p 0.95,https://huggingface.co/LiquidAI/LFM3-1.7B,1
+LFM3-1.7B,Terminal-Bench 2.1,0.1292,self,manual,LFM3-1.7B,OpenCode agent; up to 100 turns; vLLM BF16; full context; temperature 0.6; top_p 0.95,https://huggingface.co/LiquidAI/LFM3-1.7B,1
 Laguna M.1,LiveCodeBench (Vals),0.6812,standard,vals,laguna-m.1,,https://www.vals.ai/benchmarks/lcb,1
 Laguna M.1,ProgramBench (Vals),0.0,standard,vals,laguna-m.1,,https://www.vals.ai/benchmarks/programbench,1
 Laguna M.1,SWE-bench Verified (Vals),0.576,standard,vals,laguna-m.1,,https://www.vals.ai/benchmarks/swebench,1

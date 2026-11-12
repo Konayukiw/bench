@@ -669,3 +669,9 @@ Tencent Hy4,2026-11-04,Tencent Hy4 full release (AA release_date 2026-11-03)
 LongCat-2.5,2026-11-02,https://longcat.chat/platform/docs/ChangeLog.html (API; weights 2026-11-10)
 SWE-2 Flash,2026-11-04,https://cognition.com/blog/swe-2-flash
 ERNIE 5.5 Flash Preview,2026-11-11,https://ernie.baidu.com/release/ernie-5-5-flash-preview/
+GPT-6.1 Terra,2026-10-26,https://openai.com/index/introducing-gpt-6-1-terra
+LFM3-1.7B,2026-10-27,https://www.liquid.ai/blog/lfm3
+LFM3-1.7B-Base,2026-10-27,https://huggingface.co/LiquidAI/LFM3-1.7B-Base
+LFM3-VL-2B,2026-10-27,https://huggingface.co/LiquidAI/LFM3-VL-2B
+LFM3-Audio-2B,2026-10-27,https://huggingface.co/LiquidAI/LFM3-Audio-2B
+LFM3-Omni-2B,2026-10-27,https://huggingface.co/LiquidAI/LFM3-Omni-2B

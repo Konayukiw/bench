@@ -172,6 +172,12 @@ key_loose,aa,GPT-6.1 Sol (Low),GPT-6.1 Sol
 key_loose,aa,GPT-6.1 Sol (Max),GPT-6.1 Sol
 key_loose,aa,GPT-6.1 Sol (Medium),GPT-6.1 Sol
 key_loose,aa,GPT-6.1 Sol (Xhigh),GPT-6.1 Sol
+key_loose,aa,GPT-6.1 Terra (High),GPT-6.1 Terra
+key_loose,aa,GPT-6.1 Terra (Low),GPT-6.1 Terra
+key_loose,aa,GPT-6.1 Terra (Max),GPT-6.1 Terra
+key_loose,aa,GPT-6.1 Terra (Medium),GPT-6.1 Terra
+key_loose,aa,GPT-6.1 Terra (Non-reasoning),GPT-6.1 Terra
+key_loose,aa,GPT-6.1 Terra (Xhigh),GPT-6.1 Terra
 key_loose,aa,Gemini 1.5 Flash (May '24),Gemini 1.5 Flash
 key_loose,aa,Gemini 1.5 Flash (Sep '24),Gemini 1.5 Flash
 key_loose,aa,Gemini 1.5 Pro (May '24),Gemini 1.5 Pro
@@ -783,12 +789,6 @@ unmatched,aa,Exaone 4.0 1.2B (Non-reasoning),
 unmatched,aa,Exaone 4.0 1.2B (Reasoning),
 unmatched,aa,G9v3-39A5B,
 unmatched,aa,G9v3-3B,
-unmatched,aa,GPT-6.1 Terra (High),
-unmatched,aa,GPT-6.1 Terra (Low),
-unmatched,aa,GPT-6.1 Terra (Max),
-unmatched,aa,GPT-6.1 Terra (Medium),
-unmatched,aa,GPT-6.1 Terra (Non-reasoning),
-unmatched,aa,GPT-6.1 Terra (Xhigh),
 unmatched,aa,Gemma 3n E2B Instruct,
 unmatched,aa,Gemma 3n E4B Instruct Preview (May '25),
 unmatched,aa,Gemma 4 E2B (Non-reasoning),
@@ -971,7 +971,6 @@ unmatched,epoch,DeepSeek-Coder-V2-Lite-Base,
 unmatched,epoch,Dolly 2.0-12b,
 unmatched,epoch,Dracarys2-72B-Instruct,
 unmatched,epoch,Dracarys2-Llama-3.1-70B-Instruct,
-unmatched,epoch,GPT-6.1 Terra,
 unmatched,epoch,INTELLECT-1,
 unmatched,epoch,LLaMA-13B,
 unmatched,epoch,LLaMA-33B,
@@ -1111,7 +1110,6 @@ unmatched,vals,claude-sonnet-4-6-claude-code,
 unmatched,vals,ember-1,
 unmatched,vals,gpt-5.5-codex,
 unmatched,vals,gpt-5.5-factory,
-unmatched,vals,gpt-6.1-terra,
 unmatched,vals,ling-3.0-flash-af-rc3,
 unmatched,vals,mercury-3,
 unmatched,vals,meta-llama/Llama-3.3-70B-Instruct-Turbo,
