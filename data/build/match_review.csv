@@ -13,6 +13,11 @@ key_loose,aa,"Claude Fable 5.1 (Low, Default Fallback)",Claude Fable 5.1
 key_loose,aa,"Claude Fable 5.1 (Max, Default Fallback)",Claude Fable 5.1
 key_loose,aa,"Claude Fable 5.1 (Medium, Default Fallback)",Claude Fable 5.1
 key_loose,aa,"Claude Fable 5.1 (Xhigh, Default Fallback)",Claude Fable 5.1
+key_loose,aa,"Claude Fable 5.2 (High, Default Fallback)",Claude Fable 5.2
+key_loose,aa,"Claude Fable 5.2 (Low, Default Fallback)",Claude Fable 5.2
+key_loose,aa,"Claude Fable 5.2 (Max, Default Fallback)",Claude Fable 5.2
+key_loose,aa,"Claude Fable 5.2 (Medium, Default Fallback)",Claude Fable 5.2
+key_loose,aa,"Claude Fable 5.2 (Xhigh, Default Fallback)",Claude Fable 5.2
 key_loose,aa,Claude Haiku 5.5 (High),Claude Haiku 5.5
 key_loose,aa,Claude Haiku 5.5 (Low),Claude Haiku 5.5
 key_loose,aa,Claude Haiku 5.5 (Max),Claude Haiku 5.5
@@ -167,6 +172,12 @@ key_loose,aa,GPT-6.1 Sol (Low),GPT-6.1 Sol
 key_loose,aa,GPT-6.1 Sol (Max),GPT-6.1 Sol
 key_loose,aa,GPT-6.1 Sol (Medium),GPT-6.1 Sol
 key_loose,aa,GPT-6.1 Sol (Xhigh),GPT-6.1 Sol
+key_loose,aa,GPT-6.1 Terra (High),GPT-6.1 Terra
+key_loose,aa,GPT-6.1 Terra (Low),GPT-6.1 Terra
+key_loose,aa,GPT-6.1 Terra (Max),GPT-6.1 Terra
+key_loose,aa,GPT-6.1 Terra (Medium),GPT-6.1 Terra
+key_loose,aa,GPT-6.1 Terra (Non-reasoning),GPT-6.1 Terra
+key_loose,aa,GPT-6.1 Terra (Xhigh),GPT-6.1 Terra
 key_loose,aa,Gemini 1.5 Flash (May '24),Gemini 1.5 Flash
 key_loose,aa,Gemini 1.5 Flash (Sep '24),Gemini 1.5 Flash
 key_loose,aa,Gemini 1.5 Pro (May '24),Gemini 1.5 Pro
@@ -258,6 +269,8 @@ key_loose,aa,Mistral Small 4 (Non-reasoning),Mistral Small 4
 key_loose,aa,Mistral Small 4 (Reasoning),Mistral Small 4
 key_loose,aa,Mixtral 8x22B Instruct,Mixtral 8x22B
 key_loose,aa,Mixtral 8x7B Instruct,Mixtral 8x7B
+key_loose,aa,Muse Ember (Max),Muse Ember
+key_loose,aa,Muse Ember (Xhigh),Muse Ember
 key_loose,aa,Muse Glimmer (High),Muse Glimmer
 key_loose,aa,Muse Spark 1.1 (Xhigh),Muse Spark 1.1
 key_loose,aa,Muse Spark 1.2 (Xhigh),Muse Spark 1.2
@@ -297,7 +310,6 @@ key_loose,aa,Solar Pro 2 (Non-reasoning),Solar Pro 2
 key_loose,aa,Solar Pro 2 (Preview) (Non-reasoning),Solar Pro 2
 key_loose,aa,Solar Pro 2 (Preview) (Reasoning),Solar Pro 2
 key_loose,aa,Solar Pro 2 (Reasoning),Solar Pro 2
-key_loose,aa,Tencent Hy4,Tencent Hy4 Preview
 key_loose,aa,gpt-oss-120b (High),gpt-oss-120b
 key_loose,aa,gpt-oss-120b (Low),gpt-oss-120b
 key_loose,aa,gpt-oss-20b (High),gpt-oss-20b
@@ -402,6 +414,7 @@ key_loose,epoch,Gemini 3 Pro,Gemini 3 Pro Preview
 key_loose,epoch,Grok 4.3 Beta,Grok 4.3
 key_loose,epoch,Grok-2 (Dec 2024),Grok-2
 key_loose,epoch,Kimi K2 (Jul 2025),Kimi K2-Instruct
+key_loose,epoch,Mistral Large 4 Preview,Mistral Large 4
 key_loose,epoch,Phi-4 Mini,Phi-4-mini-instruct
 key_loose,epoch,QwQ-32B-Preview,QwQ-32B
 key_loose,epoch,Qwen 3.5 Plus (hosted 397B-A17B),Qwen3.5-Plus
@@ -512,7 +525,6 @@ key_loose,vals,grok-4-1-fast-non-reasoning,Grok 4.1 Fast
 key_loose,vals,grok-4-1-fast-reasoning,Grok 4.1 Fast
 key_loose,vals,grok-4-fast-non-reasoning,Grok 4 Fast
 key_loose,vals,grok-4-fast-reasoning,Grok 4 Fast
-key_loose,vals,hy4-preview,Tencent Hy4 Preview
 key_loose,vals,kimi-k2.5-thinking,Kimi K2.5
 key_loose,vals,moonshotai/Kimi-K2-Instruct,Kimi K2-Instruct
 key_loose,vals,o3-2025-04-16,OpenAI o3
@@ -526,6 +538,8 @@ key_loose+strict,aa,DeepSeek V3.2 (Reasoning),DeepSeek-V3.2
 key_loose+strict,aa,DeepSeek V3.2 Exp (Non-reasoning),DeepSeek-V3.2-Exp
 key_loose+strict,aa,DeepSeek V3.2 Exp (Reasoning),DeepSeek-V3.2-Exp
 key_loose+strict,aa,ERNIE 5.0 Thinking Preview,ERNIE 5.0 Preview
+key_loose+strict,vals,hy4,Tencent Hy4
+key_loose+strict,vals,hy4-preview,Tencent Hy4 Preview
 key_loose+strict,vals,o1-2024-12-17,OpenAI o1
 key_nosize,aa,Gemma 3 12B Instruct,Gemma 3
 key_nosize,aa,Gemma 3 1B Instruct,Gemma 3
@@ -633,16 +647,13 @@ key_nosize,bigcodebench,Qwen2.5-Coder-1.5B-Instruct,Qwen2.5-Coder
 key_nosize,bigcodebench,Qwen2.5-Coder-14B-Instruct,Qwen2.5-Coder
 key_nosize,bigcodebench,Qwen2.5-Coder-32B-Instruct,Qwen2.5-Coder
 key_nosize,bigcodebench,Qwen2.5-Coder-7B-Instruct,Qwen2.5-Coder
-key_nosize,epoch,DeepSeek Coder 1.3B,DeepSeek-Coder
 key_nosize,epoch,DeepSeek Coder 33B,DeepSeek-Coder
 key_nosize,epoch,DeepSeek Coder 6.7B,DeepSeek-Coder
-key_nosize,epoch,DeepSeek LLM 67B,DeepSeek LLM
 key_nosize,epoch,Gemma 2 27B,Gemma 2
 key_nosize,epoch,Gemma 2 9B,Gemma 2
 key_nosize,epoch,Gemma 2B,Gemma (Gemma 1)
 key_nosize,epoch,Gemma 3 12B,Gemma 3
 key_nosize,epoch,Gemma 3 27B,Gemma 3
-key_nosize,epoch,Gemma 3 4B,Gemma 3
 key_nosize,epoch,Gemma 4 26B A4B,Gemma 4
 key_nosize,epoch,Gemma 4 31B IT,Gemma 4
 key_nosize,epoch,Gemma 7B,Gemma (Gemma 1)
@@ -658,9 +669,7 @@ key_nosize,epoch,Phi-4,Phi-4-14B
 key_nosize,epoch,Qwen-14B,Qwen
 key_nosize,epoch,Qwen-7B,Qwen
 key_nosize,epoch,Qwen2-72B,Qwen2
-key_nosize,epoch,Qwen2.5-32B,Qwen2.5
 key_nosize,epoch,Qwen2.5-72B,Qwen2.5
-key_nosize,epoch,Qwen2.5-7B,Qwen2.5
 key_nosize,epoch,Qwen2.5-Coder-0.5B,Qwen2.5-Coder
 key_nosize,epoch,Qwen2.5-Coder-14B,Qwen2.5-Coder
 key_nosize,epoch,Qwen2.5-Coder-32B,Qwen2.5-Coder
@@ -722,6 +731,7 @@ key_nosize,swerebench,Qwen3.5-397B-A17B,Qwen3.5
 key_nosize,swerebench,gemma-3-27b-it,Gemma 3
 key_nosize,vals,gemma-4-31b-it,Gemma 4
 key_nosize,vals,nemotron-3-ultra-550b-a55b,Nemotron 3 Ultra
+key_nosize,vals,nemotron-3.5-super-vl-120b-a12b,Nemotron 3.5 Super VL
 key_nosize,vals,qwen3-235b-a22b,Qwen3
 key_sorted,aa,Claude 4 Opus (Non-reasoning),Claude Opus 4
 key_sorted,aa,Claude 4 Opus (Reasoning),Claude Opus 4
@@ -758,11 +768,6 @@ unmatched,aa,Apriel-v1.5-15B-Thinker,
 unmatched,aa,Apriel-v1.6-15B-Thinker,
 unmatched,aa,Beam 1.0,
 unmatched,aa,Celeris-1,
-unmatched,aa,"Claude Fable 5.2 (High, Default Fallback)",
-unmatched,aa,"Claude Fable 5.2 (Low, Default Fallback)",
-unmatched,aa,"Claude Fable 5.2 (Max, Default Fallback)",
-unmatched,aa,"Claude Fable 5.2 (Medium, Default Fallback)",
-unmatched,aa,"Claude Fable 5.2 (Xhigh, Default Fallback)",
 unmatched,aa,Cogito v2.1 (Reasoning),
 unmatched,aa,DBRX Instruct,
 unmatched,aa,DeepHermes 3 - Llama-3.1 8B Preview (Non-reasoning),
@@ -784,15 +789,6 @@ unmatched,aa,Exaone 4.0 1.2B (Non-reasoning),
 unmatched,aa,Exaone 4.0 1.2B (Reasoning),
 unmatched,aa,G9v3-39A5B,
 unmatched,aa,G9v3-3B,
-unmatched,aa,GPT-6.1 Terra (High),
-unmatched,aa,GPT-6.1 Terra (Low),
-unmatched,aa,GPT-6.1 Terra (Max),
-unmatched,aa,GPT-6.1 Terra (Medium),
-unmatched,aa,GPT-6.1 Terra (Non-reasoning),
-unmatched,aa,GPT-6.1 Terra (Xhigh),
-unmatched,aa,Gemini 4 Carbon (High),
-unmatched,aa,Gemini 4 Carbon (Low),
-unmatched,aa,Gemini 4 Carbon (Medium),
 unmatched,aa,Gemma 3n E2B Instruct,
 unmatched,aa,Gemma 3n E4B Instruct Preview (May '25),
 unmatched,aa,Gemma 4 E2B (Non-reasoning),
@@ -809,7 +805,6 @@ unmatched,aa,Hermes 4 - Llama-3.1 70B (Reasoning),
 unmatched,aa,HyperCLOVA X SEED Think (32B),
 unmatched,aa,"HyperNova 60B 2605 (High, Based on gpt-oss-120b)",
 unmatched,aa,INTELLECT-3 (Based on GLM-4.5-Air),
-unmatched,aa,Inkling 2 Small,
 unmatched,aa,JT-35B-Flash,
 unmatched,aa,JT-4.1 Flash 236B A21B,
 unmatched,aa,JT-4.1 Flash 236B A21B 0709 (Non-reasoning),
@@ -855,8 +850,6 @@ unmatched,aa,Molmo2-8B,
 unmatched,aa,Motif 3,
 unmatched,aa,Motif 3 (Beta),
 unmatched,aa,Motif-2-12.7B-Reasoning,
-unmatched,aa,Muse Ember (Max),
-unmatched,aa,Muse Ember (Xhigh),
 unmatched,aa,Nanbeige4.1-3B,
 unmatched,aa,Nanbeige4.3-33B,
 unmatched,aa,Nex-N2-Pro (Based on Qwen3.5-397B-A17B),
@@ -969,8 +962,8 @@ unmatched,bigcodebench,WaveCoder-Ultra-6.7B,
 unmatched,bigcodebench,WhiteRabbitNeo-33B-v1.5,
 unmatched,bigcodebench,Yi-Coder-9B-Chat,
 unmatched,epoch,Baichuan 2-7B,
-unmatched,epoch,Baichuan1-7B,
 unmatched,epoch,Baichuan2-13B,
+unmatched,epoch,Beam 1.0,
 unmatched,epoch,Cerebras-GPT-13B,
 unmatched,epoch,CodeQwen1.5-7B,
 unmatched,epoch,Cogito v2.1,
@@ -986,7 +979,6 @@ unmatched,epoch,LLaMA-7B,
 unmatched,epoch,MPT-30B,
 unmatched,epoch,MPT-7B,
 unmatched,epoch,Mistral 7B v0.1,
-unmatched,epoch,Mistral 7B v0.3,
 unmatched,epoch,Mistral Large,
 unmatched,epoch,Mistral Large 2 (Jul 2024),
 unmatched,epoch,OLMo 2 Furious 13B,
@@ -1008,7 +1000,6 @@ unmatched,epoch,internlm-7b,
 unmatched,epoch,learnlm-1.5-pro-experimental,
 unmatched,epoch,open_llama_7b,
 unmatched,epoch,openhands-lm-32b-v0.1,
-unmatched,epoch,stablelm-tuned-alpha-7b,
 unmatched,epoch,vicuna-13b-v1.1,
 unmatched,evalplus,Artigenz-Coder-DS-6.7B,
 unmatched,evalplus,Code-13B,
@@ -1113,17 +1104,20 @@ unmatched,swebench,Undisclosed,
 unmatched,swebench,swe-search,
 unmatched,swerebench,horizon-alpha,
 unmatched,swerebench,horizon-beta,
-unmatched,vals,barium-bb,
+unmatched,vals,Beam-1.0,
 unmatched,vals,claude-opus-4-8-claude-code,
 unmatched,vals,claude-sonnet-4-6-claude-code,
 unmatched,vals,ember-1,
 unmatched,vals,gpt-5.5-codex,
 unmatched,vals,gpt-5.5-factory,
 unmatched,vals,ling-3.0-flash-af-rc3,
+unmatched,vals,mercury-3,
 unmatched,vals,meta-llama/Llama-3.3-70B-Instruct-Turbo,
 unmatched,vals,meta-llama/Llama-4-Scout-17B-16E-Instruct,
 unmatched,vals,mistral-large-2411,
+unmatched,vals,mistral-large-4-oss,
 unmatched,vals,mistral-medium-2505,
 unmatched,vals,mistral-small-2503,
 unmatched,vals,qwen3.5-flash,
+unmatched,vals,qwen3.8-max-internal,
 unmatched,vals,trinity-large-thinking,

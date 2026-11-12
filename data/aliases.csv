@@ -118,3 +118,11 @@ vals,grok-4.20-0309-reasoning,Grok 4.20,
 vals,ling-3.0-flash-2607,Ling-3.0-flash,
 *,Tiny Aya Global,Tiny Aya,
 vals,minimax/MiniMax-M3.1-flash,MiniMax-M3.1-Flash,
+*,Fable 5.2 Max,Claude Fable 5.2,CursorBench
+*,Fable 5.2 Extra High,Claude Fable 5.2,CursorBench
+*,Fable 5.2 High,Claude Fable 5.2,CursorBench
+*,Fable 5.2 Medium,Claude Fable 5.2,CursorBench
+*,Fable 5.2 Low,Claude Fable 5.2,CursorBench
+*,Gemini 4 Carbon High,Gemini 4 Carbon,CursorBench
+*,Gemini 4 Carbon Medium,Gemini 4 Carbon,CursorBench
+*,Gemini 4 Carbon Low,Gemini 4 Carbon,CursorBench
