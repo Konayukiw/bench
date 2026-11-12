@@ -49,7 +49,7 @@ def estimate_offsets(by):
     diffs = defaultdict(list)
     has_standard = set()
     for (model, bench), cands in by.items():
-        if config.spec(bench).get("kind") == "elo":
+        if config.spec(bench).get("kind") in ("elo", "index"):
             continue
         standard = [c for c in cands if c["group"] == "standard"]
         measured = [c for c in cands if c["group"] in config.MEASURED_GROUPS]

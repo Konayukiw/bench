@@ -1,13 +1,13 @@
 {
- "generated": "2026-10-24",
+ "generated": "2026-11-12",
  "counts": {
   "models_in_list": 666,
-  "models_ranked": 453,
-  "models_interpolated": 127,
-  "models_low_information": 11,
+  "models_ranked": 467,
+  "models_interpolated": 117,
+  "models_low_information": 7,
   "models_without_data": 75,
-  "observations_used": 3139,
-  "benchmarks_used": 66,
+  "observations_used": 3411,
+  "benchmarks_used": 68,
   "benchmarks_dropped": [
    "DS-1000",
    "KernelBench",
@@ -19,22 +19,1271 @@
    "Vibe Code Bench"
   ]
  },
- "inversion_rate": 0.0283,
- "inversion_pairs": 87987,
+ "inversion_rate": 0.0288,
+ "inversion_pairs": 98640,
  "previous_method_same_pairs": {
-  "pairs": 77626,
-  "new_rate": 0.0289,
-  "old_rate": 0.0486
+  "pairs": 77163,
+  "new_rate": 0.0301,
+  "old_rate": 0.0503
  },
- "epoch_swe_eci_spearman": 0.9703,
- "per_benchmark": [
-  {
-   "benchmark": "AA Coding Index",
-   "role": "validate",
-   "rate": 0.0205,
-   "pairs": 8833,
-   "models": 149
+ "epoch_eci_spearman": 0.9778,
+ "epoch_swe_eci_spearman": 0.9704,
+ "inputs": {
+  "release_dates": "file",
+  "aliases": true,
+  "manual_observations": 185,
+  "manual_file": true,
+  "legacy": true,
+  "previous_method_csv": true,
+  "aa_snapshot": "2026-11-12",
+  "aa_route": "public_site",
+  "aa_intelligence_index_version": "5.0.1"
+ },
+ "established_pairs": {
+  "checked": 52,
+  "passed": 52,
+  "failed": 0,
+  "low_information": 0,
+  "unmeasured": 0,
+  "missing": 0,
+  "hard_failed": 0,
+  "clear_inversions": 0,
+  "pairs": [
+   {
+    "stronger": "GPT-5.5",
+    "weaker": "GPT-4o",
+    "severity": "hard",
+    "why": "OpenAI flagship two generations above GPT-4o",
+    "status": "pass",
+    "stronger_score": 5383,
+    "weaker_score": 4084,
+    "stronger_rank": 37,
+    "weaker_rank": 291,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 1299,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "GPT-5.5",
+    "weaker": "GPT-4",
+    "severity": "hard",
+    "why": "OpenAI flagship above GPT-4",
+    "status": "pass",
+    "stronger_score": 5383,
+    "weaker_score": 3739,
+    "stronger_rank": 37,
+    "weaker_rank": 350,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 1645,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "GPT-5.5",
+    "weaker": "GPT-4o mini",
+    "severity": "hard",
+    "why": "flagship above an older mini",
+    "status": "pass",
+    "stronger_score": 5383,
+    "weaker_score": 3698,
+    "stronger_rank": 37,
+    "weaker_rank": 356,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 1686,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "GPT-5.5",
+    "weaker": "GPT-3.5 Turbo",
+    "severity": "hard",
+    "why": "flagship above GPT-3.5",
+    "status": "pass",
+    "stronger_score": 5383,
+    "weaker_score": 3505,
+    "stronger_rank": 37,
+    "weaker_rank": 382,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 1878,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "GPT-5",
+    "weaker": "GPT-4o",
+    "severity": "hard",
+    "why": "GPT-5 above GPT-4o",
+    "status": "pass",
+    "stronger_score": 4887,
+    "weaker_score": 4084,
+    "stronger_rank": 126,
+    "weaker_rank": 291,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 803,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "GPT-5",
+    "weaker": "GPT-4",
+    "severity": "hard",
+    "why": "GPT-5 above GPT-4",
+    "status": "pass",
+    "stronger_score": 4887,
+    "weaker_score": 3739,
+    "stronger_rank": 126,
+    "weaker_rank": 350,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 1148,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "GPT-4o",
+    "weaker": "GPT-4",
+    "severity": "hard",
+    "why": "GPT-4o above GPT-4",
+    "status": "pass",
+    "stronger_score": 4084,
+    "weaker_score": 3739,
+    "stronger_rank": 291,
+    "weaker_rank": 350,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 345,
+    "ci_overlap": true,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "GPT-4o",
+    "weaker": "GPT-4 Turbo",
+    "severity": "hard",
+    "why": "GPT-4o above GPT-4 Turbo",
+    "status": "pass",
+    "stronger_score": 4084,
+    "weaker_score": 3898,
+    "stronger_rank": 291,
+    "weaker_rank": 314,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 186,
+    "ci_overlap": true,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "GPT-4o",
+    "weaker": "GPT-4o mini",
+    "severity": "hard",
+    "why": "full model above its mini",
+    "status": "pass",
+    "stronger_score": 4084,
+    "weaker_score": 3698,
+    "stronger_rank": 291,
+    "weaker_rank": 356,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 386,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "GPT-4o",
+    "weaker": "GPT-3.5 Turbo",
+    "severity": "hard",
+    "why": "GPT-4o above GPT-3.5",
+    "status": "pass",
+    "stronger_score": 4084,
+    "weaker_score": 3505,
+    "stronger_rank": 291,
+    "weaker_rank": 382,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 579,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "GPT-4",
+    "weaker": "GPT-3.5 Turbo",
+    "severity": "hard",
+    "why": "GPT-4 above GPT-3.5",
+    "status": "pass",
+    "stronger_score": 3739,
+    "weaker_score": 3505,
+    "stronger_rank": 350,
+    "weaker_rank": 382,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 233,
+    "ci_overlap": true,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "OpenAI o3",
+    "weaker": "OpenAI o1",
+    "severity": "hard",
+    "why": "o3 above o1",
+    "status": "pass",
+    "stronger_score": 4818,
+    "weaker_score": 4471,
+    "stronger_rank": 144,
+    "weaker_rank": 215,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 346,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "OpenAI o3",
+    "weaker": "GPT-4o",
+    "severity": "hard",
+    "why": "o3 above GPT-4o",
+    "status": "pass",
+    "stronger_score": 4818,
+    "weaker_score": 4084,
+    "stronger_rank": 144,
+    "weaker_rank": 291,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 734,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "OpenAI o1",
+    "weaker": "GPT-4o",
+    "severity": "hard",
+    "why": "o1 above GPT-4o",
+    "status": "pass",
+    "stronger_score": 4471,
+    "weaker_score": 4084,
+    "stronger_rank": 215,
+    "weaker_rank": 291,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 387,
+    "ci_overlap": true,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "OpenAI o1",
+    "weaker": "GPT-4",
+    "severity": "hard",
+    "why": "o1 above GPT-4",
+    "status": "pass",
+    "stronger_score": 4471,
+    "weaker_score": 3739,
+    "stronger_rank": 215,
+    "weaker_rank": 350,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 733,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "OpenAI o3",
+    "weaker": "OpenAI o3-mini",
+    "severity": "hard",
+    "why": "o3 above o3-mini",
+    "status": "pass",
+    "stronger_score": 4818,
+    "weaker_score": 4469,
+    "stronger_rank": 144,
+    "weaker_rank": 216,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 349,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Claude Opus 4.5",
+    "weaker": "Claude Opus 4",
+    "severity": "hard",
+    "why": "later Opus above Opus 4",
+    "status": "pass",
+    "stronger_score": 5049,
+    "weaker_score": 4612,
+    "stronger_rank": 83,
+    "weaker_rank": 184,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 436,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Claude Opus 4",
+    "weaker": "Claude 3.5 Sonnet",
+    "severity": "hard",
+    "why": "Opus 4 above Claude 3.5 Sonnet",
+    "status": "pass",
+    "stronger_score": 4612,
+    "weaker_score": 4230,
+    "stronger_rank": 184,
+    "weaker_rank": 271,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 383,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Claude Opus 4",
+    "weaker": "Claude 3 Opus",
+    "severity": "hard",
+    "why": "Opus 4 above Claude 3 Opus",
+    "status": "pass",
+    "stronger_score": 4612,
+    "weaker_score": 3699,
+    "stronger_rank": 184,
+    "weaker_rank": 355,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 913,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Claude 3.5 Sonnet",
+    "weaker": "Claude 3 Opus",
+    "severity": "hard",
+    "why": "Claude 3.5 Sonnet above Claude 3 Opus",
+    "status": "pass",
+    "stronger_score": 4230,
+    "weaker_score": 3699,
+    "stronger_rank": 271,
+    "weaker_rank": 355,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 531,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Claude 3.5 Sonnet",
+    "weaker": "Claude 3 Haiku",
+    "severity": "hard",
+    "why": "Claude 3.5 Sonnet above Claude 3 Haiku",
+    "status": "pass",
+    "stronger_score": 4230,
+    "weaker_score": 3532,
+    "stronger_rank": 271,
+    "weaker_rank": 379,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 698,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Claude Sonnet 4.5",
+    "weaker": "Claude 3.5 Sonnet",
+    "severity": "hard",
+    "why": "Sonnet 4.5 above Claude 3.5 Sonnet",
+    "status": "pass",
+    "stronger_score": 4911,
+    "weaker_score": 4230,
+    "stronger_rank": 117,
+    "weaker_rank": 271,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 682,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Claude Opus 4.5",
+    "weaker": "Claude 3.5 Sonnet",
+    "severity": "hard",
+    "why": "Opus 4.5 above Claude 3.5 Sonnet",
+    "status": "pass",
+    "stronger_score": 5049,
+    "weaker_score": 4230,
+    "stronger_rank": 83,
+    "weaker_rank": 271,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 819,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Claude Opus 4.5",
+    "weaker": "GPT-4o",
+    "severity": "hard",
+    "why": "2025 Opus above GPT-4o",
+    "status": "pass",
+    "stronger_score": 5049,
+    "weaker_score": 4084,
+    "stronger_rank": 83,
+    "weaker_rank": 291,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 965,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Gemini 2.5 Pro",
+    "weaker": "Gemini 1.5 Pro",
+    "severity": "hard",
+    "why": "Gemini 2.5 Pro above 1.5 Pro",
+    "status": "pass",
+    "stronger_score": 4705,
+    "weaker_score": 3882,
+    "stronger_rank": 164,
+    "weaker_rank": 317,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 824,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Gemini 2.5 Pro",
+    "weaker": "Gemini 1.5 Flash",
+    "severity": "hard",
+    "why": "Gemini 2.5 Pro above 1.5 Flash",
+    "status": "pass",
+    "stronger_score": 4705,
+    "weaker_score": 3760,
+    "stronger_rank": 164,
+    "weaker_rank": 345,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 945,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Gemini 1.5 Pro",
+    "weaker": "Gemini 1.0 Pro",
+    "severity": "hard",
+    "why": "Gemini 1.5 Pro above 1.0 Pro",
+    "status": "pass",
+    "stronger_score": 3882,
+    "weaker_score": 3183,
+    "stronger_rank": 317,
+    "weaker_rank": 430,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 699,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Gemini 2.5 Pro",
+    "weaker": "Gemini 2.0 Flash",
+    "severity": "hard",
+    "why": "Gemini 2.5 Pro above 2.0 Flash",
+    "status": "pass",
+    "stronger_score": 4705,
+    "weaker_score": 3995,
+    "stronger_rank": 164,
+    "weaker_rank": 300,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 711,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Llama 3.1 405B",
+    "weaker": "Llama 3.1 70B",
+    "severity": "hard",
+    "why": "405B above 70B",
+    "status": "pass",
+    "stronger_score": 3881,
+    "weaker_score": 3667,
+    "stronger_rank": 318,
+    "weaker_rank": 361,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 213,
+    "ci_overlap": true,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Llama 3.1 70B",
+    "weaker": "Llama 3.1 8B",
+    "severity": "hard",
+    "why": "70B above 8B",
+    "status": "pass",
+    "stronger_score": 3667,
+    "weaker_score": 3190,
+    "stronger_rank": 361,
+    "weaker_rank": 429,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 478,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Llama 3.1 405B",
+    "weaker": "Llama 2",
+    "severity": "hard",
+    "why": "Llama 3.1 405B above Llama 2",
+    "status": "pass",
+    "stronger_score": 3881,
+    "weaker_score": 3305,
+    "stronger_rank": 318,
+    "weaker_rank": 414,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 576,
+    "ci_overlap": true,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "DeepSeek-V3",
+    "weaker": "DeepSeek-V2",
+    "severity": "hard",
+    "why": "DeepSeek-V3 above V2",
+    "status": "pass",
+    "stronger_score": 4210,
+    "weaker_score": 3874,
+    "stronger_rank": 275,
+    "weaker_rank": 320,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 336,
+    "ci_overlap": true,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "DeepSeek-R1",
+    "weaker": "DeepSeek-V2",
+    "severity": "hard",
+    "why": "DeepSeek-R1 above V2",
+    "status": "pass",
+    "stronger_score": 4506,
+    "weaker_score": 3874,
+    "stronger_rank": 201,
+    "weaker_rank": 320,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 632,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Grok 4",
+    "weaker": "Grok 3",
+    "severity": "hard",
+    "why": "Grok 4 above Grok 3",
+    "status": "pass",
+    "stronger_score": 4745,
+    "weaker_score": 4310,
+    "stronger_rank": 159,
+    "weaker_rank": 258,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 434,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Qwen3-Max",
+    "weaker": "Qwen2.5-Max",
+    "severity": "hard",
+    "why": "Qwen3-Max above Qwen2.5-Max",
+    "status": "pass",
+    "stronger_score": 4636,
+    "weaker_score": 4044,
+    "stronger_rank": 180,
+    "weaker_rank": 294,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 592,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Qwen2.5-Max",
+    "weaker": "Qwen2.5",
+    "severity": "hard",
+    "why": "Qwen2.5-Max above Qwen2.5",
+    "status": "pass",
+    "stronger_score": 4044,
+    "weaker_score": 3832,
+    "stronger_rank": 294,
+    "weaker_rank": 327,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 212,
+    "ci_overlap": true,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "GPT-4o",
+    "weaker": "Llama 3.1 8B",
+    "severity": "hard",
+    "why": "GPT-4o above Llama 3.1 8B",
+    "status": "pass",
+    "stronger_score": 4084,
+    "weaker_score": 3190,
+    "stronger_rank": 291,
+    "weaker_rank": 429,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 894,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Claude 3.5 Sonnet",
+    "weaker": "Llama 3.1 8B",
+    "severity": "hard",
+    "why": "Claude 3.5 Sonnet above Llama 3.1 8B",
+    "status": "pass",
+    "stronger_score": 4230,
+    "weaker_score": 3190,
+    "stronger_rank": 271,
+    "weaker_rank": 429,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 1040,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "GPT-5.5",
+    "weaker": "Claude 3.5 Sonnet",
+    "severity": "hard",
+    "why": "GPT-5.5 above Claude 3.5 Sonnet",
+    "status": "pass",
+    "stronger_score": 5383,
+    "weaker_score": 4230,
+    "stronger_rank": 37,
+    "weaker_rank": 271,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 1154,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Mistral Large 2.1",
+    "weaker": "Mistral Large 1.0",
+    "severity": "hard",
+    "why": "Mistral Large 2.1 above Large 1.0",
+    "status": "pass",
+    "stronger_score": 3833,
+    "weaker_score": 3247,
+    "stronger_rank": 326,
+    "weaker_rank": 419,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 586,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "GPT-6 Astra",
+    "weaker": "GPT-5.5",
+    "severity": "expected",
+    "why": "adjacent OpenAI flagship",
+    "status": "pass",
+    "stronger_score": 5752,
+    "weaker_score": 5383,
+    "stronger_rank": 2,
+    "weaker_rank": 37,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 369,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Claude Opus 5.5",
+    "weaker": "Claude Opus 4.5",
+    "severity": "expected",
+    "why": "adjacent Opus flagship",
+    "status": "pass",
+    "stronger_score": 5804,
+    "weaker_score": 5049,
+    "stronger_rank": 1,
+    "weaker_rank": 83,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 755,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Claude Opus 5",
+    "weaker": "Claude Opus 4.5",
+    "severity": "expected",
+    "why": "Opus 5 above Opus 4.5",
+    "status": "pass",
+    "stronger_score": 5655,
+    "weaker_score": 5049,
+    "stronger_rank": 10,
+    "weaker_rank": 83,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 606,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Gemini 4 Argon",
+    "weaker": "Gemini 2.5 Pro",
+    "severity": "expected",
+    "why": "Gemini 4 above Gemini 2.5 Pro",
+    "status": "pass",
+    "stronger_score": 5706,
+    "weaker_score": 4705,
+    "stronger_rank": 7,
+    "weaker_rank": 164,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 1001,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Grok 4.5",
+    "weaker": "Grok 4",
+    "severity": "expected",
+    "why": "adjacent Grok flagship",
+    "status": "pass",
+    "stronger_score": 5290,
+    "weaker_score": 4745,
+    "stronger_rank": 49,
+    "weaker_rank": 159,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 545,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "DeepSeek-V4-Pro",
+    "weaker": "DeepSeek-V3",
+    "severity": "expected",
+    "why": "DeepSeek-V4 Pro above V3",
+    "status": "pass",
+    "stronger_score": 5086,
+    "weaker_score": 4210,
+    "stronger_rank": 74,
+    "weaker_rank": 275,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 876,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Llama 4 Maverick",
+    "weaker": "Llama 3.1 70B",
+    "severity": "expected",
+    "why": "Llama 4 Maverick above Llama 3.1 70B",
+    "status": "pass",
+    "stronger_score": 3916,
+    "weaker_score": 3667,
+    "stronger_rank": 310,
+    "weaker_rank": 361,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 249,
+    "ci_overlap": true,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "GPT-5.5",
+    "weaker": "OpenAI o3",
+    "severity": "expected",
+    "why": "GPT-5.5 above o3",
+    "status": "pass",
+    "stronger_score": 5383,
+    "weaker_score": 4818,
+    "stronger_rank": 37,
+    "weaker_rank": 144,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 565,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Claude Opus 4.5",
+    "weaker": "Claude Sonnet 4.5",
+    "severity": "expected",
+    "why": "same-generation Opus above Sonnet",
+    "status": "pass",
+    "stronger_score": 5049,
+    "weaker_score": 4911,
+    "stronger_rank": 83,
+    "weaker_rank": 117,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 137,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Gemini 3.1 Pro",
+    "weaker": "Gemini 2.5 Pro",
+    "severity": "expected",
+    "why": "Gemini 3.1 Pro above 2.5 Pro",
+    "status": "pass",
+    "stronger_score": 5149,
+    "weaker_score": 4705,
+    "stronger_rank": 67,
+    "weaker_rank": 164,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 444,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "DeepSeek-V3.2",
+    "weaker": "DeepSeek-V3",
+    "severity": "expected",
+    "why": "DeepSeek-V3.2 above V3",
+    "status": "pass",
+    "stronger_score": 4787,
+    "weaker_score": 4210,
+    "stronger_rank": 148,
+    "weaker_rank": 275,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 577,
+    "ci_overlap": false,
+    "clear_inversion": false
+   },
+   {
+    "stronger": "Mistral Large 4",
+    "weaker": "Mistral Large 2.1",
+    "severity": "expected",
+    "why": "Mistral Large 4 above Large 2.1",
+    "status": "pass",
+    "stronger_score": 5365,
+    "weaker_score": 3833,
+    "stronger_rank": 41,
+    "weaker_rank": 326,
+    "stronger_low_info": false,
+    "weaker_low_info": false,
+    "stronger_interpolated": false,
+    "weaker_interpolated": false,
+    "gap": 1532,
+    "ci_overlap": false,
+    "clear_inversion": false
+   }
+  ]
+ },
+ "aa_scale": {
+  "status": "public_snapshot",
+  "version": "5.0.1",
+  "version_number": 5.0,
+  "coding_index_field": null,
+  "coverage": {
+   "matched_names": 580,
+   "unmatched_names": 154,
+   "canonical_models": 340
   },
+  "progress_index": {
+   "scale": "o3-mini (high) = 220, GPT-5.5 (xhigh) = 320; general capability, not a coding probability",
+   "models": 323,
+   "spearman_vs_coding_eci": 0.986843328205792,
+   "order": {
+    "n_models": 323,
+    "pairs": 41256,
+    "inversions": 223,
+    "rate": 0.005405274384331976,
+    "examples": [
+     {
+      "higher_on_benchmark": "Qwen3-Max-Thinking",
+      "lower_on_benchmark": "Step3-VL",
+      "values": [
+       265.1059,
+       185.5563
+      ]
+     },
+     {
+      "higher_on_benchmark": "Qwen3-Max-Thinking",
+      "lower_on_benchmark": "Granite 4.2 3B",
+      "values": [
+       265.1059,
+       191.4899
+      ]
+     },
+     {
+      "higher_on_benchmark": "Qwen3-Max-Thinking",
+      "lower_on_benchmark": "DeepSeek-V3-0324",
+      "values": [
+       265.1059,
+       194.6737
+      ]
+     }
+    ]
+   },
+   "gpt4o": 181.3,
+   "gpt55": 320.0
+  },
+  "intelligence_index_v5": {
+   "used_in_fit": false,
+   "reason": "v5 is a weighted mix of pass rates and Elo-normalised components. Scores are not comparable with v4.3 and are missing for models that were not rerun, including GPT-4o and GPT-5.5 in this snapshot.",
+   "models": 55,
+   "spearman_vs_coding_eci": 0.9729437229437231,
+   "order": {
+    "n_models": 55,
+    "pairs": 1186,
+    "inversions": 8,
+    "rate": 0.006745362563237774,
+    "examples": [
+     {
+      "higher_on_benchmark": "Step 5 Preview",
+      "lower_on_benchmark": "Kimi K3",
+      "values": [
+       28.5283,
+       17.4192
+      ]
+     },
+     {
+      "higher_on_benchmark": "GLM-5.3-Flash",
+      "lower_on_benchmark": "Kimi K3",
+      "values": [
+       27.8039,
+       17.4192
+      ]
+     },
+     {
+      "higher_on_benchmark": "Mistral Large 4",
+      "lower_on_benchmark": "Kimi K3",
+      "values": [
+       26.125,
+       17.4192
+      ]
+     }
+    ]
+   },
+   "present": {
+    "GPT-4o": false,
+    "GPT-5.5": false,
+    "GPT-6 Astra": true
+   }
+  },
+  "coding_category_v5": {
+   "definition": "0.60 * FrontierCode-AA 2.0 + 0.40 * Terminal-Bench 4.0, the v5 coding category (15% and 10% of the index). Not an independent check: those benchmarks are fit inputs.",
+   "models": 56,
+   "spearman_vs_coding_eci": 0.9771563303954539,
+   "order": {
+    "n_models": 56,
+    "pairs": 1216,
+    "inversions": 19,
+    "rate": 0.015625,
+    "examples": [
+     {
+      "higher_on_benchmark": "GLM-5.3-Flash",
+      "lower_on_benchmark": "Muse Spark Open",
+      "values": [
+       0.237,
+       0.0779
+      ]
+     },
+     {
+      "higher_on_benchmark": "GLM-5.3-Flash",
+      "lower_on_benchmark": "Kimi K3",
+      "values": [
+       0.237,
+       0.1159
+      ]
+     },
+     {
+      "higher_on_benchmark": "Tencent Hy4 Preview",
+      "lower_on_benchmark": "MiniMax-M3.1-Flash",
+      "values": [
+       0.3382,
+       0.228
+      ]
+     }
+    ]
+   }
+  },
+  "naive_anchor_if_new_scores_replace_old_benchmarks": {
+   "definition": "Single-benchmark capability if Terminal-Bench 4.0 were scored on Epoch's Terminal Bench anchor (the 2.x leaderboard) or FrontierCode 2.0 on Epoch's FrontierCode anchor, for models the Progress Index places above GPT-4o. min of the two implied capabilities.",
+   "gpt4o_theta": 131.68,
+   "models_above_gpt4o_on_progress_with_a_v5_coding_score": 117,
+   "implied_below_gpt4o": 65,
+   "examples": [
+    {
+     "model": "Gemma 4",
+     "progress": 253.5,
+     "naive_eci": 59.6,
+     "below_gpt4o": true
+    },
+    {
+     "model": "Granite 4.2 3B",
+     "progress": 191.5,
+     "naive_eci": 59.6,
+     "below_gpt4o": true
+    },
+    {
+     "model": "Mistral Small 4",
+     "progress": 219.4,
+     "naive_eci": 59.6,
+     "below_gpt4o": true
+    },
+    {
+     "model": "Nemotron 3 Nano",
+     "progress": 214.4,
+     "naive_eci": 59.6,
+     "below_gpt4o": true
+    },
+    {
+     "model": "Nemotron 3.5 Lightning",
+     "progress": 228.2,
+     "naive_eci": 59.6,
+     "below_gpt4o": true
+    },
+    {
+     "model": "Command A+",
+     "progress": 233.9,
+     "naive_eci": 59.6,
+     "below_gpt4o": true
+    },
+    {
+     "model": "Granite 4.2 8B",
+     "progress": 210.6,
+     "naive_eci": 59.6,
+     "below_gpt4o": true
+    },
+    {
+     "model": "gpt-oss-120b",
+     "progress": 239.8,
+     "naive_eci": 59.6,
+     "below_gpt4o": true
+    },
+    {
+     "model": "North Mini Code 1.0",
+     "progress": 225.3,
+     "naive_eci": 92.4,
+     "below_gpt4o": true
+    },
+    {
+     "model": "MiMo-V2.5-Pro",
+     "progress": 282.1,
+     "naive_eci": 94.6,
+     "below_gpt4o": true
+    },
+    {
+     "model": "Mercury 2",
+     "progress": 236.3,
+     "naive_eci": 94.6,
+     "below_gpt4o": true
+    },
+    {
+     "model": "Mistral Medium 3.1",
+     "progress": 192.8,
+     "naive_eci": 94.6,
+     "below_gpt4o": true
+    }
+   ]
+  },
+  "naive_refit": {
+   "status": "ok",
+   "treatment": "For models with a Terminal-Bench 4.0 score, delete every Terminal-Bench observation and write that 4.0 rate onto Terminal-Bench 2.0, which is anchored to Epoch's Terminal Bench difficulty. Do the same for FrontierCode 2.0 onto the anchored FrontierCode series. Also add Intelligence Index v5 divided by 100 as if it were a success probability. One refit, no bootstrap.",
+   "cost": 12.075,
+   "observations": 3077,
+   "benchmarks_dropped": [
+    "FrontierCode 1.1 (AA)",
+    "Terminal-Bench 4.0",
+    "Terminal-Bench 4.0 (Vals)"
+   ],
+   "hard_pairs_inverted": 0,
+   "pairs_inverted": 0,
+   "inverted": [],
+   "focus": [
+    {
+     "model": "GPT-5.5",
+     "adopted_score": 5383,
+     "naive_score": 5162,
+     "adopted_theta": 157.67,
+     "naive_theta": 153.25
+    },
+    {
+     "model": "GPT-4o",
+     "adopted_score": 4084,
+     "naive_score": 4045,
+     "adopted_theta": 131.68,
+     "naive_theta": 130.89
+    },
+    {
+     "model": "GPT-4",
+     "adopted_score": 3739,
+     "naive_score": 3736,
+     "adopted_theta": 124.77,
+     "naive_theta": 124.72
+    },
+    {
+     "model": "GPT-5",
+     "adopted_score": 4887,
+     "naive_score": 4725,
+     "adopted_theta": 147.73,
+     "naive_theta": 144.51
+    },
+    {
+     "model": "OpenAI o3",
+     "adopted_score": 4818,
+     "naive_score": 4749,
+     "adopted_theta": 146.36,
+     "naive_theta": 144.98
+    },
+    {
+     "model": "OpenAI o1",
+     "adopted_score": 4471,
+     "naive_score": 4418,
+     "adopted_theta": 139.43,
+     "naive_theta": 138.35
+    },
+    {
+     "model": "Claude 3.5 Sonnet",
+     "adopted_score": 4230,
+     "naive_score": 4175,
+     "adopted_theta": 134.6,
+     "naive_theta": 133.5
+    },
+    {
+     "model": "Claude Opus 4.5",
+     "adopted_score": 5049,
+     "naive_score": 4823,
+     "adopted_theta": 150.97,
+     "naive_theta": 146.45
+    },
+    {
+     "model": "Claude Opus 4",
+     "adopted_score": 4612,
+     "naive_score": 4566,
+     "adopted_theta": 142.25,
+     "naive_theta": 141.31
+    },
+    {
+     "model": "GPT-6 Astra",
+     "adopted_score": 5752,
+     "naive_score": 5694,
+     "adopted_theta": 165.04,
+     "naive_theta": 163.88
+    }
+   ]
+  }
+ },
+ "per_benchmark": [
   {
    "benchmark": "Aider Polyglot",
    "role": "fit",
@@ -45,28 +1294,28 @@
   {
    "benchmark": "Arena WebDev Elo",
    "role": "validate",
-   "rate": 0.0371,
+   "rate": 0.0387,
    "pairs": 4501,
    "models": 111
   },
   {
    "benchmark": "BigCodeBench",
    "role": "fit",
-   "rate": 0.0203,
+   "rate": 0.0256,
    "pairs": 938,
    "models": 54
   },
   {
    "benchmark": "BigCodeBench-Instruct",
    "role": "fit",
-   "rate": 0.0251,
+   "rate": 0.0334,
    "pairs": 958,
    "models": 54
   },
   {
    "benchmark": "Code Migration (Vals)",
    "role": "fit",
-   "rate": 0.0304,
+   "rate": 0.0254,
    "pairs": 1971,
    "models": 75
   },
@@ -80,14 +1329,14 @@
   {
    "benchmark": "Cybench",
    "role": "subscore",
-   "rate": 0.1525,
+   "rate": 0.1864,
    "pairs": 59,
    "models": 12
   },
   {
    "benchmark": "DeepSWE",
    "role": "fit",
-   "rate": 0.063,
+   "rate": 0.0588,
    "pairs": 238,
    "models": 26
   },
@@ -101,28 +1350,42 @@
   {
    "benchmark": "FrontierCode",
    "role": "fit",
-   "rate": 0.0441,
+   "rate": 0.0407,
    "pairs": 590,
    "models": 39
   },
   {
+   "benchmark": "FrontierCode 1.1 (AA)",
+   "role": "fit",
+   "rate": 0.019,
+   "pairs": 420,
+   "models": 37
+  },
+  {
+   "benchmark": "FrontierCode 2.0 (AA)",
+   "role": "fit",
+   "rate": 0.0444,
+   "pairs": 1215,
+   "models": 56
+  },
+  {
    "benchmark": "FrontierSWE",
    "role": "fit",
-   "rate": 0.0216,
+   "rate": 0.036,
    "pairs": 139,
    "models": 19
   },
   {
    "benchmark": "GSO",
    "role": "fit",
-   "rate": 0.0032,
+   "rate": 0.0065,
    "pairs": 310,
    "models": 30
   },
   {
    "benchmark": "HumanEval",
    "role": "fit",
-   "rate": 0.0118,
+   "rate": 0.0099,
    "pairs": 507,
    "models": 36
   },
@@ -136,28 +1399,28 @@
   {
    "benchmark": "IOI (Vals)",
    "role": "fit",
-   "rate": 0.0678,
+   "rate": 0.073,
    "pairs": 575,
    "models": 42
   },
   {
    "benchmark": "LiveBench Coding",
    "role": "fit",
-   "rate": 0.0595,
+   "rate": 0.0706,
    "pairs": 1260,
    "models": 57
   },
   {
    "benchmark": "LiveCodeBench",
    "role": "fit",
-   "rate": 0.0225,
-   "pairs": 14419,
-   "models": 191
+   "rate": 0.0242,
+   "pairs": 17885,
+   "models": 212
   },
   {
    "benchmark": "LiveCodeBench (Vals)",
    "role": "fit",
-   "rate": 0.054,
+   "rate": 0.0524,
    "pairs": 4259,
    "models": 122
   },
@@ -171,14 +1434,14 @@
   {
    "benchmark": "MBPP",
    "role": "fit",
-   "rate": 0.0156,
+   "rate": 0.0178,
    "pairs": 449,
    "models": 35
   },
   {
    "benchmark": "MBPP+",
    "role": "fit",
-   "rate": 0.0272,
+   "rate": 0.0302,
    "pairs": 662,
    "models": 42
   },
@@ -199,14 +1462,14 @@
   {
    "benchmark": "ProgramBench (Vals)",
    "role": "fit",
-   "rate": 0.0,
+   "rate": 0.0021,
    "pairs": 476,
    "models": 62
   },
   {
    "benchmark": "SWE-bench Lite",
    "role": "fit",
-   "rate": 0.0714,
+   "rate": 0.0571,
    "pairs": 70,
    "models": 13
   },
@@ -227,7 +1490,7 @@
   {
    "benchmark": "SWE-bench Pro (Scale; SWE-Agent)",
    "role": "fit",
-   "rate": 0.1824,
+   "rate": 0.1757,
    "pairs": 148,
    "models": 20
   },
@@ -241,35 +1504,35 @@
   {
    "benchmark": "SWE-bench Verified",
    "role": "fit",
-   "rate": 0.0469,
+   "rate": 0.0503,
    "pairs": 1769,
    "models": 69
   },
   {
    "benchmark": "SWE-bench Verified (Vals)",
    "role": "fit",
-   "rate": 0.0196,
+   "rate": 0.0201,
    "pairs": 2038,
    "models": 84
   },
   {
    "benchmark": "SWE-rebench (common windows)",
    "role": "fit",
-   "rate": 0.0861,
+   "rate": 0.0805,
    "pairs": 534,
    "models": 85
   },
   {
    "benchmark": "SciCode",
    "role": "fit",
-   "rate": 0.0247,
-   "pairs": 5984,
-   "models": 129
+   "rate": 0.033,
+   "pairs": 8385,
+   "models": 153
   },
   {
    "benchmark": "SkillsBench (Vals)",
    "role": "validate",
-   "rate": 0.0913,
+   "rate": 0.083,
    "pairs": 241,
    "models": 34
   },
@@ -283,7 +1546,7 @@
   {
    "benchmark": "Terminal-Bench 2.0",
    "role": "fit",
-   "rate": 0.03,
+   "rate": 0.0325,
    "pairs": 799,
    "models": 45
   },
@@ -297,42 +1560,42 @@
   {
    "benchmark": "Terminal-Bench 2.1",
    "role": "fit",
-   "rate": 0.0173,
-   "pairs": 4965,
-   "models": 111
+   "rate": 0.0169,
+   "pairs": 7564,
+   "models": 137
   },
   {
    "benchmark": "Terminal-Bench 2.1 (Vals)",
    "role": "fit",
-   "rate": 0.0246,
+   "rate": 0.0331,
    "pairs": 1751,
    "models": 70
   },
   {
    "benchmark": "Terminal-Bench 4.0",
    "role": "fit",
-   "rate": 0.0174,
-   "pairs": 115,
-   "models": 17
+   "rate": 0.0195,
+   "pairs": 4674,
+   "models": 126
   },
   {
    "benchmark": "Terminal-Bench 4.0 (Vals)",
    "role": "fit",
-   "rate": 0.0588,
+   "rate": 0.0507,
    "pairs": 867,
    "models": 47
   },
   {
    "benchmark": "Terminal-Bench Hard",
    "role": "fit",
-   "rate": 0.0261,
-   "pairs": 14155,
-   "models": 195
+   "rate": 0.0231,
+   "pairs": 18981,
+   "models": 225
   },
   {
    "benchmark": "Vibe Code Bench (Vals)",
    "role": "fit",
-   "rate": 0.0175,
+   "rate": 0.0164,
    "pairs": 4277,
    "models": 105
   },
@@ -346,14 +1609,14 @@
   {
    "benchmark": "WeirdML",
    "role": "fit",
-   "rate": 0.0305,
+   "rate": 0.0306,
    "pairs": 5483,
    "models": 122
   },
   {
    "benchmark": "WeirdML v3",
    "role": "fit",
-   "rate": 0.0583,
+   "rate": 0.0485,
    "pairs": 103,
    "models": 17
   }

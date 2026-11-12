@@ -77,11 +77,32 @@ def parse_model_list(path=config.MODEL_LIST):
     return models
 
 
+def _iso_date(s):
+    s = (s or "").strip().replace("/", "-")
+    return s if len(s) >= 8 else ""
+
+
 def load_release_dates(path=config.RELEASE_DATES):
-    if not path.exists():
-        return {}
-    with path.open(encoding="utf-8") as f:
-        return {clean(r["model"]): r["release_date"].strip() for r in csv.DictReader(f) if r["release_date"].strip()}
+    """Prefer data/release_dates.csv. If it is absent, recover dates already published in unified_scores*.csv."""
+    if path.exists():
+        with path.open(encoding="utf-8") as f:
+            dates = {clean(r["model"]): r["release_date"].strip() for r in csv.DictReader(f) if r["release_date"].strip()}
+        load_release_dates.origin = "file"
+        return dates
+    dates = {}
+    for src in (config.OUT_CSV, config.OUT_EST_CSV):
+        if not src.exists():
+            continue
+        with src.open(encoding="utf-8") as f:
+            for r in csv.DictReader(f):
+                model, day = clean(r.get("model", "")), _iso_date(r.get("release_date", ""))
+                if model and day and model not in dates:
+                    dates[model] = day
+    load_release_dates.origin = "reconstructed_from_published_scores" if dates else "missing"
+    return dates
+
+
+load_release_dates.origin = "missing"
 
 
 def load_aliases(path=config.ALIASES):

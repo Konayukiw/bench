@@ -82,11 +82,34 @@ def fetch_files(source, urls, dest_dir):
     return entries
 
 
+MODEL_PAGE = "https://artificialanalysis.ai/models/gpt-4o"
+PROGRESS_PAGE = "https://artificialanalysis.ai/evaluations/artificial-analysis-progress-index"
+
+
+def fetch_aa_public(dest_dir):
+    """No API key: the model page and the Progress Index page embed the published tables."""
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from pipeline.aa_public import build_document
+
+    pages = []
+    for name, url in (("models.html", MODEL_PAGE), ("progress.html", PROGRESS_PAGE)):
+        r = requests.get(url, headers=UA, timeout=120)
+        r.raise_for_status()
+        pages.append((name, url, r.text))
+        print(f"  aa: public {name} {len(r.content):,} bytes")
+    doc = build_document(pages[0][2], pages[1][2], dt.datetime.now().isoformat(timespec="seconds"), MODEL_PAGE, PROGRESS_PAGE)
+    content = json.dumps(doc, ensure_ascii=False, indent=1).encode("utf-8")
+    entry = save(dest_dir, "aa_public.json", content, MODEL_PAGE)
+    print(f"  aa: public snapshot {len(doc['models'])} models, {len(doc['progress'])} progress scores, "
+          f"intelligence index {doc.get('intelligence_index_version')}")
+    return [entry]
+
+
 def fetch_aa(dest_dir):
     key = aa_key()
     if not key:
-        print("  aa: AA_API_KEY not found, skipped")
-        return None
+        print("  aa: AA_API_KEY not found, using the public site")
+        return fetch_aa_public(dest_dir)
     headers = {**UA, "x-api-key": key}
     for path in ("/language/models", "/language/models/free"):
         pages, page = [], 1
@@ -111,8 +134,8 @@ def fetch_aa(dest_dir):
             entry = save(dest_dir, "aa_models.json", content, AA_BASE + path)
             print(f"  aa: {len(merged['data'])} models via {path} (remaining quota {r.headers.get('X-RateLimit-Remaining', '?')})")
             return [entry]
-    print("  aa: key rejected by both endpoints, skipped")
-    return None
+    print("  aa: key rejected by both endpoints, using the public site")
+    return fetch_aa_public(dest_dir)
 
 
 def fetch_swerebench(dest_dir):
