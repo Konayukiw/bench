@@ -78,7 +78,7 @@ Claude 3.5 Haiku,WeirdML,0.3073,standard,epoch,Claude 3.5 Haiku,,https://htihle.
 Claude 3.5 Sonnet,Aider Polyglot,0.516,standard,epoch,Claude 3.5 Sonnet (October 2024),Edit format=diff,https://aider.chat/docs/leaderboards/,2
 Claude 3.5 Sonnet,BigCodeBench,0.586,standard,bigcodebench,Claude-3.5-Sonnet-20240620,complete,https://bigcode-bench.github.io/,2
 Claude 3.5 Sonnet,BigCodeBench-Instruct,0.468,standard,bigcodebench,Claude-3.5-Sonnet-20240620,instruct,https://bigcode-bench.github.io/,2
-Claude 3.5 Sonnet,GSO,0.046,standard,epoch,Claude 3.5 Sonnet (October 2024),Scaffold=OpenHands,https://epoch.ai/benchmarks,1
+Claude 3.5 Sonnet,GSO,0.046,standard,epoch,Claude 3.5 Sonnet (October 2024),Scaffold=OpenHands,https://gso-bench.github.io/index.html,1
 Claude 3.5 Sonnet,HumanEval,0.872,standard,evalplus,Claude Sonnet 3.5 (June 2024),,https://evalplus.github.io/leaderboard.html,2
 Claude 3.5 Sonnet,HumanEval+,0.817,standard,evalplus,Claude Sonnet 3.5 (June 2024),,https://evalplus.github.io/leaderboard.html,1
 Claude 3.5 Sonnet,LiveBench Coding,0.6713,standard,epoch,Claude 3.5 Sonnet (October 2024),,https://epoch.ai/benchmarks,2
@@ -110,8 +110,8 @@ Claude Fable 5,FrontierCode,0.5348,standard,epoch,Claude Fable 5,unknown; Harnes
 Claude Fable 5,FrontierSWE,0.4696,standard,epoch,Claude Fable 5,max; Harness=proximus,https://www.frontierswe.com/,1
 Claude Fable 5,GSO,0.7843,standard,epoch,Claude Fable 5,unknown; Scaffold=OpenHands,https://gso-bench.github.io/index.html,1
 Claude Fable 5,LiveCodeBench (Vals),0.8978,standard,vals,claude-fable-5,effort=max,https://www.vals.ai/benchmarks/lcb,1
-Claude Fable 5,MirrorCode,0.6389,standard,epoch,Claude Fable 5,high,https://epoch.ai/benchmarks,1
-Claude Fable 5,PostTrainBench,0.4179,standard,epoch,Claude Fable 5,max; Scaffold=Claude Code,https://epoch.ai/benchmarks,1
+Claude Fable 5,MirrorCode,0.7,standard,epoch,Claude Fable 5,max,https://epoch.ai/benchmarks,2
+Claude Fable 5,PostTrainBench,0.3727,standard,epoch,Claude Fable 5,max; Scaffold=Claude Code,https://epoch.ai/benchmarks,1
 Claude Fable 5,ProgramBench (Vals),0.02,standard,vals,claude-fable-5,effort=max,https://www.vals.ai/benchmarks/programbench,1
 Claude Fable 5,SWE-bench Verified,0.95,self,legacy,Claude Fable 5,"self-reported, aggregated by llm-stats",https://llm-stats.com/benchmarks/swe-bench-verified,1
 Claude Fable 5,SWE-bench Verified (Vals),0.95,standard,vals,claude-fable-5,effort=max,https://www.vals.ai/benchmarks/swebench,1
@@ -125,7 +125,7 @@ Claude Fable 5,Terminal-Bench 4.0 (Vals),0.4141,standard,vals,claude-fable-5,eff
 Claude Fable 5,Terminal-Bench Hard,0.6288,standard,legacy,Claude Fable 5,"AA harness, AA release 'Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,2
 Claude Fable 5,Vibe Code Bench (Vals),0.9035,standard,vals,claude-fable-5,effort=max; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
 Claude Fable 5,WeirdML,0.9194,standard,epoch,Claude Fable 5,max,https://htihle.github.io/weirdml.html,2
-Claude Fable 5,WeirdML v3,0.1553,standard,epoch,Claude Fable 5,xhigh; Agent=claude_code; Reasoning effort=xhigh,https://htihle.github.io/weirdml.html,1
+Claude Fable 5,WeirdML v3,0.1559,standard,epoch,Claude Fable 5,xhigh; Agent=claude_code; Reasoning effort=xhigh,https://htihle.github.io/weirdml.html,1
 Claude Fable 5.1,Code Migration (Vals),0.5461,standard,vals,claude-fable-5-1,effort=max,https://www.vals.ai/benchmarks/code-migration,1
 Claude Fable 5.1,CursorBench,0.518,standard,epoch,Claude Fable 5.1,max; Reasoning level=Max,https://cursor.com/cursorbench,5
 Claude Fable 5.1,FrontierCode,0.5091,standard,epoch,Claude Fable 5.1,medium; Harness=claude-code; Reasoning effort=medium,https://cognition.com/frontiercode,1
@@ -135,7 +135,8 @@ Claude Fable 5.1,FrontierSWE,0.5629,standard,epoch,Claude Fable 5.1,max; Harness
 Claude Fable 5.1,GSO,0.8824,standard,epoch,Claude Fable 5.1,unknown; Scaffold=OpenHands,https://gso-bench.github.io/index.html,1
 Claude Fable 5.1,IOI (Vals),0.9078,standard,vals,claude-fable-5-1,effort=max,https://www.vals.ai/benchmarks/ioi,1
 Claude Fable 5.1,LiveCodeBench (Vals),0.9052,standard,vals,claude-fable-5-1,effort=max,https://www.vals.ai/benchmarks/lcb,1
-Claude Fable 5.1,MirrorCode,0.733,standard,epoch,Claude Fable 5.1,high,https://epoch.ai/benchmarks,1
+Claude Fable 5.1,MirrorCode,0.9333,standard,epoch,Claude Fable 5.1,max,https://epoch.ai/benchmarks,2
+Claude Fable 5.1,PostTrainBench,0.4465,standard,epoch,Claude Fable 5.1,max; Scaffold=Claude Code,https://epoch.ai/benchmarks,1
 Claude Fable 5.1,ProgramBench (Vals),0.07,standard,vals,claude-fable-5-1,effort=max,https://www.vals.ai/benchmarks/programbench,1
 Claude Fable 5.1,SciCode,0.631,standard,legacy,Claude Fable 5.1,"AA harness, AA release 'Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback)', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,11
 Claude Fable 5.1,Terminal-Bench 2.1,0.9139,standard,legacy,Claude Fable 5.1,"AA harness, AA release 'Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback)', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,6
@@ -146,6 +147,15 @@ Claude Fable 5.1,Vibe Code Bench (Vals),0.9026,standard,vals,claude-fable-5-1,ef
 Claude Fable 5.1,Vibe Code Bench 1-100 (Vals),0.28,standard,vals,claude-fable-5-1,effort=max; harness=OpenHands,https://www.vals.ai/benchmarks/vcb-1-100,1
 Claude Fable 5.1,WeirdML,0.929,standard,epoch,Claude Fable 5.1,max,https://htihle.github.io/weirdml.html,2
 Claude Fable 5.1,WeirdML v3,0.2597,standard,epoch,Claude Fable 5.1,xhigh; Agent=claude_code; Reasoning effort=xhigh,https://htihle.github.io/weirdml.html,1
+Claude Fable 5.2,CursorBench,0.6,standard,epoch,Claude Fable 5.2,max; Reasoning level=Max,https://cursor.com/cursorbench,6
+Claude Fable 5.2,FrontierCode 1.1 (AA),0.6403,standard,aa,"Claude Fable 5.2 (Medium, Default Fallback)","Medium, Default Fallback",https://artificialanalysis.ai/models/claude-fable-5-2-medium,5
+Claude Fable 5.2,FrontierCode 2.0 (AA),0.4913,standard,aa,"Claude Fable 5.2 (High, Default Fallback)","High, Default Fallback",https://artificialanalysis.ai/models/claude-fable-5-2-high,6
+Claude Fable 5.2,FrontierSWE,0.6994,standard,epoch,Claude Fable 5.2,max; Harness=proximus,https://www.frontierswe.com/,2
+Claude Fable 5.2,ProgramBench (Vals),0.19,standard,vals,claude-fable-5-2,effort=high,https://www.vals.ai/benchmarks/programbench,1
+Claude Fable 5.2,SciCode,0.6771,standard,epoch,Claude Fable 5.2,max; Provider=Anthropic,https://artificialanalysis.ai/evaluations/scicode,10
+Claude Fable 5.2,Terminal-Bench 4.0,0.6162,standard,aa,"Claude Fable 5.2 (Xhigh, Default Fallback)","Xhigh, Default Fallback",https://artificialanalysis.ai/models/claude-fable-5-2-xhigh,5
+Claude Fable 5.2,Terminal-Bench 4.0 (Vals),0.6515,standard,vals,claude-fable-5-2,effort=high; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,1
+Claude Fable 5.2,Vibe Code Bench (Vals),0.9377,standard,vals,claude-fable-5-2,effort=high; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
 Claude Haiku 4.5,Code Migration (Vals),0.0755,standard,vals,claude-haiku-4-5-20251001-thinking,,https://www.vals.ai/benchmarks/code-migration,1
 Claude Haiku 4.5,FrontierCode 2.0 (AA),0.0044,standard,aa,Claude 4.5 Haiku (Reasoning),Reasoning,https://artificialanalysis.ai/models/claude-4-5-haiku-reasoning,1
 Claude Haiku 4.5,LiveCodeBench,0.615,standard,legacy,Claude Haiku 4.5,"AA harness, AA release 'Claude 4.5 Haiku (Reasoning)', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,3
@@ -155,7 +165,7 @@ Claude Haiku 4.5,SWE-bench Multilingual,0.647,standard,swebench,Claude 4.5 Haiku
 Claude Haiku 4.5,SWE-bench Pro (Scale; SWE-Agent),0.3945,standard,manual,Claude Haiku 4.5,public set; SWE-Agent,https://labs.scale.com/leaderboard/swe_bench_pro_public,1
 Claude Haiku 4.5,SWE-bench Verified,0.666,leaderboard,legacy,Claude Haiku 4.5,"mini-SWE-agent, reasoning effort high, Anthropic submission",https://raw.githubusercontent.com/SWE-bench/swe-bench.github.io/master/data/leaderboards.json,2
 Claude Haiku 4.5,SWE-bench Verified (Vals),0.666,standard,vals,claude-haiku-4-5-20251001-thinking,,https://www.vals.ai/benchmarks/swebench,1
-Claude Haiku 4.5,SciCode,0.4329,standard,epoch,Claude Haiku 4.5,unknown; Provider=Anthropic,https://artificialanalysis.ai/evaluations/scicode,3
+Claude Haiku 4.5,SciCode,0.4225,standard,aa,Claude 4.5 Haiku (Reasoning),Reasoning,https://artificialanalysis.ai/models/claude-4-5-haiku-reasoning,3
 Claude Haiku 4.5,Terminal-Bench 2.0,0.3551,leaderboard,epoch,Claude Haiku 4.5,unknown; Agent=Goose,https://www.tbench.ai/leaderboard/terminal-bench/2.0,9
 Claude Haiku 4.5,Terminal-Bench 2.0 (Vals),0.382,standard,vals,claude-haiku-4-5-20251001-thinking,,https://www.vals.ai/benchmarks/terminal-bench-2,1
 Claude Haiku 4.5,Terminal-Bench 2.1,0.4419,standard,aa,Claude 4.5 Haiku (Reasoning),Reasoning,https://artificialanalysis.ai/models/claude-4-5-haiku-reasoning,2
@@ -165,15 +175,20 @@ Claude Haiku 4.5,Terminal-Bench Hard,0.2727,standard,aa,Claude 4.5 Haiku (Reason
 Claude Haiku 4.5,Vibe Code Bench (Vals),0.1139,standard,vals,claude-haiku-4-5-20251001-thinking,harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
 Claude Haiku 4.5,WeirdML,0.454,standard,epoch,Claude Haiku 4.5,,https://htihle.github.io/weirdml.html,2
 Claude Haiku 5.5,Code Migration (Vals),0.4457,standard,vals,claude-haiku-5-5,effort=max,https://www.vals.ai/benchmarks/code-migration,1
+Claude Haiku 5.5,CursorBench,0.484,standard,epoch,Claude Haiku 5.5,max; Reasoning level=Max,https://cursor.com/cursorbench,5
+Claude Haiku 5.5,FrontierCode,0.4636,standard,epoch,Claude Haiku 5.5,max; Harness=claude-code; Reasoning effort=max,https://cognition.com/frontiercode,1
 Claude Haiku 5.5,FrontierCode 1.1 (AA),0.4547,standard,aa,Claude Haiku 5.5 (Xhigh),Xhigh,https://artificialanalysis.ai/models/claude-haiku-5-5-xhigh,5
 Claude Haiku 5.5,FrontierCode 2.0 (AA),0.3493,standard,aa,Claude Haiku 5.5 (Max),Max,https://artificialanalysis.ai/models/claude-haiku-5-5,5
+Claude Haiku 5.5,FrontierSWE,0.4377,standard,epoch,Claude Haiku 5.5,max; Harness=proximus,https://www.frontierswe.com/,1
 Claude Haiku 5.5,IOI (Vals),0.4728,standard,vals,claude-haiku-5-5,effort=max,https://www.vals.ai/benchmarks/ioi,1
+Claude Haiku 5.5,MirrorCode,0.7889,standard,epoch,Claude Haiku 5.5,max,https://epoch.ai/benchmarks,1
 Claude Haiku 5.5,ProgramBench (Vals),0.025,standard,vals,claude-haiku-5-5,effort=max,https://www.vals.ai/benchmarks/programbench,1
-Claude Haiku 5.5,SciCode,0.5498,standard,aa,Claude Haiku 5.5 (Max),Max,https://artificialanalysis.ai/models/claude-haiku-5-5,5
+Claude Haiku 5.5,SciCode,0.5498,standard,aa,Claude Haiku 5.5 (Max),Max,https://artificialanalysis.ai/models/claude-haiku-5-5,10
 Claude Haiku 5.5,Terminal-Bench 4.0,0.3283,standard,aa,Claude Haiku 5.5 (Max),Max,https://artificialanalysis.ai/models/claude-haiku-5-5,5
-Claude Haiku 5.5,Terminal-Bench 4.0 (Vals),0.3535,standard,vals,claude-haiku-5-5,effort=max; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,1
+Claude Haiku 5.5,Terminal-Bench 4.0 (Vals),0.3636,standard,vals,claude-haiku-5-5,effort=max; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,1
 Claude Haiku 5.5,Vibe Code Bench (Vals),0.9044,standard,vals,claude-haiku-5-5,effort=max; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
 Claude Haiku 5.5,Vibe Code Bench 1-100 (Vals),0.2041,standard,vals,claude-haiku-5-5,effort=max; harness=OpenHands,https://www.vals.ai/benchmarks/vcb-1-100,1
+Claude Haiku 5.5,WeirdML v3,0.117,standard,epoch,Claude Haiku 5.5,xhigh; Agent=claude_code; Reasoning effort=xhigh,https://htihle.github.io/weirdml.html,1
 Claude Instant 1.2,HumanEval,0.573,standard,evalplus,claude-instant-1 (Mar 2024),,https://evalplus.github.io/leaderboard.html,2
 Claude Instant 1.2,HumanEval+,0.506,standard,evalplus,claude-instant-1 (Mar 2024),,https://evalplus.github.io/leaderboard.html,2
 Claude Instant 1.2,LiveCodeBench,0.109,standard,aa,Claude Instant,,https://artificialanalysis.ai/models/claude-instant,1
@@ -221,10 +236,11 @@ Claude Opus 4.5,Terminal-Bench 2.0 (Vals),0.5843,standard,vals,claude-opus-4-5-2
 Claude Opus 4.5,Terminal-Bench Hard,0.4697,standard,legacy,Claude Opus 4.5,"AA harness, AA release 'Claude Opus 4.5 (Reasoning)', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,3
 Claude Opus 4.5,Vibe Code Bench (Vals),0.2063,standard,vals,claude-opus-4-5-20251101-thinking,effort=high; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
 Claude Opus 4.5,WeirdML,0.6374,standard,epoch,Claude Opus 4.5,,https://htihle.github.io/weirdml.html,1
-Claude Opus 4.5,WeirdML v3,0.0652,standard,epoch,Claude Opus 4.5,high; Agent=claude_code; Reasoning effort=high,https://htihle.github.io/weirdml.html,1
+Claude Opus 4.5,WeirdML v3,0.0651,standard,epoch,Claude Opus 4.5,high; Agent=claude_code; Reasoning effort=high,https://htihle.github.io/weirdml.html,1
 Claude Opus 4.6,FrontierCode,0.2664,standard,epoch,Claude Opus 4.6,unknown; Harness=claude-code; Reasoning effort=high,https://cognition.com/frontiercode,1
 Claude Opus 4.6,GSO,0.412,standard,epoch,Claude Opus 4.6,high; Scaffold=OpenHands,https://epoch.ai/benchmarks,3
 Claude Opus 4.6,LiveCodeBench (Vals),0.8468,standard,vals,claude-opus-4-6-thinking,effort=max,https://www.vals.ai/benchmarks/lcb,1
+Claude Opus 4.6,MirrorCode,0.3333,standard,epoch,Claude Opus 4.6,max,https://epoch.ai/benchmarks,1
 Claude Opus 4.6,SWE-bench Multilingual,0.72,standard,swebench,Claude 4.6 Opus,mini-SWE-agent,https://www.swebench.com/,2
 Claude Opus 4.6,SWE-bench Pro (Scale; mini-swe-agent),0.519,standard,manual,Claude Opus 4.6,public set; mini-swe-agent; thinking,https://labs.scale.com/leaderboard/swe_bench_pro_public,1
 Claude Opus 4.6,SWE-bench Verified,0.7872,standard,epoch,Claude Opus 4.6,,https://epoch.ai/benchmarks,4
@@ -243,7 +259,7 @@ Claude Opus 4.7,FrontierCode,0.3854,standard,epoch,Claude Opus 4.7,unknown; Harn
 Claude Opus 4.7,GSO,0.4412,standard,epoch,Claude Opus 4.7,high; Scaffold=OpenHands,https://gso-bench.github.io/index.html,2
 Claude Opus 4.7,LiveCodeBench (Vals),0.8507,standard,vals,claude-opus-4-7,effort=max,https://www.vals.ai/benchmarks/lcb,1
 Claude Opus 4.7,MirrorCode,0.3111,standard,epoch,Claude Opus 4.7,high,https://epoch.ai/benchmarks,1
-Claude Opus 4.7,PostTrainBench,0.2856,standard,epoch,Claude Opus 4.7,xhigh; Scaffold=Claude Code,https://epoch.ai/benchmarks,1
+Claude Opus 4.7,PostTrainBench,0.2434,standard,epoch,Claude Opus 4.7,xhigh; Scaffold=Claude Code,https://epoch.ai/benchmarks,1
 Claude Opus 4.7,ProgramBench (Vals),0.0,standard,vals,claude-opus-4-7,effort=max,https://www.vals.ai/benchmarks/programbench,1
 Claude Opus 4.7,SWE-bench Verified,0.8347,standard,epoch,Claude Opus 4.7,max,https://epoch.ai/benchmarks,2
 Claude Opus 4.7,SWE-bench Verified (Vals),0.82,standard,vals,claude-opus-4-7,effort=max,https://www.vals.ai/benchmarks/swebench,1
@@ -262,7 +278,8 @@ Claude Opus 4.8,DeepSWE,0.5897,standard,epoch,Claude Opus 4.8,max; Harness=mini-
 Claude Opus 4.8,FrontierCode,0.465,standard,epoch,Claude Opus 4.8,unknown; Harness=claude-code; Reasoning effort=max,https://cognition.com/frontiercode,1
 Claude Opus 4.8,GSO,0.4706,standard,epoch,Claude Opus 4.8,unknown; Scaffold=OpenHands,https://gso-bench.github.io/index.html,1
 Claude Opus 4.8,LiveCodeBench (Vals),0.8782,standard,vals,claude-opus-4-8,effort=max,https://www.vals.ai/benchmarks/lcb,1
-Claude Opus 4.8,PostTrainBench,0.3384,standard,epoch,Claude Opus 4.8,high; Scaffold=Claude Code,https://epoch.ai/benchmarks,2
+Claude Opus 4.8,MirrorCode,0.6556,standard,epoch,Claude Opus 4.8,max,https://epoch.ai/benchmarks,1
+Claude Opus 4.8,PostTrainBench,0.31,standard,epoch,Claude Opus 4.8,max; Scaffold=Claude Code,https://epoch.ai/benchmarks,2
 Claude Opus 4.8,ProgramBench (Vals),0.01,standard,vals,claude-opus-4-8,effort=max,https://www.vals.ai/benchmarks/programbench,1
 Claude Opus 4.8,SWE-bench Multimodal,0.384,self,legacy,Claude Opus 4.8,"self-reported, aggregated by llm-stats",https://llm-stats.com/benchmarks/swe-bench-multimodal,1
 Claude Opus 4.8,SWE-bench Verified,0.886,self,legacy,Claude Opus 4.8,"self-reported, aggregated by llm-stats",https://llm-stats.com/benchmarks/swe-bench-verified,1
@@ -288,7 +305,8 @@ Claude Opus 5,FrontierCode 2.0 (AA),0.3115,standard,aa,Claude Opus 5 (Max),Max,h
 Claude Opus 5,FrontierSWE,0.5201,standard,epoch,Claude Opus 5,max; Harness=proximus,https://www.frontierswe.com/,1
 Claude Opus 5,IOI (Vals),0.8433,standard,vals,claude-opus-5,effort=max,https://www.vals.ai/benchmarks/ioi,1
 Claude Opus 5,LiveCodeBench (Vals),0.8903,standard,vals,claude-opus-5,effort=max,https://www.vals.ai/benchmarks/lcb,1
-Claude Opus 5,PostTrainBench,0.3504,standard,epoch,Claude Opus 5,unknown; Scaffold=Claude Code,https://epoch.ai/benchmarks,1
+Claude Opus 5,MirrorCode,0.8778,standard,epoch,Claude Opus 5,max,https://epoch.ai/benchmarks,1
+Claude Opus 5,PostTrainBench,0.3566,standard,epoch,Claude Opus 5,unknown; Scaffold=Claude Code,https://epoch.ai/benchmarks,1
 Claude Opus 5,ProgramBench (Vals),0.03,standard,vals,claude-opus-5,effort=max,https://www.vals.ai/benchmarks/programbench,1
 Claude Opus 5,SWE-bench Verified (Vals),0.97,standard,vals,claude-opus-5,,https://www.vals.ai/benchmarks/swebench,1
 Claude Opus 5,SWE-rebench [tools] 2026-06,0.6,standard,swerebench,Opus 5,agent=tools; effort=high,https://swe-rebench.com/,1
@@ -308,7 +326,8 @@ Claude Opus 5.5,FrontierCode 1.1 (AA),0.5705,standard,aa,"Claude Opus 5.5 (Mediu
 Claude Opus 5.5,FrontierCode 2.0 (AA),0.4644,standard,aa,"Claude Opus 5.5 (Max, Default Fallback)","Max, Default Fallback",https://artificialanalysis.ai/models/claude-opus-5-5,5
 Claude Opus 5.5,FrontierSWE,0.6233,standard,epoch,Claude Opus 5.5,max; Harness=proximus,https://www.frontierswe.com/,1
 Claude Opus 5.5,IOI (Vals),0.9506,standard,vals,claude-opus-5-5,effort=max,https://www.vals.ai/benchmarks/ioi,1
-Claude Opus 5.5,MirrorCode,0.774,standard,epoch,Claude Opus 5.5,max,https://epoch.ai/benchmarks,1
+Claude Opus 5.5,MirrorCode,0.9556,standard,epoch,Claude Opus 5.5,max,https://epoch.ai/benchmarks,2
+Claude Opus 5.5,PostTrainBench,0.438,standard,epoch,Claude Opus 5.5,max; Scaffold=Claude Code,https://epoch.ai/benchmarks,1
 Claude Opus 5.5,ProgramBench (Vals),0.185,standard,vals,claude-opus-5-5,effort=max,https://www.vals.ai/benchmarks/programbench,1
 Claude Opus 5.5,SciCode,0.669,standard,epoch,Claude Opus 5.5,max; Provider=Anthropic,https://artificialanalysis.ai/evaluations/scicode,10
 Claude Opus 5.5,Terminal-Bench 2.1 (Vals),0.8764,standard,vals,claude-opus-5-5,effort=high; harness=Terminus 2,https://www.vals.ai/benchmarks/terminal-bench-2-1,1
@@ -338,7 +357,7 @@ Claude Sonnet 4,SciCode,0.4005,standard,epoch,Claude Sonnet 4,unknown; Provider=
 Claude Sonnet 4,Terminal-Bench 2.1,0.3633,standard,legacy,Claude Sonnet 4,"AA harness, AA release 'Claude 4 Sonnet (Reasoning)', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,2
 Claude Sonnet 4,Terminal-Bench Hard,0.3106,standard,aa,Claude 4 Sonnet (Reasoning),Reasoning,https://artificialanalysis.ai/models/claude-4-sonnet-thinking,3
 Claude Sonnet 4,WeirdML,0.4611,standard,epoch,Claude Sonnet 4,,https://htihle.github.io/weirdml.html,2
-Claude Sonnet 4.5,GSO,0.1471,standard,epoch,Claude Sonnet 4.5,unknown; Scaffold=OpenHands,https://epoch.ai/benchmarks,2
+Claude Sonnet 4.5,GSO,0.1471,standard,epoch,Claude Sonnet 4.5,unknown; Scaffold=OpenHands,https://gso-bench.github.io/index.html,2
 Claude Sonnet 4.5,LiveCodeBench,0.7143,standard,aa,Claude 4.5 Sonnet (Reasoning),Reasoning,https://artificialanalysis.ai/models/claude-4-5-sonnet-thinking,3
 Claude Sonnet 4.5,LiveCodeBench (Vals),0.73,standard,vals,claude-sonnet-4-5-20250929-thinking,,https://www.vals.ai/benchmarks/lcb,1
 Claude Sonnet 4.5,SWE-bench Multilingual,0.67,standard,swebench,Claude 4.5 Sonnet,mini-SWE-agent,https://www.swebench.com/,2
@@ -386,6 +405,7 @@ Claude Sonnet 5,FrontierCode 2.0 (AA),0.1783,standard,aa,Claude Sonnet 5 (Max),M
 Claude Sonnet 5,GSO,0.3725,standard,epoch,Claude Sonnet 5,unknown; Scaffold=OpenHands,https://gso-bench.github.io/index.html,1
 Claude Sonnet 5,IOI (Vals),0.45,standard,vals,claude-sonnet-5,effort=max,https://www.vals.ai/benchmarks/ioi,1
 Claude Sonnet 5,LiveCodeBench (Vals),0.8243,standard,vals,claude-sonnet-5,effort=max,https://www.vals.ai/benchmarks/lcb,1
+Claude Sonnet 5,MirrorCode,0.6333,standard,epoch,Claude Sonnet 5,max,https://epoch.ai/benchmarks,1
 Claude Sonnet 5,ProgramBench (Vals),0.0,standard,vals,claude-sonnet-5,effort=max,https://www.vals.ai/benchmarks/programbench,1
 Claude Sonnet 5,SWE-bench Multimodal,0.281,self,legacy,Claude Sonnet 5,"self-reported, aggregated by llm-stats",https://llm-stats.com/benchmarks/swe-bench-multimodal,1
 Claude Sonnet 5,SWE-bench Verified,0.852,self,legacy,Claude Sonnet 5,"self-reported, aggregated by llm-stats",https://llm-stats.com/benchmarks/swe-bench-verified,1
@@ -397,7 +417,7 @@ Claude Sonnet 5,Terminal-Bench 2.0,0.804,self,legacy,Claude Sonnet 5,"self-repor
 Claude Sonnet 5,Terminal-Bench 2.1,0.8052,standard,aa,Claude Sonnet 5 (Max),Max,https://artificialanalysis.ai/models/claude-sonnet-5,3
 Claude Sonnet 5,Terminal-Bench 2.1 (Vals),0.7453,standard,vals,claude-sonnet-5,effort=max; harness=Terminus 2,https://www.vals.ai/benchmarks/terminal-bench-2-1,1
 Claude Sonnet 5,Terminal-Bench 4.0,0.1414,standard,aa,Claude Sonnet 5 (Max),Max,https://artificialanalysis.ai/models/claude-sonnet-5,6
-Claude Sonnet 5,Terminal-Bench 4.0 (Vals),0.096,standard,vals,claude-sonnet-5,effort=max; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,1
+Claude Sonnet 5,Terminal-Bench 4.0 (Vals),0.1061,standard,vals,claude-sonnet-5,effort=max; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,1
 Claude Sonnet 5,Vibe Code Bench (Vals),0.8133,standard,vals,claude-sonnet-5,effort=max; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
 Claude Sonnet 5,Vibe Code Bench 1-100 (Vals),0.1382,standard,vals,claude-sonnet-5,effort=max; harness=OpenHands,https://www.vals.ai/benchmarks/vcb-1-100,1
 Claude Sonnet 5,WeirdML,0.6878,standard,epoch,Claude Sonnet 5,high,https://htihle.github.io/weirdml.html,1
@@ -408,13 +428,14 @@ Claude Sonnet 5.5,FrontierCode 1.1 (AA),0.4615,standard,aa,"Claude Sonnet 5.5 (X
 Claude Sonnet 5.5,FrontierCode 2.0 (AA),0.417,standard,aa,"Claude Sonnet 5.5 (Max, Default Fallback)","Max, Default Fallback",https://artificialanalysis.ai/models/claude-sonnet-5-5,5
 Claude Sonnet 5.5,FrontierSWE,0.6189,standard,epoch,Claude Sonnet 5.5,max; Harness=proximus,https://www.frontierswe.com/,1
 Claude Sonnet 5.5,IOI (Vals),0.8306,standard,vals,claude-sonnet-5-5,effort=max,https://www.vals.ai/benchmarks/ioi,1
+Claude Sonnet 5.5,MirrorCode,0.9778,standard,epoch,Claude Sonnet 5.5,max,https://epoch.ai/benchmarks,1
 Claude Sonnet 5.5,ProgramBench (Vals),0.065,standard,vals,claude-sonnet-5-5,effort=max,https://www.vals.ai/benchmarks/programbench,1
 Claude Sonnet 5.5,SciCode,0.61,standard,aa,"Claude Sonnet 5.5 (Max, Default Fallback)","Max, Default Fallback",https://artificialanalysis.ai/models/claude-sonnet-5-5,10
 Claude Sonnet 5.5,Terminal-Bench 2.1 (Vals),0.8315,standard,vals,claude-sonnet-5-5,effort=high; harness=Terminus 2,https://www.vals.ai/benchmarks/terminal-bench-2-1,1
 Claude Sonnet 5.5,Terminal-Bench 4.0,0.6364,standard,aa,"Claude Sonnet 5.5 (Max, Default Fallback)","Max, Default Fallback",https://artificialanalysis.ai/models/claude-sonnet-5-5,5
 Claude Sonnet 5.5,Terminal-Bench 4.0 (Vals),0.6414,standard,vals,claude-sonnet-5-5,effort=max; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,1
 Claude Sonnet 5.5,Vibe Code Bench (Vals),0.9239,standard,vals,claude-sonnet-5-5,effort=max; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
-Claude Sonnet 5.5,WeirdML v3,0.2,standard,epoch,Claude Sonnet 5.5,xhigh; Agent=claude_code; Reasoning effort=xhigh,https://htihle.github.io/weirdml.html,1
+Claude Sonnet 5.5,WeirdML v3,0.1994,standard,epoch,Claude Sonnet 5.5,xhigh; Agent=claude_code; Reasoning effort=xhigh,https://htihle.github.io/weirdml.html,1
 Code Llama,BigCodeBench,0.496,standard,bigcodebench,CodeLlama-70B-Instruct,complete,https://bigcode-bench.github.io/,4
 Code Llama,BigCodeBench-Instruct,0.407,standard,bigcodebench,CodeLlama-70B-Instruct,instruct,https://bigcode-bench.github.io/,4
 Code Llama,HumanEval,0.72,standard,evalplus,CodeLlama-70B-Instruct,,https://evalplus.github.io/leaderboard.html,5
@@ -548,7 +569,7 @@ DeepSeek-V3,SWE-rebench [text] 2025-04,0.185,standard,swerebench,DeepSeek-V3,age
 DeepSeek-V3,SWE-rebench [text] 2025-05,0.36,standard,swerebench,DeepSeek-V3,agent=text,https://swe-rebench.com/,1
 DeepSeek-V3,SWE-rebench [text] 2025-06,0.28,standard,swerebench,DeepSeek-V3,agent=text,https://swe-rebench.com/,1
 DeepSeek-V3,SWE-rebench [text] 2025-07,0.1267,standard,swerebench,DeepSeek-V3,agent=text,https://swe-rebench.com/,1
-DeepSeek-V3,SciCode,0.3576,standard,aa,DeepSeek V3 (Dec '24),Dec '24,https://artificialanalysis.ai/models/deepseek-v3,3
+DeepSeek-V3,SciCode,0.39,standard,epoch,DeepSeek-V3 (Mar 2025),Provider=DeepSeek,https://artificialanalysis.ai/evaluations/scicode,3
 DeepSeek-V3,Terminal-Bench 2.1,0.1685,standard,aa,DeepSeek V3 (Dec '24),Dec '24,https://artificialanalysis.ai/models/deepseek-v3,2
 DeepSeek-V3,Terminal-Bench 4.0,0.0,standard,aa,DeepSeek V3 (Dec '24),Dec '24,https://artificialanalysis.ai/models/deepseek-v3,1
 DeepSeek-V3,Terminal-Bench Hard,0.0682,standard,legacy,DeepSeek-V3,"AA harness, AA release 'DeepSeek V3 (Dec '24)', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,2
@@ -589,7 +610,7 @@ DeepSeek-V3.1-Terminus,Aider Polyglot,0.761,self,legacy,DeepSeek-V3.1-Terminus,"
 DeepSeek-V3.1-Terminus,LiveCodeBench,0.798,standard,legacy,DeepSeek-V3.1-Terminus,"AA harness, AA release 'DeepSeek V3.1 Terminus (Reasoning)', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,3
 DeepSeek-V3.1-Terminus,SWE-bench Multilingual,0.578,self,legacy,DeepSeek-V3.1-Terminus,"agentic tool use, Resolved (official HF card)",https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus,1
 DeepSeek-V3.1-Terminus,SWE-bench Verified,0.684,self,legacy,DeepSeek-V3.1-Terminus,"agentic tool use, Resolved (official HF card)",https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus,1
-DeepSeek-V3.1-Terminus,SciCode,0.4062,standard,epoch,DeepSeek-V3.1-Terminus,Provider=DeepSeek,https://artificialanalysis.ai/evaluations/scicode,2
+DeepSeek-V3.1-Terminus,SciCode,0.3796,standard,aa,DeepSeek V3.1 Terminus (Reasoning),Reasoning,https://artificialanalysis.ai/models/deepseek-v3-1-terminus-reasoning,2
 DeepSeek-V3.1-Terminus,Terminal-Bench 2.1,0.4494,standard,aa,DeepSeek V3.1 Terminus (Reasoning),Reasoning,https://artificialanalysis.ai/models/deepseek-v3-1-terminus-reasoning,2
 DeepSeek-V3.1-Terminus,Terminal-Bench 4.0,0.0,standard,aa,DeepSeek V3.1 Terminus (Reasoning),Reasoning,https://artificialanalysis.ai/models/deepseek-v3-1-terminus-reasoning,1
 DeepSeek-V3.1-Terminus,Terminal-Bench Hard,0.3182,standard,aa,DeepSeek V3.1 Terminus (Non-reasoning),Non-reasoning,https://artificialanalysis.ai/models/deepseek-v3-1-terminus,3
@@ -632,7 +653,7 @@ DeepSeek-V4-Flash,Terminal-Bench 2.0,0.566,self,manual,DeepSeek-V4-Flash,max,htt
 DeepSeek-V4-Flash,WeirdML,0.4563,standard,epoch,DeepSeek-V4-Flash,max,https://htihle.github.io/weirdml.html,2
 DeepSeek-V4-Flash-0731,Code Migration (Vals),0.3863,standard,vals,deepseek-v4-flash-0731,effort=high,https://www.vals.ai/benchmarks/code-migration,1
 DeepSeek-V4-Flash-0731,DeepSWE,0.544,self,legacy,DeepSeek-V4-Flash-0731,same agentic setting (official HF card),https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731,1
-DeepSeek-V4-Flash-0731,FrontierCode,0.188,standard,epoch,DeepSeek V4 Flash 0731,unknown; Harness=chisel; Reasoning effort=high,https://cognition.com/frontiercode,1
+DeepSeek-V4-Flash-0731,FrontierCode,0.188,standard,epoch,DeepSeek V4 Flash 0731,unknown; Harness=devin-cli; Reasoning effort=high,https://cognition.com/frontiercode,1
 DeepSeek-V4-Flash-0731,IOI (Vals),0.3272,standard,vals,deepseek-v4-flash-0731,effort=high,https://www.vals.ai/benchmarks/ioi,1
 DeepSeek-V4-Flash-0731,LiveCodeBench (Vals),0.8726,standard,vals,deepseek-v4-flash-0731,effort=high,https://www.vals.ai/benchmarks/lcb,1
 DeepSeek-V4-Flash-0731,ProgramBench (Vals),0.0,standard,vals,deepseek-v4-flash-0731,effort=high,https://www.vals.ai/benchmarks/programbench,1
@@ -675,11 +696,12 @@ DeepSeek-V4-Pro,Vibe Code Bench (Vals),0.4993,standard,vals,deepseek-v4-pro,effo
 DeepSeek-V4-Pro,WeirdML,0.489,standard,epoch,DeepSeek-V4-Pro,max,https://htihle.github.io/weirdml.html,2
 DeepSeek-V4-Pro-0813,Code Migration (Vals),0.4154,standard,vals,deepseek-v4-pro-0813,effort=max,https://www.vals.ai/benchmarks/code-migration,1
 DeepSeek-V4-Pro-0813,DeepSWE,0.627,self,legacy,DeepSeek-V4-Pro-0813,official HF card,https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813,1
-DeepSeek-V4-Pro-0813,FrontierCode,0.2855,standard,epoch,DeepSeek V4 Pro 0813,high; Harness=chisel; Reasoning effort=high,https://cognition.com/frontiercode,1
+DeepSeek-V4-Pro-0813,FrontierCode,0.2855,standard,epoch,DeepSeek V4 Pro 0813,high; Harness=devin-cli; Reasoning effort=high,https://cognition.com/frontiercode,1
 DeepSeek-V4-Pro-0813,FrontierCode 1.1 (AA),0.388,standard,aa,DeepSeek V4 Pro 0813 (Max),Max,https://artificialanalysis.ai/models/deepseek-v4-pro,1
 DeepSeek-V4-Pro-0813,FrontierCode 2.0 (AA),0.1707,standard,aa,DeepSeek V4 Pro 0813 (Max),Max,https://artificialanalysis.ai/models/deepseek-v4-pro,2
 DeepSeek-V4-Pro-0813,IOI (Vals),0.5161,standard,vals,deepseek-v4-pro-0813,effort=max,https://www.vals.ai/benchmarks/ioi,1
 DeepSeek-V4-Pro-0813,LiveCodeBench (Vals),0.8753,standard,vals,deepseek-v4-pro-0813,effort=max,https://www.vals.ai/benchmarks/lcb,1
+DeepSeek-V4-Pro-0813,MirrorCode,0.3333,standard,epoch,DeepSeek V4 Pro 0813,max,https://epoch.ai/benchmarks,1
 DeepSeek-V4-Pro-0813,ProgramBench (Vals),0.0,standard,vals,deepseek-v4-pro-0813,effort=max,https://www.vals.ai/benchmarks/programbench,1
 DeepSeek-V4-Pro-0813,SWE-bench Verified (Vals),0.964,standard,vals,deepseek-v4-pro-0813,effort=max,https://www.vals.ai/benchmarks/swebench,1
 DeepSeek-V4-Pro-0813,SciCode,0.5104,standard,aa,DeepSeek V4 Pro 0813 (Max),Max,https://artificialanalysis.ai/models/deepseek-v4-pro,5
@@ -695,8 +717,10 @@ DeepSeek-V4-Pro-DSpark,SWE-bench Multilingual,0.762,self,legacy,DeepSeek-V4-Pro-
 DeepSeek-V4-Pro-DSpark,SWE-bench Verified,0.806,self,legacy,DeepSeek-V4-Pro-DSpark,"V4-Pro checkpoint + DSpark speculative decoding; 'Max' reasoning-effort column (High 79.4, Non-Think 73.6)",https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark,1
 DeepSeek-V4-Pro-DSpark,Terminal-Bench 2.0,0.679,self,legacy,DeepSeek-V4-Pro-DSpark,Max effort; official DSpark card,https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark,1
 DeepSeek-V4.1-Flash,Code Migration (Vals),0.4562,standard,vals,deepseek-v4.1-flash,effort=high,https://www.vals.ai/benchmarks/code-migration,1
+DeepSeek-V4.1-Flash,FrontierCode,0.4387,standard,epoch,DeepSeek V4.1 Flash,high; Harness=devin-cli; Reasoning effort=high,https://cognition.com/frontiercode,1
 DeepSeek-V4.1-Flash,FrontierCode 1.1 (AA),0.4403,standard,aa,DeepSeek V4.1 Flash (Max),Max,https://artificialanalysis.ai/models/deepseek-v4-1-flash,2
-DeepSeek-V4.1-Flash,IOI (Vals),0.4028,standard,vals,deepseek-v4.1-flash,effort=high,https://www.vals.ai/benchmarks/ioi,1
+DeepSeek-V4.1-Flash,IOI (Vals),0.4028,standard,vals,deepseek-v4.1-flash,effort=max,https://www.vals.ai/benchmarks/ioi,1
+DeepSeek-V4.1-Flash,MirrorCode,0.6444,standard,epoch,DeepSeek V4.1 Flash,max,https://epoch.ai/benchmarks,1
 DeepSeek-V4.1-Flash,ProgramBench (Vals),0.005,standard,vals,deepseek-v4.1-flash,effort=max,https://www.vals.ai/benchmarks/programbench,1
 DeepSeek-V4.1-Flash,SciCode,0.5185,standard,aa,DeepSeek V4.1 Flash (Max),Max,https://artificialanalysis.ai/models/deepseek-v4-1-flash,4
 DeepSeek-V4.1-Flash,Surface Evolver Bench,0.4625,standard,epoch,DeepSeek V4.1 Flash,high; Provider=deepseek,https://yhenon.github.io/surface-evolver-llm-eval/,1
@@ -706,12 +730,17 @@ DeepSeek-V4.1-Flash,Terminal-Bench 4.0 (Vals),0.197,standard,vals,deepseek-v4.1-
 DeepSeek-V4.1-Flash,Vibe Code Bench (Vals),0.8474,standard,vals,deepseek-v4.1-flash,effort=high; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
 DeepSeek-V4.1-Flash,Vibe Code Bench 1-100 (Vals),0.1638,standard,vals,deepseek-v4.1-flash,effort=high; harness=OpenHands,https://www.vals.ai/benchmarks/vcb-1-100,1
 DeepSeek-V4.1-Flash,WeirdML v3,0.0595,standard,epoch,DeepSeek V4.1 Flash,high; Agent=opencode; Reasoning effort=high,https://htihle.github.io/weirdml.html,1
+DeepSeek-V4.1-Flash-1017,Code Migration (Vals),0.4421,standard,vals,deepseek-v4.1-flash-1017,effort=max,https://www.vals.ai/benchmarks/code-migration,1
+DeepSeek-V4.1-Flash-1017,CursorBench,0.477,standard,epoch,DeepSeek V4.1 Flash 1017,max; Reasoning level=Max,https://cursor.com/cursorbench,4
 DeepSeek-V4.1-Flash-1017,DeepSWE,0.77,self,manual,DeepSeek-V4.1-Flash-1017,DeepSWE v1.1; Mini-SWE-V2 harness,https://api-docs.deepseek.com/updates/,1
 DeepSeek-V4.1-Flash-1017,FrontierCode 1.1 (AA),0.4366,standard,aa,DeepSeek V4.1 Flash 1017 (Max),Max,https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017,1
 DeepSeek-V4.1-Flash-1017,FrontierCode 2.0 (AA),0.2847,standard,aa,DeepSeek V4.1 Flash 1017 (Max),Max,https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017,3
 DeepSeek-V4.1-Flash-1017,ProgramBench,0.291,self,manual,DeepSeek-V4.1-Flash-1017,,https://api-docs.deepseek.com/updates/,1
-DeepSeek-V4.1-Flash-1017,SciCode,0.559,standard,aa,DeepSeek V4.1 Flash 1017 (Max),Max,https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017,2
+DeepSeek-V4.1-Flash-1017,SciCode,0.559,standard,aa,DeepSeek V4.1 Flash 1017 (Max),Max,https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017,4
 DeepSeek-V4.1-Flash-1017,Terminal-Bench 4.0,0.3384,standard,aa,DeepSeek V4.1 Flash 1017 (Max),Max,https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017,4
+DeepSeek-V4.1-Flash-1017,Terminal-Bench 4.0 (Vals),0.3182,standard,vals,deepseek-v4.1-flash-1017,effort=max; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,1
+DeepSeek-V4.1-Flash-1017,Vibe Code Bench (Vals),0.8773,standard,vals,deepseek-v4.1-flash-1017,effort=max; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
+DeepSeek-V4.1-Flash-1017,WeirdML v3,0.0919,standard,epoch,DeepSeek V4.1 Flash 1017,high; Agent=codex_cli; Reasoning effort=high,https://htihle.github.io/weirdml.html,1
 Devstral 2,LiveCodeBench,0.448,standard,legacy,Devstral 2,"AA harness, AA release 'Devstral 2', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,2
 Devstral 2,LiveCodeBench (Vals),0.5184,standard,vals,devstral-2512,,https://www.vals.ai/benchmarks/lcb,1
 Devstral 2,SWE-bench Multilingual,0.613,self,legacy,Devstral 2,self-reported (HF card),https://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512/raw/main/README.md,1
@@ -780,6 +809,9 @@ ERNIE 5.0,MBPP+,0.8254,self,legacy,ERNIE 5.0,"post-trained ERNIE 5.0, Table 2 (b
 ERNIE 5.0,Terminal-Bench Hard,0.25,standard,legacy,ERNIE 5.0,"AA harness, AA release 'ERNIE 5.0 Thinking Preview', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,1
 ERNIE 5.0 Preview,LiveCodeBench,0.8116,standard,aa,ERNIE 5.0 Thinking Preview,,https://artificialanalysis.ai/models/ernie-5-0-thinking-preview,2
 ERNIE 5.0 Preview,Terminal-Bench Hard,0.25,standard,aa,ERNIE 5.0 Thinking Preview,,https://artificialanalysis.ai/models/ernie-5-0-thinking-preview,1
+ERNIE 5.5 Flash Preview,DeepSWE,0.712,self,manual,ERNIE 5.5 Flash Preview,DeepSWE v1.1; mini-swe-agent 2.4.8,https://ernie.baidu.com/release/ernie-5-5-flash-preview/,1
+ERNIE 5.5 Flash Preview,ProgramBench,0.295,self,manual,ERNIE 5.5 Flash Preview,ProgramBench Almost Solved; harness=Claude Opus 5.5,https://ernie.baidu.com/release/ernie-5-5-flash-preview/,1
+ERNIE 5.5 Flash Preview,Terminal-Bench 4.0,0.465,self,manual,ERNIE 5.5 Flash Preview,harness=Claude Code 2.1246,https://ernie.baidu.com/release/ernie-5-5-flash-preview/,1
 Falcon-H1 34B,HumanEval,0.872,self,legacy,Falcon-H1 34B,"vendor model card benchmark table (self-reported), HF repo tiiuae/Falcon-H1-34B-Instruct, row 'HumanEval' (Instruct variant)",https://huggingface.co/tiiuae/Falcon-H1-34B-Instruct/raw/main/README.md,1
 Falcon-H1 34B,HumanEval+,0.8171,self,legacy,Falcon-H1 34B,"vendor model card benchmark table (self-reported), HF repo tiiuae/Falcon-H1-34B-Instruct, row 'HumanEval+' (Instruct variant)",https://huggingface.co/tiiuae/Falcon-H1-34B-Instruct/raw/main/README.md,1
 Falcon-H1 34B,LiveCodeBench,0.4971,self,legacy,Falcon-H1 34B,"vendor model card benchmark table (self-reported), HF repo tiiuae/Falcon-H1-34B-Instruct, row 'LiveCodeBench' (Instruct variant) (version not specified)",https://huggingface.co/tiiuae/Falcon-H1-34B-Instruct/raw/main/README.md,1
@@ -805,7 +837,7 @@ GLM-4.5,SWE-rebench [tools] 2025-11,0.4426,standard,swerebench,GLM-4.5,agent=too
 GLM-4.5,SciCode,0.417,self,legacy,GLM-4.5,standard,https://llm-stats.com/api/models/glm-4.5,1
 GLM-4.5,Terminal-Bench Hard,0.2197,standard,legacy,GLM-4.5,"AA harness, AA release 'GLM-4.5 (Reasoning)', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,2
 GLM-4.5,WeirdML,0.4058,standard,epoch,GLM-4.5,thinking,https://htihle.github.io/weirdml.html,1
-GLM-4.5-Air,GSO,0.0294,standard,epoch,GLM-4.5-Air,Scaffold=OpenHands,https://epoch.ai/benchmarks,1
+GLM-4.5-Air,GSO,0.0294,standard,epoch,GLM-4.5-Air,Scaffold=OpenHands,https://gso-bench.github.io/index.html,1
 GLM-4.5-Air,LiveCodeBench,0.684,standard,legacy,GLM-4.5-Air,"AA harness, AA release 'GLM-4.5-Air', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,2
 GLM-4.5-Air,SWE-bench Verified,0.576,self,legacy,GLM-4.5-Air,"thinking mode, OpenHands v0.34.0 scaffold",https://llm-stats.com/api/models/glm-4.5-air,1
 GLM-4.5-Air,SWE-rebench [tools] 2025-08,0.3474,standard,swerebench,GLM-4.5 Air,agent=tools,https://swe-rebench.com/,1
@@ -890,7 +922,8 @@ GLM-5.2,Code Migration (Vals),0.3787,standard,vals,glm-5.2,effort=max,https://ww
 GLM-5.2,DeepSWE,0.4378,standard,epoch,GLM-5.2,max; Harness=mini-swe-agent; Reasoning effort=max,https://deepswe.datacurve.ai/,3
 GLM-5.2,FrontierCode,0.245,standard,epoch,GLM-5.2,none; Harness=mini-swe-agent; Reasoning effort=none,https://cognition.com/frontiercode,1
 GLM-5.2,LiveCodeBench (Vals),0.695,standard,vals,glm-5.2,,https://www.vals.ai/benchmarks/lcb,1
-GLM-5.2,PostTrainBench,0.317,standard,epoch,GLM-5.2,max; Scaffold=Claude Code,https://epoch.ai/benchmarks,1
+GLM-5.2,MirrorCode,0.3667,standard,epoch,GLM-5.2,max,https://epoch.ai/benchmarks,1
+GLM-5.2,PostTrainBench,0.304,standard,epoch,GLM-5.2,max; Scaffold=Claude Code,https://epoch.ai/benchmarks,1
 GLM-5.2,ProgramBench,0.637,unknown,legacy,GLM-5.2,Claude Code harness (reported as 'Program Bench'),https://llm-stats.com/api/models/glm-5.2,1
 GLM-5.2,ProgramBench (Vals),0.005,standard,vals,glm-5.2,effort=max,https://www.vals.ai/benchmarks/programbench,1
 GLM-5.2,SWE-bench Verified,0.787,standard,epoch,GLM-5.2,max,https://epoch.ai/benchmarks,1
@@ -910,12 +943,13 @@ GLM-5.2,WeirdML,0.7012,standard,epoch,GLM-5.2,max,https://htihle.github.io/weird
 GLM-5.3,Code Migration (Vals),0.4422,standard,vals,glm-5.3,effort=max,https://www.vals.ai/benchmarks/code-migration,1
 GLM-5.3,CursorBench,0.426,standard,epoch,GLM-5.3,max; Reasoning level=Max,https://cursor.com/cursorbench,3
 GLM-5.3,DeepSWE,0.6896,standard,epoch,GLM-5.3,max; Harness=mini-swe-agent; Reasoning effort=max,https://deepswe.datacurve.ai/,1
-GLM-5.3,FrontierCode,0.4014,standard,epoch,GLM-5.3,max; Harness=chisel; Reasoning effort=max,https://cognition.com/frontiercode,1
+GLM-5.3,FrontierCode,0.4014,standard,epoch,GLM-5.3,max; Harness=devin-cli; Reasoning effort=max,https://cognition.com/frontiercode,1
 GLM-5.3,FrontierCode 1.1 (AA),0.4008,standard,aa,GLM-5.3 (Max),Max,https://artificialanalysis.ai/models/glm-5-3,2
 GLM-5.3,FrontierCode 2.0 (AA),0.2159,standard,aa,GLM-5.3 (Max),Max,https://artificialanalysis.ai/models/glm-5-3,2
 GLM-5.3,FrontierSWE,0.3018,standard,epoch,GLM-5.3,max; Harness=proximus,https://www.frontierswe.com/,1
 GLM-5.3,IOI (Vals),0.6844,standard,vals,glm-5.3,effort=max,https://www.vals.ai/benchmarks/ioi,1
 GLM-5.3,LiveCodeBench (Vals),0.8054,standard,vals,glm-5.3,effort=max,https://www.vals.ai/benchmarks/lcb,1
+GLM-5.3,PostTrainBench,0.3452,standard,epoch,GLM-5.3,max; Scaffold=Claude Code,https://epoch.ai/benchmarks,1
 GLM-5.3,ProgramBench (Vals),0.015,standard,vals,glm-5.3,effort=max,https://www.vals.ai/benchmarks/programbench,1
 GLM-5.3,SWE-bench Verified (Vals),0.954,standard,vals,glm-5.3,effort=max,https://www.vals.ai/benchmarks/swebench,1
 GLM-5.3,SciCode,0.5903,standard,aa,GLM-5.3 (Max),Max,https://artificialanalysis.ai/models/glm-5-3,5
@@ -929,12 +963,13 @@ GLM-5.3,WeirdML,0.754,standard,epoch,GLM-5.3,max,https://htihle.github.io/weirdm
 GLM-5.3-Flash,Code Migration (Vals),0.2051,standard,vals,glm-5.3-flash,effort=max,https://www.vals.ai/benchmarks/code-migration,1
 GLM-5.3-Flash,CursorBench,0.368,standard,epoch,GLM-5.3-Flash,max; Reasoning level=Max,https://cursor.com/cursorbench,3
 GLM-5.3-Flash,DeepSWE,0.6339,standard,epoch,GLM-5.3-Flash,max; Harness=mini-swe-agent; Reasoning effort=max,https://deepswe.datacurve.ai/,1
-GLM-5.3-Flash,FrontierCode,0.3183,standard,epoch,GLM-5.3-Flash,max; Harness=chisel; Reasoning effort=max,https://cognition.com/frontiercode,1
+GLM-5.3-Flash,FrontierCode,0.3183,standard,epoch,GLM-5.3-Flash,max; Harness=devin-cli; Reasoning effort=max,https://cognition.com/frontiercode,1
 GLM-5.3-Flash,FrontierCode 1.1 (AA),0.41,standard,aa,GLM-5.3-Flash,,https://artificialanalysis.ai/models/glm-5-3-flash,1
 GLM-5.3-Flash,FrontierCode 2.0 (AA),0.1761,standard,aa,GLM-5.3-Flash,,https://artificialanalysis.ai/models/glm-5-3-flash,1
 GLM-5.3-Flash,FrontierSWE,0.1813,standard,epoch,GLM-5.3-Flash,max; Harness=proximus,https://www.frontierswe.com/,1
 GLM-5.3-Flash,IOI (Vals),0.525,standard,vals,glm-5.3-flash,effort=max,https://www.vals.ai/benchmarks/ioi,1
 GLM-5.3-Flash,LiveCodeBench (Vals),0.8051,standard,vals,glm-5.3-flash,effort=max,https://www.vals.ai/benchmarks/lcb,1
+GLM-5.3-Flash,PostTrainBench,0.3679,standard,epoch,GLM-5.3-Flash,max; Scaffold=Claude Code,https://epoch.ai/benchmarks,1
 GLM-5.3-Flash,ProgramBench (Vals),0.0,standard,vals,glm-5.3-flash,effort=max,https://www.vals.ai/benchmarks/programbench,1
 GLM-5.3-Flash,SWE-bench Verified (Vals),0.92,standard,vals,glm-5.3-flash,effort=max,https://www.vals.ai/benchmarks/swebench,1
 GLM-5.3-Flash,SciCode,0.5162,standard,aa,GLM-5.3-Flash,,https://artificialanalysis.ai/models/glm-5-3-flash,3
@@ -942,6 +977,7 @@ GLM-5.3-Flash,Surface Evolver Bench,0.525,standard,epoch,GLM-5.3-Flash,max; Prov
 GLM-5.3-Flash,Terminal-Bench 2.1,0.8427,standard,aa,GLM-5.3-Flash,,https://artificialanalysis.ai/models/glm-5-3-flash,2
 GLM-5.3-Flash,Terminal-Bench 2.1 (Vals),0.6292,standard,vals,glm-5.3-flash,effort=max; harness=Terminus 2,https://www.vals.ai/benchmarks/terminal-bench-2-1,1
 GLM-5.3-Flash,Terminal-Bench 4.0,0.3283,standard,aa,GLM-5.3-Flash,,https://artificialanalysis.ai/models/glm-5-3-flash,1
+GLM-5.3-Flash,Terminal-Bench 4.0 (Vals),0.3737,standard,vals,glm-5.3-flash,effort=max; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,1
 GLM-5.3-Flash,Vibe Code Bench (Vals),0.3076,standard,vals,glm-5.3-flash,effort=max; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
 GLM-5.3-Flash,Vibe Code Bench 1-100 (Vals),0.1603,standard,vals,glm-5.3-flash,effort=max; harness=OpenHands,https://www.vals.ai/benchmarks/vcb-1-100,1
 GLM-5V-Turbo,Terminal-Bench Hard,0.3258,standard,legacy,GLM-5V-Turbo,"AA harness, AA release 'GLM 5V Turbo (Reasoning)', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,2
@@ -1040,7 +1076,7 @@ GPT-4.5,WeirdML,0.3937,standard,epoch,GPT-4.5,,https://htihle.github.io/weirdml.
 GPT-4o,Aider Polyglot,0.453,standard,epoch,GPT-4o (Mar 2025),Edit format=diff,https://aider.chat/docs/leaderboards/,9
 GPT-4o,BigCodeBench,0.611,standard,bigcodebench,GPT-4o-2024-05-13,complete,https://bigcode-bench.github.io/,2
 GPT-4o,BigCodeBench-Instruct,0.511,standard,bigcodebench,GPT-4o-2024-05-13,instruct,https://bigcode-bench.github.io/,2
-GPT-4o,GSO,0.0,standard,epoch,GPT-4o (Nov 2024),Scaffold=OpenHands,https://epoch.ai/benchmarks,1
+GPT-4o,GSO,0.0,standard,epoch,GPT-4o (Nov 2024),Scaffold=OpenHands,https://gso-bench.github.io/index.html,1
 GPT-4o,HumanEval,0.927,standard,evalplus,GPT 4o (Aug 2024),,https://evalplus.github.io/leaderboard.html,2
 GPT-4o,HumanEval+,0.872,standard,evalplus,GPT 4o (Aug 2024),,https://evalplus.github.io/leaderboard.html,2
 GPT-4o,LiveBench Coding,0.5144,standard,epoch,GPT-4o (Aug 2024),,https://epoch.ai/benchmarks,3
@@ -1073,6 +1109,7 @@ GPT-5,GSO,0.0686,standard,epoch,GPT-5,high; Scaffold=OpenHands,https://gso-bench
 GPT-5,HumanEval,0.934,self,legacy,GPT-5,"pass@1, OpenAI GPT-5 announcement (self-reported, via llm-stats)",https://llm-stats.com/api/models/gpt-5-2025-08-07,1
 GPT-5,LiveCodeBench,0.846,standard,legacy,GPT-5,"AA harness, AA release 'GPT-5 (high)', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,6
 GPT-5,LiveCodeBench (Vals),0.8591,standard,vals,gpt-5-2025-08-07,effort=high,https://www.vals.ai/benchmarks/lcb,1
+GPT-5,MirrorCode,0.0444,standard,epoch,GPT-5,high,https://epoch.ai/benchmarks,1
 GPT-5,SWE-bench Pro (Scale; SWE-Agent),0.4178,standard,manual,GPT-5,public set; SWE-Agent; effort=high,https://labs.scale.com/leaderboard/swe_bench_pro_public,1
 GPT-5,SWE-bench Verified,0.7355,standard,epoch,GPT-5,high,https://epoch.ai/benchmarks,7
 GPT-5,SWE-bench Verified (Vals),0.69,standard,vals,gpt-5-2025-08-07,effort=high,https://www.vals.ai/benchmarks/swebench,1
@@ -1155,6 +1192,7 @@ GPT-5.1-Codex-Max,Vibe Code Bench (Vals),0.2217,standard,vals,gpt-5.1-codex-max,
 GPT-5.2,GSO,0.2745,standard,epoch,GPT-5.2,high; Scaffold=OpenHands,https://gso-bench.github.io/index.html,1
 GPT-5.2,LiveCodeBench,0.8942,standard,aa,GPT-5.2 (Medium),Medium,https://artificialanalysis.ai/models/gpt-5-2-medium,4
 GPT-5.2,LiveCodeBench (Vals),0.8536,standard,vals,gpt-5.2-2025-12-11,effort=xhigh,https://www.vals.ai/benchmarks/lcb,1
+GPT-5.2,MirrorCode,0.3222,standard,epoch,GPT-5.2,xhigh,https://epoch.ai/benchmarks,1
 GPT-5.2,SWE-bench Multilingual,0.667,standard,swebench,GPT 5.2,mini-SWE-agent; effort=high,https://www.swebench.com/,2
 GPT-5.2,SWE-bench Pro (Scale; SWE-Agent),0.2994,standard,manual,GPT-5.2,public set; SWE-Agent,https://labs.scale.com/leaderboard/swe_bench_pro_public,1
 GPT-5.2,SWE-bench Verified,0.7376,standard,epoch,GPT-5.2,high,https://epoch.ai/benchmarks,5
@@ -1168,6 +1206,7 @@ GPT-5.2,Terminal-Bench 2.0 (Vals),0.5169,standard,vals,gpt-5.2-2025-12-11,effort
 GPT-5.2,Terminal-Bench Hard,0.4697,standard,legacy,GPT-5.2,"AA harness, AA release 'GPT-5.2 (xhigh)', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,4
 GPT-5.2,Vibe Code Bench (Vals),0.535,standard,vals,gpt-5.2-2025-12-11,effort=xhigh; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
 GPT-5.2,WeirdML,0.7219,standard,epoch,GPT-5.2,xhigh,https://htihle.github.io/weirdml.html,4
+GPT-5.2,WeirdML v3,0.0501,standard,epoch,GPT-5.2,xhigh; Agent=codex_cli; Reasoning effort=xhigh,https://htihle.github.io/weirdml.html,1
 GPT-5.2-Codex,LiveCodeBench (Vals),0.8799,standard,vals,gpt-5.2-codex,,https://www.vals.ai/benchmarks/lcb,1
 GPT-5.2-Codex,SWE-bench Multilingual,0.663,leaderboard,legacy,GPT-5.2-Codex,"resolved %, mini-SWE-agent scaffold",https://www.swebench.com/,2
 GPT-5.2-Codex,SWE-bench Pro (Scale; SWE-Agent),0.4104,standard,manual,GPT-5.2-Codex,public set; SWE-Agent,https://labs.scale.com/leaderboard/swe_bench_pro_public,1
@@ -1192,8 +1231,8 @@ GPT-5.4,Code Migration (Vals),0.3498,standard,vals,gpt-5.4-2026-03-05,effort=xhi
 GPT-5.4,DeepSWE,0.5177,standard,epoch,GPT-5.4,xhigh; Harness=mini-swe-agent; Reasoning effort=xhigh,https://deepswe.datacurve.ai/,1
 GPT-5.4,GSO,0.3137,standard,epoch,GPT-5.4,xhigh; Scaffold=OpenHands,https://gso-bench.github.io/index.html,2
 GPT-5.4,LiveCodeBench (Vals),0.8414,standard,vals,gpt-5.4-2026-03-05,effort=xhigh,https://www.vals.ai/benchmarks/lcb,1
-GPT-5.4,MirrorCode,0.1556,standard,epoch,GPT-5.4,high,https://epoch.ai/benchmarks,1
-GPT-5.4,PostTrainBench,0.19,standard,epoch,GPT-5.4,high; Scaffold=Codex CLI,https://epoch.ai/benchmarks,1
+GPT-5.4,MirrorCode,0.2333,standard,epoch,GPT-5.4,xhigh,https://epoch.ai/benchmarks,2
+GPT-5.4,PostTrainBench,0.1776,standard,epoch,GPT-5.4,high; Scaffold=Codex CLI,https://epoch.ai/benchmarks,1
 GPT-5.4,ProgramBench (Vals),0.005,standard,vals,gpt-5.4-2026-03-05-high,effort=high,https://www.vals.ai/benchmarks/programbench,2
 GPT-5.4,SWE-bench Pro (Scale; mini-swe-agent),0.591,standard,manual,GPT-5.4,public set; mini-swe-agent; effort=xhigh,https://labs.scale.com/leaderboard/swe_bench_pro_public,1
 GPT-5.4,SWE-bench Verified,0.7686,standard,epoch,GPT-5.4,high,https://epoch.ai/benchmarks,1
@@ -1214,7 +1253,7 @@ GPT-5.4 mini,FrontierCode,0.2704,standard,epoch,GPT-5.4 Mini,unknown; Harness=co
 GPT-5.4 mini,LiveCodeBench (Vals),0.8146,standard,vals,gpt-5.4-mini-2026-03-17,effort=xhigh,https://www.vals.ai/benchmarks/lcb,1
 GPT-5.4 mini,ProgramBench (Vals),0.0,standard,vals,gpt-5.4-mini-2026-03-17,effort=xhigh,https://www.vals.ai/benchmarks/programbench,1
 GPT-5.4 mini,SWE-bench Verified (Vals),0.73,standard,vals,gpt-5.4-mini-2026-03-17,effort=xhigh,https://www.vals.ai/benchmarks/swebench,1
-GPT-5.4 mini,SciCode,0.5208,standard,aa,GPT-5.4 mini (Xhigh),Xhigh,https://artificialanalysis.ai/models/gpt-5-4-mini,2
+GPT-5.4 mini,SciCode,0.5208,standard,epoch,GPT-5.4 Mini,xhigh; Provider=OpenAI,https://artificialanalysis.ai/evaluations/scicode,2
 GPT-5.4 mini,Terminal-Bench 2.0,0.6,self,legacy,GPT-5.4 mini,"self-reported by OpenAI (via llm-stats, source openai.com/index/introducing-gpt-5-4-mini-and-nano/)",https://llm-stats.com/api/models/gpt-5.4-mini,1
 GPT-5.4 mini,Terminal-Bench 2.0 (Vals),0.4494,standard,vals,gpt-5.4-mini-2026-03-17,effort=high,https://www.vals.ai/benchmarks/terminal-bench-2,1
 GPT-5.4 mini,Terminal-Bench 2.1,0.5918,standard,legacy,GPT-5.4 mini,"AA harness, AA release 'GPT-5.4 mini (xhigh)', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,2
@@ -1227,7 +1266,7 @@ GPT-5.4 mini,WeirdML,0.603,standard,epoch,GPT-5.4 Mini,high,https://htihle.githu
 GPT-5.4 nano,Code Migration (Vals),0.1447,standard,vals,gpt-5.4-nano-2026-03-17,effort=high,https://www.vals.ai/benchmarks/code-migration,1
 GPT-5.4 nano,LiveCodeBench (Vals),0.8401,standard,vals,gpt-5.4-nano-2026-03-17,effort=high,https://www.vals.ai/benchmarks/lcb,1
 GPT-5.4 nano,SWE-bench Verified (Vals),0.698,standard,vals,gpt-5.4-nano-2026-03-17,effort=high,https://www.vals.ai/benchmarks/swebench,1
-GPT-5.4 nano,SciCode,0.4722,standard,aa,GPT-5.4 nano (Xhigh),Xhigh,https://artificialanalysis.ai/models/gpt-5-4-nano,2
+GPT-5.4 nano,SciCode,0.4722,standard,epoch,GPT-5.4 Nano,xhigh; Provider=OpenAI,https://artificialanalysis.ai/evaluations/scicode,2
 GPT-5.4 nano,Terminal-Bench 2.0,0.463,self,legacy,GPT-5.4 nano,"self-reported by OpenAI (via llm-stats, source openai.com/index/introducing-gpt-5-4-mini-and-nano/)",https://llm-stats.com/api/models/gpt-5.4-nano,1
 GPT-5.4 nano,Terminal-Bench 2.0 (Vals),0.3989,standard,vals,gpt-5.4-nano-2026-03-17,effort=high,https://www.vals.ai/benchmarks/terminal-bench-2,1
 GPT-5.4 nano,Terminal-Bench 2.1,0.6067,standard,aa,GPT-5.4 nano (Xhigh),Xhigh,https://artificialanalysis.ai/models/gpt-5-4-nano,2
@@ -1241,8 +1280,8 @@ GPT-5.5,DeepSWE,0.6704,standard,epoch,GPT-5.5,xhigh; Harness=mini-swe-agent; Rea
 GPT-5.5,FrontierCode,0.4296,standard,epoch,GPT-5.5,unknown; Harness=codex; Reasoning effort=xhigh,https://cognition.com/frontiercode,1
 GPT-5.5,GSO,0.402,standard,epoch,GPT-5.5,xhigh; Scaffold=OpenHands,https://gso-bench.github.io/index.html,1
 GPT-5.5,LiveCodeBench (Vals),0.853,standard,vals,gpt-5.5,effort=xhigh,https://www.vals.ai/benchmarks/lcb,1
-GPT-5.5,MirrorCode,0.1,standard,epoch,GPT-5.5,high,https://epoch.ai/benchmarks,1
-GPT-5.5,PostTrainBench,0.2723,standard,epoch,GPT-5.5,xhigh; Scaffold=Codex CLI,https://epoch.ai/benchmarks,1
+GPT-5.5,MirrorCode,0.2333,standard,epoch,GPT-5.5,xhigh,https://epoch.ai/benchmarks,2
+GPT-5.5,PostTrainBench,0.2387,standard,epoch,GPT-5.5,xhigh; Scaffold=Codex CLI,https://epoch.ai/benchmarks,1
 GPT-5.5,ProgramBench (Vals),0.005,standard,vals,gpt-5.5,effort=xhigh,https://www.vals.ai/benchmarks/programbench,1
 GPT-5.5,SWE-bench Verified,0.8058,standard,epoch,GPT-5.5,xhigh,https://epoch.ai/benchmarks,1
 GPT-5.5,SWE-bench Verified (Vals),0.826,standard,vals,gpt-5.5,effort=xhigh,https://www.vals.ai/benchmarks/swebench,1
@@ -1268,6 +1307,7 @@ GPT-5.6 Luna,DeepSWE,0.6719,standard,epoch,GPT-5.6 Luna,max; Harness=mini-swe-ag
 GPT-5.6 Luna,FrontierCode,0.3981,standard,epoch,GPT-5.6 Luna,unknown; Harness=codex; Reasoning effort=max,https://cognition.com/frontiercode,1
 GPT-5.6 Luna,FrontierCode 2.0 (AA),0.1757,standard,aa,GPT-5.6 Luna (Max),Max,https://artificialanalysis.ai/models/gpt-5-6-luna,1
 GPT-5.6 Luna,IOI (Vals),0.6178,standard,vals,gpt-5.6-luna,effort=max,https://www.vals.ai/benchmarks/ioi,1
+GPT-5.6 Luna,MirrorCode,0.2111,standard,epoch,GPT-5.6 Luna,max,https://epoch.ai/benchmarks,1
 GPT-5.6 Luna,ProgramBench (Vals),0.0,standard,vals,gpt-5.6-luna,effort=max,https://www.vals.ai/benchmarks/programbench,1
 GPT-5.6 Luna,SWE-bench Verified (Vals),0.93,standard,vals,gpt-5.6-luna,effort=max,https://www.vals.ai/benchmarks/swebench,1
 GPT-5.6 Luna,SWE-rebench [tools] 2026-06,0.3095,standard,swerebench,GPT-5.6 Luna,agent=tools; effort=medium,https://swe-rebench.com/,1
@@ -1290,11 +1330,11 @@ GPT-5.6 Sol,GSO,0.7647,standard,epoch,GPT-5.6 Sol,unknown; Scaffold=OpenHands,ht
 GPT-5.6 Sol,IOI (Vals),0.9117,standard,vals,gpt-5.6-sol,effort=max,https://www.vals.ai/benchmarks/ioi,1
 GPT-5.6 Sol,LiveCodeBench (Vals),0.826,standard,vals,gpt-5.6-sol,effort=max,https://www.vals.ai/benchmarks/lcb,1
 GPT-5.6 Sol,MirrorCode,0.2,standard,epoch,GPT-5.6 Sol,high,https://epoch.ai/benchmarks,1
-GPT-5.6 Sol,PostTrainBench,0.3623,standard,epoch,GPT-5.6 Sol,max; Scaffold=Codex CLI,https://epoch.ai/benchmarks,1
+GPT-5.6 Sol,PostTrainBench,0.3101,standard,epoch,GPT-5.6 Sol,max; Scaffold=Codex CLI,https://epoch.ai/benchmarks,1
 GPT-5.6 Sol,ProgramBench (Vals),0.015,standard,vals,gpt-5.6-sol,effort=max,https://www.vals.ai/benchmarks/programbench,1
 GPT-5.6 Sol,SWE-bench Verified (Vals),0.962,standard,vals,gpt-5.6-sol,effort=max,https://www.vals.ai/benchmarks/swebench,1
 GPT-5.6 Sol,SWE-rebench [tools] 2026-06,0.5524,standard,swerebench,GPT-5.6 Sol,agent=tools; effort=medium,https://swe-rebench.com/,1
-GPT-5.6 Sol,SciCode,0.5775,standard,aa,GPT-5.6 Sol (High),High,https://artificialanalysis.ai/models/gpt-5-6-sol-high,13
+GPT-5.6 Sol,SciCode,0.5775,standard,epoch,GPT-5.6 Sol,high; Provider=OpenAI,https://artificialanalysis.ai/evaluations/scicode,13
 GPT-5.6 Sol,Surface Evolver Bench,0.9313,standard,epoch,GPT-5.6 Sol,xhigh; Provider=openai,https://yhenon.github.io/surface-evolver-llm-eval/,1
 GPT-5.6 Sol,Terminal-Bench 2.1,0.8951,standard,aa,GPT-5.6 Sol (Xhigh),Xhigh,https://artificialanalysis.ai/models/gpt-5-6-sol-xhigh,7
 GPT-5.6 Sol,Terminal-Bench 2.1 (Vals),0.8577,standard,vals,gpt-5.6-sol,effort=max; harness=Terminus 2,https://www.vals.ai/benchmarks/terminal-bench-2-1,1
@@ -1312,6 +1352,7 @@ GPT-5.6 Terra,FrontierCode,0.4131,standard,epoch,GPT-5.6 Terra,unknown; Harness=
 GPT-5.6 Terra,FrontierCode 2.0 (AA),0.2389,standard,aa,GPT-5.6 Terra (Max),Max,https://artificialanalysis.ai/models/gpt-5-6-terra,1
 GPT-5.6 Terra,IOI (Vals),0.8761,standard,vals,gpt-5.6-terra,effort=max,https://www.vals.ai/benchmarks/ioi,1
 GPT-5.6 Terra,LiveCodeBench (Vals),0.8593,standard,vals,gpt-5.6-terra,effort=xhigh,https://www.vals.ai/benchmarks/lcb,1
+GPT-5.6 Terra,MirrorCode,0.4111,standard,epoch,GPT-5.6 Terra,max,https://epoch.ai/benchmarks,1
 GPT-5.6 Terra,ProgramBench (Vals),0.005,standard,vals,gpt-5.6-terra,effort=max,https://www.vals.ai/benchmarks/programbench,1
 GPT-5.6 Terra,SWE-bench Verified (Vals),0.954,standard,vals,gpt-5.6-terra,effort=max,https://www.vals.ai/benchmarks/swebench,1
 GPT-5.6 Terra,SciCode,0.55,standard,legacy,GPT-5.6 Terra,"AA harness, AA release 'GPT-5.6 Terra (max)', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,13
@@ -1332,7 +1373,8 @@ GPT-6 Astra,FrontierCode 2.0 (AA),0.4237,standard,aa,GPT-6 Astra (Max),Max,https
 GPT-6 Astra,FrontierSWE,0.6551,standard,epoch,GPT-6 Astra,max; Harness=proximus,https://www.frontierswe.com/,1
 GPT-6 Astra,GSO,0.7941,standard,epoch,GPT-6 Astra,unknown; Scaffold=OpenHands,https://gso-bench.github.io/index.html,1
 GPT-6 Astra,IOI (Vals),1.0,standard,vals,gpt-6-astra,effort=max,https://www.vals.ai/benchmarks/ioi,1
-GPT-6 Astra,MirrorCode,0.467,standard,epoch,GPT-6 Astra,high,https://epoch.ai/benchmarks,1
+GPT-6 Astra,MirrorCode,0.6,standard,epoch,GPT-6 Astra,max,https://epoch.ai/benchmarks,2
+GPT-6 Astra,PostTrainBench,0.4188,standard,epoch,GPT-6 Astra,max; Scaffold=Codex CLI,https://epoch.ai/benchmarks,1
 GPT-6 Astra,ProgramBench (Vals),0.055,standard,vals,gpt-6-astra,effort=max,https://www.vals.ai/benchmarks/programbench,1
 GPT-6 Astra,SciCode,0.565,standard,legacy,GPT-6 Astra,"AA harness, AA release 'GPT-6 Astra (max)', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,12
 GPT-6 Astra,Terminal-Bench 2.1,0.8989,standard,aa,GPT-6 Astra (High),High,https://artificialanalysis.ai/models/gpt-6-astra-high,6
@@ -1348,6 +1390,7 @@ GPT-6 Luna,FrontierCode,0.4242,standard,epoch,GPT-6 Luna,max; Harness=codex; Rea
 GPT-6 Luna,FrontierCode 1.1 (AA),0.4193,standard,aa,GPT-6 Luna (Max),Max,https://artificialanalysis.ai/models/gpt-6-luna,6
 GPT-6 Luna,FrontierCode 2.0 (AA),0.2517,standard,aa,GPT-6 Luna (Max),Max,https://artificialanalysis.ai/models/gpt-6-luna,6
 GPT-6 Luna,IOI (Vals),0.5556,standard,vals,gpt-6-luna,effort=max,https://www.vals.ai/benchmarks/ioi,1
+GPT-6 Luna,MirrorCode,0.2667,standard,epoch,GPT-6 Luna,max,https://epoch.ai/benchmarks,1
 GPT-6 Luna,ProgramBench (Vals),0.005,standard,vals,gpt-6-luna,effort=max,https://www.vals.ai/benchmarks/programbench,1
 GPT-6 Luna,SciCode,0.5463,standard,epoch,GPT-6 Luna,max; Provider=OpenAI,https://artificialanalysis.ai/evaluations/scicode,12
 GPT-6 Luna,Terminal-Bench 2.1 (Vals),0.7303,standard,vals,gpt-6-luna,effort=max; harness=Terminus 2,https://www.vals.ai/benchmarks/terminal-bench-2-1,1
@@ -1359,6 +1402,7 @@ GPT-6 Sol,Code Migration (Vals),0.5719,standard,vals,gpt-6-sol,effort=max,https:
 GPT-6 Sol,FrontierCode,0.4927,standard,epoch,GPT-6 Sol,max; Harness=codex; Reasoning effort=max,https://cognition.com/frontiercode,1
 GPT-6 Sol,FrontierCode 2.0 (AA),0.3558,standard,aa,GPT-6 Sol (Max),Max,https://artificialanalysis.ai/models/gpt-6-sol,1
 GPT-6 Sol,IOI (Vals),0.8261,standard,vals,gpt-6-sol,effort=max,https://www.vals.ai/benchmarks/ioi,1
+GPT-6 Sol,MirrorCode,0.4889,standard,epoch,GPT-6 Sol,max,https://epoch.ai/benchmarks,1
 GPT-6 Sol,ProgramBench (Vals),0.02,standard,vals,gpt-6-sol,effort=max,https://www.vals.ai/benchmarks/programbench,1
 GPT-6 Sol,SciCode,0.5764,standard,aa,GPT-6 Sol (Max),Max,https://artificialanalysis.ai/models/gpt-6-sol,12
 GPT-6 Sol,Terminal-Bench 2.1 (Vals),0.8315,standard,vals,gpt-6-sol,effort=max; harness=Terminus 2,https://www.vals.ai/benchmarks/terminal-bench-2-1,1
@@ -1371,12 +1415,22 @@ GPT-6.1 Sol,FrontierCode,0.5023,standard,epoch,GPT-6.1 Sol,medium; Harness=codex
 GPT-6.1 Sol,FrontierCode 1.1 (AA),0.4912,standard,aa,GPT-6.1 Sol (Max),Max,https://artificialanalysis.ai/models/gpt-6-1-sol,5
 GPT-6.1 Sol,FrontierCode 2.0 (AA),0.4063,standard,aa,GPT-6.1 Sol (Max),Max,https://artificialanalysis.ai/models/gpt-6-1-sol,5
 GPT-6.1 Sol,IOI (Vals),0.9689,standard,vals,gpt-6.1-sol,effort=max,https://www.vals.ai/benchmarks/ioi,1
+GPT-6.1 Sol,MirrorCode,0.6111,standard,epoch,GPT-6.1 Sol,max,https://epoch.ai/benchmarks,1
+GPT-6.1 Sol,PostTrainBench,0.3879,standard,epoch,GPT-6.1 Sol,max; Scaffold=Codex CLI,https://epoch.ai/benchmarks,1
 GPT-6.1 Sol,ProgramBench (Vals),0.03,standard,vals,gpt-6.1-sol,effort=max,https://www.vals.ai/benchmarks/programbench,1
 GPT-6.1 Sol,SciCode,0.5579,standard,epoch,GPT-6.1 Sol,high,https://artificialanalysis.ai/evaluations/scicode,10
 GPT-6.1 Sol,Terminal-Bench 4.0,0.5606,standard,aa,GPT-6.1 Sol (Max),Max,https://artificialanalysis.ai/models/gpt-6-1-sol,5
 GPT-6.1 Sol,Terminal-Bench 4.0 (Vals),0.5505,standard,vals,gpt-6.1-sol,effort=max; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,1
 GPT-6.1 Sol,Vibe Code Bench (Vals),0.8893,standard,vals,gpt-6.1-sol,effort=max; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
-GPT-6.1 Sol,WeirdML v3,0.3547,standard,epoch,GPT-6.1 Sol,xhigh; Agent=codex_cli; Reasoning effort=xhigh,https://htihle.github.io/weirdml.html,1
+GPT-6.1 Sol,WeirdML v3,0.3825,standard,epoch,GPT-6.1 Sol,xhigh; Agent=codex_cli; Reasoning effort=xhigh,https://htihle.github.io/weirdml.html,1
+GPT-6.1 Terra,FrontierCode 1.1 (AA),0.4372,standard,aa,GPT-6.1 Terra (Medium),Medium,https://artificialanalysis.ai/models/gpt-6-1-terra-medium,6
+GPT-6.1 Terra,FrontierCode 2.0 (AA),0.4232,standard,aa,GPT-6.1 Terra (Max),Max,https://artificialanalysis.ai/models/gpt-6-1-terra,6
+GPT-6.1 Terra,MirrorCode,0.7667,standard,epoch,GPT-6.1 Terra,max,https://epoch.ai/benchmarks,1
+GPT-6.1 Terra,SciCode,0.5509,standard,aa,GPT-6.1 Terra (Max),Max,https://artificialanalysis.ai/models/gpt-6-1-terra,12
+GPT-6.1 Terra,Terminal-Bench 4.0,0.5556,standard,aa,GPT-6.1 Terra (Max),Max,https://artificialanalysis.ai/models/gpt-6-1-terra,7
+GPT-6.1 Terra,Terminal-Bench 4.0 (Vals),0.495,standard,vals,gpt-6.1-terra,effort=max; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,1
+GPT-6.1 Terra,Vibe Code Bench (Vals),0.84,standard,vals,gpt-6.1-terra,effort=max; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
+GPT-6.1 Terra,WeirdML v3,0.2809,standard,epoch,GPT-6.1 Terra,xhigh; Agent=codex_cli; Reasoning effort=xhigh,https://htihle.github.io/weirdml.html,1
 Gemini 1.0 Nano,MBPP,0.272,self,legacy,Gemini 1.0 Nano,"pass@1, Gemini Nano-2 (3.25B), Table 3 of Gemini 1.0 report",https://arxiv.org/html/2312.11805v2,1
 Gemini 1.0 Pro,HumanEval,0.634,standard,evalplus,Gemini Pro 1.0,,https://evalplus.github.io/leaderboard.html,2
 Gemini 1.0 Pro,HumanEval+,0.555,standard,evalplus,Gemini Pro 1.0,,https://evalplus.github.io/leaderboard.html,2
@@ -1527,7 +1581,7 @@ Gemini 3.1 Pro,GSO,0.2255,standard,epoch,Gemini 3.1 Pro,Scaffold=OpenHands,https
 Gemini 3.1 Pro,IOI (Vals),0.5183,standard,vals,gemini-3.1-pro-preview,effort=high,https://www.vals.ai/benchmarks/ioi,1
 Gemini 3.1 Pro,LiveCodeBench (Vals),0.8849,standard,vals,gemini-3.1-pro-preview,effort=high,https://www.vals.ai/benchmarks/lcb,1
 Gemini 3.1 Pro,MirrorCode,0.0889,standard,epoch,Gemini 3.1 Pro,high,https://epoch.ai/benchmarks,1
-Gemini 3.1 Pro,PostTrainBench,0.2199,standard,epoch,Gemini 3.1 Pro,Scaffold=OpenCode,https://epoch.ai/benchmarks,1
+Gemini 3.1 Pro,PostTrainBench,0.1811,standard,epoch,Gemini 3.1 Pro,Scaffold=OpenCode,https://epoch.ai/benchmarks,1
 Gemini 3.1 Pro,ProgramBench (Vals),0.0,standard,vals,gemini-3.1-pro-preview,effort=high,https://www.vals.ai/benchmarks/programbench,1
 Gemini 3.1 Pro,SWE-bench Pro (Scale; mini-swe-agent),0.461,standard,manual,Gemini 3.1 Pro,public set; mini-swe-agent; thinking,https://labs.scale.com/leaderboard/swe_bench_pro_public,1
 Gemini 3.1 Pro,SWE-bench Verified,0.7562,standard,epoch,Gemini 3.1 Pro,,https://epoch.ai/benchmarks,2
@@ -1535,7 +1589,7 @@ Gemini 3.1 Pro,SWE-bench Verified (Vals),0.788,standard,vals,gemini-3.1-pro-prev
 Gemini 3.1 Pro,SWE-rebench [tools] 2026-02,0.6232,standard,swerebench,Gemini 3.1 Pro Preview,agent=tools,https://swe-rebench.com/,1
 Gemini 3.1 Pro,SWE-rebench [tools] 2026-03,0.5391,standard,swerebench,Gemini 3.1 Pro Preview,agent=tools,https://swe-rebench.com/,1
 Gemini 3.1 Pro,SWE-rebench [tools] 2026-04,0.5023,standard,swerebench,Gemini 3.1 Pro Preview,agent=tools,https://swe-rebench.com/,1
-Gemini 3.1 Pro,SciCode,0.5891,standard,epoch,Gemini 3.1 Pro,Provider=Google,https://artificialanalysis.ai/evaluations/scicode,3
+Gemini 3.1 Pro,SciCode,0.5868,standard,aa,Gemini 3.1 Pro Preview,,https://artificialanalysis.ai/models/gemini-3-1-pro-preview,3
 Gemini 3.1 Pro,Terminal-Bench 2.0,0.8022,leaderboard,epoch,Gemini 3.1 Pro,Agent=TongAgents,https://www.tbench.ai/leaderboard/terminal-bench/2.0,6
 Gemini 3.1 Pro,Terminal-Bench 2.0 (Vals),0.6742,standard,vals,gemini-3.1-pro-preview,effort=high,https://www.vals.ai/benchmarks/terminal-bench-2,1
 Gemini 3.1 Pro,Terminal-Bench 2.1,0.7378,standard,aa,Gemini 3.1 Pro Preview,,https://artificialanalysis.ai/models/gemini-3-1-pro-preview,2
@@ -1577,9 +1631,10 @@ Gemini 3.5 Flash-Lite,Vibe Code Bench (Vals),0.3716,standard,vals,gemini-3.5-fla
 Gemini 3.5 Flash-Lite,WeirdML,0.39,standard,epoch,Gemini 3.5 Flash-Lite,high,https://htihle.github.io/weirdml.html,1
 Gemini 3.6 Flash,Code Migration (Vals),0.3093,standard,vals,gemini-3.6-flash,effort=high,https://www.vals.ai/benchmarks/code-migration,1
 Gemini 3.6 Flash,DeepSWE,0.4668,standard,epoch,Gemini 3.6 Flash,high; Harness=mini-swe-agent; Reasoning effort=high,https://deepswe.datacurve.ai/,2
-Gemini 3.6 Flash,FrontierCode,0.3437,standard,epoch,Gemini 3.6 Flash,unknown; Harness=chisel; Reasoning effort=medium,https://cognition.com/frontiercode,1
+Gemini 3.6 Flash,FrontierCode,0.3437,standard,epoch,Gemini 3.6 Flash,unknown; Harness=devin-cli; Reasoning effort=medium,https://cognition.com/frontiercode,1
 Gemini 3.6 Flash,IOI (Vals),0.3506,standard,vals,gemini-3.6-flash,effort=high,https://www.vals.ai/benchmarks/ioi,1
 Gemini 3.6 Flash,LiveCodeBench (Vals),0.8808,standard,vals,gemini-3.6-flash,effort=high,https://www.vals.ai/benchmarks/lcb,1
+Gemini 3.6 Flash,MirrorCode,0.2333,standard,epoch,Gemini 3.6 Flash,high,https://epoch.ai/benchmarks,1
 Gemini 3.6 Flash,ProgramBench (Vals),0.0,standard,vals,gemini-3.6-flash,effort=high,https://www.vals.ai/benchmarks/programbench,1
 Gemini 3.6 Flash,SWE-bench Verified (Vals),0.796,standard,vals,gemini-3.6-flash,effort=high,https://www.vals.ai/benchmarks/swebench,1
 Gemini 3.6 Flash,SciCode,0.534,standard,legacy,Gemini 3.6 Flash,"AA harness, AA release 'Gemini 3.6 Flash (high)', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,3
@@ -1590,10 +1645,11 @@ Gemini 3.6 Flash,Vibe Code Bench (Vals),0.6401,standard,vals,gemini-3.6-flash,ef
 Gemini 3.6 Flash,WeirdML,0.561,standard,epoch,Gemini 3.6 Flash,high,https://htihle.github.io/weirdml.html,1
 Gemini 3.7 Flash,Code Migration (Vals),0.348,standard,vals,gemini-3.7-flash,effort=high,https://www.vals.ai/benchmarks/code-migration,1
 Gemini 3.7 Flash,DeepSWE,0.6549,standard,epoch,Gemini 3.7 Flash,medium; Harness=mini-swe-agent; Reasoning effort=medium,https://deepswe.datacurve.ai/,4
-Gemini 3.7 Flash,FrontierCode,0.4359,standard,epoch,Gemini 3.7 Flash,unknown; Harness=chisel; Reasoning effort=medium,https://cognition.com/frontiercode,1
+Gemini 3.7 Flash,FrontierCode,0.4359,standard,epoch,Gemini 3.7 Flash,unknown; Harness=devin-cli; Reasoning effort=medium,https://cognition.com/frontiercode,1
 Gemini 3.7 Flash,FrontierSWE,0.2026,standard,epoch,Gemini 3.7 Flash,high; Harness=proximus,https://www.frontierswe.com/,1
 Gemini 3.7 Flash,IOI (Vals),0.6783,standard,vals,gemini-3.7-flash,effort=high,https://www.vals.ai/benchmarks/ioi,1
 Gemini 3.7 Flash,LiveCodeBench (Vals),0.8865,standard,vals,gemini-3.7-flash,effort=high,https://www.vals.ai/benchmarks/lcb,1
+Gemini 3.7 Flash,MirrorCode,0.4111,standard,epoch,Gemini 3.7 Flash,high,https://epoch.ai/benchmarks,1
 Gemini 3.7 Flash,ProgramBench (Vals),0.0,standard,vals,gemini-3.7-flash,effort=high,https://www.vals.ai/benchmarks/programbench,1
 Gemini 3.7 Flash,SWE-bench Verified (Vals),0.808,standard,vals,gemini-3.7-flash,effort=high,https://www.vals.ai/benchmarks/swebench,1
 Gemini 3.7 Flash,SciCode,0.5984,standard,aa,Gemini 3.7 Flash (Medium),Medium,https://artificialanalysis.ai/models/gemini-3-7-flash-medium,7
@@ -1605,12 +1661,13 @@ Gemini 3.7 Flash,Vibe Code Bench (Vals),0.7039,standard,vals,gemini-3.7-flash,ef
 Gemini 3.8 Flash,Code Migration (Vals),0.3655,standard,vals,gemini-3.8-flash,effort=high,https://www.vals.ai/benchmarks/code-migration,1
 Gemini 3.8 Flash,CursorBench,0.396,standard,epoch,Gemini 3.8 Flash,high; Reasoning level=High,https://cursor.com/cursorbench,2
 Gemini 3.8 Flash,DeepSWE,0.7383,standard,epoch,Gemini 3.8 Flash,high; Harness=mini-swe-agent; Reasoning effort=high,https://deepswe.datacurve.ai/,3
-Gemini 3.8 Flash,FrontierCode,0.4119,standard,epoch,Gemini 3.8 Flash,medium; Harness=chisel; Reasoning effort=medium,https://cognition.com/frontiercode,1
+Gemini 3.8 Flash,FrontierCode,0.4119,standard,epoch,Gemini 3.8 Flash,medium; Harness=devin-cli; Reasoning effort=medium,https://cognition.com/frontiercode,1
 Gemini 3.8 Flash,FrontierCode 1.1 (AA),0.3713,standard,aa,Gemini 3.8 Flash (Medium),Medium,https://artificialanalysis.ai/models/gemini-3-8-flash-medium,3
 Gemini 3.8 Flash,FrontierCode 2.0 (AA),0.1874,standard,aa,Gemini 3.8 Flash (High),High,https://artificialanalysis.ai/models/gemini-3-8-flash,3
 Gemini 3.8 Flash,FrontierSWE,0.1963,standard,epoch,Gemini 3.8 Flash,high; Harness=proximus,https://www.frontierswe.com/,1
 Gemini 3.8 Flash,IOI (Vals),0.5694,standard,vals,gemini-3.8-flash,effort=high,https://www.vals.ai/benchmarks/ioi,1
 Gemini 3.8 Flash,LiveCodeBench (Vals),0.8948,standard,vals,gemini-3.8-flash,effort=high,https://www.vals.ai/benchmarks/lcb,1
+Gemini 3.8 Flash,MirrorCode,0.3889,standard,epoch,Gemini 3.8 Flash,high,https://epoch.ai/benchmarks,1
 Gemini 3.8 Flash,ProgramBench (Vals),0.01,standard,vals,gemini-3.8-flash,effort=high,https://www.vals.ai/benchmarks/programbench,1
 Gemini 3.8 Flash,SWE-bench Verified (Vals),0.8,standard,vals,gemini-3.8-flash,effort=high,https://www.vals.ai/benchmarks/swebench,1
 Gemini 3.8 Flash,SciCode,0.566,standard,legacy,Gemini 3.8 Flash,"AA harness, AA release 'Gemini 3.8 Flash (high)', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,7
@@ -1618,21 +1675,35 @@ Gemini 3.8 Flash,Surface Evolver Bench,0.7688,standard,epoch,Gemini 3.8 Flash,hi
 Gemini 3.8 Flash,Terminal-Bench 2.1,0.8764,standard,aa,Gemini 3.8 Flash (High),High,https://artificialanalysis.ai/models/gemini-3-8-flash,4
 Gemini 3.8 Flash,Terminal-Bench 2.1 (Vals),0.8127,standard,vals,gemini-3.8-flash,effort=high; harness=Terminus 2,https://www.vals.ai/benchmarks/terminal-bench-2-1,1
 Gemini 3.8 Flash,Terminal-Bench 4.0,0.197,standard,aa,Gemini 3.8 Flash (Medium),Medium,https://artificialanalysis.ai/models/gemini-3-8-flash-medium,4
-Gemini 3.8 Flash,Terminal-Bench 4.0 (Vals),0.1919,standard,vals,gemini-3.8-flash,effort=high; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,1
+Gemini 3.8 Flash,Terminal-Bench 4.0 (Vals),0.197,standard,vals,gemini-3.8-flash,effort=high; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,1
 Gemini 3.8 Flash,Vibe Code Bench (Vals),0.7865,standard,vals,gemini-3.8-flash,effort=high; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
 Gemini 3.8 Flash,Vibe Code Bench 1-100 (Vals),0.1877,standard,vals,gemini-3.8-flash,effort=high; harness=OpenHands,https://www.vals.ai/benchmarks/vcb-1-100,1
 Gemini 3.8 Flash,WeirdML,0.8481,standard,epoch,Gemini 3.8 Flash,high,https://htihle.github.io/weirdml.html,1
 Gemini 3.8 Flash,WeirdML v3,0.0738,standard,epoch,Gemini 3.8 Flash,high; Agent=gemini_cli; Reasoning effort=high,https://htihle.github.io/weirdml.html,1
 Gemini 4 Argon,Code Migration (Vals),0.6817,standard,vals,gemini-4-argon,effort=high,https://www.vals.ai/benchmarks/code-migration,1
+Gemini 4 Argon,CursorBench,0.529,standard,epoch,Gemini 4 Argon,high; Reasoning level=High,https://cursor.com/cursorbench,4
+Gemini 4 Argon,FrontierCode,0.4755,standard,epoch,Gemini 4 Argon,medium; Harness=devin-cli; Reasoning effort=medium,https://cognition.com/frontiercode,1
 Gemini 4 Argon,FrontierCode 1.1 (AA),0.4345,standard,aa,Gemini 4 Argon (High),High,https://artificialanalysis.ai/models/gemini-4-argon,1
 Gemini 4 Argon,FrontierCode 2.0 (AA),0.2571,standard,aa,Gemini 4 Argon (High),High,https://artificialanalysis.ai/models/gemini-4-argon,1
 Gemini 4 Argon,FrontierSWE,0.5496,standard,epoch,Gemini 4 Argon,high; Harness=proximus,https://www.frontierswe.com/,1
 Gemini 4 Argon,IOI (Vals),1.0,standard,vals,gemini-4-argon,effort=high,https://www.vals.ai/benchmarks/ioi,1
+Gemini 4 Argon,MirrorCode,0.5889,standard,epoch,Gemini 4 Argon,high,https://epoch.ai/benchmarks,1
+Gemini 4 Argon,PostTrainBench,0.4044,standard,epoch,Gemini 4 Argon,high; Scaffold=OpenCode,https://epoch.ai/benchmarks,1
 Gemini 4 Argon,ProgramBench (Vals),0.025,standard,vals,gemini-4-argon,effort=high,https://www.vals.ai/benchmarks/programbench,1
 Gemini 4 Argon,SciCode,0.6181,standard,aa,Gemini 4 Argon (High),High,https://artificialanalysis.ai/models/gemini-4-argon,2
+Gemini 4 Argon,Terminal-Bench 2.1 (Vals),0.5768,standard,vals,gemini-4-argon,effort=high; harness=Terminus 2,https://www.vals.ai/benchmarks/terminal-bench-2-1,1
 Gemini 4 Argon,Terminal-Bench 4.0,0.5707,standard,aa,Gemini 4 Argon (High),High,https://artificialanalysis.ai/models/gemini-4-argon,1
 Gemini 4 Argon,Terminal-Bench 4.0 (Vals),0.5758,standard,vals,gemini-4-argon,effort=high; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,1
 Gemini 4 Argon,Vibe Code Bench (Vals),0.9191,standard,vals,gemini-4-argon,effort=high; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
+Gemini 4 Argon,Vibe Code Bench 1-100 (Vals),0.212,standard,vals,gemini-4-argon,effort=high; harness=OpenHands,https://www.vals.ai/benchmarks/vcb-1-100,1
+Gemini 4 Argon,WeirdML v3,0.2026,standard,epoch,Gemini 4 Argon,high; Agent=gemini_cli; Reasoning effort=high,https://htihle.github.io/weirdml.html,1
+Gemini 4 Carbon,CursorBench,0.604,standard,epoch,Gemini 4 Carbon,high; Reasoning level=High,https://cursor.com/cursorbench,4
+Gemini 4 Carbon,FrontierCode 2.0 (AA),0.4056,standard,aa,Gemini 4 Carbon (High),High,https://artificialanalysis.ai/models/gemini-4-carbon,3
+Gemini 4 Carbon,FrontierSWE,0.612,standard,epoch,Gemini 4 Carbon,high; Harness=proximus,https://www.frontierswe.com/,1
+Gemini 4 Carbon,SciCode,0.6424,standard,epoch,Gemini 4 Carbon,high; Provider=Google,https://artificialanalysis.ai/evaluations/scicode,1
+Gemini 4 Carbon,Terminal-Bench 4.0,0.6515,standard,aa,Gemini 4 Carbon (High),High,https://artificialanalysis.ai/models/gemini-4-carbon,3
+Gemini 4 Carbon,Terminal-Bench 4.0 (Vals),0.6313,standard,vals,gemini-4-carbon,effort=high; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,1
+Gemini 4 Carbon,Vibe Code Bench (Vals),0.8906,standard,vals,gemini-4-carbon,effort=high; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
 Gemma (Gemma 1),HumanEval,0.427,standard,evalplus,gemma-1.1-7b-it,,https://evalplus.github.io/leaderboard.html,6
 Gemma (Gemma 1),HumanEval+,0.354,standard,evalplus,gemma-1.1-7b-it,,https://evalplus.github.io/leaderboard.html,6
 Gemma (Gemma 1),MBPP,0.571,standard,evalplus,gemma-1.1-7b-it,,https://evalplus.github.io/leaderboard.html,5
@@ -1829,7 +1900,8 @@ Grok 4.5,DeepSWE,0.5376,standard,epoch,Grok 4.5,high; Harness=mini-swe-agent; Re
 Grok 4.5,FrontierCode,0.4244,standard,epoch,Grok 4.5,unknown; Harness=grok-build; Reasoning effort=high,https://cognition.com/frontiercode,1
 Grok 4.5,IOI (Vals),0.4056,standard,vals,grok-4.5,effort=high,https://www.vals.ai/benchmarks/ioi,1
 Grok 4.5,LiveCodeBench (Vals),0.8735,standard,vals,grok-4.5,effort=high,https://www.vals.ai/benchmarks/lcb,1
-Grok 4.5,PostTrainBench,0.2345,standard,epoch,Grok 4.5,high; Scaffold=Cursor CLI,https://epoch.ai/benchmarks,1
+Grok 4.5,MirrorCode,0.3222,standard,epoch,Grok 4.5,high,https://epoch.ai/benchmarks,1
+Grok 4.5,PostTrainBench,0.2262,standard,epoch,Grok 4.5,high; Scaffold=Cursor CLI,https://epoch.ai/benchmarks,1
 Grok 4.5,ProgramBench (Vals),0.0,standard,vals,grok-4.5,effort=high,https://www.vals.ai/benchmarks/programbench,1
 Grok 4.5,SWE-bench Verified (Vals),0.866,standard,vals,grok-4.5,effort=high,https://www.vals.ai/benchmarks/swebench,1
 Grok 4.5,SWE-rebench [tools] 2026-06,0.5571,standard,swerebench,Grok 4.5,agent=tools; effort=high,https://swe-rebench.com/,1
@@ -1849,6 +1921,7 @@ Grok 4.6,FrontierCode 2.0 (AA),0.1975,standard,aa,Grok 4.6 (Xhigh),Xhigh,https:/
 Grok 4.6,FrontierSWE,0.2529,standard,epoch,Grok 4.6,xhigh; Harness=proximus,https://www.frontierswe.com/,1
 Grok 4.6,IOI (Vals),0.4761,standard,vals,grok-4.6,effort=high,https://www.vals.ai/benchmarks/ioi,1
 Grok 4.6,LiveCodeBench (Vals),0.8822,standard,vals,grok-4.6,effort=high,https://www.vals.ai/benchmarks/lcb,1
+Grok 4.6,MirrorCode,0.4111,standard,epoch,Grok 4.6,xhigh,https://epoch.ai/benchmarks,1
 Grok 4.6,ProgramBench (Vals),0.01,standard,vals,grok-4.6,effort=high,https://www.vals.ai/benchmarks/programbench,1
 Grok 4.6,SWE-bench Verified (Vals),0.956,standard,vals,grok-4.6,effort=high,https://www.vals.ai/benchmarks/swebench,1
 Grok 4.6,SciCode,0.5648,standard,aa,Grok 4.6 (High),High,https://artificialanalysis.ai/models/grok-4-6,9
@@ -1866,13 +1939,14 @@ Grok 4.7,FrontierCode 1.1 (AA),0.3959,standard,aa,Grok 4.7 (Low),Low,https://art
 Grok 4.7,FrontierCode 2.0 (AA),0.2866,standard,aa,Grok 4.7 (Xhigh),Xhigh,https://artificialanalysis.ai/models/grok-4-7,3
 Grok 4.7,FrontierSWE,0.295,standard,epoch,Grok 4.7,xhigh; Harness=proximus,https://www.frontierswe.com/,1
 Grok 4.7,IOI (Vals),0.5772,standard,vals,grok-4.7,effort=xhigh,https://www.vals.ai/benchmarks/ioi,1
+Grok 4.7,MirrorCode,0.5444,standard,epoch,Grok 4.7,xhigh,https://epoch.ai/benchmarks,1
 Grok 4.7,ProgramBench (Vals),0.005,standard,vals,grok-4.7,effort=xhigh,https://www.vals.ai/benchmarks/programbench,1
 Grok 4.7,SciCode,0.5775,standard,epoch,Grok 4.7,high,https://artificialanalysis.ai/evaluations/scicode,6
 Grok 4.7,Terminal-Bench 2.1 (Vals),0.7341,standard,vals,grok-4.7,effort=xhigh; harness=Terminus 2,https://www.vals.ai/benchmarks/terminal-bench-2-1,1
 Grok 4.7,Terminal-Bench 4.0,0.2576,standard,aa,Grok 4.7 (Xhigh),Xhigh,https://artificialanalysis.ai/models/grok-4-7,3
 Grok 4.7,Terminal-Bench 4.0 (Vals),0.2879,standard,vals,grok-4.7,effort=xhigh; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,1
 Grok 4.7,Vibe Code Bench (Vals),0.8618,standard,vals,grok-4.7,effort=xhigh; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
-Grok 4.7,WeirdML v3,0.0862,standard,epoch,Grok 4.7,xhigh; Agent=codex_cli; Reasoning effort=xhigh,https://htihle.github.io/weirdml.html,1
+Grok 4.7,WeirdML v3,0.0845,standard,epoch,Grok 4.7,xhigh; Agent=codex_cli; Reasoning effort=xhigh,https://htihle.github.io/weirdml.html,1
 Grok Build 0.1,SWE-bench Verified,0.708,self,legacy,Grok Build 0.1,"xAI blog: 'On the full subset of SWE-Bench-Verified, grok-code-fast-1 scored 70.8% using our own internal harness'; docs.x.ai lists grok-build-0.1 as an alias of grok-code-fast-1 (same model, renamed)",https://x.ai/news/grok-code-fast-1,1
 Grok Build 0.1,SciCode,0.5023,standard,epoch,Grok Build 0.1,Provider=SpaceXAI,https://artificialanalysis.ai/evaluations/scicode,1
 Grok Build 0.1,Terminal-Bench 2.1,0.5206,standard,legacy,Grok Build 0.1,"AA harness, AA release 'Grok Build 0.1 0616', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,2
@@ -1920,6 +1994,16 @@ Inkling,Terminal-Bench 4.0 (Vals),0.005,standard,vals,inkling,effort=0.99; harne
 Inkling,Vibe Code Bench (Vals),0.1921,standard,vals,inkling,effort=0.99; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
 Inkling,Vibe Code Bench 1-100 (Vals),0.0733,standard,vals,inkling,effort=0.99; harness=OpenHands,https://www.vals.ai/benchmarks/vcb-1-100,1
 Inkling,WeirdML,0.3229,standard,epoch,Inkling,high,https://htihle.github.io/weirdml.html,1
+Inkling,WeirdML v3,0.039,standard,epoch,Inkling,xhigh; Agent=opencode; Reasoning effort=xhigh,https://htihle.github.io/weirdml.html,1
+Inkling 2 Small,DeepSWE,0.721,self,manual,Inkling 2 Small,DeepSWE v1.1; effort=xhigh; temperature=1.0,https://thinkingmachines.ai/news/inkling-2-small/,1
+Inkling 2 Small,FrontierCode 2.0 (AA),0.2535,standard,aa,Inkling 2 Small,,https://artificialanalysis.ai/models/inkling-2-small,2
+Inkling 2 Small,PostTrainBench,0.319,self,manual,Inkling 2 Small,PostTrainBench v1.2; effort=xhigh; temperature=1.0,https://thinkingmachines.ai/news/inkling-2-small/,1
+Inkling 2 Small,ProgramBench (Vals),0.005,standard,vals,inkling-2-small,effort=0.99,https://www.vals.ai/benchmarks/programbench,1
+Inkling 2 Small,SciCode,0.5231,standard,epoch,Inkling 2 Small,unknown; Provider=Thinking Machines,https://artificialanalysis.ai/evaluations/scicode,2
+Inkling 2 Small,Terminal-Bench 2.1,0.8127,standard,aa,Inkling 2 Small,,https://artificialanalysis.ai/models/inkling-2-small,1
+Inkling 2 Small,Terminal-Bench 4.0,0.1313,standard,aa,Inkling 2 Small,,https://artificialanalysis.ai/models/inkling-2-small,1
+Inkling 2 Small,Terminal-Bench 4.0 (Vals),0.1263,standard,vals,inkling-2-small,effort=0.99; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,1
+Inkling 2 Small,Vibe Code Bench (Vals),0.8155,standard,vals,inkling-2-small,effort=0.99; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
 Inkling-Small,Code Migration (Vals),0.1368,standard,vals,inkling-small,effort=0.99,https://www.vals.ai/benchmarks/code-migration,1
 Inkling-Small,FrontierCode 1.1 (AA),0.0055,standard,aa,Inkling Small,,https://artificialanalysis.ai/models/inkling-small,1
 Inkling-Small,FrontierCode 2.0 (AA),0.0477,standard,aa,Inkling Small,,https://artificialanalysis.ai/models/inkling-small,1
@@ -2032,7 +2116,7 @@ Kimi K2.7 Code,LiveCodeBench (Vals),0.8205,standard,vals,kimi-k2.7-code,,https:/
 Kimi K2.7 Code,ProgramBench,0.536,self,legacy,Kimi K2.7 Code,"thinking mode via Kimi Code CLI, temp 1.0, top-p 0.95, 262k context; official HF card",https://huggingface.co/moonshotai/Kimi-K2.7-Code,1
 Kimi K2.7 Code,ProgramBench (Vals),0.0,standard,vals,kimi-k2.7-code,,https://www.vals.ai/benchmarks/programbench,1
 Kimi K2.7 Code,SWE-bench Verified (Vals),0.782,standard,vals,kimi-k2.7-code,,https://www.vals.ai/benchmarks/swebench,1
-Kimi K2.7 Code,SciCode,0.478,standard,aa,Kimi K2.7 Code,,https://artificialanalysis.ai/models/kimi-k2-7-code,2
+Kimi K2.7 Code,SciCode,0.478,standard,epoch,Kimi K2.7 Code,Provider=Kimi,https://artificialanalysis.ai/evaluations/scicode,2
 Kimi K2.7 Code,Surface Evolver Bench,0.4875,standard,epoch,Kimi K2.7 Code,Provider=kimi,https://yhenon.github.io/surface-evolver-llm-eval/,1
 Kimi K2.7 Code,Terminal-Bench 2.1,0.6742,standard,legacy,Kimi K2.7 Code,"AA harness, AA release 'Kimi K2.7 Code', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,2
 Kimi K2.7 Code,Terminal-Bench 2.1 (Vals),0.6704,standard,vals,kimi-k2.7-code,harness=Terminus 2,https://www.vals.ai/benchmarks/terminal-bench-2-1,1
@@ -2048,7 +2132,8 @@ Kimi K3,FrontierCode 2.0 (AA),0.109,standard,aa,Kimi K3 (Low),Low,https://artifi
 Kimi K3,FrontierSWE,0.2587,standard,epoch,Kimi K3,max; Harness=proximus,https://www.frontierswe.com/,1
 Kimi K3,IOI (Vals),0.4894,standard,vals,kimi-k3,effort=max,https://www.vals.ai/benchmarks/ioi,1
 Kimi K3,LiveCodeBench (Vals),0.8719,standard,vals,kimi-k3,effort=max,https://www.vals.ai/benchmarks/lcb,1
-Kimi K3,PostTrainBench,0.3196,standard,epoch,Kimi K3,unknown; Scaffold=Claude Code,https://epoch.ai/benchmarks,1
+Kimi K3,MirrorCode,0.5444,standard,epoch,Kimi K3,max,https://epoch.ai/benchmarks,1
+Kimi K3,PostTrainBench,0.3148,standard,epoch,Kimi K3,unknown; Scaffold=Claude Code,https://epoch.ai/benchmarks,1
 Kimi K3,ProgramBench,0.778,self,legacy,Kimi K3,"K3 max setting, official HF card",https://huggingface.co/moonshotai/Kimi-K3,1
 Kimi K3,ProgramBench (Vals),0.02,standard,vals,kimi-k3,,https://www.vals.ai/benchmarks/programbench,1
 Kimi K3,SWE-bench Verified (Vals),0.934,standard,vals,kimi-k3,,https://www.vals.ai/benchmarks/swebench,1
@@ -2061,13 +2146,17 @@ Kimi K3,Terminal-Bench 4.0 (Vals),0.1717,standard,vals,kimi-k3,effort=max; harne
 Kimi K3,Vibe Code Bench (Vals),0.8497,standard,vals,kimi-k3,effort=max; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
 Kimi K3,Vibe Code Bench 1-100 (Vals),0.1824,standard,vals,kimi-k3,effort=max; harness=OpenHands,https://www.vals.ai/benchmarks/vcb-1-100,1
 Kimi K3,WeirdML,0.8257,standard,epoch,Kimi K3,max,https://htihle.github.io/weirdml.html,1
-Kimi K3,WeirdML v3,0.0727,standard,epoch,Kimi K3,high; Agent=kimi_code; Reasoning effort=high,https://htihle.github.io/weirdml.html,1
+Kimi K3,WeirdML v3,0.0754,standard,epoch,Kimi K3,high; Agent=kimi_code; Reasoning effort=high,https://htihle.github.io/weirdml.html,1
 Kimi K3.1 Pro,DeepSWE,0.755,self,manual,Kimi K3.1 Pro,effort=max; harness=Claude Code; temperature=1.0; top_p=0.95,https://www.kimi.com/en/blog/kimi-k3-1-pro,1
 Kimi K3.1 Pro,FrontierCode 1.1 (AA),0.4707,standard,aa,Kimi K3.1 Pro,,https://artificialanalysis.ai/models/kimi-k3-1-pro,1
 Kimi K3.1 Pro,FrontierCode 2.0 (AA),0.2545,standard,aa,Kimi K3.1 Pro,,https://artificialanalysis.ai/models/kimi-k3-1-pro,1
+Kimi K3.1 Pro,IOI (Vals),0.8189,standard,vals,kimi-k3.1-pro,effort=max,https://www.vals.ai/benchmarks/ioi,1
 Kimi K3.1 Pro,PostTrainBench,0.365,self,manual,Kimi K3.1 Pro,PostTrain Bench v1.2; effort=max; harness=Claude Code; H20 GPUs; judge=DeepSeek-V4.1-Flash-1017 max,https://www.kimi.com/en/blog/kimi-k3-1-pro,1
-Kimi K3.1 Pro,SciCode,0.6076,standard,aa,Kimi K3.1 Pro,,https://artificialanalysis.ai/models/kimi-k3-1-pro,1
+Kimi K3.1 Pro,SciCode,0.6076,standard,aa,Kimi K3.1 Pro,,https://artificialanalysis.ai/models/kimi-k3-1-pro,2
 Kimi K3.1 Pro,Terminal-Bench 4.0,0.6717,standard,aa,Kimi K3.1 Pro,,https://artificialanalysis.ai/models/kimi-k3-1-pro,2
+Kimi K3.1 Pro,Terminal-Bench 4.0 (Vals),0.6364,standard,vals,kimi-k3.1-pro,effort=max; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,1
+Kimi K3.1 Pro,Vibe Code Bench (Vals),0.8489,standard,vals,kimi-k3.1-pro,effort=max; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
+Kimi K3.1 Pro,WeirdML v3,0.0989,standard,epoch,Kimi K3.1 Pro,xhigh; Agent=kimi_code; Reasoning effort=xhigh,https://htihle.github.io/weirdml.html,1
 Kimi-Dev-72B,SWE-bench Verified,0.604,self,legacy,Kimi-Dev-72B,"Official card claim: 60.4 SWE-bench Verified, open-source SOTA at release (June 2025)",https://huggingface.co/MoonshotAI/Kimi-Dev-72B,1
 Kimi-Linear-48B-A3B,HumanEval+,0.709,self,legacy,Kimi-Linear-48B-A3B,"Kimi-Linear-48B-A3B-Instruct, Table 35 of Kimi Linear paper",https://arxiv.org/html/2510.26692v1,1
 Kimi-Linear-48B-A3B,LiveCodeBench,0.378,standard,legacy,Kimi-Linear-48B-A3B,"AA harness, AA release 'Kimi Linear 48B A3B Instruct', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,2
@@ -2093,6 +2182,11 @@ LFM2.5-24B-A2B,SWE-bench Verified,0.51,self,manual,LFM2.5-24B-A2B,OpenCode harne
 LFM2.5-24B-A2B,SciCode,0.3271,self,manual,LFM2.5-24B-A2B,vLLM; temperature=0.6; max_tokens=32768,https://huggingface.co/LiquidAI/LFM2.5-24B-A2B,1
 LFM2.5-8B-A1B,Terminal-Bench Hard,0.0455,standard,legacy,LFM2.5-8B-A1B,"AA harness, AA release 'LFM2.5-8B-A1B', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,2
 LFM2.5-VL-1.6B,Terminal-Bench Hard,0.0,standard,aa,LFM2.5-VL-1.6B,,https://artificialanalysis.ai/models/lfm2-5-vl-1-6b,2
+LFM3-1.7B,LiveCodeBench,0.7346,self,manual,LFM3-1.7B,"LiveCodeBench v6 (release_v6: problems from May 2023 through April 2025, 1055 problems); vLLM BF16; temperature 0.6; top_p 0.95",https://huggingface.co/LiquidAI/LFM3-1.7B,1
+LFM3-1.7B,SWE-bench Multilingual,0.23,self,manual,LFM3-1.7B,OpenCode agent; up to 250 turns; vLLM BF16; full context; temperature 0.6; top_p 0.95,https://huggingface.co/LiquidAI/LFM3-1.7B,1
+LFM3-1.7B,SWE-bench Verified,0.434,self,manual,LFM3-1.7B,OpenCode agent; up to 250 turns; vLLM BF16; full context; temperature 0.6; top_p 0.95,https://huggingface.co/LiquidAI/LFM3-1.7B,1
+LFM3-1.7B,SciCode,0.2847,self,manual,LFM3-1.7B,vLLM BF16; full context; temperature 0.6; top_p 0.95,https://huggingface.co/LiquidAI/LFM3-1.7B,1
+LFM3-1.7B,Terminal-Bench 2.1,0.1292,self,manual,LFM3-1.7B,OpenCode agent; up to 100 turns; vLLM BF16; full context; temperature 0.6; top_p 0.95,https://huggingface.co/LiquidAI/LFM3-1.7B,1
 Laguna M.1,LiveCodeBench (Vals),0.6812,standard,vals,laguna-m.1,,https://www.vals.ai/benchmarks/lcb,1
 Laguna M.1,ProgramBench (Vals),0.0,standard,vals,laguna-m.1,,https://www.vals.ai/benchmarks/programbench,1
 Laguna M.1,SWE-bench Verified (Vals),0.576,standard,vals,laguna-m.1,,https://www.vals.ai/benchmarks/swebench,1
@@ -2225,7 +2319,7 @@ Llama 4 Maverick,SWE-rebench [text] 2025-04,0.09,standard,swerebench,Llama-4-Mav
 Llama 4 Maverick,SWE-rebench [text] 2025-05,0.165,standard,swerebench,Llama-4-Maverick-17B-128E-Instruct,agent=text,https://swe-rebench.com/,1
 Llama 4 Maverick,SWE-rebench [text] 2025-06,0.185,standard,swerebench,Llama-4-Maverick-17B-128E-Instruct,agent=text,https://swe-rebench.com/,1
 Llama 4 Maverick,SWE-rebench [text] 2025-07,0.0733,standard,swerebench,Llama-4-Maverick-17B-128E-Instruct,agent=text,https://swe-rebench.com/,1
-Llama 4 Maverick,SciCode,0.331,standard,epoch,Llama 4 Maverick,Provider=Meta,https://artificialanalysis.ai/evaluations/scicode,2
+Llama 4 Maverick,SciCode,0.3171,standard,aa,Llama 4 Maverick,,https://artificialanalysis.ai/models/llama-4-maverick,2
 Llama 4 Maverick,Terminal-Bench 2.0 (Vals),0.0225,standard,vals,llama4-maverick-instruct-basic,,https://www.vals.ai/benchmarks/terminal-bench-2,1
 Llama 4 Maverick,Terminal-Bench 2.1,0.0787,standard,legacy,Llama 4 Maverick,"AA harness, AA release 'Llama 4 Maverick', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,2
 Llama 4 Maverick,Terminal-Bench 4.0,0.0,standard,aa,Llama 4 Maverick,,https://artificialanalysis.ai/models/llama-4-maverick,1
@@ -2264,6 +2358,10 @@ LongCat-2.0,SWE-bench Pro,0.595,self,manual,LongCat-2.0,,https://huggingface.co/
 LongCat-2.0,SciCode,0.3634,standard,aa,LongCat 2.0,,https://artificialanalysis.ai/models/longcat-2-0,1
 LongCat-2.0,Terminal-Bench 2.1,0.5019,standard,aa,LongCat 2.0,,https://artificialanalysis.ai/models/longcat-2-0,2
 LongCat-2.0,Terminal-Bench 4.0,0.0,standard,aa,LongCat 2.0,,https://artificialanalysis.ai/models/longcat-2-0,1
+LongCat-2.5,DeepSWE,0.646,self,manual,LongCat-2.5,DeepSWE v1.1; mini-swe-agent; temperature=1.0; top_p=0.95; max_seq_length=1M; mean of 3 runs,https://longcat.ai/blog/longcat-2.5/,1
+LongCat-2.5,ProgramBench,0.255,self,manual,LongCat-2.5,Program Bench Almost Resolved; Claude Code v2.1.280; max_seq_length=512K,https://longcat.ai/blog/longcat-2.5/,1
+LongCat-2.5,Terminal-Bench 2.1,0.884,self,manual,LongCat-2.5,Terminal Bench v2.1; Claude Code v2.1.280; max_seq_length=512K; mean of 3 runs,https://longcat.ai/blog/longcat-2.5/,1
+LongCat-2.5,Terminal-Bench 4.0,0.385,self,manual,LongCat-2.5,Terminal Bench v4.0; Claude Code v2.1.280; max_seq_length=512K,https://longcat.ai/blog/longcat-2.5/,1
 LongCat-Flash-Chat,HumanEval+,0.8841,self,manual,LongCat-Flash-Chat,pass@1,https://huggingface.co/meituan-longcat/LongCat-Flash-Chat,1
 LongCat-Flash-Chat,LiveCodeBench,0.4802,self,manual,LongCat-Flash-Chat,pass@1,https://huggingface.co/meituan-longcat/LongCat-Flash-Chat,1
 LongCat-Flash-Chat,MBPP+,0.7963,self,manual,LongCat-Flash-Chat,pass@1,https://huggingface.co/meituan-longcat/LongCat-Flash-Chat,1
@@ -2433,7 +2531,7 @@ MiniMax-M2.7,ProgramBench (Vals),0.0,standard,vals,MiniMax-M2.7,,https://www.val
 MiniMax-M2.7,SWE-bench Multilingual,0.765,self,legacy,MiniMax-M2.7,self-reported official model page,https://www.minimax.io/models/text/m27,1
 MiniMax-M2.7,SWE-bench Verified (Vals),0.738,standard,vals,MiniMax-M2.7,,https://www.vals.ai/benchmarks/swebench,1
 MiniMax-M2.7,SWE-rebench [tools] 2026-02,0.5195,standard,swerebench,MiniMax M2.7,agent=tools,https://swe-rebench.com/,1
-MiniMax-M2.7,SciCode,0.5012,standard,aa,MiniMax-M2.7,,https://artificialanalysis.ai/models/minimax-m2-7,2
+MiniMax-M2.7,SciCode,0.5012,standard,epoch,MiniMax-M2.7,Provider=MiniMax,https://artificialanalysis.ai/evaluations/scicode,2
 MiniMax-M2.7,Terminal-Bench 2.0,0.4506,leaderboard,epoch,MiniMax-M2.7,Agent=IndusAGI Coding Agent,https://www.tbench.ai/leaderboard/terminal-bench/2.0,3
 MiniMax-M2.7,Terminal-Bench 2.0 (Vals),0.4719,standard,vals,MiniMax-M2.7,,https://www.vals.ai/benchmarks/terminal-bench-2,1
 MiniMax-M2.7,Terminal-Bench 2.1,0.5543,standard,aa,MiniMax-M2.7,,https://artificialanalysis.ai/models/minimax-m2-7,2
@@ -2469,8 +2567,8 @@ MiniMax-M3.1-Flash,FrontierCode 2.0 (AA),0.2082,standard,aa,MiniMax-M3.1-Flash,,
 MiniMax-M3.1-Flash,PostTrainBench,0.393,self,manual,MiniMax-M3.1-Flash,PostTrain Bench v1.1; Claude Code 2.1.251; 512K context,https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash,1
 MiniMax-M3.1-Flash,SciCode,0.5336,standard,aa,MiniMax-M3.1-Flash,,https://artificialanalysis.ai/models/minimax-m3-1-flash,2
 MiniMax-M3.1-Flash,Terminal-Bench 4.0,0.2576,standard,manual,MiniMax-M3.1-Flash,listed as minimax-m3-1-flash; via artificialanalysis.ai,https://artificialanalysis.ai/evaluations/terminalbench-4-0,3
-MiniMax-M3.1-Flash,Terminal-Bench 4.0 (Vals),0.2525,standard,manual,MiniMax-M3.1-Flash,effort=max; harness=Mini-SWE-agent; listed as minimax/MiniMax-M3.1-flash,https://www.vals.ai/benchmarks/terminal-bench-4,1
-MiniMax-M3.1-Flash,Vibe Code Bench (Vals),0.7394,standard,manual,MiniMax-M3.1-Flash,effort=max; harness=OpenHands; listed as minimax/MiniMax-M3.1-flash,https://www.vals.ai/benchmarks/vibe-code,1
+MiniMax-M3.1-Flash,Terminal-Bench 4.0 (Vals),0.2525,standard,vals,MiniMax-M3.1-flash,effort=max; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,2
+MiniMax-M3.1-Flash,Vibe Code Bench (Vals),0.7394,standard,vals,MiniMax-M3.1-flash,effort=max; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,2
 MiniMax-Text-01,HumanEval,0.869,self,legacy,MiniMax-Text-01,Official README table,https://raw.githubusercontent.com/MiniMax-AI/MiniMax-01/main/README.md,1
 MiniMax-Text-01,MBPP+,0.717,self,legacy,MiniMax-Text-01,Official README table,https://raw.githubusercontent.com/MiniMax-AI/MiniMax-01/main/README.md,1
 Ministral 3 14B,LiveCodeBench,0.3513,standard,aa,Ministral 3 14B,,https://artificialanalysis.ai/models/ministral-3-14b,2
@@ -2520,26 +2618,30 @@ Mistral Large 3,Terminal-Bench 2.1,0.1199,standard,legacy,Mistral Large 3,"AA ha
 Mistral Large 3,Terminal-Bench 4.0,0.0,standard,aa,Mistral Large 3,,https://artificialanalysis.ai/models/mistral-large-3,1
 Mistral Large 3,Terminal-Bench Hard,0.1591,standard,legacy,Mistral Large 3,"AA harness, AA release 'Mistral Large 3', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,2
 Mistral Large 4,Code Migration (Vals),0.3056,standard,vals,mistral-large-4,effort=high,https://www.vals.ai/benchmarks/code-migration,1
+Mistral Large 4,FrontierCode,0.3943,standard,epoch,Mistral Large 4 Preview,high; Harness=chisel; Reasoning effort=high,https://cognition.com/frontiercode,1
 Mistral Large 4,FrontierCode 1.1 (AA),0.4153,standard,aa,Mistral Large 4 Preview,,https://artificialanalysis.ai/models/mistral-large-4-preview,2
 Mistral Large 4,FrontierCode 2.0 (AA),0.1496,standard,aa,Mistral Large 4 (High),High,https://artificialanalysis.ai/models/mistral-large-4,3
 Mistral Large 4,IOI (Vals),0.4528,standard,vals,mistral-large-4,effort=high,https://www.vals.ai/benchmarks/ioi,1
-Mistral Large 4,SciCode,0.5417,standard,aa,Mistral Large 4 Preview,,https://artificialanalysis.ai/models/mistral-large-4-preview,1
+Mistral Large 4,MirrorCode,0.2778,standard,epoch,Mistral Large 4 Preview,high,https://epoch.ai/benchmarks,1
+Mistral Large 4,SciCode,0.5417,standard,aa,Mistral Large 4 Preview,,https://artificialanalysis.ai/models/mistral-large-4-preview,2
+Mistral Large 4,Surface Evolver Bench,0.2812,standard,epoch,Mistral Large 4 Preview,unknown; Provider=mistral,https://yhenon.github.io/surface-evolver-llm-eval/,1
 Mistral Large 4,Terminal-Bench 4.0,0.2677,standard,aa,Mistral Large 4 Preview,,https://artificialanalysis.ai/models/mistral-large-4-preview,3
-Mistral Large 4,Terminal-Bench 4.0 (Vals),0.2273,standard,vals,mistral-large-4,effort=high; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,1
+Mistral Large 4,Terminal-Bench 4.0 (Vals),0.2778,standard,vals,mistral-large-4,effort=high; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,1
 Mistral Large 4,Vibe Code Bench (Vals),0.784,standard,vals,mistral-large-4,effort=high; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
 Mistral Large 4,Vibe Code Bench 1-100 (Vals),0.1426,standard,vals,mistral-large-4,effort=high; harness=OpenHands,https://www.vals.ai/benchmarks/vcb-1-100,1
+Mistral Large 4,WeirdML v3,0.0445,standard,epoch,Mistral Large 4 Preview,high; Agent=opencode; Reasoning effort=high,https://htihle.github.io/weirdml.html,1
 Mistral Medium 1.0,LiveBench Coding,0.6148,leaderboard,legacy,Mistral Medium 1.0,mean of code_completion + code_generation subtasks; LiveBench archived table (2025-04-25),"https://livebench.ai/table_2025_04_25.csv (archived table, github.com/LiveBench/livebench.github.io)",1
 Mistral Medium 1.0,LiveCodeBench,0.099,standard,legacy,Mistral Medium 1.0,"AA harness, AA release 'Mistral Medium', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,1
 Mistral Medium 3,LiveCodeBench,0.4,standard,aa,Mistral Medium 3,,https://artificialanalysis.ai/models/mistral-medium-3,2
 Mistral Medium 3,Terminal-Bench Hard,0.0379,standard,legacy,Mistral Medium 3,"AA harness, AA release 'Mistral Medium 3', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,2
 Mistral Medium 3.1,LiveCodeBench,0.4063,standard,aa,Mistral Medium 3.1,,https://artificialanalysis.ai/models/mistral-medium-3-1,2
-Mistral Medium 3.1,SciCode,0.338,standard,epoch,Mistral Medium 3.1,Provider=Mistral,https://artificialanalysis.ai/evaluations/scicode,2
+Mistral Medium 3.1,SciCode,0.3241,standard,epoch,Mistral Medium 3.1,Provider=Mistral,https://artificialanalysis.ai/evaluations/scicode,2
 Mistral Medium 3.1,Terminal-Bench 2.1,0.1386,standard,legacy,Mistral Medium 3.1,"AA harness, AA release 'Mistral Medium 3.1', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,2
 Mistral Medium 3.1,Terminal-Bench 4.0,0.0,standard,aa,Mistral Medium 3.1,,https://artificialanalysis.ai/models/mistral-medium-3-1,1
 Mistral Medium 3.1,Terminal-Bench Hard,0.1061,standard,legacy,Mistral Medium 3.1,"AA harness, AA release 'Mistral Medium 3.1', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,2
 Mistral Medium 3.1,WeirdML,0.3313,standard,epoch,Mistral Medium 3.1,,https://htihle.github.io/weirdml.html,1
 Mistral Medium 3.5,Code Migration (Vals),0.0513,standard,vals,mistral-medium-3.5,effort=high,https://www.vals.ai/benchmarks/code-migration,1
-Mistral Medium 3.5,FrontierCode,0.08,standard,epoch,Mistral Medium 3.5,Harness=chisel; Reasoning effort=none,https://cognition.com/frontiercode,1
+Mistral Medium 3.5,FrontierCode,0.08,standard,epoch,Mistral Medium 3.5,Harness=devin-cli; Reasoning effort=none,https://cognition.com/frontiercode,1
 Mistral Medium 3.5,FrontierCode 2.0 (AA),0.0177,standard,aa,Mistral Medium 3.5,,https://artificialanalysis.ai/models/mistral-medium-3-5,1
 Mistral Medium 3.5,SWE-bench Verified,0.776,self,legacy,Mistral Medium 3.5,"self-reported, agentic eval (scaffold not stated in card), supersedes Devstral 2 in Vibe CLI",https://huggingface.co/mistralai/Mistral-Medium-3.5-128B/raw/main/README.md,1
 Mistral Medium 3.5,SWE-bench Verified (Vals),0.664,standard,vals,mistral-medium-3.5,effort=high,https://www.vals.ai/benchmarks/swebench,1
@@ -2608,6 +2710,10 @@ Moonlight-16B-A3B,MBPP,0.638,self,legacy,Moonlight-16B-A3B,Moonlight-16B-A3B-Ins
 Moonlight-16B-A3B,MBPP+,0.563,self,legacy,Moonlight-16B-A3B,"Moonlight-Instruct, Table 35",https://arxiv.org/html/2510.26692v1,1
 Muse Code,DeepSWE,0.593,self,legacy,Muse Code,"DeepSWE v1.1 (113 tasks, 91 repos), Muse Spark 1.2 + Muse Code, xhigh, pass@1 avg of 5 attempts, internet blocked during rollout (vendor-run; not harness-identical to the mini-swe-agent leaderboard)",https://llm-stats.com/api/models/muse-spark-1.2,1
 Muse Code,Terminal-Bench 2.1,0.829,self,legacy,Muse Code,"Muse Spark 1.2 running INSIDE the Muse Code agent harness, xhigh reasoning, Meta internal agentic framework in Daytona sandboxes, official 89-task TB2.1, pass@1 averaged over 5 attempts (vendor-run; n",https://llm-stats.com/api/models/muse-spark-1.2,1
+Muse Ember,FrontierCode 2.0 (AA),0.2717,standard,aa,Muse Ember (Max),Max,https://artificialanalysis.ai/models/muse-ember,3
+Muse Ember,Terminal-Bench 4.0,0.4091,standard,aa,Muse Ember (Max),Max,https://artificialanalysis.ai/models/muse-ember,3
+Muse Ember,Terminal-Bench 4.0 (Vals),0.3939,standard,vals,muse-ember,effort=max; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,1
+Muse Ember,Vibe Code Bench (Vals),0.837,standard,vals,muse-ember,effort=max; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
 Muse Glimmer,FrontierCode 1.1 (AA),0.1392,standard,aa,Muse Glimmer (High),High,https://artificialanalysis.ai/models/muse-glimmer,1
 Muse Glimmer,FrontierCode 2.0 (AA),0.0147,standard,aa,Muse Glimmer (High),High,https://artificialanalysis.ai/models/muse-glimmer,1
 Muse Glimmer,SWE-bench Verified,0.76,self,legacy,Muse Glimmer,"high reasoning, official model card table",https://huggingface.co/meta-models/Muse-Glimmer-30B,1
@@ -2641,7 +2747,7 @@ Muse Spark 1.2,FrontierSWE,0.1197,standard,epoch,Muse Spark 1.2,xhigh; Harness=p
 Muse Spark 1.2,IOI (Vals),0.2178,standard,vals,muse_spark_1_2,effort=xhigh,https://www.vals.ai/benchmarks/ioi,1
 Muse Spark 1.2,ProgramBench (Vals),0.005,standard,vals,muse_spark_1_2,effort=xhigh,https://www.vals.ai/benchmarks/programbench,1
 Muse Spark 1.2,SWE-bench Verified (Vals),0.866,standard,vals,muse_spark_1_2,effort=xhigh,https://www.vals.ai/benchmarks/swebench,1
-Muse Spark 1.2,SciCode,0.5741,standard,aa,Muse Spark 1.2 (Xhigh),Xhigh,https://artificialanalysis.ai/models/muse-spark-1-2,3
+Muse Spark 1.2,SciCode,0.5741,standard,epoch,Muse Spark 1.2,xhigh; Provider=Meta,https://artificialanalysis.ai/evaluations/scicode,3
 Muse Spark 1.2,Terminal-Bench 2.1,0.8015,standard,aa,Muse Spark 1.2 (Xhigh),Xhigh,https://artificialanalysis.ai/models/muse-spark-1-2,2
 Muse Spark 1.2,Terminal-Bench 2.1 (Vals),0.6966,standard,vals,muse_spark_1_2,effort=xhigh; harness=Terminus 2,https://www.vals.ai/benchmarks/terminal-bench-2-1,1
 Muse Spark 1.2,Terminal-Bench 4.0,0.0707,standard,aa,Muse Spark 1.2 (Xhigh),Xhigh,https://artificialanalysis.ai/models/muse-spark-1-2,1
@@ -2653,7 +2759,9 @@ Muse Spark 1.3,CursorBench,0.416,standard,epoch,Muse Spark 1.3,max; Reasoning le
 Muse Spark 1.3,DeepSWE,0.754,unknown,legacy,Muse Spark 1.3,DeepSWE v1.1,https://llm-stats.com/models/muse-spark-1.3,1
 Muse Spark 1.3,FrontierCode 1.1 (AA),0.4065,standard,aa,Muse Spark 1.3 (Max),Max,https://artificialanalysis.ai/models/muse-spark-1-3,2
 Muse Spark 1.3,FrontierCode 2.0 (AA),0.2311,standard,aa,Muse Spark 1.3 (Max),Max,https://artificialanalysis.ai/models/muse-spark-1-3,1
+Muse Spark 1.3,FrontierSWE,0.258,standard,epoch,Muse Spark 1.3,max; Harness=proximus,https://www.frontierswe.com/,1
 Muse Spark 1.3,IOI (Vals),0.5656,standard,vals,muse_spark_1_3_max,effort=max,https://www.vals.ai/benchmarks/ioi,2
+Muse Spark 1.3,MirrorCode,0.5444,standard,epoch,Muse Spark 1.3,max,https://epoch.ai/benchmarks,1
 Muse Spark 1.3,ProgramBench (Vals),0.025,standard,vals,muse_spark_1_3_max,effort=max,https://www.vals.ai/benchmarks/programbench,2
 Muse Spark 1.3,SciCode,0.5972,standard,epoch,Muse Spark 1.3,xhigh; Provider=Meta,https://artificialanalysis.ai/evaluations/scicode,5
 Muse Spark 1.3,Terminal-Bench 2.1,0.8539,standard,aa,Muse Spark 1.3 (Xhigh),Xhigh,https://artificialanalysis.ai/models/muse-spark-1-3-xhigh,3
@@ -2662,37 +2770,41 @@ Muse Spark 1.3,Terminal-Bench 4.0,0.3333,standard,aa,Muse Spark 1.3 (Max),Max,ht
 Muse Spark 1.3,Terminal-Bench 4.0 (Vals),0.2475,standard,vals,muse_spark_1_3_max,effort=max; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,2
 Muse Spark 1.3,Vibe Code Bench (Vals),0.8586,standard,vals,muse_spark_1_3_max,effort=max; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,2
 Muse Spark 1.3,Vibe Code Bench 1-100 (Vals),0.2046,standard,vals,muse_spark_1_3_max,effort=max; harness=OpenHands,https://www.vals.ai/benchmarks/vcb-1-100,1
-Muse Spark 1.3,WeirdML v3,0.0695,standard,epoch,Muse Spark 1.3,xhigh; Agent=codex_cli; Reasoning effort=xhigh,https://htihle.github.io/weirdml.html,1
-Muse Spark Open,Code Migration (Vals),0.2117,standard,manual,Muse Spark Open,effort=xhigh; listed as meta/muse-spark-open,https://www.vals.ai/benchmarks/code-migration,1
+Muse Spark 1.3,WeirdML v3,0.0665,standard,epoch,Muse Spark 1.3,xhigh; Agent=codex_cli; Reasoning effort=xhigh,https://htihle.github.io/weirdml.html,1
+Muse Spark Open,Code Migration (Vals),0.2117,standard,vals,muse-spark-open,effort=xhigh,https://www.vals.ai/benchmarks/code-migration,2
 Muse Spark Open,DeepSWE,0.6,self,manual,Muse Spark Open,DeepSWE 1.1; preferred harness; effort=xhigh,https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B,1
 Muse Spark Open,FrontierCode 1.1 (AA),0.2765,standard,aa,Muse Spark Open (Xhigh),Xhigh,https://artificialanalysis.ai/models/muse-spark-open,1
 Muse Spark Open,FrontierCode 2.0 (AA),0.076,standard,aa,Muse Spark Open (Xhigh),Xhigh,https://artificialanalysis.ai/models/muse-spark-open,1
-Muse Spark Open,SciCode,0.5845,standard,aa,Muse Spark Open (Xhigh),Xhigh,https://artificialanalysis.ai/models/muse-spark-open,2
+Muse Spark Open,SciCode,0.5845,standard,aa,Muse Spark Open (Xhigh),Xhigh,https://artificialanalysis.ai/models/muse-spark-open,3
 Muse Spark Open,Terminal-Bench 2.1,0.764,standard,aa,Muse Spark Open (Xhigh),Xhigh,https://artificialanalysis.ai/models/muse-spark-open,2
 Muse Spark Open,Terminal-Bench 4.0,0.0808,standard,aa,Muse Spark Open (Xhigh),Xhigh,https://artificialanalysis.ai/models/muse-spark-open,1
-Muse Spark Open,Terminal-Bench 4.0 (Vals),0.0657,standard,manual,Muse Spark Open,effort=xhigh; harness=Mini-SWE-agent; listed as meta/muse-spark-open,https://www.vals.ai/benchmarks/terminal-bench-4,1
-Muse Spark Open,Vibe Code Bench (Vals),0.7619,standard,manual,Muse Spark Open,effort=xhigh; harness=OpenHands; listed as meta/muse-spark-open,https://www.vals.ai/benchmarks/vibe-code,1
-Muse Wonder,Code Migration (Vals),0.6255,standard,manual,Muse Wonder,effort=max; listed as meta/muse-wonder,https://www.vals.ai/benchmarks/code-migration,1
+Muse Spark Open,Terminal-Bench 4.0 (Vals),0.0657,standard,vals,muse-spark-open,effort=xhigh; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,2
+Muse Spark Open,Vibe Code Bench (Vals),0.7619,standard,vals,muse-spark-open,effort=xhigh; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,2
+Muse Wonder,Code Migration (Vals),0.6255,standard,vals,muse-wonder,effort=max,https://www.vals.ai/benchmarks/code-migration,2
+Muse Wonder,CursorBench,0.504,standard,epoch,Muse Wonder,max; Reasoning level=Max,https://cursor.com/cursorbench,6
 Muse Wonder,DeepSWE,0.788,self,manual,Muse Wonder,DeepSWE 1.1,https://research.meta.ai/static/muse-wonder-model-card,1
 Muse Wonder,FrontierCode 1.1 (AA),0.4647,standard,aa,Muse Wonder (Max),Max,https://artificialanalysis.ai/models/muse-wonder,1
 Muse Wonder,FrontierCode 2.0 (AA),0.2788,standard,aa,Muse Wonder (Max),Max,https://artificialanalysis.ai/models/muse-wonder,2
-Muse Wonder,IOI (Vals),0.6694,standard,manual,Muse Wonder,effort=max; listed as meta/muse-wonder,https://www.vals.ai/benchmarks/ioi,1
-Muse Wonder,SciCode,0.603,standard,aa,Muse Wonder (Max),Max,https://artificialanalysis.ai/models/muse-wonder,2
+Muse Wonder,IOI (Vals),0.6694,standard,vals,muse-wonder,effort=max,https://www.vals.ai/benchmarks/ioi,2
+Muse Wonder,MirrorCode,0.4556,standard,epoch,Muse Wonder,max,https://epoch.ai/benchmarks,1
+Muse Wonder,PostTrainBench,0.2419,standard,epoch,Muse Wonder,xhigh; Scaffold=OpenCode,https://epoch.ai/benchmarks,1
+Muse Wonder,SciCode,0.603,standard,epoch,Muse Wonder,max; Provider=Meta,https://artificialanalysis.ai/evaluations/scicode,3
 Muse Wonder,Terminal-Bench 4.0,0.5202,standard,aa,Muse Wonder (Max),Max,https://artificialanalysis.ai/models/muse-wonder,3
-Muse Wonder,Terminal-Bench 4.0 (Vals),0.495,standard,manual,Muse Wonder,effort=max; harness=Mini-SWE-agent; listed as meta/muse-wonder,https://www.vals.ai/benchmarks/terminal-bench-4,1
-Muse Wonder,Vibe Code Bench (Vals),0.8309,standard,manual,Muse Wonder,effort=max; harness=OpenHands; listed as meta/muse-wonder,https://www.vals.ai/benchmarks/vibe-code,1
-Muse Wonder,Vibe Code Bench 1-100 (Vals),0.2655,standard,manual,Muse Wonder,effort=max; harness=OpenHands; listed as meta/muse-wonder,https://www.vals.ai/benchmarks/vcb-1-100,1
-Muse Wonder Full,Code Migration (Vals),0.6103,standard,manual,Muse Wonder Full,effort=max; listed as meta/muse-wonder-full,https://www.vals.ai/benchmarks/code-migration,1
+Muse Wonder,Terminal-Bench 4.0 (Vals),0.495,standard,vals,muse-wonder,effort=max; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,2
+Muse Wonder,Vibe Code Bench (Vals),0.8309,standard,vals,muse-wonder,effort=max; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,2
+Muse Wonder,Vibe Code Bench 1-100 (Vals),0.2655,standard,vals,muse-wonder,effort=max; harness=OpenHands,https://www.vals.ai/benchmarks/vcb-1-100,2
+Muse Wonder,WeirdML v3,0.1517,standard,epoch,Muse Wonder,xhigh; Agent=codex_cli; Reasoning effort=xhigh,https://htihle.github.io/weirdml.html,1
+Muse Wonder Full,Code Migration (Vals),0.6103,standard,vals,muse-wonder-full,effort=max,https://www.vals.ai/benchmarks/code-migration,2
 Muse Wonder Full,DeepSWE,0.79,self,manual,Muse Wonder Full,DeepSWE 1.1,https://research.meta.ai/static/muse-wonder-model-card,1
 Muse Wonder Full,FrontierCode 1.1 (AA),0.4489,standard,aa,Muse Wonder Full (Max),Max,https://artificialanalysis.ai/models/muse-wonder-full,1
 Muse Wonder Full,FrontierCode 2.0 (AA),0.3776,standard,aa,Muse Wonder Full (Max),Max,https://artificialanalysis.ai/models/muse-wonder-full,1
-Muse Wonder Full,IOI (Vals),0.7983,standard,manual,Muse Wonder Full,effort=max; listed as meta/muse-wonder-full,https://www.vals.ai/benchmarks/ioi,1
-Muse Wonder Full,ProgramBench (Vals),0.005,standard,manual,Muse Wonder Full,effort=max; listed as meta/muse-wonder-full,https://www.vals.ai/benchmarks/programbench,1
+Muse Wonder Full,IOI (Vals),0.7983,standard,vals,muse-wonder-full,effort=max,https://www.vals.ai/benchmarks/ioi,2
+Muse Wonder Full,ProgramBench (Vals),0.005,standard,vals,muse-wonder-full,effort=max,https://www.vals.ai/benchmarks/programbench,2
 Muse Wonder Full,SciCode,0.6262,standard,aa,Muse Wonder Full (Max),Max,https://artificialanalysis.ai/models/muse-wonder-full,1
 Muse Wonder Full,Terminal-Bench 4.0,0.5707,standard,aa,Muse Wonder Full (Max),Max,https://artificialanalysis.ai/models/muse-wonder-full,2
-Muse Wonder Full,Terminal-Bench 4.0 (Vals),0.5808,standard,manual,Muse Wonder Full,effort=max; harness=Mini-SWE-agent; listed as meta/muse-wonder-full,https://www.vals.ai/benchmarks/terminal-bench-4,1
-Muse Wonder Full,Vibe Code Bench (Vals),0.86,standard,manual,Muse Wonder Full,effort=max; harness=OpenHands; listed as meta/muse-wonder-full,https://www.vals.ai/benchmarks/vibe-code,1
-Muse Wonder Full,Vibe Code Bench 1-100 (Vals),0.3398,standard,manual,Muse Wonder Full,effort=max; harness=OpenHands; listed as meta/muse-wonder-full,https://www.vals.ai/benchmarks/vcb-1-100,1
+Muse Wonder Full,Terminal-Bench 4.0 (Vals),0.5808,standard,vals,muse-wonder-full,effort=max; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,2
+Muse Wonder Full,Vibe Code Bench (Vals),0.86,standard,vals,muse-wonder-full,effort=max; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,2
+Muse Wonder Full,Vibe Code Bench 1-100 (Vals),0.3398,standard,vals,muse-wonder-full,effort=max; harness=OpenHands,https://www.vals.ai/benchmarks/vcb-1-100,2
 Nemotron 3 Nano,FrontierCode 1.1 (AA),0.0,standard,aa,NVIDIA Nemotron 3 Nano 4B,,https://artificialanalysis.ai/models/nvidia-nemotron-3-nano-4b,1
 Nemotron 3 Nano,FrontierCode 2.0 (AA),0.0,standard,aa,NVIDIA Nemotron 3 Nano 4B,,https://artificialanalysis.ai/models/nvidia-nemotron-3-nano-4b,1
 Nemotron 3 Nano,LiveCodeBench,0.741,standard,legacy,Nemotron 3 Nano,"AA harness, AA release 'NVIDIA Nemotron 3 Nano 30B A3B (Reasoning)', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,3
@@ -2713,7 +2825,7 @@ Nemotron 3 Super,Terminal-Bench 4.0,0.0,standard,aa,Nemotron 3 Super 120B A12B (
 Nemotron 3 Super,Terminal-Bench Hard,0.2879,standard,legacy,Nemotron 3 Super,"AA harness, AA release 'Nemotron 3 Super 120B A12B (Reasoning)', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,2
 Nemotron 3 Super,WeirdML,0.3801,standard,epoch,Nemotron 3 Super,,https://htihle.github.io/weirdml.html,1
 Nemotron 3 Ultra,Code Migration (Vals),0.0491,standard,vals,nemotron-3-ultra-550b-a55b,,https://www.vals.ai/benchmarks/code-migration,1
-Nemotron 3 Ultra,FrontierCode,0.1361,standard,epoch,Nemotron 3 Ultra,Harness=chisel; Reasoning effort=none,https://cognition.com/frontiercode,1
+Nemotron 3 Ultra,FrontierCode,0.1361,standard,epoch,Nemotron 3 Ultra,Harness=devin-cli; Reasoning effort=none,https://cognition.com/frontiercode,1
 Nemotron 3 Ultra,FrontierCode 1.1 (AA),0.1052,standard,aa,Nemotron 3 Ultra 550B A55B (Reasoning),Reasoning,https://artificialanalysis.ai/models/nvidia-nemotron-3-ultra-550b-a55b,1
 Nemotron 3 Ultra,FrontierCode 2.0 (AA),0.0109,standard,aa,Nemotron 3 Ultra 550B A55B (Reasoning),Reasoning,https://artificialanalysis.ai/models/nvidia-nemotron-3-ultra-550b-a55b,1
 Nemotron 3 Ultra,LiveCodeBench,0.89,self,legacy,Nemotron 3 Ultra,"pass@1, LCB v6, self-reported HF card (via llm-stats)",https://llm-stats.com/api/models/nemotron-3-ultra-550b-a55b,1
@@ -2752,6 +2864,8 @@ Nemotron 3.5 Super VL,SWE-bench Verified,0.711,self,manual,Nemotron 3.5 Super VL
 Nemotron 3.5 Super VL,SciCode,0.478,standard,aa,Nemotron 3.5 Super VL,,https://artificialanalysis.ai/models/nemotron-3-5-super-vl,2
 Nemotron 3.5 Super VL,Terminal-Bench 2.1,0.6067,self,manual,Nemotron 3.5 Super VL,BF16; NeMo Gym,https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,1
 Nemotron 3.5 Super VL,Terminal-Bench 4.0,0.0,standard,aa,Nemotron 3.5 Super VL,,https://artificialanalysis.ai/models/nemotron-3-5-super-vl,1
+Nemotron 3.5 Super VL,Terminal-Bench 4.0 (Vals),0.0,standard,vals,nemotron-3.5-super-vl-120b-a12b,effort=high; harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,1
+Nemotron 3.5 Super VL,Vibe Code Bench (Vals),0.0371,standard,vals,nemotron-3.5-super-vl-120b-a12b,effort=high; harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
 Nemotron Cascade 2 30B A3B,LiveCodeBench,0.872,self,manual,Nemotron Cascade 2 30B A3B,LiveCodeBench v6 2408-2505,https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B,1
 Nemotron Cascade 2 30B A3B,SciCode,0.364,self,manual,Nemotron Cascade 2 30B A3B,,https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B,1
 Nemotron Cascade 2 30B A3B,Terminal-Bench 2.0,0.211,self,manual,Nemotron Cascade 2 30B A3B,,https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B,1
@@ -2833,7 +2947,7 @@ OpenAI o1-preview,MBPP+,0.802,standard,evalplus,O1 Preview (Sept 2024),,https://
 OpenAI o1-preview,SWE-bench Verified,0.646,leaderboard,legacy,OpenAI o1-preview,"SWE-bench Verified, W&B Programmer O1 crosscheck5 scaffold (Weights & Biases, third-party submission), attempts 2+, submitted 2025-01-17 (folder 20250117_wandb_programmer_o1_crosscheck5); note: curren",https://raw.githubusercontent.com/SWE-bench/swe-bench.github.io/master/data/leaderboards.json,2
 OpenAI o1-preview,WeirdML,0.4756,standard,epoch,o1-preview,,https://htihle.github.io/weirdml.html,1
 OpenAI o3,Aider Polyglot,0.813,standard,epoch,o3,high; Edit format=diff,https://aider.chat/docs/leaderboards/,6
-OpenAI o3,GSO,0.088,standard,epoch,o3,high; Scaffold=OpenHands,https://epoch.ai/benchmarks,1
+OpenAI o3,GSO,0.0882,standard,epoch,o3,high; Scaffold=OpenHands,https://gso-bench.github.io/index.html,1
 OpenAI o3,LiveBench Coding,0.7671,leaderboard,legacy,OpenAI o3,mean of code_completion + code_generation subtasks; LiveBench archived table (2025-04-25),"https://livebench.ai/table_2025_04_25.csv (archived table, github.com/LiveBench/livebench.github.io)",1
 OpenAI o3,LiveCodeBench,0.8085,standard,aa,o3,,https://artificialanalysis.ai/models/o3,2
 OpenAI o3,LiveCodeBench (Vals),0.8391,standard,vals,o3-2025-04-16,effort=high,https://www.vals.ai/benchmarks/lcb,1
@@ -2850,7 +2964,7 @@ OpenAI o3,SWE-rebench [tools] 2025-11,0.5191,standard,swerebench,o3-2025-04-16,a
 OpenAI o3,Terminal-Bench Hard,0.3712,standard,aa,o3,,https://artificialanalysis.ai/models/o3,2
 OpenAI o3,WeirdML,0.5242,standard,epoch,o3,high,https://htihle.github.io/weirdml.html,1
 OpenAI o3-mini,Aider Polyglot,0.604,standard,epoch,o3-mini,high; Edit format=diff,https://aider.chat/docs/leaderboards/,5
-OpenAI o3-mini,GSO,0.013,standard,epoch,o3-mini,low; Scaffold=OpenHands,https://epoch.ai/benchmarks,2
+OpenAI o3-mini,GSO,0.013,standard,epoch,o3-mini,high; Scaffold=OpenHands,https://gso-bench.github.io/index.html,2
 OpenAI o3-mini,LiveBench Coding,0.8274,standard,epoch,o3-mini,high,https://epoch.ai/benchmarks,3
 OpenAI o3-mini,LiveCodeBench,0.7344,standard,aa,o3-mini (High),High,https://artificialanalysis.ai/models/o3-mini-high,3
 OpenAI o3-mini,LiveCodeBench (Vals),0.7148,standard,vals,o3-mini-2025-01-31,effort=high,https://www.vals.ai/benchmarks/lcb,1
@@ -2865,7 +2979,7 @@ OpenAI o3-mini,WeirdML,0.437,standard,epoch,o3-mini,high,https://htihle.github.i
 OpenAI o3-pro,Aider Polyglot,0.849,standard,epoch,o3-pro,high; Edit format=diff,https://aider.chat/docs/leaderboards/,3
 OpenAI o3-pro,WeirdML,0.5821,standard,epoch,o3-pro,high,https://htihle.github.io/weirdml.html,1
 OpenAI o4-mini,Aider Polyglot,0.72,standard,epoch,o4-mini,high; Edit format=diff,https://aider.chat/docs/leaderboards/,3
-OpenAI o4-mini,GSO,0.036,standard,epoch,o4-mini,high; Scaffold=OpenHands,https://epoch.ai/benchmarks,1
+OpenAI o4-mini,GSO,0.036,standard,epoch,o4-mini,high; Scaffold=OpenHands,https://gso-bench.github.io/index.html,1
 OpenAI o4-mini,LiveBench Coding,0.7998,leaderboard,legacy,OpenAI o4-mini,mean of code_completion + code_generation subtasks; LiveBench archived table (2025-04-25),"https://livebench.ai/table_2025_04_25.csv (archived table, github.com/LiveBench/livebench.github.io)",1
 OpenAI o4-mini,LiveCodeBench,0.8593,standard,aa,o4-mini (High),High,https://artificialanalysis.ai/models/o4-mini,2
 OpenAI o4-mini,LiveCodeBench (Vals),0.8221,standard,vals,o4-mini-2025-04-16,effort=high,https://www.vals.ai/benchmarks/lcb,1
@@ -3027,7 +3141,7 @@ Qwen3,SWE-rebench [tools] 2025-10,0.2275,standard,swerebench,Qwen3-235B-A22B-Ins
 Qwen3,SWE-rebench [tools] 2025-11,0.2648,standard,swerebench,Qwen3-235B-A22B-Instruct-2507,agent=tools,https://swe-rebench.com/,4
 Qwen3,SWE-rebench [tools] 2025-12,0.2457,standard,swerebench,Qwen3-235B-A22B-Instruct-2507,agent=tools,https://swe-rebench.com/,2
 Qwen3,SWE-rebench [tools] 2026-01,0.2375,standard,swerebench,Qwen3-235B-A22B-Instruct-2507,agent=tools,https://swe-rebench.com/,2
-Qwen3,SciCode,0.4236,standard,epoch,Qwen3-235B-A22B-Thinking (Jul 2025),Provider=Alibaba,https://artificialanalysis.ai/evaluations/scicode,10
+Qwen3,SciCode,0.4144,standard,aa,Qwen3 235B A22B 2507 (Reasoning),Reasoning,https://artificialanalysis.ai/models/qwen3-235b-a22b-instruct-2507-reasoning,10
 Qwen3,Terminal-Bench 2.1,0.1198,standard,aa,Qwen3 235B A22B 2507 (Reasoning),Reasoning,https://artificialanalysis.ai/models/qwen3-235b-a22b-instruct-2507-reasoning,5
 Qwen3,Terminal-Bench 4.0,0.0,standard,aa,Qwen3 14B (Reasoning),Reasoning,https://artificialanalysis.ai/models/qwen3-14b-instruct-reasoning,5
 Qwen3,Terminal-Bench Hard,0.1364,standard,aa,Qwen3 235B A22B 2507 (Reasoning),Reasoning,https://artificialanalysis.ai/models/qwen3-235b-a22b-instruct-2507-reasoning,16
@@ -3152,7 +3266,7 @@ Qwen3.6 35B-A3B,SWE-rebench [tools] 2026-05,0.2822,standard,swerebench,Qwen3.6-3
 Qwen3.6 35B-A3B,SWE-rebench [tools] 2026-06,0.2,standard,swerebench,Qwen3.6-35B-A3B,agent=tools,https://swe-rebench.com/,1
 Qwen3.6 35B-A3B,SciCode,0.3657,standard,aa,Qwen3.6 35B A3B (Reasoning),Reasoning,https://artificialanalysis.ai/models/qwen3-6-35b-a3b,3
 Qwen3.6 35B-A3B,Surface Evolver Bench,0.4438,standard,epoch,Qwen 3.6 35B-A3B,Provider=qwen,https://yhenon.github.io/surface-evolver-llm-eval/,1
-Qwen3.6 35B-A3B,Terminal-Bench 2.0,0.2303,leaderboard,epoch,Qwen 3.6 35B-A3B,Agent=little-coder,https://www.tbench.ai/leaderboard/terminal-bench/2.0,2
+Qwen3.6 35B-A3B,Terminal-Bench 2.0,0.2463,leaderboard,epoch,Qwen 3.6 35B-A3B,Agent=little-coder,https://www.tbench.ai/leaderboard/terminal-bench/2.0,2
 Qwen3.6 35B-A3B,Terminal-Bench 2.1,0.4494,standard,aa,Qwen3.6 35B A3B (Reasoning),Reasoning,https://artificialanalysis.ai/models/qwen3-6-35b-a3b,3
 Qwen3.6 35B-A3B,Terminal-Bench 4.0,0.0,standard,aa,Qwen3.6 35B A3B (Reasoning),Reasoning,https://artificialanalysis.ai/models/qwen3-6-35b-a3b,1
 Qwen3.6 35B-A3B,Terminal-Bench Hard,0.3485,standard,legacy,Qwen3.6 35B-A3B,"AA harness, AA release 'Qwen3.6 35B A3B (Reasoning)', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,3
@@ -3185,7 +3299,7 @@ Qwen3.7 Max,LiveCodeBench (Vals),0.8706,standard,vals,qwen3.7-max,,https://www.v
 Qwen3.7 Max,SWE-bench Multilingual,0.783,self,legacy,Qwen3.7 Max,"pass@1, Max",https://qwen.ai/blog?id=qwen3.7,1
 Qwen3.7 Max,SWE-bench Verified,0.7727,standard,epoch,Qwen3.7-Max,,https://epoch.ai/benchmarks,2
 Qwen3.7 Max,SWE-bench Verified (Vals),0.688,standard,vals,qwen3.7-max,,https://www.vals.ai/benchmarks/swebench,1
-Qwen3.7 Max,SciCode,0.4954,standard,aa,Qwen3.7 Max,,https://artificialanalysis.ai/models/qwen3-7-max,3
+Qwen3.7 Max,SciCode,0.4954,standard,epoch,Qwen3.7-Max,Provider=Alibaba,https://artificialanalysis.ai/evaluations/scicode,3
 Qwen3.7 Max,Terminal-Bench 2.0,0.697,self,legacy,Qwen3.7 Max,"self-reported, Max",https://qwen.ai/blog?id=qwen3.7,1
 Qwen3.7 Max,Terminal-Bench 2.0 (Vals),0.5918,standard,vals,qwen3.7-max,,https://www.vals.ai/benchmarks/terminal-bench-2,1
 Qwen3.7 Max,Terminal-Bench 2.1,0.7453,standard,aa,Qwen3.7 Max,,https://artificialanalysis.ai/models/qwen3-7-max,2
@@ -3198,7 +3312,7 @@ Qwen3.7 Plus,FrontierCode,0.102,standard,epoch,Qwen 3.7 Plus,Harness=mini-swe-ag
 Qwen3.7 Plus,LiveCodeBench,0.896,self,legacy,Qwen3.7 Plus,"pass@1, LiveCodeBench v6, Plus",https://qwen.ai/blog?id=qwen3.7-plus,1
 Qwen3.7 Plus,SWE-bench Multilingual,0.758,self,legacy,Qwen3.7 Plus,"pass@1, Plus",https://qwen.ai/blog?id=qwen3.7-plus,1
 Qwen3.7 Plus,SWE-bench Verified,0.777,self,legacy,Qwen3.7 Plus,"pass@1, Plus (self-reported)",https://qwen.ai/blog?id=qwen3.7-plus,1
-Qwen3.7 Plus,SciCode,0.4606,standard,aa,Qwen3.7 Plus,,https://artificialanalysis.ai/models/qwen3-7-plus,3
+Qwen3.7 Plus,SciCode,0.4606,standard,epoch,Qwen3.7-Plus,Provider=Alibaba,https://artificialanalysis.ai/evaluations/scicode,3
 Qwen3.7 Plus,Terminal-Bench 2.0,0.703,self,legacy,Qwen3.7 Plus,"self-reported, Plus",https://qwen.ai/blog?id=qwen3.7-plus,1
 Qwen3.7 Plus,Terminal-Bench 2.1,0.6105,standard,legacy,Qwen3.7 Plus,"AA harness, AA release 'Qwen3.7 Plus', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,2
 Qwen3.7 Plus,Terminal-Bench 2.1 (Vals),0.5281,standard,vals,qwen3.7-plus,harness=Terminus 2,https://www.vals.ai/benchmarks/terminal-bench-2-1,1
@@ -3215,6 +3329,7 @@ Qwen3.8 Max,DeepSWE,0.5746,standard,epoch,Qwen 3.8 Max,xhigh; Harness=mini-swe-a
 Qwen3.8 Max,FrontierSWE,0.1581,standard,epoch,Qwen 3.8 Max,xhigh; Harness=proximus,https://www.frontierswe.com/,1
 Qwen3.8 Max,IOI (Vals),0.6889,standard,vals,qwen3.8-max,,https://www.vals.ai/benchmarks/ioi,1
 Qwen3.8 Max,LiveCodeBench (Vals),0.8785,standard,vals,qwen3.8-max,,https://www.vals.ai/benchmarks/lcb,1
+Qwen3.8 Max,MirrorCode,0.5222,standard,epoch,Qwen 3.8 Max,xhigh,https://epoch.ai/benchmarks,1
 Qwen3.8 Max,ProgramBench (Vals),0.0,standard,vals,qwen3.8-max,,https://www.vals.ai/benchmarks/programbench,1
 Qwen3.8 Max,SWE-bench Verified (Vals),0.856,standard,vals,qwen3.8-max,,https://www.vals.ai/benchmarks/swebench,1
 Qwen3.8 Max,SciCode,0.5324,standard,epoch,Qwen 3.8 Max,unknown,https://artificialanalysis.ai/evaluations/scicode,4
@@ -3227,6 +3342,7 @@ Qwen3.8 Max,Vibe Code Bench 1-100 (Vals),0.1283,standard,vals,qwen3.8-max,harnes
 Qwen3.8 Max (0902),FrontierCode 1.1 (AA),0.4316,standard,aa,Qwen3.8 Max (0902),0902,https://artificialanalysis.ai/models/qwen3-8-max,1
 Qwen3.8 Max (0902),FrontierCode 2.0 (AA),0.2342,standard,aa,Qwen3.8 Max (0902),0902,https://artificialanalysis.ai/models/qwen3-8-max,1
 Qwen3.8 Max (0902),FrontierSWE,0.1781,standard,epoch,Qwen3.8 Max (0902),xhigh; Harness=proximus,https://www.frontierswe.com/,1
+Qwen3.8 Max (0902),MirrorCode,0.4778,standard,epoch,Qwen3.8 Max (0902),xhigh,https://epoch.ai/benchmarks,1
 Qwen3.8 Max (0902),SciCode,0.5208,standard,epoch,Qwen3.8 Max (0902),unknown; Provider=Alibaba,https://artificialanalysis.ai/evaluations/scicode,2
 Qwen3.8 Max (0902),Terminal-Bench 2.1,0.8876,standard,aa,Qwen3.8 Max (0902),0902,https://artificialanalysis.ai/models/qwen3-8-max,1
 Qwen3.8 Max (0902),Terminal-Bench 4.0,0.3889,standard,aa,Qwen3.8 Max (0902),0902,https://artificialanalysis.ai/models/qwen3-8-max,1
@@ -3257,6 +3373,11 @@ SWE-1.6,FrontierCode,0.094,self,epoch,SWE-1.6,Harness=devin; Reasoning effort=no
 SWE-1.6 Fast,Vibe Code Bench (Vals),0.0722,standard,vals,swe-1-6-fast,harness=Devin CLI,https://www.vals.ai/benchmarks/vibe-code,1
 SWE-1.7,FrontierCode,0.4233,self,epoch,SWE-1.7,Harness=devin; Reasoning effort=none,https://cognition.com/frontiercode,2
 SWE-2,FrontierCode,0.5,self,epoch,SWE-2,max; Harness=devin; Reasoning effort=max,https://cognition.com/frontiercode,1
+SWE-2 Flash,DeepSWE,0.601,self,manual,SWE-2 Flash,DeepSWE 1.1,https://cognition.com/blog/swe-2-flash,1
+SWE-2 Flash,FrontierCode,0.455,self,manual,SWE-2 Flash,FrontierCode 1.1 Main,https://cognition.com/blog/swe-2-flash,1
+SWE-2 Flash,FrontierCode 2.0 (AA),0.24,self,manual,SWE-2 Flash,FrontierCode 2.0,https://cognition.com/blog/swe-2-flash,1
+SWE-2 Flash,Terminal-Bench 2.1,0.892,self,manual,SWE-2 Flash,,https://cognition.com/blog/swe-2-flash,1
+SWE-2 Flash,Terminal-Bench 4.0,0.2,self,manual,SWE-2 Flash,,https://cognition.com/blog/swe-2-flash,1
 Seed 2.0,LiveCodeBench,0.878,leaderboard,legacy,Seed 2.0,"LiveCodeBench v6, Seed 2.0 Pro (0215); self-reported by ByteDance",https://llm-stats.com/api/models/seed-2.0-pro,1
 Seed 2.0,SWE-bench Multilingual,0.717,self,legacy,Seed 2.0,"Seed 2.0 Pro (0215), official Seed 2.0 page 'CodingAgent' table (reported as 'SWE Multilingual'); Lite 0215 64.4, Lite 0428 66.6",https://seed.bytedance.com/en/seed2,1
 Seed 2.0,SWE-bench Verified,0.765,self,legacy,Seed 2.0,"Seed 2.0 Pro (0215), self-reported; Seed 2.0 Lite variant 73.5",https://llm-stats.com/api/models/seed-2.0-pro,1
@@ -3353,16 +3474,18 @@ Tencent Hy3,SciCode,0.4861,standard,aa,Hy3,,https://artificialanalysis.ai/models
 Tencent Hy3,Terminal-Bench 2.1,0.6442,standard,legacy,Tencent Hy3,"AA harness, AA release 'Hy3', AA default eval settings, via AA API v2, fetched 2026-09-05",https://artificialanalysis.ai/api/v2/data/llms/models?with_quality_indices=true,2
 Tencent Hy3,Terminal-Bench 4.0,0.0051,standard,aa,Hy3,,https://artificialanalysis.ai/models/hy3,1
 Tencent Hy3,Terminal-Bench Hard,0.3409,standard,aa,Hy3-preview (Reasoning),Reasoning,https://artificialanalysis.ai/models/hy3-preview,2
+Tencent Hy4,FrontierCode 2.0 (AA),0.3145,standard,aa,Tencent Hy4,,https://artificialanalysis.ai/models/tencent-hy4,1
+Tencent Hy4,Terminal-Bench 4.0,0.3737,standard,aa,Tencent Hy4,,https://artificialanalysis.ai/models/tencent-hy4,1
+Tencent Hy4,Terminal-Bench 4.0 (Vals),0.3939,standard,vals,hy4,harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,1
+Tencent Hy4,Vibe Code Bench (Vals),0.8101,standard,vals,hy4,harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
 Tencent Hy4 Preview,Code Migration (Vals),0.4743,standard,vals,hy4-preview,,https://www.vals.ai/benchmarks/code-migration,1
 Tencent Hy4 Preview,DeepSWE,0.643,self,legacy,Tencent Hy4 Preview,"self-reported, HF tencent/Hy4-preview model card",https://llm-stats.com/api/models/hy4-preview,1
-Tencent Hy4 Preview,FrontierCode 2.0 (AA),0.3145,standard,aa,Tencent Hy4,,https://artificialanalysis.ai/models/tencent-hy4,1
 Tencent Hy4 Preview,IOI (Vals),0.5933,standard,vals,hy4-preview,,https://www.vals.ai/benchmarks/ioi,1
 Tencent Hy4 Preview,ProgramBench,0.175,self,legacy,Tencent Hy4 Preview,"reported as 'Program Bench', self-reported",https://llm-stats.com/api/models/hy4-preview,1
 Tencent Hy4 Preview,ProgramBench (Vals),0.0,standard,vals,hy4-preview,,https://www.vals.ai/benchmarks/programbench,1
 Tencent Hy4 Preview,SWE-bench Multilingual,0.829,self,legacy,Tencent Hy4 Preview,"self-reported, HF tencent/Hy4-preview model card",https://llm-stats.com/api/models/hy4-preview,1
 Tencent Hy4 Preview,Terminal-Bench 2.1,0.854,self,legacy,Tencent Hy4 Preview,self-reported by Tencent (HF tencent/Hy4-preview model card),https://llm-stats.com/api/models/hy4-preview,1
 Tencent Hy4 Preview,Terminal-Bench 2.1 (Vals),0.5506,standard,vals,hy4-preview,harness=Terminus 2,https://www.vals.ai/benchmarks/terminal-bench-2-1,1
-Tencent Hy4 Preview,Terminal-Bench 4.0,0.3737,standard,aa,Tencent Hy4,,https://artificialanalysis.ai/models/tencent-hy4,1
 Tencent Hy4 Preview,Terminal-Bench 4.0 (Vals),0.0808,standard,vals,hy4-preview,harness=Mini-SWE-agent,https://www.vals.ai/benchmarks/terminal-bench-4,1
 Tencent Hy4 Preview,Vibe Code Bench (Vals),0.7748,standard,vals,hy4-preview,harness=OpenHands,https://www.vals.ai/benchmarks/vibe-code,1
 Tiny Aya,Terminal-Bench Hard,0.0,standard,aa,Tiny Aya Global,,https://artificialanalysis.ai/models/tiny-aya-global,1

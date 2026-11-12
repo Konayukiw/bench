@@ -1,11 +1,11 @@
 {
- "fetched_at": "2026-11-12T07:53:51",
+ "fetched_at": "2026-11-12T08:49:40",
  "files": [
   {
    "file": "aa_public.json",
    "url": "https://artificialanalysis.ai/models/gpt-4o",
    "bytes": 237344,
-   "sha256": "60764db21d7a8db55e3cdc73c8d7a6dbc98a30c4d86b98c875980a3a671e9e3c"
+   "sha256": "ca4a8cca00e59a07689a387b5fc105219c67e4380a0c75fdef34b395224d41e7"
   }
  ]
 }

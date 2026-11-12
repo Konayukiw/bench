@@ -1,0 +1,3313 @@
+{
+    "metadata": {
+        "benchmark": "SkillsBench",
+        "slug": "skillsbench",
+        "description": "How important are skills for agents?",
+        "benchmark_id": "skillsbench",
+        "family": "skillsbench",
+        "version": "1",
+        "updated": "2026-10-29",
+        "dataset_type": "public",
+        "industry": "coding",
+        "tasks": {
+            "overall": "Overall",
+            "no_skills": "No Skills",
+            "with_skills": "With Skills"
+        },
+        "models": [
+            "alibaba/qwen3.7-plus",
+            "alibaba/qwen3.8-27b",
+            "alibaba/qwen3.8-max",
+            "ant/ling-3.0-flash-2607",
+            "anthropic/claude-fable-5-1",
+            "anthropic/claude-opus-4-8",
+            "anthropic/claude-opus-5",
+            "anthropic/claude-sonnet-4-6",
+            "anthropic/claude-sonnet-5",
+            "deepseek/deepseek-v4-flash-0731",
+            "deepseek/deepseek-v4-pro",
+            "deepseek/deepseek-v4-pro-0813",
+            "deepseek/deepseek-v4.1-flash",
+            "google/gemini-3.5-flash",
+            "google/gemini-3.7-flash",
+            "google/gemini-3.8-flash",
+            "grok/grok-4.3",
+            "grok/grok-4.5",
+            "grok/grok-4.6",
+            "inception/mercury-2.5",
+            "kimi/kimi-k2.7-code",
+            "meta/muse_spark_1_1",
+            "meta/muse_spark_1_2",
+            "minimax/MiniMax-M3",
+            "openai/gpt-5.4-2026-03-05",
+            "openai/gpt-5.5",
+            "openai/gpt-5.5-codex",
+            "openai/gpt-5.6-luna",
+            "openai/gpt-5.6-sol",
+            "openai/gpt-5.6-terra",
+            "thinkingmachines/inkling",
+            "thinkingmachines/inkling-small",
+            "zai/glm-5.2",
+            "zai/glm-5.3",
+            "zai/glm-5.3-flash"
+        ],
+        "partners": [],
+        "showBadge": false,
+        "visible": true,
+        "use_cost_per_test": true,
+        "token_tasks_measured": 87,
+        "runner": "external",
+        "mode": "agentic",
+        "archived": false,
+        "partner": false,
+        "total_models": 35
+    },
+    "tasks": {
+        "overall": {
+            "deepseek/deepseek-v4.1-flash": {
+                "accuracy": 69.802,
+                "latency": 223.451,
+                "stderr": 3.879,
+                "cost_per_test": 0.085117,
+                "token_totals": {
+                    "input_tokens": 156646701,
+                    "output_tokens": 3699470,
+                    "reasoning_tokens": 2488385,
+                    "cache_read_tokens": 149755691,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 39.4,
+                    "avg_query_seconds": 5.7,
+                    "median_query_seconds": 3.0,
+                    "avg_ttft_seconds": 1.3,
+                    "output_time_split": {
+                        "reasoning_pct": 75.3,
+                        "content_pct": 3.6,
+                        "tool_call_pct": 21.0
+                    }
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 384000,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "DeepSeek",
+                "harness": "OpenHands",
+                "run_date": "2026-09-10"
+            },
+            "grok/grok-4.5": {
+                "accuracy": 66.034,
+                "latency": 135.652,
+                "stderr": 4.596,
+                "cost_per_test": 0.578155,
+                "token_totals": {
+                    "input_tokens": 60938476,
+                    "output_tokens": 1759727,
+                    "reasoning_tokens": 549266,
+                    "cache_read_tokens": 54906752,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 86,
+                    "avg_turns": 17.6,
+                    "avg_query_seconds": 7.8,
+                    "median_query_seconds": 3.5,
+                    "avg_ttft_seconds": 3.7,
+                    "output_time_split": null
+                },
+                "temperature": 0.7,
+                "top_p": 0.95,
+                "max_output_tokens": null,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "SpaceXAI",
+                "harness": "OpenHands",
+                "run_date": "2026-07-16"
+            },
+            "google/gemini-3.7-flash": {
+                "accuracy": 65.891,
+                "latency": 185.651,
+                "stderr": 4.554,
+                "cost_per_test": 1.799454,
+                "token_totals": {
+                    "input_tokens": 339246665,
+                    "output_tokens": 3141290,
+                    "reasoning_tokens": 1808868,
+                    "cache_read_tokens": 278427507,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 86,
+                    "avg_turns": 59.2,
+                    "avg_query_seconds": 3.2,
+                    "median_query_seconds": 2.0,
+                    "avg_ttft_seconds": 2.4,
+                    "output_time_split": {
+                        "reasoning_pct": 94.0,
+                        "content_pct": 3.6,
+                        "tool_call_pct": 2.4
+                    }
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 65536,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Google",
+                "harness": "OpenHands",
+                "run_date": "2026-08-14"
+            },
+            "openai/gpt-5.5-codex": {
+                "accuracy": 62.555,
+                "latency": 279.51,
+                "stderr": 4.412,
+                "cost_per_test": 1.572689,
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": null,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "OpenAI",
+                "harness": "Codex",
+                "run_date": "2026-06-22"
+            },
+            "openai/gpt-5.5": {
+                "accuracy": 62.209,
+                "latency": 414.615,
+                "stderr": 4.523,
+                "cost_per_test": 2.54346,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 28.8,
+                    "avg_query_seconds": 8.4,
+                    "median_query_seconds": 4.6,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": "xhigh",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "OpenAI",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "anthropic/claude-fable-5-1": {
+                "accuracy": 61.552,
+                "latency": 661.978,
+                "stderr": 4.76,
+                "cost_per_test": 4.516559,
+                "token_totals": {
+                    "input_tokens": 171877224,
+                    "output_tokens": 4148970,
+                    "reasoning_tokens": 2185551,
+                    "cache_read_tokens": 160241536,
+                    "cache_write_tokens": 11629922
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 86,
+                    "avg_turns": 32.3,
+                    "avg_query_seconds": 20.8,
+                    "median_query_seconds": 9.0,
+                    "avg_ttft_seconds": 16.9,
+                    "output_time_split": null
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": "max",
+                "provider": "Anthropic",
+                "harness": "OpenHands",
+                "run_date": "2026-08-31"
+            },
+            "openai/gpt-5.6-luna": {
+                "accuracy": 60.447,
+                "latency": 320.466,
+                "stderr": 4.75,
+                "cost_per_test": 0.206587,
+                "token_totals": {
+                    "input_tokens": 289132649,
+                    "output_tokens": 2947795,
+                    "reasoning_tokens": 1690174,
+                    "cache_read_tokens": 263576033,
+                    "cache_write_tokens": null
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 37.8,
+                    "avg_query_seconds": 8.5,
+                    "median_query_seconds": 5.1,
+                    "avg_ttft_seconds": 3.7,
+                    "output_time_split": {
+                        "reasoning_pct": 54.6,
+                        "content_pct": 11.5,
+                        "tool_call_pct": 34.0
+                    }
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": "max",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "OpenAI",
+                "harness": "OpenHands",
+                "run_date": "2026-07-16"
+            },
+            "anthropic/claude-opus-5": {
+                "accuracy": 60.441,
+                "latency": 505.008,
+                "stderr": 4.578,
+                "cost_per_test": 2.508594,
+                "token_totals": {
+                    "input_tokens": 143410634,
+                    "output_tokens": 3415547,
+                    "reasoning_tokens": 1853920,
+                    "cache_read_tokens": 132773913,
+                    "cache_write_tokens": 10630716
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 29.2,
+                    "avg_query_seconds": 17.4,
+                    "median_query_seconds": 8.1,
+                    "avg_ttft_seconds": 12.9,
+                    "output_time_split": null
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": "max",
+                "provider": "Anthropic",
+                "harness": "OpenHands",
+                "run_date": "2026-07-23"
+            },
+            "anthropic/claude-opus-4-8": {
+                "accuracy": 59.227,
+                "latency": 930.403,
+                "stderr": 4.5,
+                "cost_per_test": 4.766601,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 33.6,
+                    "avg_query_seconds": 22.6,
+                    "median_query_seconds": 9.0,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": "max",
+                "provider": "Anthropic",
+                "harness": "OpenHands",
+                "run_date": "2026-06-21"
+            },
+            "meta/muse_spark_1_1": {
+                "accuracy": 59.189,
+                "latency": 376.268,
+                "stderr": 4.444,
+                "cost_per_test": 0.449432,
+                "token_totals": {
+                    "input_tokens": 156965446,
+                    "output_tokens": 2169185,
+                    "reasoning_tokens": 1035187,
+                    "cache_read_tokens": 151204800,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 34.9,
+                    "avg_query_seconds": 11.0,
+                    "median_query_seconds": 4.4,
+                    "avg_ttft_seconds": 9.0,
+                    "output_time_split": null
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 256000,
+                "reasoning": null,
+                "reasoning_effort": "xhigh",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Meta",
+                "harness": "OpenHands",
+                "run_date": "2026-07-16"
+            },
+            "openai/gpt-5.6-terra": {
+                "accuracy": 58.895,
+                "latency": 415.068,
+                "stderr": 4.472,
+                "cost_per_test": 1.75247,
+                "token_totals": {
+                    "input_tokens": 198738807,
+                    "output_tokens": 3397716,
+                    "reasoning_tokens": 2179320,
+                    "cache_read_tokens": 175914584,
+                    "cache_write_tokens": null
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 35.6,
+                    "avg_query_seconds": 11.6,
+                    "median_query_seconds": 6.0,
+                    "avg_ttft_seconds": 4.6,
+                    "output_time_split": {
+                        "reasoning_pct": 53.0,
+                        "content_pct": 10.5,
+                        "tool_call_pct": 36.4
+                    }
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": "max",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "OpenAI",
+                "harness": "OpenHands",
+                "run_date": "2026-08-14"
+            },
+            "google/gemini-3.8-flash": {
+                "accuracy": 57.985,
+                "latency": 235.201,
+                "stderr": 4.422,
+                "cost_per_test": 2.336944,
+                "token_totals": {
+                    "input_tokens": 431449450,
+                    "output_tokens": 5332298,
+                    "reasoning_tokens": 3637644,
+                    "cache_read_tokens": 358409114,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 97.4,
+                    "avg_query_seconds": 2.4,
+                    "median_query_seconds": 1.6,
+                    "avg_ttft_seconds": 1.7,
+                    "output_time_split": {
+                        "reasoning_pct": 93.3,
+                        "content_pct": 4.8,
+                        "tool_call_pct": 1.9
+                    }
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 65536,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Google",
+                "harness": "OpenHands",
+                "run_date": "2026-08-29"
+            },
+            "grok/grok-4.6": {
+                "accuracy": 55.766,
+                "latency": 808.117,
+                "stderr": 4.844,
+                "cost_per_test": 0.921477,
+                "token_totals": {
+                    "input_tokens": 66552688,
+                    "output_tokens": 2359594,
+                    "reasoning_tokens": 1505441,
+                    "cache_read_tokens": 44729600,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 19.7,
+                    "avg_query_seconds": 41.0,
+                    "median_query_seconds": 15.2,
+                    "avg_ttft_seconds": 29.2,
+                    "output_time_split": null
+                },
+                "temperature": 0.7,
+                "top_p": 0.95,
+                "max_output_tokens": null,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "SpaceXAI",
+                "harness": "OpenHands",
+                "run_date": "2026-08-11"
+            },
+            "alibaba/qwen3.7-plus": {
+                "accuracy": 54.296,
+                "latency": 724.46,
+                "stderr": 4.333,
+                "cost_per_test": 0.137331,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 29.5,
+                    "avg_query_seconds": 18.1,
+                    "median_query_seconds": 7.8,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": 0.7,
+                "top_p": null,
+                "max_output_tokens": 65536,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Alibaba",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "openai/gpt-5.6-sol": {
+                "accuracy": 54.1,
+                "latency": 787.486,
+                "stderr": 4.73,
+                "cost_per_test": 4.13999,
+                "token_totals": {
+                    "input_tokens": 248577490,
+                    "output_tokens": 3366486,
+                    "reasoning_tokens": 1901696,
+                    "cache_read_tokens": null,
+                    "cache_write_tokens": null
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 43.9,
+                    "avg_query_seconds": 18.0,
+                    "median_query_seconds": 9.2,
+                    "avg_ttft_seconds": 7.8,
+                    "output_time_split": {
+                        "reasoning_pct": 34.2,
+                        "content_pct": 17.0,
+                        "tool_call_pct": 48.8
+                    }
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": "max",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "OpenAI",
+                "harness": "OpenHands",
+                "run_date": "2026-07-16"
+            },
+            "deepseek/deepseek-v4-pro-0813": {
+                "accuracy": 53.829,
+                "latency": 674.652,
+                "stderr": 4.49,
+                "cost_per_test": 0.374596,
+                "token_totals": {
+                    "input_tokens": 166718228,
+                    "output_tokens": 4001937,
+                    "reasoning_tokens": 2775161,
+                    "cache_read_tokens": 159346304,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 40.4,
+                    "avg_query_seconds": 16.7,
+                    "median_query_seconds": 5.9,
+                    "avg_ttft_seconds": 1.8,
+                    "output_time_split": {
+                        "reasoning_pct": 78.7,
+                        "content_pct": 3.3,
+                        "tool_call_pct": 18.1
+                    }
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 384000,
+                "reasoning": null,
+                "reasoning_effort": "max",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "DeepSeek",
+                "harness": "OpenHands",
+                "run_date": "2026-08-14"
+            },
+            "meta/muse_spark_1_2": {
+                "accuracy": 53.036,
+                "latency": 780.011,
+                "stderr": 4.42,
+                "cost_per_test": 0.648998,
+                "token_totals": {
+                    "input_tokens": 190119972,
+                    "output_tokens": 2772699,
+                    "reasoning_tokens": 1250115,
+                    "cache_read_tokens": 175428243,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 45.5,
+                    "avg_query_seconds": 17.1,
+                    "median_query_seconds": 4.8,
+                    "avg_ttft_seconds": 16.5,
+                    "output_time_split": null
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 131072,
+                "reasoning": null,
+                "reasoning_effort": "xhigh",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Meta",
+                "harness": "OpenHands",
+                "run_date": "2026-08-06"
+            },
+            "google/gemini-3.5-flash": {
+                "accuracy": 52.737,
+                "latency": 435.011,
+                "stderr": 4.475,
+                "cost_per_test": 1.253121,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 49.0,
+                    "avg_query_seconds": 4.9,
+                    "median_query_seconds": 2.8,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 65536,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Google",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "openai/gpt-5.4-2026-03-05": {
+                "accuracy": 51.711,
+                "latency": 542.281,
+                "stderr": 4.721,
+                "cost_per_test": 2.044198,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 33.2,
+                    "avg_query_seconds": 8.9,
+                    "median_query_seconds": 4.5,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": "xhigh",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "OpenAI",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "minimax/MiniMax-M3": {
+                "accuracy": 51.497,
+                "latency": 927.977,
+                "stderr": 4.498,
+                "cost_per_test": 0.504553,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 56.2,
+                    "avg_query_seconds": 11.7,
+                    "median_query_seconds": 5.4,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": 1.0,
+                "top_p": 0.95,
+                "max_output_tokens": 512000,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "MiniMax",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "deepseek/deepseek-v4-pro": {
+                "accuracy": 51.274,
+                "latency": 495.558,
+                "stderr": 4.6,
+                "cost_per_test": 0.397123,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 35.8,
+                    "avg_query_seconds": 8.1,
+                    "median_query_seconds": 4.0,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 384000,
+                "reasoning": null,
+                "reasoning_effort": "max",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "DeepSeek",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "deepseek/deepseek-v4-flash-0731": {
+                "accuracy": 50.668,
+                "latency": 411.963,
+                "stderr": 4.429,
+                "cost_per_test": 0.12607,
+                "token_totals": {
+                    "input_tokens": 179542059,
+                    "output_tokens": 3761085,
+                    "reasoning_tokens": 2505391,
+                    "cache_read_tokens": 171547264,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 86,
+                    "avg_turns": 45.1,
+                    "avg_query_seconds": 9.2,
+                    "median_query_seconds": 4.2,
+                    "avg_ttft_seconds": 2.0,
+                    "output_time_split": {
+                        "reasoning_pct": 76.0,
+                        "content_pct": 4.5,
+                        "tool_call_pct": 19.5
+                    }
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 384000,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "DeepSeek",
+                "harness": "OpenHands",
+                "run_date": "2026-08-03"
+            },
+            "kimi/kimi-k2.7-code": {
+                "accuracy": 50.036,
+                "latency": 803.827,
+                "stderr": 4.237,
+                "cost_per_test": 0.443192,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 38.0,
+                    "avg_query_seconds": 15.1,
+                    "median_query_seconds": 7.6,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": null,
+                "top_p": 0.95,
+                "max_output_tokens": 32768,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Moonshot AI",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "anthropic/claude-sonnet-4-6": {
+                "accuracy": 49.052,
+                "latency": 860.178,
+                "stderr": 4.64,
+                "cost_per_test": 1.382228,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 26.3,
+                    "avg_query_seconds": 20.7,
+                    "median_query_seconds": 5.2,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": true,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": "max",
+                "provider": "Anthropic",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "zai/glm-5.3": {
+                "accuracy": 47.509,
+                "latency": 787.365,
+                "stderr": 4.522,
+                "cost_per_test": 0.71406,
+                "token_totals": {
+                    "input_tokens": 132531652,
+                    "output_tokens": 3744141,
+                    "reasoning_tokens": 2842120,
+                    "cache_read_tokens": 122715179,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 33.8,
+                    "avg_query_seconds": 23.3,
+                    "median_query_seconds": 8.8,
+                    "avg_ttft_seconds": 6.5,
+                    "output_time_split": {
+                        "reasoning_pct": 71.4,
+                        "content_pct": 4.7,
+                        "tool_call_pct": 23.9
+                    }
+                },
+                "temperature": 1.0,
+                "top_p": 0.95,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": "max",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Zhipu AI",
+                "harness": "OpenHands",
+                "run_date": "2026-08-18"
+            },
+            "anthropic/claude-sonnet-5": {
+                "accuracy": 46.476,
+                "latency": 911.674,
+                "stderr": 4.491,
+                "cost_per_test": 2.89733,
+                "token_totals": {
+                    "input_tokens": 419063334,
+                    "output_tokens": 7007639,
+                    "reasoning_tokens": null,
+                    "cache_read_tokens": 376374787,
+                    "cache_write_tokens": 42678516
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 55.0,
+                    "avg_query_seconds": 16.6,
+                    "median_query_seconds": 6.7,
+                    "avg_ttft_seconds": 14.2,
+                    "output_time_split": {
+                        "reasoning_pct": 0.0,
+                        "content_pct": 17.4,
+                        "tool_call_pct": 82.6
+                    }
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": "max",
+                "provider": "Anthropic",
+                "harness": "OpenHands",
+                "run_date": "2026-07-16"
+            },
+            "zai/glm-5.2": {
+                "accuracy": 45.077,
+                "latency": 1191.665,
+                "stderr": 4.392,
+                "cost_per_test": 0.811017,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 29.9,
+                    "avg_query_seconds": 30.5,
+                    "median_query_seconds": 10.3,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": 1.0,
+                "top_p": 0.95,
+                "max_output_tokens": 131072,
+                "reasoning": null,
+                "reasoning_effort": "max",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Zhipu AI",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "alibaba/qwen3.8-max": {
+                "accuracy": 42.011,
+                "latency": 948.433,
+                "stderr": 4.435,
+                "cost_per_test": 0.524988,
+                "token_totals": {
+                    "input_tokens": 81579115,
+                    "output_tokens": 2431763,
+                    "reasoning_tokens": 1712477,
+                    "cache_read_tokens": 75471360,
+                    "cache_write_tokens": null
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 24.6,
+                    "avg_query_seconds": 38.6,
+                    "median_query_seconds": 30.0,
+                    "avg_ttft_seconds": 24.3,
+                    "output_time_split": {
+                        "reasoning_pct": 74.9,
+                        "content_pct": 2.3,
+                        "tool_call_pct": 22.8
+                    }
+                },
+                "temperature": 0.7,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Alibaba",
+                "harness": "OpenHands",
+                "run_date": "2026-08-07"
+            },
+            "grok/grok-4.3": {
+                "accuracy": 40.638,
+                "latency": 277.173,
+                "stderr": 4.615,
+                "cost_per_test": 0.419712,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 36.4,
+                    "avg_query_seconds": 3.2,
+                    "median_query_seconds": 2.2,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": 0.7,
+                "top_p": 0.95,
+                "max_output_tokens": null,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "SpaceXAI",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "zai/glm-5.3-flash": {
+                "accuracy": 40.159,
+                "latency": 728.997,
+                "stderr": 4.432,
+                "cost_per_test": 0.078103,
+                "token_totals": {
+                    "input_tokens": 123134529,
+                    "output_tokens": 3387256,
+                    "reasoning_tokens": null,
+                    "cache_read_tokens": 111406933,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 32.9,
+                    "avg_query_seconds": 22.1,
+                    "median_query_seconds": 6.9,
+                    "avg_ttft_seconds": 1.5,
+                    "output_time_split": {
+                        "reasoning_pct": 72.0,
+                        "content_pct": 3.3,
+                        "tool_call_pct": 24.7
+                    }
+                },
+                "temperature": 1.0,
+                "top_p": 0.95,
+                "max_output_tokens": 131072,
+                "reasoning": null,
+                "reasoning_effort": "max",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Fireworks AI",
+                "harness": "OpenHands",
+                "run_date": "2026-08-28"
+            },
+            "alibaba/qwen3.8-27b": {
+                "accuracy": 38.106,
+                "latency": 401.009,
+                "stderr": 4.38,
+                "cost_per_test": 0.81809,
+                "token_totals": {
+                    "input_tokens": 121205913,
+                    "output_tokens": 3523618,
+                    "reasoning_tokens": 2495741,
+                    "cache_read_tokens": 0,
+                    "cache_write_tokens": null
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 30.6,
+                    "avg_query_seconds": 13.1,
+                    "median_query_seconds": 5.7,
+                    "avg_ttft_seconds": 4.0,
+                    "output_time_split": {
+                        "reasoning_pct": 74.5,
+                        "content_pct": 3.9,
+                        "tool_call_pct": 21.6
+                    }
+                },
+                "temperature": 1.0,
+                "top_p": 0.95,
+                "max_output_tokens": 65536,
+                "reasoning": null,
+                "reasoning_effort": "xhigh",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Alibaba",
+                "harness": "OpenHands",
+                "run_date": "2026-08-19"
+            },
+            "thinkingmachines/inkling-small": {
+                "accuracy": 33.582,
+                "latency": 700.919,
+                "stderr": 3.66,
+                "cost_per_test": 0.148059,
+                "token_totals": {
+                    "input_tokens": 135375154,
+                    "output_tokens": 2506756,
+                    "reasoning_tokens": null,
+                    "cache_read_tokens": 128081365,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 57.7,
+                    "avg_query_seconds": 12.0,
+                    "median_query_seconds": 5.6,
+                    "avg_ttft_seconds": 3.4,
+                    "output_time_split": {
+                        "reasoning_pct": 97.2,
+                        "content_pct": 2.8,
+                        "tool_call_pct": 0.0
+                    }
+                },
+                "temperature": 1.0,
+                "top_p": 1.0,
+                "max_output_tokens": 262000,
+                "reasoning": null,
+                "reasoning_effort": "0.99",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Thinkingmachines",
+                "harness": "OpenHands",
+                "run_date": "2026-08-02"
+            },
+            "ant/ling-3.0-flash-2607": {
+                "accuracy": 27.946,
+                "latency": 292.431,
+                "stderr": 3.76,
+                "cost_per_test": 0.060905,
+                "token_totals": {
+                    "input_tokens": 137709477,
+                    "output_tokens": 3774889,
+                    "reasoning_tokens": null,
+                    "cache_read_tokens": 97666485,
+                    "cache_write_tokens": null
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 37.4,
+                    "avg_query_seconds": 7.8,
+                    "median_query_seconds": 3.9,
+                    "avg_ttft_seconds": 2.5,
+                    "output_time_split": {
+                        "reasoning_pct": 52.4,
+                        "content_pct": 15.1,
+                        "tool_call_pct": 32.5
+                    }
+                },
+                "temperature": 0.6,
+                "top_p": 0.95,
+                "max_output_tokens": 131072,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Ant",
+                "harness": "OpenHands",
+                "run_date": "2026-08-01"
+            },
+            "thinkingmachines/inkling": {
+                "accuracy": 26.091,
+                "latency": 938.657,
+                "stderr": 3.863,
+                "cost_per_test": 0.826622,
+                "token_totals": {
+                    "input_tokens": 250680675,
+                    "output_tokens": 4358508,
+                    "reasoning_tokens": null,
+                    "cache_read_tokens": 237642368,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 86,
+                    "avg_turns": 109.5,
+                    "avg_query_seconds": 8.7,
+                    "median_query_seconds": 2.7,
+                    "avg_ttft_seconds": 1.7,
+                    "output_time_split": {
+                        "reasoning_pct": 91.8,
+                        "content_pct": 8.1,
+                        "tool_call_pct": 0.1
+                    }
+                },
+                "temperature": 1.0,
+                "top_p": 1.0,
+                "max_output_tokens": 256000,
+                "reasoning": null,
+                "reasoning_effort": "0.99",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Thinkingmachines",
+                "harness": "OpenHands",
+                "run_date": "2026-07-16"
+            },
+            "inception/mercury-2.5": {
+                "accuracy": 18.061,
+                "latency": 49.364,
+                "stderr": 3.079,
+                "cost_per_test": 0.101286,
+                "token_totals": {
+                    "input_tokens": 153305110,
+                    "output_tokens": 1869914,
+                    "reasoning_tokens": 1613608,
+                    "cache_read_tokens": 129175396,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 60.8,
+                    "avg_query_seconds": 0.8,
+                    "median_query_seconds": 0.6,
+                    "avg_ttft_seconds": 0.5,
+                    "output_time_split": null
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 65536,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Inception",
+                "harness": "OpenHands",
+                "run_date": "2026-09-11"
+            }
+        },
+        "no_skills": {
+            "deepseek/deepseek-v4.1-flash": {
+                "accuracy": 61.658,
+                "latency": 249.381,
+                "stderr": 3.871,
+                "cost_per_test": 0.092261,
+                "token_totals": {
+                    "input_tokens": 172613624,
+                    "output_tokens": 4085562,
+                    "reasoning_tokens": 2862712,
+                    "cache_read_tokens": 165510528,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 42.4,
+                    "avg_query_seconds": 5.9,
+                    "median_query_seconds": 3.0,
+                    "avg_ttft_seconds": 1.3,
+                    "output_time_split": {
+                        "reasoning_pct": 78.6,
+                        "content_pct": 3.0,
+                        "tool_call_pct": 18.3
+                    }
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 384000,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "DeepSeek",
+                "harness": "OpenHands",
+                "run_date": "2026-09-10"
+            },
+            "openai/gpt-5.5": {
+                "accuracy": 49.875,
+                "latency": 399.041,
+                "stderr": 4.761,
+                "cost_per_test": 2.535292,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 25.2,
+                    "avg_query_seconds": 9.9,
+                    "median_query_seconds": 5.2,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": "xhigh",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "OpenAI",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "openai/gpt-5.4-2026-03-05": {
+                "accuracy": 48.905,
+                "latency": 529.018,
+                "stderr": 4.566,
+                "cost_per_test": 2.136352,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 31.1,
+                    "avg_query_seconds": 9.9,
+                    "median_query_seconds": 4.9,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": "xhigh",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "OpenAI",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "openai/gpt-5.6-terra": {
+                "accuracy": 48.842,
+                "latency": 448.406,
+                "stderr": 4.572,
+                "cost_per_test": 1.932564,
+                "token_totals": {
+                    "input_tokens": 216541737,
+                    "output_tokens": 3665571,
+                    "reasoning_tokens": 2365698,
+                    "cache_read_tokens": 191843707,
+                    "cache_write_tokens": null
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 36.9,
+                    "avg_query_seconds": 12.1,
+                    "median_query_seconds": 6.5,
+                    "avg_ttft_seconds": 4.7,
+                    "output_time_split": {
+                        "reasoning_pct": 54.1,
+                        "content_pct": 9.0,
+                        "tool_call_pct": 36.9
+                    }
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": "max",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "OpenAI",
+                "harness": "OpenHands",
+                "run_date": "2026-08-14"
+            },
+            "grok/grok-4.5": {
+                "accuracy": 48.808,
+                "latency": 164.363,
+                "stderr": 4.586,
+                "cost_per_test": 0.624629,
+                "token_totals": {
+                    "input_tokens": 65297053,
+                    "output_tokens": 1989869,
+                    "reasoning_tokens": 641542,
+                    "cache_read_tokens": 58793728,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 18.5,
+                    "avg_query_seconds": 8.9,
+                    "median_query_seconds": 4.1,
+                    "avg_ttft_seconds": 4.2,
+                    "output_time_split": null
+                },
+                "temperature": 0.7,
+                "top_p": 0.95,
+                "max_output_tokens": null,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "SpaceXAI",
+                "harness": "OpenHands",
+                "run_date": "2026-07-16"
+            },
+            "openai/gpt-5.5-codex": {
+                "accuracy": 48.693,
+                "latency": 273.347,
+                "stderr": 4.692,
+                "cost_per_test": 1.459473,
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": null,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "OpenAI",
+                "harness": "Codex",
+                "run_date": "2026-06-22"
+            },
+            "meta/muse_spark_1_1": {
+                "accuracy": 46.266,
+                "latency": 364.452,
+                "stderr": 4.589,
+                "cost_per_test": 0.462228,
+                "token_totals": {
+                    "input_tokens": 161447224,
+                    "output_tokens": 2413748,
+                    "reasoning_tokens": 1185280,
+                    "cache_read_tokens": 156230565,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 86,
+                    "avg_turns": 34.1,
+                    "avg_query_seconds": 10.9,
+                    "median_query_seconds": 4.0,
+                    "avg_ttft_seconds": 9.1,
+                    "output_time_split": null
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 256000,
+                "reasoning": null,
+                "reasoning_effort": "xhigh",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Meta",
+                "harness": "OpenHands",
+                "run_date": "2026-07-16"
+            },
+            "anthropic/claude-opus-5": {
+                "accuracy": 45.191,
+                "latency": 568.579,
+                "stderr": 4.661,
+                "cost_per_test": 2.81595,
+                "token_totals": {
+                    "input_tokens": 154834324,
+                    "output_tokens": 3876627,
+                    "reasoning_tokens": 2260576,
+                    "cache_read_tokens": 142545393,
+                    "cache_write_tokens": 12283701
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 29.0,
+                    "avg_query_seconds": 19.6,
+                    "median_query_seconds": 9.0,
+                    "avg_ttft_seconds": 15.0,
+                    "output_time_split": null
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": "max",
+                "provider": "Anthropic",
+                "harness": "OpenHands",
+                "run_date": "2026-07-23"
+            },
+            "openai/gpt-5.6-luna": {
+                "accuracy": 45.189,
+                "latency": 346.964,
+                "stderr": 4.695,
+                "cost_per_test": 0.250725,
+                "token_totals": {
+                    "input_tokens": 363179928,
+                    "output_tokens": 3134060,
+                    "reasoning_tokens": 1832106,
+                    "cache_read_tokens": null,
+                    "cache_write_tokens": null
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 39.3,
+                    "avg_query_seconds": 8.8,
+                    "median_query_seconds": 5.4,
+                    "avg_ttft_seconds": 3.8,
+                    "output_time_split": {
+                        "reasoning_pct": 52.5,
+                        "content_pct": 9.3,
+                        "tool_call_pct": 38.1
+                    }
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": "max",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "OpenAI",
+                "harness": "OpenHands",
+                "run_date": "2026-07-16"
+            },
+            "google/gemini-3.7-flash": {
+                "accuracy": 44.887,
+                "latency": 190.076,
+                "stderr": 4.836,
+                "cost_per_test": 1.850461,
+                "token_totals": {
+                    "input_tokens": 353782248,
+                    "output_tokens": 3512262,
+                    "reasoning_tokens": 1983539,
+                    "cache_read_tokens": 293352030,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 86,
+                    "avg_turns": 59.2,
+                    "avg_query_seconds": 3.3,
+                    "median_query_seconds": 2.2,
+                    "avg_ttft_seconds": 2.4,
+                    "output_time_split": {
+                        "reasoning_pct": 95.0,
+                        "content_pct": 2.8,
+                        "tool_call_pct": 2.2
+                    }
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 65536,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Google",
+                "harness": "OpenHands",
+                "run_date": "2026-08-14"
+            },
+            "anthropic/claude-fable-5-1": {
+                "accuracy": 44.828,
+                "latency": 701.094,
+                "stderr": 4.622,
+                "cost_per_test": 4.54135,
+                "token_totals": {
+                    "input_tokens": 162140655,
+                    "output_tokens": 4324162,
+                    "reasoning_tokens": 2515319,
+                    "cache_read_tokens": 150845352,
+                    "cache_write_tokens": 11290000
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 29.3,
+                    "avg_query_seconds": 24.0,
+                    "median_query_seconds": 10.7,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": "max",
+                "provider": "Anthropic",
+                "harness": "OpenHands",
+                "run_date": "2026-08-31"
+            },
+            "anthropic/claude-opus-4-8": {
+                "accuracy": 43.674,
+                "latency": 1012.31,
+                "stderr": 4.816,
+                "cost_per_test": 5.343307,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 34.5,
+                    "avg_query_seconds": 24.7,
+                    "median_query_seconds": 9.3,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": "max",
+                "provider": "Anthropic",
+                "harness": "OpenHands",
+                "run_date": "2026-06-21"
+            },
+            "openai/gpt-5.6-sol": {
+                "accuracy": 43.312,
+                "latency": 799.069,
+                "stderr": 4.728,
+                "cost_per_test": 4.075143,
+                "token_totals": {
+                    "input_tokens": 244694742,
+                    "output_tokens": 3406754,
+                    "reasoning_tokens": 1948245,
+                    "cache_read_tokens": 215808640,
+                    "cache_write_tokens": null
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 42.0,
+                    "avg_query_seconds": 19.0,
+                    "median_query_seconds": 9.6,
+                    "avg_ttft_seconds": 8.0,
+                    "output_time_split": {
+                        "reasoning_pct": 34.7,
+                        "content_pct": 17.1,
+                        "tool_call_pct": 48.1
+                    }
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": "max",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "OpenAI",
+                "harness": "OpenHands",
+                "run_date": "2026-07-16"
+            },
+            "deepseek/deepseek-v4-pro-0813": {
+                "accuracy": 42.056,
+                "latency": 794.407,
+                "stderr": 4.364,
+                "cost_per_test": 0.423503,
+                "token_totals": {
+                    "input_tokens": 190337051,
+                    "output_tokens": 4638844,
+                    "reasoning_tokens": 3262276,
+                    "cache_read_tokens": 182421632,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 43.9,
+                    "avg_query_seconds": 18.1,
+                    "median_query_seconds": 6.6,
+                    "avg_ttft_seconds": 2.0,
+                    "output_time_split": {
+                        "reasoning_pct": 79.9,
+                        "content_pct": 2.5,
+                        "tool_call_pct": 17.6
+                    }
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 384000,
+                "reasoning": null,
+                "reasoning_effort": "max",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "DeepSeek",
+                "harness": "OpenHands",
+                "run_date": "2026-08-14"
+            },
+            "google/gemini-3.8-flash": {
+                "accuracy": 41.046,
+                "latency": 276.145,
+                "stderr": 4.516,
+                "cost_per_test": 2.612455,
+                "token_totals": {
+                    "input_tokens": 477984077,
+                    "output_tokens": 6102649,
+                    "reasoning_tokens": 4191312,
+                    "cache_read_tokens": 396638792,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 109.0,
+                    "avg_query_seconds": 2.5,
+                    "median_query_seconds": 1.7,
+                    "avg_ttft_seconds": 1.8,
+                    "output_time_split": {
+                        "reasoning_pct": 93.9,
+                        "content_pct": 4.4,
+                        "tool_call_pct": 1.6
+                    }
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 65536,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Google",
+                "harness": "OpenHands",
+                "run_date": "2026-08-29"
+            },
+            "google/gemini-3.5-flash": {
+                "accuracy": 40.971,
+                "latency": 478.715,
+                "stderr": 4.495,
+                "cost_per_test": 1.395394,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 51.4,
+                    "avg_query_seconds": 5.3,
+                    "median_query_seconds": 3.0,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 65536,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Google",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "meta/muse_spark_1_2": {
+                "accuracy": 40.591,
+                "latency": 818.489,
+                "stderr": 4.547,
+                "cost_per_test": 0.696442,
+                "token_totals": {
+                    "input_tokens": 200417920,
+                    "output_tokens": 2990775,
+                    "reasoning_tokens": 1264393,
+                    "cache_read_tokens": 184220685,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 46.5,
+                    "avg_query_seconds": 17.6,
+                    "median_query_seconds": 4.8,
+                    "avg_ttft_seconds": 16.8,
+                    "output_time_split": null
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 131072,
+                "reasoning": null,
+                "reasoning_effort": "xhigh",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Meta",
+                "harness": "OpenHands",
+                "run_date": "2026-08-06"
+            },
+            "deepseek/deepseek-v4-flash-0731": {
+                "accuracy": 38.252,
+                "latency": 495.441,
+                "stderr": 4.242,
+                "cost_per_test": 0.151888,
+                "token_totals": {
+                    "input_tokens": 213950281,
+                    "output_tokens": 4487261,
+                    "reasoning_tokens": 3076609,
+                    "cache_read_tokens": 203866368,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 48.9,
+                    "avg_query_seconds": 10.1,
+                    "median_query_seconds": 4.8,
+                    "avg_ttft_seconds": 2.0,
+                    "output_time_split": {
+                        "reasoning_pct": 78.1,
+                        "content_pct": 3.8,
+                        "tool_call_pct": 18.1
+                    }
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 384000,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "DeepSeek",
+                "harness": "OpenHands",
+                "run_date": "2026-08-03"
+            },
+            "grok/grok-4.6": {
+                "accuracy": 38.167,
+                "latency": 923.375,
+                "stderr": 4.478,
+                "cost_per_test": 1.043785,
+                "token_totals": {
+                    "input_tokens": 78273528,
+                    "output_tokens": 2693563,
+                    "reasoning_tokens": 1761201,
+                    "cache_read_tokens": 54599424,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 21.7,
+                    "avg_query_seconds": 42.6,
+                    "median_query_seconds": 17.1,
+                    "avg_ttft_seconds": 31.2,
+                    "output_time_split": null
+                },
+                "temperature": 0.7,
+                "top_p": 0.95,
+                "max_output_tokens": null,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "SpaceXAI",
+                "harness": "OpenHands",
+                "run_date": "2026-08-11"
+            },
+            "anthropic/claude-sonnet-5": {
+                "accuracy": 35.123,
+                "latency": 1016.621,
+                "stderr": 4.513,
+                "cost_per_test": 3.852227,
+                "token_totals": {
+                    "input_tokens": 600645466,
+                    "output_tokens": 7639669,
+                    "reasoning_tokens": null,
+                    "cache_read_tokens": 540932731,
+                    "cache_write_tokens": 59702013
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 60.1,
+                    "avg_query_seconds": 17.0,
+                    "median_query_seconds": 6.8,
+                    "avg_ttft_seconds": 14.7,
+                    "output_time_split": {
+                        "reasoning_pct": 0.0,
+                        "content_pct": 17.5,
+                        "tool_call_pct": 82.5
+                    }
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": "max",
+                "provider": "Anthropic",
+                "harness": "OpenHands",
+                "run_date": "2026-07-16"
+            },
+            "zai/glm-5.3-flash": {
+                "accuracy": 32.516,
+                "latency": 835.02,
+                "stderr": 4.572,
+                "cost_per_test": 0.079756,
+                "token_totals": {
+                    "input_tokens": 123175073,
+                    "output_tokens": 3884238,
+                    "reasoning_tokens": null,
+                    "cache_read_tokens": 112330027,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 33.9,
+                    "avg_query_seconds": 24.6,
+                    "median_query_seconds": 7.5,
+                    "avg_ttft_seconds": 1.4,
+                    "output_time_split": {
+                        "reasoning_pct": 74.4,
+                        "content_pct": 2.7,
+                        "tool_call_pct": 22.8
+                    }
+                },
+                "temperature": 1.0,
+                "top_p": 0.95,
+                "max_output_tokens": 131072,
+                "reasoning": null,
+                "reasoning_effort": "max",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Fireworks AI",
+                "harness": "OpenHands",
+                "run_date": "2026-08-28"
+            },
+            "zai/glm-5.2": {
+                "accuracy": 32.223,
+                "latency": 1271.286,
+                "stderr": 4.575,
+                "cost_per_test": 0.860085,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 30.3,
+                    "avg_query_seconds": 33.9,
+                    "median_query_seconds": 11.1,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": 1.0,
+                "top_p": 0.95,
+                "max_output_tokens": 131072,
+                "reasoning": null,
+                "reasoning_effort": "max",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Zhipu AI",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "alibaba/qwen3.7-plus": {
+                "accuracy": 31.145,
+                "latency": 811.189,
+                "stderr": 4.301,
+                "cost_per_test": 0.147401,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 30.2,
+                    "avg_query_seconds": 19.1,
+                    "median_query_seconds": 8.2,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": 0.7,
+                "top_p": null,
+                "max_output_tokens": 65536,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Alibaba",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "kimi/kimi-k2.7-code": {
+                "accuracy": 30.435,
+                "latency": 810.019,
+                "stderr": 3.89,
+                "cost_per_test": 0.437463,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 36.6,
+                    "avg_query_seconds": 16.3,
+                    "median_query_seconds": 9.0,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": null,
+                "top_p": 0.95,
+                "max_output_tokens": 32768,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Moonshot AI",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "alibaba/qwen3.8-max": {
+                "accuracy": 30.255,
+                "latency": 997.703,
+                "stderr": 4.183,
+                "cost_per_test": 0.558577,
+                "token_totals": {
+                    "input_tokens": 84467838,
+                    "output_tokens": 2777604,
+                    "reasoning_tokens": 2042570,
+                    "cache_read_tokens": 78288640,
+                    "cache_write_tokens": null
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 25.7,
+                    "avg_query_seconds": 38.8,
+                    "median_query_seconds": 29.2,
+                    "avg_ttft_seconds": 23.5,
+                    "output_time_split": {
+                        "reasoning_pct": 77.8,
+                        "content_pct": 2.1,
+                        "tool_call_pct": 20.1
+                    }
+                },
+                "temperature": 0.7,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Alibaba",
+                "harness": "OpenHands",
+                "run_date": "2026-08-07"
+            },
+            "zai/glm-5.3": {
+                "accuracy": 29.636,
+                "latency": 833.991,
+                "stderr": 4.252,
+                "cost_per_test": 0.745393,
+                "token_totals": {
+                    "input_tokens": 135110631,
+                    "output_tokens": 4018136,
+                    "reasoning_tokens": 3079078,
+                    "cache_read_tokens": 124548693,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 33.2,
+                    "avg_query_seconds": 25.2,
+                    "median_query_seconds": 10.0,
+                    "avg_ttft_seconds": 6.7,
+                    "output_time_split": {
+                        "reasoning_pct": 94.2,
+                        "content_pct": 5.7,
+                        "tool_call_pct": 0.0
+                    }
+                },
+                "temperature": 1.0,
+                "top_p": 0.95,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": "max",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Zhipu AI",
+                "harness": "OpenHands",
+                "run_date": "2026-08-18"
+            },
+            "anthropic/claude-sonnet-4-6": {
+                "accuracy": 27.827,
+                "latency": 899.527,
+                "stderr": 4.187,
+                "cost_per_test": 1.296656,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 25.4,
+                    "avg_query_seconds": 24.4,
+                    "median_query_seconds": 5.5,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": true,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": "max",
+                "provider": "Anthropic",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "deepseek/deepseek-v4-pro": {
+                "accuracy": 27.226,
+                "latency": 514.864,
+                "stderr": 4.006,
+                "cost_per_test": 0.416957,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 34.5,
+                    "avg_query_seconds": 9.6,
+                    "median_query_seconds": 4.8,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 384000,
+                "reasoning": null,
+                "reasoning_effort": "max",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "DeepSeek",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "minimax/MiniMax-M3": {
+                "accuracy": 26.072,
+                "latency": 1063.092,
+                "stderr": 3.863,
+                "cost_per_test": 0.596591,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 59.9,
+                    "avg_query_seconds": 13.1,
+                    "median_query_seconds": 6.0,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": 1.0,
+                "top_p": 0.95,
+                "max_output_tokens": 512000,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "MiniMax",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "thinkingmachines/inkling-small": {
+                "accuracy": 21.893,
+                "latency": 724.796,
+                "stderr": 3.439,
+                "cost_per_test": 0.146387,
+                "token_totals": {
+                    "input_tokens": 132634067,
+                    "output_tokens": 2507418,
+                    "reasoning_tokens": null,
+                    "cache_read_tokens": 125264384,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 86,
+                    "avg_turns": 57.0,
+                    "avg_query_seconds": 12.4,
+                    "median_query_seconds": 6.0,
+                    "avg_ttft_seconds": 3.6,
+                    "output_time_split": {
+                        "reasoning_pct": 97.3,
+                        "content_pct": 2.7,
+                        "tool_call_pct": 0.0
+                    }
+                },
+                "temperature": 1.0,
+                "top_p": 1.0,
+                "max_output_tokens": 262000,
+                "reasoning": null,
+                "reasoning_effort": "0.99",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Thinkingmachines",
+                "harness": "OpenHands",
+                "run_date": "2026-08-02"
+            },
+            "grok/grok-4.3": {
+                "accuracy": 19.305,
+                "latency": 278.486,
+                "stderr": 3.515,
+                "cost_per_test": 0.361569,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 32.5,
+                    "avg_query_seconds": 3.5,
+                    "median_query_seconds": 2.2,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": 0.7,
+                "top_p": 0.95,
+                "max_output_tokens": null,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "SpaceXAI",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "alibaba/qwen3.8-27b": {
+                "accuracy": 19.117,
+                "latency": 428.836,
+                "stderr": 3.555,
+                "cost_per_test": 0.829339,
+                "token_totals": {
+                    "input_tokens": 121702103,
+                    "output_tokens": 3767133,
+                    "reasoning_tokens": 2752432,
+                    "cache_read_tokens": 0,
+                    "cache_write_tokens": null
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 30.4,
+                    "avg_query_seconds": 14.1,
+                    "median_query_seconds": 5.7,
+                    "avg_ttft_seconds": 4.3,
+                    "output_time_split": {
+                        "reasoning_pct": 77.4,
+                        "content_pct": 3.0,
+                        "tool_call_pct": 19.6
+                    }
+                },
+                "temperature": 1.0,
+                "top_p": 0.95,
+                "max_output_tokens": 65536,
+                "reasoning": null,
+                "reasoning_effort": "xhigh",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Alibaba",
+                "harness": "OpenHands",
+                "run_date": "2026-08-19"
+            },
+            "thinkingmachines/inkling": {
+                "accuracy": 18.522,
+                "latency": 993.183,
+                "stderr": 3.389,
+                "cost_per_test": 0.900978,
+                "token_totals": {
+                    "input_tokens": 268365098,
+                    "output_tokens": 4816449,
+                    "reasoning_tokens": null,
+                    "cache_read_tokens": 254202752,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 85,
+                    "avg_turns": 117.0,
+                    "avg_query_seconds": 8.7,
+                    "median_query_seconds": 2.8,
+                    "avg_ttft_seconds": 1.6,
+                    "output_time_split": {
+                        "reasoning_pct": 92.0,
+                        "content_pct": 7.9,
+                        "tool_call_pct": 0.1
+                    }
+                },
+                "temperature": 1.0,
+                "top_p": 1.0,
+                "max_output_tokens": 256000,
+                "reasoning": null,
+                "reasoning_effort": "0.99",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Thinkingmachines",
+                "harness": "OpenHands",
+                "run_date": "2026-07-16"
+            },
+            "ant/ling-3.0-flash-2607": {
+                "accuracy": 18.185,
+                "latency": 324.893,
+                "stderr": 3.221,
+                "cost_per_test": 0.064236,
+                "token_totals": {
+                    "input_tokens": 137587646,
+                    "output_tokens": 4479820,
+                    "reasoning_tokens": null,
+                    "cache_read_tokens": 95625410,
+                    "cache_write_tokens": null
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 37.0,
+                    "avg_query_seconds": 8.8,
+                    "median_query_seconds": 4.0,
+                    "avg_ttft_seconds": 2.6,
+                    "output_time_split": {
+                        "reasoning_pct": 61.7,
+                        "content_pct": 10.7,
+                        "tool_call_pct": 27.6
+                    }
+                },
+                "temperature": 0.6,
+                "top_p": 0.95,
+                "max_output_tokens": 131072,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Ant",
+                "harness": "OpenHands",
+                "run_date": "2026-08-01"
+            },
+            "inception/mercury-2.5": {
+                "accuracy": 9.133,
+                "latency": 36.37,
+                "stderr": 2.183,
+                "cost_per_test": 0.074157,
+                "token_totals": {
+                    "input_tokens": 114596930,
+                    "output_tokens": 1348921,
+                    "reasoning_tokens": 1164516,
+                    "cache_read_tokens": 97107827,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 45.2,
+                    "avg_query_seconds": 0.8,
+                    "median_query_seconds": 0.6,
+                    "avg_ttft_seconds": 0.5,
+                    "output_time_split": null
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 65536,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Inception",
+                "harness": "OpenHands",
+                "run_date": "2026-09-11"
+            }
+        },
+        "with_skills": {
+            "deepseek/deepseek-v4.1-flash": {
+                "accuracy": 69.802,
+                "latency": 223.451,
+                "stderr": 3.879,
+                "cost_per_test": 0.085117,
+                "token_totals": {
+                    "input_tokens": 156646701,
+                    "output_tokens": 3699470,
+                    "reasoning_tokens": 2488385,
+                    "cache_read_tokens": 149755691,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 39.4,
+                    "avg_query_seconds": 5.7,
+                    "median_query_seconds": 3.0,
+                    "avg_ttft_seconds": 1.3,
+                    "output_time_split": {
+                        "reasoning_pct": 75.3,
+                        "content_pct": 3.6,
+                        "tool_call_pct": 21.0
+                    }
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 384000,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "DeepSeek",
+                "harness": "OpenHands",
+                "run_date": "2026-09-10"
+            },
+            "grok/grok-4.5": {
+                "accuracy": 66.034,
+                "latency": 135.652,
+                "stderr": 4.596,
+                "cost_per_test": 0.578155,
+                "token_totals": {
+                    "input_tokens": 60938476,
+                    "output_tokens": 1759727,
+                    "reasoning_tokens": 549266,
+                    "cache_read_tokens": 54906752,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 86,
+                    "avg_turns": 17.6,
+                    "avg_query_seconds": 7.8,
+                    "median_query_seconds": 3.5,
+                    "avg_ttft_seconds": 3.7,
+                    "output_time_split": null
+                },
+                "temperature": 0.7,
+                "top_p": 0.95,
+                "max_output_tokens": null,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "SpaceXAI",
+                "harness": "OpenHands",
+                "run_date": "2026-07-16"
+            },
+            "google/gemini-3.7-flash": {
+                "accuracy": 65.891,
+                "latency": 185.651,
+                "stderr": 4.554,
+                "cost_per_test": 1.799454,
+                "token_totals": {
+                    "input_tokens": 339246665,
+                    "output_tokens": 3141290,
+                    "reasoning_tokens": 1808868,
+                    "cache_read_tokens": 278427507,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 86,
+                    "avg_turns": 59.2,
+                    "avg_query_seconds": 3.2,
+                    "median_query_seconds": 2.0,
+                    "avg_ttft_seconds": 2.4,
+                    "output_time_split": {
+                        "reasoning_pct": 94.0,
+                        "content_pct": 3.6,
+                        "tool_call_pct": 2.4
+                    }
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 65536,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Google",
+                "harness": "OpenHands",
+                "run_date": "2026-08-14"
+            },
+            "openai/gpt-5.5-codex": {
+                "accuracy": 62.555,
+                "latency": 279.51,
+                "stderr": 4.412,
+                "cost_per_test": 1.572689,
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": null,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "OpenAI",
+                "harness": "Codex",
+                "run_date": "2026-06-22"
+            },
+            "openai/gpt-5.5": {
+                "accuracy": 62.209,
+                "latency": 414.615,
+                "stderr": 4.523,
+                "cost_per_test": 2.54346,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 28.8,
+                    "avg_query_seconds": 8.4,
+                    "median_query_seconds": 4.6,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": "xhigh",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "OpenAI",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "anthropic/claude-fable-5-1": {
+                "accuracy": 61.552,
+                "latency": 661.978,
+                "stderr": 4.76,
+                "cost_per_test": 4.516559,
+                "token_totals": {
+                    "input_tokens": 171877224,
+                    "output_tokens": 4148970,
+                    "reasoning_tokens": 2185551,
+                    "cache_read_tokens": 160241536,
+                    "cache_write_tokens": 11629922
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 86,
+                    "avg_turns": 32.3,
+                    "avg_query_seconds": 20.8,
+                    "median_query_seconds": 9.0,
+                    "avg_ttft_seconds": 16.9,
+                    "output_time_split": null
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": "max",
+                "provider": "Anthropic",
+                "harness": "OpenHands",
+                "run_date": "2026-08-31"
+            },
+            "openai/gpt-5.6-luna": {
+                "accuracy": 60.447,
+                "latency": 320.466,
+                "stderr": 4.75,
+                "cost_per_test": 0.206587,
+                "token_totals": {
+                    "input_tokens": 289132649,
+                    "output_tokens": 2947795,
+                    "reasoning_tokens": 1690174,
+                    "cache_read_tokens": 263576033,
+                    "cache_write_tokens": null
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 37.8,
+                    "avg_query_seconds": 8.5,
+                    "median_query_seconds": 5.1,
+                    "avg_ttft_seconds": 3.7,
+                    "output_time_split": {
+                        "reasoning_pct": 54.6,
+                        "content_pct": 11.5,
+                        "tool_call_pct": 34.0
+                    }
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": "max",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "OpenAI",
+                "harness": "OpenHands",
+                "run_date": "2026-07-16"
+            },
+            "anthropic/claude-opus-5": {
+                "accuracy": 60.441,
+                "latency": 505.008,
+                "stderr": 4.578,
+                "cost_per_test": 2.508594,
+                "token_totals": {
+                    "input_tokens": 143410634,
+                    "output_tokens": 3415547,
+                    "reasoning_tokens": 1853920,
+                    "cache_read_tokens": 132773913,
+                    "cache_write_tokens": 10630716
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 29.2,
+                    "avg_query_seconds": 17.4,
+                    "median_query_seconds": 8.1,
+                    "avg_ttft_seconds": 12.9,
+                    "output_time_split": null
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": "max",
+                "provider": "Anthropic",
+                "harness": "OpenHands",
+                "run_date": "2026-07-23"
+            },
+            "anthropic/claude-opus-4-8": {
+                "accuracy": 59.227,
+                "latency": 930.403,
+                "stderr": 4.5,
+                "cost_per_test": 4.766601,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 33.6,
+                    "avg_query_seconds": 22.6,
+                    "median_query_seconds": 9.0,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": "max",
+                "provider": "Anthropic",
+                "harness": "OpenHands",
+                "run_date": "2026-06-21"
+            },
+            "meta/muse_spark_1_1": {
+                "accuracy": 59.189,
+                "latency": 376.268,
+                "stderr": 4.444,
+                "cost_per_test": 0.449432,
+                "token_totals": {
+                    "input_tokens": 156965446,
+                    "output_tokens": 2169185,
+                    "reasoning_tokens": 1035187,
+                    "cache_read_tokens": 151204800,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 34.9,
+                    "avg_query_seconds": 11.0,
+                    "median_query_seconds": 4.4,
+                    "avg_ttft_seconds": 9.0,
+                    "output_time_split": null
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 256000,
+                "reasoning": null,
+                "reasoning_effort": "xhigh",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Meta",
+                "harness": "OpenHands",
+                "run_date": "2026-07-16"
+            },
+            "openai/gpt-5.6-terra": {
+                "accuracy": 58.895,
+                "latency": 415.068,
+                "stderr": 4.472,
+                "cost_per_test": 1.75247,
+                "token_totals": {
+                    "input_tokens": 198738807,
+                    "output_tokens": 3397716,
+                    "reasoning_tokens": 2179320,
+                    "cache_read_tokens": 175914584,
+                    "cache_write_tokens": null
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 35.6,
+                    "avg_query_seconds": 11.6,
+                    "median_query_seconds": 6.0,
+                    "avg_ttft_seconds": 4.6,
+                    "output_time_split": {
+                        "reasoning_pct": 53.0,
+                        "content_pct": 10.5,
+                        "tool_call_pct": 36.4
+                    }
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": "max",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "OpenAI",
+                "harness": "OpenHands",
+                "run_date": "2026-08-14"
+            },
+            "google/gemini-3.8-flash": {
+                "accuracy": 57.985,
+                "latency": 235.201,
+                "stderr": 4.422,
+                "cost_per_test": 2.336944,
+                "token_totals": {
+                    "input_tokens": 431449450,
+                    "output_tokens": 5332298,
+                    "reasoning_tokens": 3637644,
+                    "cache_read_tokens": 358409114,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 97.4,
+                    "avg_query_seconds": 2.4,
+                    "median_query_seconds": 1.6,
+                    "avg_ttft_seconds": 1.7,
+                    "output_time_split": {
+                        "reasoning_pct": 93.3,
+                        "content_pct": 4.8,
+                        "tool_call_pct": 1.9
+                    }
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 65536,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Google",
+                "harness": "OpenHands",
+                "run_date": "2026-08-29"
+            },
+            "grok/grok-4.6": {
+                "accuracy": 55.766,
+                "latency": 808.117,
+                "stderr": 4.844,
+                "cost_per_test": 0.921477,
+                "token_totals": {
+                    "input_tokens": 66552688,
+                    "output_tokens": 2359594,
+                    "reasoning_tokens": 1505441,
+                    "cache_read_tokens": 44729600,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 19.7,
+                    "avg_query_seconds": 41.0,
+                    "median_query_seconds": 15.2,
+                    "avg_ttft_seconds": 29.2,
+                    "output_time_split": null
+                },
+                "temperature": 0.7,
+                "top_p": 0.95,
+                "max_output_tokens": null,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "SpaceXAI",
+                "harness": "OpenHands",
+                "run_date": "2026-08-11"
+            },
+            "alibaba/qwen3.7-plus": {
+                "accuracy": 54.296,
+                "latency": 724.46,
+                "stderr": 4.333,
+                "cost_per_test": 0.137331,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 29.5,
+                    "avg_query_seconds": 18.1,
+                    "median_query_seconds": 7.8,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": 0.7,
+                "top_p": null,
+                "max_output_tokens": 65536,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Alibaba",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "openai/gpt-5.6-sol": {
+                "accuracy": 54.1,
+                "latency": 787.486,
+                "stderr": 4.73,
+                "cost_per_test": 4.13999,
+                "token_totals": {
+                    "input_tokens": 248577490,
+                    "output_tokens": 3366486,
+                    "reasoning_tokens": 1901696,
+                    "cache_read_tokens": null,
+                    "cache_write_tokens": null
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 43.9,
+                    "avg_query_seconds": 18.0,
+                    "median_query_seconds": 9.2,
+                    "avg_ttft_seconds": 7.8,
+                    "output_time_split": {
+                        "reasoning_pct": 34.2,
+                        "content_pct": 17.0,
+                        "tool_call_pct": 48.8
+                    }
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": "max",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "OpenAI",
+                "harness": "OpenHands",
+                "run_date": "2026-07-16"
+            },
+            "deepseek/deepseek-v4-pro-0813": {
+                "accuracy": 53.829,
+                "latency": 674.652,
+                "stderr": 4.49,
+                "cost_per_test": 0.374596,
+                "token_totals": {
+                    "input_tokens": 166718228,
+                    "output_tokens": 4001937,
+                    "reasoning_tokens": 2775161,
+                    "cache_read_tokens": 159346304,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 40.4,
+                    "avg_query_seconds": 16.7,
+                    "median_query_seconds": 5.9,
+                    "avg_ttft_seconds": 1.8,
+                    "output_time_split": {
+                        "reasoning_pct": 78.7,
+                        "content_pct": 3.3,
+                        "tool_call_pct": 18.1
+                    }
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 384000,
+                "reasoning": null,
+                "reasoning_effort": "max",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "DeepSeek",
+                "harness": "OpenHands",
+                "run_date": "2026-08-14"
+            },
+            "meta/muse_spark_1_2": {
+                "accuracy": 53.036,
+                "latency": 780.011,
+                "stderr": 4.42,
+                "cost_per_test": 0.648998,
+                "token_totals": {
+                    "input_tokens": 190119972,
+                    "output_tokens": 2772699,
+                    "reasoning_tokens": 1250115,
+                    "cache_read_tokens": 175428243,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 45.5,
+                    "avg_query_seconds": 17.1,
+                    "median_query_seconds": 4.8,
+                    "avg_ttft_seconds": 16.5,
+                    "output_time_split": null
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 131072,
+                "reasoning": null,
+                "reasoning_effort": "xhigh",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Meta",
+                "harness": "OpenHands",
+                "run_date": "2026-08-06"
+            },
+            "google/gemini-3.5-flash": {
+                "accuracy": 52.737,
+                "latency": 435.011,
+                "stderr": 4.475,
+                "cost_per_test": 1.253121,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 49.0,
+                    "avg_query_seconds": 4.9,
+                    "median_query_seconds": 2.8,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 65536,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Google",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "openai/gpt-5.4-2026-03-05": {
+                "accuracy": 51.711,
+                "latency": 542.281,
+                "stderr": 4.721,
+                "cost_per_test": 2.044198,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 33.2,
+                    "avg_query_seconds": 8.9,
+                    "median_query_seconds": 4.5,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": "xhigh",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "OpenAI",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "minimax/MiniMax-M3": {
+                "accuracy": 51.497,
+                "latency": 927.977,
+                "stderr": 4.498,
+                "cost_per_test": 0.504553,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 56.2,
+                    "avg_query_seconds": 11.7,
+                    "median_query_seconds": 5.4,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": 1.0,
+                "top_p": 0.95,
+                "max_output_tokens": 512000,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "MiniMax",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "deepseek/deepseek-v4-pro": {
+                "accuracy": 51.274,
+                "latency": 495.558,
+                "stderr": 4.6,
+                "cost_per_test": 0.397123,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 35.8,
+                    "avg_query_seconds": 8.1,
+                    "median_query_seconds": 4.0,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 384000,
+                "reasoning": null,
+                "reasoning_effort": "max",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "DeepSeek",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "deepseek/deepseek-v4-flash-0731": {
+                "accuracy": 50.668,
+                "latency": 411.963,
+                "stderr": 4.429,
+                "cost_per_test": 0.12607,
+                "token_totals": {
+                    "input_tokens": 179542059,
+                    "output_tokens": 3761085,
+                    "reasoning_tokens": 2505391,
+                    "cache_read_tokens": 171547264,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 86,
+                    "avg_turns": 45.1,
+                    "avg_query_seconds": 9.2,
+                    "median_query_seconds": 4.2,
+                    "avg_ttft_seconds": 2.0,
+                    "output_time_split": {
+                        "reasoning_pct": 76.0,
+                        "content_pct": 4.5,
+                        "tool_call_pct": 19.5
+                    }
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 384000,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "DeepSeek",
+                "harness": "OpenHands",
+                "run_date": "2026-08-03"
+            },
+            "kimi/kimi-k2.7-code": {
+                "accuracy": 50.036,
+                "latency": 803.827,
+                "stderr": 4.237,
+                "cost_per_test": 0.443192,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 38.0,
+                    "avg_query_seconds": 15.1,
+                    "median_query_seconds": 7.6,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": null,
+                "top_p": 0.95,
+                "max_output_tokens": 32768,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Moonshot AI",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "anthropic/claude-sonnet-4-6": {
+                "accuracy": 49.052,
+                "latency": 860.178,
+                "stderr": 4.64,
+                "cost_per_test": 1.382228,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 26.3,
+                    "avg_query_seconds": 20.7,
+                    "median_query_seconds": 5.2,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": true,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": "max",
+                "provider": "Anthropic",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "zai/glm-5.3": {
+                "accuracy": 47.509,
+                "latency": 787.365,
+                "stderr": 4.522,
+                "cost_per_test": 0.71406,
+                "token_totals": {
+                    "input_tokens": 132531652,
+                    "output_tokens": 3744141,
+                    "reasoning_tokens": 2842120,
+                    "cache_read_tokens": 122715179,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 33.8,
+                    "avg_query_seconds": 23.3,
+                    "median_query_seconds": 8.8,
+                    "avg_ttft_seconds": 6.5,
+                    "output_time_split": {
+                        "reasoning_pct": 71.4,
+                        "content_pct": 4.7,
+                        "tool_call_pct": 23.9
+                    }
+                },
+                "temperature": 1.0,
+                "top_p": 0.95,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": "max",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Zhipu AI",
+                "harness": "OpenHands",
+                "run_date": "2026-08-18"
+            },
+            "anthropic/claude-sonnet-5": {
+                "accuracy": 46.476,
+                "latency": 911.674,
+                "stderr": 4.491,
+                "cost_per_test": 2.89733,
+                "token_totals": {
+                    "input_tokens": 419063334,
+                    "output_tokens": 7007639,
+                    "reasoning_tokens": null,
+                    "cache_read_tokens": 376374787,
+                    "cache_write_tokens": 42678516
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 55.0,
+                    "avg_query_seconds": 16.6,
+                    "median_query_seconds": 6.7,
+                    "avg_ttft_seconds": 14.2,
+                    "output_time_split": {
+                        "reasoning_pct": 0.0,
+                        "content_pct": 17.4,
+                        "tool_call_pct": 82.6
+                    }
+                },
+                "temperature": 1.0,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": "max",
+                "provider": "Anthropic",
+                "harness": "OpenHands",
+                "run_date": "2026-07-16"
+            },
+            "zai/glm-5.2": {
+                "accuracy": 45.077,
+                "latency": 1191.665,
+                "stderr": 4.392,
+                "cost_per_test": 0.811017,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 29.9,
+                    "avg_query_seconds": 30.5,
+                    "median_query_seconds": 10.3,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": 1.0,
+                "top_p": 0.95,
+                "max_output_tokens": 131072,
+                "reasoning": null,
+                "reasoning_effort": "max",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Zhipu AI",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "alibaba/qwen3.8-max": {
+                "accuracy": 42.011,
+                "latency": 948.433,
+                "stderr": 4.435,
+                "cost_per_test": 0.524988,
+                "token_totals": {
+                    "input_tokens": 81579115,
+                    "output_tokens": 2431763,
+                    "reasoning_tokens": 1712477,
+                    "cache_read_tokens": 75471360,
+                    "cache_write_tokens": null
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 24.6,
+                    "avg_query_seconds": 38.6,
+                    "median_query_seconds": 30.0,
+                    "avg_ttft_seconds": 24.3,
+                    "output_time_split": {
+                        "reasoning_pct": 74.9,
+                        "content_pct": 2.3,
+                        "tool_call_pct": 22.8
+                    }
+                },
+                "temperature": 0.7,
+                "top_p": null,
+                "max_output_tokens": 128000,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Alibaba",
+                "harness": "OpenHands",
+                "run_date": "2026-08-07"
+            },
+            "grok/grok-4.3": {
+                "accuracy": 40.638,
+                "latency": 277.173,
+                "stderr": 4.615,
+                "cost_per_test": 0.419712,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 36.4,
+                    "avg_query_seconds": 3.2,
+                    "median_query_seconds": 2.2,
+                    "avg_ttft_seconds": null,
+                    "output_time_split": null
+                },
+                "temperature": 0.7,
+                "top_p": 0.95,
+                "max_output_tokens": null,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "SpaceXAI",
+                "harness": "OpenHands",
+                "run_date": "2026-06-20"
+            },
+            "zai/glm-5.3-flash": {
+                "accuracy": 40.159,
+                "latency": 728.997,
+                "stderr": 4.432,
+                "cost_per_test": 0.078103,
+                "token_totals": {
+                    "input_tokens": 123134529,
+                    "output_tokens": 3387256,
+                    "reasoning_tokens": null,
+                    "cache_read_tokens": 111406933,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 32.9,
+                    "avg_query_seconds": 22.1,
+                    "median_query_seconds": 6.9,
+                    "avg_ttft_seconds": 1.5,
+                    "output_time_split": {
+                        "reasoning_pct": 72.0,
+                        "content_pct": 3.3,
+                        "tool_call_pct": 24.7
+                    }
+                },
+                "temperature": 1.0,
+                "top_p": 0.95,
+                "max_output_tokens": 131072,
+                "reasoning": null,
+                "reasoning_effort": "max",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Fireworks AI",
+                "harness": "OpenHands",
+                "run_date": "2026-08-28"
+            },
+            "alibaba/qwen3.8-27b": {
+                "accuracy": 38.106,
+                "latency": 401.009,
+                "stderr": 4.38,
+                "cost_per_test": 0.81809,
+                "token_totals": {
+                    "input_tokens": 121205913,
+                    "output_tokens": 3523618,
+                    "reasoning_tokens": 2495741,
+                    "cache_read_tokens": 0,
+                    "cache_write_tokens": null
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 30.6,
+                    "avg_query_seconds": 13.1,
+                    "median_query_seconds": 5.7,
+                    "avg_ttft_seconds": 4.0,
+                    "output_time_split": {
+                        "reasoning_pct": 74.5,
+                        "content_pct": 3.9,
+                        "tool_call_pct": 21.6
+                    }
+                },
+                "temperature": 1.0,
+                "top_p": 0.95,
+                "max_output_tokens": 65536,
+                "reasoning": null,
+                "reasoning_effort": "xhigh",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Alibaba",
+                "harness": "OpenHands",
+                "run_date": "2026-08-19"
+            },
+            "thinkingmachines/inkling-small": {
+                "accuracy": 33.582,
+                "latency": 700.919,
+                "stderr": 3.66,
+                "cost_per_test": 0.148059,
+                "token_totals": {
+                    "input_tokens": 135375154,
+                    "output_tokens": 2506756,
+                    "reasoning_tokens": null,
+                    "cache_read_tokens": 128081365,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 57.7,
+                    "avg_query_seconds": 12.0,
+                    "median_query_seconds": 5.6,
+                    "avg_ttft_seconds": 3.4,
+                    "output_time_split": {
+                        "reasoning_pct": 97.2,
+                        "content_pct": 2.8,
+                        "tool_call_pct": 0.0
+                    }
+                },
+                "temperature": 1.0,
+                "top_p": 1.0,
+                "max_output_tokens": 262000,
+                "reasoning": null,
+                "reasoning_effort": "0.99",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Thinkingmachines",
+                "harness": "OpenHands",
+                "run_date": "2026-08-02"
+            },
+            "ant/ling-3.0-flash-2607": {
+                "accuracy": 27.946,
+                "latency": 292.431,
+                "stderr": 3.76,
+                "cost_per_test": 0.060905,
+                "token_totals": {
+                    "input_tokens": 137709477,
+                    "output_tokens": 3774889,
+                    "reasoning_tokens": null,
+                    "cache_read_tokens": 97666485,
+                    "cache_write_tokens": null
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 37.4,
+                    "avg_query_seconds": 7.8,
+                    "median_query_seconds": 3.9,
+                    "avg_ttft_seconds": 2.5,
+                    "output_time_split": {
+                        "reasoning_pct": 52.4,
+                        "content_pct": 15.1,
+                        "tool_call_pct": 32.5
+                    }
+                },
+                "temperature": 0.6,
+                "top_p": 0.95,
+                "max_output_tokens": 131072,
+                "reasoning": null,
+                "reasoning_effort": null,
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Ant",
+                "harness": "OpenHands",
+                "run_date": "2026-08-01"
+            },
+            "thinkingmachines/inkling": {
+                "accuracy": 26.091,
+                "latency": 938.657,
+                "stderr": 3.863,
+                "cost_per_test": 0.826622,
+                "token_totals": {
+                    "input_tokens": 250680675,
+                    "output_tokens": 4358508,
+                    "reasoning_tokens": null,
+                    "cache_read_tokens": 237642368,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 86,
+                    "avg_turns": 109.5,
+                    "avg_query_seconds": 8.7,
+                    "median_query_seconds": 2.7,
+                    "avg_ttft_seconds": 1.7,
+                    "output_time_split": {
+                        "reasoning_pct": 91.8,
+                        "content_pct": 8.1,
+                        "tool_call_pct": 0.1
+                    }
+                },
+                "temperature": 1.0,
+                "top_p": 1.0,
+                "max_output_tokens": 256000,
+                "reasoning": null,
+                "reasoning_effort": "0.99",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Thinkingmachines",
+                "harness": "OpenHands",
+                "run_date": "2026-07-16"
+            },
+            "inception/mercury-2.5": {
+                "accuracy": 18.061,
+                "latency": 49.364,
+                "stderr": 3.079,
+                "cost_per_test": 0.101286,
+                "token_totals": {
+                    "input_tokens": 153305110,
+                    "output_tokens": 1869914,
+                    "reasoning_tokens": 1613608,
+                    "cache_read_tokens": 129175396,
+                    "cache_write_tokens": 0
+                },
+                "token_tasks_measured": 87,
+                "turn_metrics": {
+                    "tasks_measured": 87,
+                    "avg_turns": 60.8,
+                    "avg_query_seconds": 0.8,
+                    "median_query_seconds": 0.6,
+                    "avg_ttft_seconds": 0.5,
+                    "output_time_split": null
+                },
+                "temperature": null,
+                "top_p": null,
+                "max_output_tokens": 65536,
+                "reasoning": null,
+                "reasoning_effort": "high",
+                "verbosity": null,
+                "compute_effort": null,
+                "provider": "Inception",
+                "harness": "OpenHands",
+                "run_date": "2026-09-11"
+            }
+        }
+    }
+}

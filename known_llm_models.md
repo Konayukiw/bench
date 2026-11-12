@@ -2,7 +2,7 @@
 
 > List for coding benchmark, excepting image-generation, video-generation, translation, embedding, voice-recognization models.
 
-**Last updated: 2026-10-24**
+**Last updated: 2026-11-12**
 
 - **⚠️** : Annotations for name, tier, and delivery method
 
@@ -59,6 +59,7 @@
 - GPT-6 Luna Pro
 - GPT-6.1 Sol
 - GPT-6.1 Sol Pro
+- GPT-6.1 Terra
 
 ### o series
 
@@ -124,6 +125,7 @@
 - Claude Opus 5
 - Claude Fable 5
 - Claude Fable 5.1
+- Claude Fable 5.2
 - Claude Opus 5.5
 - Claude Sonnet 5.5
 - Claude Haiku 5.5
@@ -165,6 +167,7 @@
 - Gemini 3.8 Flash
 - Gemini 3.8 Flash Cyber
 - Gemini 4 Argon
+- Gemini 4 Carbon
 
 ### Gemma series
 
@@ -207,6 +210,7 @@
 - Muse Wonder Full
 - Muse Glimmer
 - Muse Code
+- Muse Ember
 
 ⚠️: Muse Spark 1.2 Contributor and Muse Spark 1.3 Contributor are discounted API tiers of Muse Spark 1.2 and Muse Spark 1.3, which allow Meta to use prompts and outputs for training. Their specs should be the same as its non-contributor model.
 
@@ -431,8 +435,9 @@
 - Tencent HY 2.0 Instruct
 - Tencent Hy3
 - Tencent Hy4 Preview ⚠️
+- Tencent Hy4
 
-⚠️: Hy4 is not officially released yet.
+⚠️: Tencent Hy4 Preview is the August 2026 pre-release checkpoint. Tencent Hy4 is the November 2026 full release.
 
 ---
 
@@ -715,6 +720,7 @@
 - ERNIE 5.0 Preview
 - ERNIE 5.0
 - ERNIE 5.1
+- ERNIE 5.5 Flash Preview
 
 ---
 
@@ -775,6 +781,13 @@
 - LFM2.5-VL-1.6B
 - LFM2-Audio-1.5B
 - LFM2.5-Audio-1.5B
+- LFM3-1.7B
+- LFM3-1.7B-Base
+- LFM3-VL-2B
+- LFM3-Audio-2B
+- LFM3-Omni-2B
+
+⚠️: The 2026-10-27 LFM3 release also includes d1-2B and d1-Omni-2B. They return calibrated decisions in one forward pass instead of generated text, so they are omitted, consistent with d1-3B never being listed.
 
 ---
 
@@ -860,6 +873,7 @@
 
 - Inkling
 - Inkling-Small
+- Inkling 2 Small
 
 ## Anysphere
 
@@ -877,6 +891,7 @@
 - SWE-1.6 Fast ⚠️
 - SWE-1.7
 - SWE-2
+- SWE-2 Flash
 
 ⚠️: SWE-1.6 Fast is the Cerebras-served fast tier of SWE-1.6.
 
@@ -927,6 +942,7 @@
 - LongCat-2.0
 - LongCat-Flash-Lite-Sparse
 - LongCat-2.5-Preview
+- LongCat-2.5
 
 ## Ant Group
 
