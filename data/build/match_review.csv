@@ -1,9 +1,11 @@
 stage,source,source_name,matched_model
+ambiguous:key_nosize,aa,Llama 3.2 Instruct 11B (Vision),Llama 3.2 1B | Llama 3.2 3B
+ambiguous:key_nosize,aa,Llama 3.2 Instruct 90B (Vision),Llama 3.2 1B | Llama 3.2 3B
 ambiguous:key_nosize,bigcodebench,Yi-1.5-6B,Yi-1.5-34B | Yi-1.5-9B
 ambiguous:key_nosize,bigcodebench,Yi-1.5-6B-Chat,Yi-1.5-34B | Yi-1.5-9B
 ambiguous:key_nosize,epoch,Llama 3.2 90B,Llama 3.2 1B | Llama 3.2 3B
-key_loose,aa,Claude 3.5 Sonnet (June '24),Claude 3.5 Sonnet
 key_loose,aa,Claude 3.5 Sonnet (Oct '24),Claude 3.5 Sonnet
+key_loose,aa,Claude 3.7 Sonnet (Non-reasoning),Claude 3.7 Sonnet
 key_loose,aa,Claude 3.7 Sonnet (Reasoning),Claude 3.7 Sonnet
 key_loose,aa,"Claude Fable 5 (Max, Opus 4.8 Fallback)",Claude Fable 5
 key_loose,aa,"Claude Fable 5.1 (High, Default Fallback)",Claude Fable 5.1
@@ -11,34 +13,112 @@ key_loose,aa,"Claude Fable 5.1 (Low, Default Fallback)",Claude Fable 5.1
 key_loose,aa,"Claude Fable 5.1 (Max, Default Fallback)",Claude Fable 5.1
 key_loose,aa,"Claude Fable 5.1 (Medium, Default Fallback)",Claude Fable 5.1
 key_loose,aa,"Claude Fable 5.1 (Xhigh, Default Fallback)",Claude Fable 5.1
+key_loose,aa,Claude Haiku 5.5 (High),Claude Haiku 5.5
+key_loose,aa,Claude Haiku 5.5 (Low),Claude Haiku 5.5
+key_loose,aa,Claude Haiku 5.5 (Max),Claude Haiku 5.5
+key_loose,aa,Claude Haiku 5.5 (Medium),Claude Haiku 5.5
+key_loose,aa,Claude Haiku 5.5 (Xhigh),Claude Haiku 5.5
+key_loose,aa,Claude Opus 4.5 (Non-reasoning),Claude Opus 4.5
+key_loose,aa,Claude Opus 4.5 (Reasoning),Claude Opus 4.5
+key_loose,aa,Claude Opus 4.6 (Max),Claude Opus 4.6
+key_loose,aa,"Claude Opus 4.6 (Non-reasoning, High)",Claude Opus 4.6
 key_loose,aa,Claude Opus 4.7 (Max),Claude Opus 4.7
+key_loose,aa,"Claude Opus 4.7 (Non-reasoning, High)",Claude Opus 4.7
 key_loose,aa,Claude Opus 4.8 (Max),Claude Opus 4.8
 key_loose,aa,Claude Opus 5 (High),Claude Opus 5
 key_loose,aa,Claude Opus 5 (Low),Claude Opus 5
 key_loose,aa,Claude Opus 5 (Max),Claude Opus 5
 key_loose,aa,Claude Opus 5 (Medium),Claude Opus 5
 key_loose,aa,Claude Opus 5 (Xhigh),Claude Opus 5
+key_loose,aa,"Claude Opus 5.5 (High, Default Fallback)",Claude Opus 5.5
+key_loose,aa,"Claude Opus 5.5 (Low, Default Fallback)",Claude Opus 5.5
+key_loose,aa,"Claude Opus 5.5 (Max, Default Fallback)",Claude Opus 5.5
+key_loose,aa,"Claude Opus 5.5 (Medium, Default Fallback)",Claude Opus 5.5
+key_loose,aa,"Claude Opus 5.5 (Xhigh, Default Fallback)",Claude Opus 5.5
 key_loose,aa,Claude Sonnet 4.6 (Max),Claude Sonnet 4.6
+key_loose,aa,"Claude Sonnet 4.6 (Non-reasoning, High)",Claude Sonnet 4.6
+key_loose,aa,"Claude Sonnet 4.6 (Non-reasoning, Low)",Claude Sonnet 4.6
+key_loose,aa,Claude Sonnet 5 (High),Claude Sonnet 5
+key_loose,aa,Claude Sonnet 5 (Low),Claude Sonnet 5
 key_loose,aa,Claude Sonnet 5 (Max),Claude Sonnet 5
+key_loose,aa,Claude Sonnet 5 (Medium),Claude Sonnet 5
 key_loose,aa,"Claude Sonnet 5 (Non-reasoning, High)",Claude Sonnet 5
+key_loose,aa,Claude Sonnet 5 (Xhigh),Claude Sonnet 5
+key_loose,aa,"Claude Sonnet 5.5 (High, Default Fallback)",Claude Sonnet 5.5
+key_loose,aa,"Claude Sonnet 5.5 (Low, Default Fallback)",Claude Sonnet 5.5
+key_loose,aa,"Claude Sonnet 5.5 (Max, Default Fallback)",Claude Sonnet 5.5
+key_loose,aa,"Claude Sonnet 5.5 (Medium, Default Fallback)",Claude Sonnet 5.5
+key_loose,aa,"Claude Sonnet 5.5 (Xhigh, Default Fallback)",Claude Sonnet 5.5
+key_loose,aa,Command-R (Mar '24),Command R
+key_loose,aa,Command-R+ (Apr '24),Command R+
 key_loose,aa,DeepSeek R1 (Jan '25),DeepSeek-R1
+key_loose,aa,DeepSeek R1 0528 (May '25),DeepSeek-R1-0528
 key_loose,aa,DeepSeek V3 (Dec '24),DeepSeek-V3
+key_loose,aa,DeepSeek V3.1 (Non-reasoning),DeepSeek-V3.1
+key_loose,aa,DeepSeek V3.1 (Reasoning),DeepSeek-V3.1
+key_loose,aa,DeepSeek V3.1 Terminus (Non-reasoning),DeepSeek-V3.1-Terminus
 key_loose,aa,DeepSeek V3.1 Terminus (Reasoning),DeepSeek-V3.1-Terminus
 key_loose,aa,DeepSeek V4 Flash 0731 (Max),DeepSeek-V4-Flash-0731
 key_loose,aa,DeepSeek V4 Flash Vision (Max),DeepSeek-V4-Flash-Vision-Exp
 key_loose,aa,DeepSeek V4 Pro 0813 (Max),DeepSeek-V4-Pro-0813
+key_loose,aa,DeepSeek V4 Pro 0813 (Non-reasoning),DeepSeek-V4-Pro-0813
+key_loose,aa,DeepSeek V4.1 Flash (Max),DeepSeek-V4.1-Flash
+key_loose,aa,DeepSeek V4.1 Flash (Non-reasoning),DeepSeek-V4.1-Flash
+key_loose,aa,DeepSeek V4.1 Flash 1017 (High),DeepSeek-V4.1-Flash-1017
+key_loose,aa,DeepSeek V4.1 Flash 1017 (Max),DeepSeek-V4.1-Flash-1017
+key_loose,aa,DeepSeek V4.1 Flash 1017 (Non-reasoning),DeepSeek-V4.1-Flash-1017
+key_loose,aa,GLM 5V Turbo (Reasoning),GLM-5V-Turbo
+key_loose,aa,GLM-4.5 (Reasoning),GLM-4.5
+key_loose,aa,GLM-4.5V (Non-reasoning),GLM-4.5V
+key_loose,aa,GLM-4.5V (Reasoning),GLM-4.5V
+key_loose,aa,GLM-4.6 (Non-reasoning),GLM-4.6
 key_loose,aa,GLM-4.6 (Reasoning),GLM-4.6
+key_loose,aa,GLM-4.6V (Non-reasoning),GLM-4.6V
+key_loose,aa,GLM-4.6V (Reasoning),GLM-4.6V
+key_loose,aa,GLM-4.7 (Non-reasoning),GLM-4.7
 key_loose,aa,GLM-4.7 (Reasoning),GLM-4.7
+key_loose,aa,GLM-4.7-Flash (Non-reasoning),GLM-4.7-Flash
+key_loose,aa,GLM-4.7-Flash (Reasoning),GLM-4.7-Flash
+key_loose,aa,GLM-5 (Non-reasoning),GLM-5
+key_loose,aa,GLM-5 (Reasoning),GLM-5
+key_loose,aa,GLM-5.1 (Non-reasoning),GLM-5.1
 key_loose,aa,GLM-5.1 (Reasoning),GLM-5.1
 key_loose,aa,GLM-5.2 (Max),GLM-5.2
 key_loose,aa,GLM-5.2 (Non-reasoning),GLM-5.2
+key_loose,aa,GLM-5.3 (Low),GLM-5.3
 key_loose,aa,GLM-5.3 (Max),GLM-5.3
+key_loose,aa,GPT-4o (Aug '24),GPT-4o
+key_loose,aa,"GPT-4o (March 2025, chatgpt-4o-latest)",GPT-4o
 key_loose,aa,GPT-4o (May '24),GPT-4o
+key_loose,aa,GPT-5 (ChatGPT),GPT-5
 key_loose,aa,GPT-5 (High),GPT-5
+key_loose,aa,GPT-5 (Low),GPT-5
+key_loose,aa,GPT-5 (Medium),GPT-5
+key_loose,aa,GPT-5 (Minimal),GPT-5
+key_loose,aa,GPT-5 Codex (High),GPT-5-Codex
 key_loose,aa,GPT-5 mini (High),GPT-5 mini
+key_loose,aa,GPT-5 mini (Medium),GPT-5 mini
+key_loose,aa,GPT-5 mini (Minimal),GPT-5 mini
+key_loose,aa,GPT-5 nano (High),GPT-5 nano
+key_loose,aa,GPT-5 nano (Medium),GPT-5 nano
+key_loose,aa,GPT-5 nano (Minimal),GPT-5 nano
 key_loose,aa,GPT-5.1 (High),GPT-5.1
+key_loose,aa,GPT-5.1 (Non-reasoning),GPT-5.1
+key_loose,aa,GPT-5.1 Codex (High),GPT-5.1 Codex
+key_loose,aa,GPT-5.1 Codex mini (High),GPT-5.1 Codex mini
+key_loose,aa,GPT-5.2 (Medium),GPT-5.2
+key_loose,aa,GPT-5.2 (Non-reasoning),GPT-5.2
+key_loose,aa,GPT-5.2 (Xhigh),GPT-5.2
+key_loose,aa,GPT-5.2 Codex (Xhigh),GPT-5.2-Codex
+key_loose,aa,GPT-5.3 Codex (Xhigh),GPT-5.3-Codex
+key_loose,aa,GPT-5.4 (Low),GPT-5.4
+key_loose,aa,GPT-5.4 (Non-reasoning),GPT-5.4
 key_loose,aa,GPT-5.4 (Xhigh),GPT-5.4
+key_loose,aa,GPT-5.4 mini (Medium),GPT-5.4 mini
+key_loose,aa,GPT-5.4 mini (Non-reasoning),GPT-5.4 mini
 key_loose,aa,GPT-5.4 mini (Xhigh),GPT-5.4 mini
+key_loose,aa,GPT-5.4 nano (Medium),GPT-5.4 nano
+key_loose,aa,GPT-5.4 nano (Non-reasoning),GPT-5.4 nano
 key_loose,aa,GPT-5.4 nano (Xhigh),GPT-5.4 nano
 key_loose,aa,GPT-5.5 (High),GPT-5.5
 key_loose,aa,GPT-5.5 (Low),GPT-5.5
@@ -46,6 +126,7 @@ key_loose,aa,GPT-5.5 (Medium),GPT-5.5
 key_loose,aa,GPT-5.5 (Non-reasoning),GPT-5.5
 key_loose,aa,GPT-5.5 (Xhigh),GPT-5.5
 key_loose,aa,GPT-5.5 Instant (June 2026),GPT-5.5 Instant
+key_loose,aa,GPT-5.5 Instant (May 2026),GPT-5.5 Instant
 key_loose,aa,GPT-5.6 Luna (High),GPT-5.6 Luna
 key_loose,aa,GPT-5.6 Luna (Low),GPT-5.6 Luna
 key_loose,aa,GPT-5.6 Luna (Max),GPT-5.6 Luna
@@ -69,13 +150,53 @@ key_loose,aa,GPT-6 Astra (Low),GPT-6 Astra
 key_loose,aa,GPT-6 Astra (Max),GPT-6 Astra
 key_loose,aa,GPT-6 Astra (Medium),GPT-6 Astra
 key_loose,aa,GPT-6 Astra (Xhigh),GPT-6 Astra
+key_loose,aa,GPT-6 Luna (High),GPT-6 Luna
+key_loose,aa,GPT-6 Luna (Low),GPT-6 Luna
+key_loose,aa,GPT-6 Luna (Max),GPT-6 Luna
+key_loose,aa,GPT-6 Luna (Medium),GPT-6 Luna
+key_loose,aa,GPT-6 Luna (Non-reasoning),GPT-6 Luna
+key_loose,aa,GPT-6 Luna (Xhigh),GPT-6 Luna
+key_loose,aa,GPT-6 Sol (High),GPT-6 Sol
+key_loose,aa,GPT-6 Sol (Low),GPT-6 Sol
+key_loose,aa,GPT-6 Sol (Max),GPT-6 Sol
+key_loose,aa,GPT-6 Sol (Medium),GPT-6 Sol
+key_loose,aa,GPT-6 Sol (Non-reasoning),GPT-6 Sol
+key_loose,aa,GPT-6 Sol (Xhigh),GPT-6 Sol
+key_loose,aa,GPT-6.1 Sol (High),GPT-6.1 Sol
+key_loose,aa,GPT-6.1 Sol (Low),GPT-6.1 Sol
+key_loose,aa,GPT-6.1 Sol (Max),GPT-6.1 Sol
+key_loose,aa,GPT-6.1 Sol (Medium),GPT-6.1 Sol
+key_loose,aa,GPT-6.1 Sol (Xhigh),GPT-6.1 Sol
+key_loose,aa,Gemini 1.5 Flash (May '24),Gemini 1.5 Flash
+key_loose,aa,Gemini 1.5 Flash (Sep '24),Gemini 1.5 Flash
 key_loose,aa,Gemini 1.5 Pro (May '24),Gemini 1.5 Pro
 key_loose,aa,Gemini 1.5 Pro (Sep '24),Gemini 1.5 Pro
+key_loose,aa,Gemini 2.0 Flash (Feb '25),Gemini 2.0 Flash
+key_loose,aa,Gemini 2.0 Flash (experimental),Gemini 2.0 Flash
 key_loose,aa,Gemini 2.0 Flash Thinking Experimental (Jan '25),Gemini 2.0 Flash Thinking Experimental
+key_loose,aa,Gemini 2.0 Flash-Lite (Feb '25),Gemini 2.0 Flash-Lite
+key_loose,aa,Gemini 2.0 Flash-Lite (Preview),Gemini 2.0 Flash-Lite
 key_loose,aa,Gemini 2.0 Pro Experimental (Feb '25),Gemini 2.0 Pro Experimental
+key_loose,aa,Gemini 2.5 Flash (Non-reasoning),Gemini 2.5 Flash
+key_loose,aa,Gemini 2.5 Flash (Reasoning),Gemini 2.5 Flash
+key_loose,aa,Gemini 2.5 Flash Preview (Non-reasoning),Gemini 2.5 Flash
+key_loose,aa,Gemini 2.5 Flash Preview (Reasoning),Gemini 2.5 Flash
+key_loose,aa,Gemini 2.5 Flash Preview (Sep '25) (Non-reasoning),Gemini 2.5 Flash
+key_loose,aa,Gemini 2.5 Flash Preview (Sep '25) (Reasoning),Gemini 2.5 Flash
+key_loose,aa,Gemini 2.5 Flash-Lite (Non-reasoning),Gemini 2.5 Flash-Lite
+key_loose,aa,Gemini 2.5 Flash-Lite (Reasoning),Gemini 2.5 Flash-Lite
+key_loose,aa,Gemini 2.5 Flash-Lite Preview (Sep '25) (Non-reasoning),Gemini 2.5 Flash-Lite
+key_loose,aa,Gemini 2.5 Flash-Lite Preview (Sep '25) (Reasoning),Gemini 2.5 Flash-Lite
 key_loose,aa,Gemini 2.5 Pro Preview (Mar' 25),Gemini 2.5 Pro
+key_loose,aa,Gemini 2.5 Pro Preview (May' 25),Gemini 2.5 Pro
+key_loose,aa,Gemini 3 Flash Preview (Non-reasoning),Gemini 3 Flash
+key_loose,aa,Gemini 3 Flash Preview (Reasoning),Gemini 3 Flash
+key_loose,aa,Gemini 3 Pro Preview (High),Gemini 3 Pro Preview
+key_loose,aa,Gemini 3 Pro Preview (Low),Gemini 3 Pro Preview
 key_loose,aa,Gemini 3.1 Pro Preview,Gemini 3.1 Pro
 key_loose,aa,Gemini 3.5 Flash (High),Gemini 3.5 Flash
+key_loose,aa,Gemini 3.5 Flash (Medium),Gemini 3.5 Flash
+key_loose,aa,Gemini 3.5 Flash (Minimal),Gemini 3.5 Flash
 key_loose,aa,Gemini 3.6 Flash (High),Gemini 3.6 Flash
 key_loose,aa,Gemini 3.7 Flash (High),Gemini 3.7 Flash
 key_loose,aa,Gemini 3.7 Flash (Low),Gemini 3.7 Flash
@@ -83,29 +204,85 @@ key_loose,aa,Gemini 3.7 Flash (Medium),Gemini 3.7 Flash
 key_loose,aa,Gemini 3.8 Flash (High),Gemini 3.8 Flash
 key_loose,aa,Gemini 3.8 Flash (Low),Gemini 3.8 Flash
 key_loose,aa,Gemini 3.8 Flash (Medium),Gemini 3.8 Flash
+key_loose,aa,Gemini 4 Argon (High),Gemini 4 Argon
+key_loose,aa,Grok 2 (Dec '24),Grok-2
+key_loose,aa,Grok 3 mini Reasoning (High),Grok 3 mini
+key_loose,aa,Grok 4 Fast (Non-reasoning),Grok 4 Fast
+key_loose,aa,Grok 4 Fast (Reasoning),Grok 4 Fast
+key_loose,aa,Grok 4.1 Fast (Non-reasoning),Grok 4.1 Fast
+key_loose,aa,Grok 4.1 Fast (Reasoning),Grok 4.1 Fast
+key_loose,aa,Grok 4.20 0309 v2 (Non-reasoning),Grok 4.20 0309 v2
+key_loose,aa,Grok 4.20 0309 v2 (Reasoning),Grok 4.20 0309 v2
 key_loose,aa,Grok 4.3 (High),Grok 4.3
+key_loose,aa,Grok 4.3 (Low),Grok 4.3
+key_loose,aa,Grok 4.3 (Medium),Grok 4.3
 key_loose,aa,Grok 4.3 (Non-reasoning),Grok 4.3
 key_loose,aa,Grok 4.5 (High),Grok 4.5
 key_loose,aa,Grok 4.6 (High),Grok 4.6
 key_loose,aa,Grok 4.6 (Low),Grok 4.6
 key_loose,aa,Grok 4.6 (Medium),Grok 4.6
 key_loose,aa,Grok 4.6 (Xhigh),Grok 4.6
+key_loose,aa,Grok 4.7 (High),Grok 4.7
+key_loose,aa,Grok 4.7 (Low),Grok 4.7
+key_loose,aa,Grok 4.7 (Xhigh),Grok 4.7
 key_loose,aa,Hy3,Tencent Hy3
+key_loose,aa,Hy3-preview (Non-reasoning),Tencent Hy3
+key_loose,aa,Hy3-preview (Reasoning),Tencent Hy3
 key_loose,aa,Inkling (Xhigh),Inkling
+key_loose,aa,Kimi K2,Kimi K2-Instruct
+key_loose,aa,Kimi K2 0905,Kimi K2-Instruct-0905
+key_loose,aa,Kimi K2.5 (Non-reasoning),Kimi K2.5
 key_loose,aa,Kimi K2.5 (Reasoning),Kimi K2.5
+key_loose,aa,Kimi K2.6 (Non-reasoning),Kimi K2.6
 key_loose,aa,Kimi K2.6 (Reasoning),Kimi K2.6
 key_loose,aa,Kimi K3 (Low),Kimi K3
 key_loose,aa,Kimi K3 (Max),Kimi K3
+key_loose,aa,Kimi Linear 48B A3B Instruct,Kimi-Linear-48B-A3B
+key_loose,aa,Llama 3.1 Instruct 405B,Llama 3.1 405B
+key_loose,aa,Llama 3.1 Instruct 70B,Llama 3.1 70B
 key_loose,aa,Llama 3.1 Instruct 8B,Llama 3.1 8B
+key_loose,aa,Llama 3.1 Nemotron Instruct 70B,Llama-3.1-Nemotron-70B-Instruct
+key_loose,aa,Llama 3.2 Instruct 1B,Llama 3.2 1B
+key_loose,aa,Llama 3.2 Instruct 3B,Llama 3.2 3B
 key_loose,aa,Llama 3.3 Instruct 70B,Llama 3.3 70B
+key_loose,aa,MiMo-V2-Flash (Feb 2026),MiMo-V2-Flash
 key_loose,aa,MiMo-V2-Flash (Non-reasoning),MiMo-V2-Flash
+key_loose,aa,MiMo-V2-Flash (Reasoning),MiMo-V2-Flash
+key_loose,aa,MiMo-V2.5-Pro (Non-reasoning),MiMo-V2.5-Pro
 key_loose,aa,MiMo-V2.5-Pro (Reasoning),MiMo-V2.5-Pro
+key_loose,aa,Mistral 7B Instruct,Mistral 7B
+key_loose,aa,Mistral Large 4 (High),Mistral Large 4
+key_loose,aa,Mistral Large 4 (Medium),Mistral Large 4
+key_loose,aa,Mistral Large 4 Preview,Mistral Large 4
+key_loose,aa,Mistral Small 4 (Non-reasoning),Mistral Small 4
 key_loose,aa,Mistral Small 4 (Reasoning),Mistral Small 4
+key_loose,aa,Mixtral 8x22B Instruct,Mixtral 8x22B
+key_loose,aa,Mixtral 8x7B Instruct,Mixtral 8x7B
 key_loose,aa,Muse Glimmer (High),Muse Glimmer
 key_loose,aa,Muse Spark 1.1 (Xhigh),Muse Spark 1.1
 key_loose,aa,Muse Spark 1.2 (Xhigh),Muse Spark 1.2
 key_loose,aa,Muse Spark 1.3 (Max),Muse Spark 1.3
 key_loose,aa,Muse Spark 1.3 (Xhigh),Muse Spark 1.3
+key_loose,aa,Muse Spark Open (Xhigh),Muse Spark Open
+key_loose,aa,Muse Wonder (High),Muse Wonder
+key_loose,aa,Muse Wonder (Max),Muse Wonder
+key_loose,aa,Muse Wonder Full (Max),Muse Wonder Full
+key_loose,aa,NVIDIA Nemotron Nano 12B v2 VL (Non-reasoning),Nemotron Nano 12B v2 VL
+key_loose,aa,NVIDIA Nemotron Nano 12B v2 VL (Reasoning),Nemotron Nano 12B v2 VL
+key_loose,aa,NVIDIA Nemotron Nano 9B V2 (Non-reasoning),Nemotron Nano 9B v2
+key_loose,aa,NVIDIA Nemotron Nano 9B V2 (Reasoning),Nemotron Nano 9B v2
+key_loose,aa,Nova Lite,Amazon Nova Lite
+key_loose,aa,Nova Micro,Amazon Nova Micro
+key_loose,aa,Nova Premier,Amazon Nova Premier
+key_loose,aa,Nova Pro,Amazon Nova Pro
+key_loose,aa,Olmo 3 7B Instruct,OLMo 3 7B
+key_loose,aa,Olmo 3.1 32B Instruct,OLMo 3.1 Instruct 32B
+key_loose,aa,Olmo 3.1 32B Think,OLMo 3.1 Instruct 32B
+key_loose,aa,QwQ 32B-Preview,QwQ-32B
+key_loose,aa,Qwen3 Coder 30B A3B Instruct,Qwen3-Coder 30B-A3B
+key_loose,aa,Qwen3 Coder 480B A35B Instruct,Qwen3-Coder 480B-A35B
+key_loose,aa,Qwen3 Max (Preview),Qwen3-Max
+key_loose,aa,Qwen3 Max Thinking (Preview),Qwen3-Max-Thinking
 key_loose,aa,Qwen3.6 27B (Non-reasoning),Qwen3.6 27B
 key_loose,aa,Qwen3.6 27B (Reasoning),Qwen3.6 27B
 key_loose,aa,Qwen3.6 35B A3B (Non-reasoning),Qwen3.6 35B-A3B
@@ -114,10 +291,22 @@ key_loose,aa,Qwen3.8 27B (Low),Qwen3.8-27B
 key_loose,aa,Qwen3.8 27B (Medium),Qwen3.8-27B
 key_loose,aa,Qwen3.8 27B (Non-reasoning),Qwen3.8-27B
 key_loose,aa,Qwen3.8 27B (Xhigh),Qwen3.8-27B
+key_loose,aa,Seed-OSS-36B-Instruct,Seed-OSS-36B
+key_loose,aa,Solar Open 100B (Reasoning),Solar Open 100B
+key_loose,aa,Solar Pro 2 (Non-reasoning),Solar Pro 2
+key_loose,aa,Solar Pro 2 (Preview) (Non-reasoning),Solar Pro 2
+key_loose,aa,Solar Pro 2 (Preview) (Reasoning),Solar Pro 2
+key_loose,aa,Solar Pro 2 (Reasoning),Solar Pro 2
+key_loose,aa,Tencent Hy4,Tencent Hy4 Preview
 key_loose,aa,gpt-oss-120b (High),gpt-oss-120b
 key_loose,aa,gpt-oss-120b (Low),gpt-oss-120b
 key_loose,aa,gpt-oss-20b (High),gpt-oss-20b
+key_loose,aa,gpt-oss-20b (Low),gpt-oss-20b
+key_loose,aa,o1-mini,OpenAI o1-mini
+key_loose,aa,o3,OpenAI o3
+key_loose,aa,o3-mini,OpenAI o3-mini
 key_loose,aa,o3-mini (High),OpenAI o3-mini
+key_loose,aa,o4-mini (High),OpenAI o4-mini
 key_loose,aider,DeepSeek Chat V2.5,DeepSeek-V2.5
 key_loose,aider,DeepSeek Chat V3 (prev),DeepSeek-V3
 key_loose,aider,Grok 3 Beta,Grok 3
@@ -332,36 +521,81 @@ key_loose,vals,o4-mini-2025-04-16,OpenAI o4-mini
 key_loose,vals,qwen3-max-2026-01-23,Qwen3-Max
 key_loose,vals,qwen3-max-preview,Qwen3-Max
 key_loose,vals,qwen3.5-plus-thinking,Qwen3.5-Plus
+key_loose+strict,aa,DeepSeek V3.2 (Non-reasoning),DeepSeek-V3.2
 key_loose+strict,aa,DeepSeek V3.2 (Reasoning),DeepSeek-V3.2
+key_loose+strict,aa,DeepSeek V3.2 Exp (Non-reasoning),DeepSeek-V3.2-Exp
+key_loose+strict,aa,DeepSeek V3.2 Exp (Reasoning),DeepSeek-V3.2-Exp
+key_loose+strict,aa,ERNIE 5.0 Thinking Preview,ERNIE 5.0 Preview
 key_loose+strict,vals,o1-2024-12-17,OpenAI o1
 key_nosize,aa,Gemma 3 12B Instruct,Gemma 3
+key_nosize,aa,Gemma 3 1B Instruct,Gemma 3
+key_nosize,aa,Gemma 3 270M,Gemma 3
 key_nosize,aa,Gemma 3 27B Instruct,Gemma 3
 key_nosize,aa,Gemma 3 4B Instruct,Gemma 3
+key_nosize,aa,Gemma 4 12B (Non-reasoning),Gemma 4
 key_nosize,aa,Gemma 4 12B (Reasoning),Gemma 4
+key_nosize,aa,Gemma 4 26B A4B (Non-reasoning),Gemma 4
 key_nosize,aa,Gemma 4 26B A4B (Reasoning),Gemma 4
 key_nosize,aa,Gemma 4 31B (Non-reasoning),Gemma 4
 key_nosize,aa,Gemma 4 31B (Reasoning),Gemma 4
+key_nosize,aa,Granite 3.3 8B (Non-reasoning),Granite 3.3
+key_nosize,aa,Llama 2 Chat 13B,Llama 2
+key_nosize,aa,Llama 2 Chat 70B,Llama 2
+key_nosize,aa,Llama 2 Chat 7B,Llama 2
+key_nosize,aa,Llama 3 Instruct 70B,Llama 3
+key_nosize,aa,Llama 3 Instruct 8B,Llama 3
+key_nosize,aa,MiniMax M1 40k,MiniMax-M1
+key_nosize,aa,MiniMax M1 80k,MiniMax-M1
+key_nosize,aa,NVIDIA Nemotron 3 Nano 30B A3B (Non-reasoning),Nemotron 3 Nano
 key_nosize,aa,NVIDIA Nemotron 3 Nano 30B A3B (Reasoning),Nemotron 3 Nano
 key_nosize,aa,NVIDIA Nemotron 3 Nano 4B,Nemotron 3 Nano
 key_nosize,aa,Nemotron 3 Nano Omni 30B A3B Reasoning,Nemotron 3 Nano Omni
 key_nosize,aa,Nemotron 3 Super 120B A12B (Reasoning),Nemotron 3 Super
 key_nosize,aa,Nemotron 3 Ultra 550B A55B (Reasoning),Nemotron 3 Ultra
+key_nosize,aa,Phi-3 Mini Instruct 3.8B,Phi-3-mini
+key_nosize,aa,Phi-4,Phi-4-14B
+key_nosize,aa,Qwen2 Instruct 72B,Qwen2
+key_nosize,aa,Qwen2.5 Coder Instruct 32B,Qwen2.5-Coder
+key_nosize,aa,Qwen2.5 Coder Instruct 7B,Qwen2.5-Coder
+key_nosize,aa,Qwen2.5 Instruct 32B,Qwen2.5
+key_nosize,aa,Qwen2.5 Instruct 72B,Qwen2.5
+key_nosize,aa,Qwen3 0.6B (Non-reasoning),Qwen3
+key_nosize,aa,Qwen3 0.6B (Reasoning),Qwen3
+key_nosize,aa,Qwen3 1.7B (Non-reasoning),Qwen3
+key_nosize,aa,Qwen3 1.7B (Reasoning),Qwen3
+key_nosize,aa,Qwen3 14B (Non-reasoning),Qwen3
 key_nosize,aa,Qwen3 14B (Reasoning),Qwen3
+key_nosize,aa,Qwen3 235B A22B (Non-reasoning),Qwen3
+key_nosize,aa,Qwen3 235B A22B (Reasoning),Qwen3
+key_nosize,aa,Qwen3 30B A3B (Non-reasoning),Qwen3
+key_nosize,aa,Qwen3 30B A3B (Reasoning),Qwen3
+key_nosize,aa,Qwen3 32B (Non-reasoning),Qwen3
 key_nosize,aa,Qwen3 32B (Reasoning),Qwen3
+key_nosize,aa,Qwen3 4B (Non-reasoning),Qwen3
+key_nosize,aa,Qwen3 4B (Reasoning),Qwen3
+key_nosize,aa,Qwen3 8B (Non-reasoning),Qwen3
 key_nosize,aa,Qwen3 8B (Reasoning),Qwen3
 key_nosize,aa,Qwen3 Next 80B A3B (Reasoning),Qwen3-Next
+key_nosize,aa,Qwen3 Next 80B A3B Instruct,Qwen3-Next
+key_nosize,aa,Qwen3 Omni 30B A3B (Reasoning),Qwen3-Omni
+key_nosize,aa,Qwen3 Omni 30B A3B Instruct,Qwen3-Omni
 key_nosize,aa,Qwen3.5 0.8B (Non-reasoning),Qwen3.5
 key_nosize,aa,Qwen3.5 0.8B (Reasoning),Qwen3.5
 key_nosize,aa,Qwen3.5 122B A10B (Non-reasoning),Qwen3.5
 key_nosize,aa,Qwen3.5 122B A10B (Reasoning),Qwen3.5
+key_nosize,aa,Qwen3.5 27B (Non-reasoning),Qwen3.5
+key_nosize,aa,Qwen3.5 27B (Reasoning),Qwen3.5
 key_nosize,aa,Qwen3.5 2B (Non-reasoning),Qwen3.5
 key_nosize,aa,Qwen3.5 2B (Reasoning),Qwen3.5
 key_nosize,aa,Qwen3.5 35B A3B (Non-reasoning),Qwen3.5
+key_nosize,aa,Qwen3.5 35B A3B (Reasoning),Qwen3.5
+key_nosize,aa,Qwen3.5 397B A17B (Non-reasoning),Qwen3.5
 key_nosize,aa,Qwen3.5 397B A17B (Reasoning),Qwen3.5
 key_nosize,aa,Qwen3.5 4B (Non-reasoning),Qwen3.5
 key_nosize,aa,Qwen3.5 4B (Reasoning),Qwen3.5
 key_nosize,aa,Qwen3.5 9B (Non-reasoning),Qwen3.5
 key_nosize,aa,Qwen3.5 9B (Reasoning),Qwen3.5
+key_nosize,aa,Step3 VL 10B,Step3-VL
 key_nosize,aider,Qwen2.5-Coder-32B-Instruct,Qwen2.5-Coder
 key_nosize,aider,Qwen3 32B,Qwen3
 key_nosize,aider,gemma-3-27b-it,Gemma 3
@@ -489,8 +723,14 @@ key_nosize,swerebench,gemma-3-27b-it,Gemma 3
 key_nosize,vals,gemma-4-31b-it,Gemma 4
 key_nosize,vals,nemotron-3-ultra-550b-a55b,Nemotron 3 Ultra
 key_nosize,vals,qwen3-235b-a22b,Qwen3
+key_sorted,aa,Claude 4 Opus (Non-reasoning),Claude Opus 4
+key_sorted,aa,Claude 4 Opus (Reasoning),Claude Opus 4
+key_sorted,aa,Claude 4 Sonnet (Non-reasoning),Claude Sonnet 4
 key_sorted,aa,Claude 4 Sonnet (Reasoning),Claude Sonnet 4
+key_sorted,aa,Claude 4.1 Opus (Reasoning),Claude Opus 4.1
+key_sorted,aa,Claude 4.5 Haiku (Non-reasoning),Claude Haiku 4.5
 key_sorted,aa,Claude 4.5 Haiku (Reasoning),Claude Haiku 4.5
+key_sorted,aa,Claude 4.5 Sonnet (Non-reasoning),Claude Sonnet 4.5
 key_sorted,aa,Claude 4.5 Sonnet (Reasoning),Claude Sonnet 4.5
 key_sorted,evalplus,Claude Sonnet 3.5 (June 2024),Claude 3.5 Sonnet
 key_sorted,evalplus,Gemini Pro 1.0,Gemini 1.0 Pro
@@ -509,34 +749,148 @@ key_sorted,swebench,Claude Sonnet 3.5,Claude 3.5 Sonnet
 key_sorted,vals,jamba-large-1.6,Jamba 1.6 Large
 key_sorted,vals,jamba-mini-1.6,Jamba 1.6 Mini
 unmatched,aa,A.X-K2,
+unmatched,aa,Agnes 2.5 Pro Beta,
+unmatched,aa,Agnes 2.5 Pro Theta,
+unmatched,aa,Apertus 70B Instruct,
+unmatched,aa,Apertus 8B Instruct,
 unmatched,aa,Apodex 1.1,
+unmatched,aa,Apriel-v1.5-15B-Thinker,
+unmatched,aa,Apriel-v1.6-15B-Thinker,
+unmatched,aa,Beam 1.0,
 unmatched,aa,Celeris-1,
+unmatched,aa,"Claude Fable 5.2 (High, Default Fallback)",
+unmatched,aa,"Claude Fable 5.2 (Low, Default Fallback)",
+unmatched,aa,"Claude Fable 5.2 (Max, Default Fallback)",
+unmatched,aa,"Claude Fable 5.2 (Medium, Default Fallback)",
+unmatched,aa,"Claude Fable 5.2 (Xhigh, Default Fallback)",
+unmatched,aa,Cogito v2.1 (Reasoning),
+unmatched,aa,DBRX Instruct,
+unmatched,aa,DeepHermes 3 - Llama-3.1 8B Preview (Non-reasoning),
+unmatched,aa,DeepHermes 3 - Mistral 24B Preview (Non-reasoning),
+unmatched,aa,DeepSeek R1 0528 Qwen3 8B,
 unmatched,aa,DeepSeek V4 Flash 0420 (High),
 unmatched,aa,DeepSeek V4 Flash 0420 (Max),
+unmatched,aa,DeepSeek V4 Flash 0420 (Non-reasoning),
 unmatched,aa,DeepSeek V4 Pro 0424 (High),
 unmatched,aa,DeepSeek V4 Pro 0424 (Max),
+unmatched,aa,DeepSeek V4 Pro 0424 (Non-reasoning),
+unmatched,aa,Devstral Medium,
+unmatched,aa,Devstral Small (Jul '25),
+unmatched,aa,Devstral Small (May '25),
+unmatched,aa,EXAONE 4.0 32B (Non-reasoning),
+unmatched,aa,EXAONE 4.0 32B (Reasoning),
 unmatched,aa,EXAONE 4.5 33B (Reasoning),
+unmatched,aa,Exaone 4.0 1.2B (Non-reasoning),
+unmatched,aa,Exaone 4.0 1.2B (Reasoning),
 unmatched,aa,G9v3-39A5B,
 unmatched,aa,G9v3-3B,
+unmatched,aa,GPT-6.1 Terra (High),
+unmatched,aa,GPT-6.1 Terra (Low),
+unmatched,aa,GPT-6.1 Terra (Max),
+unmatched,aa,GPT-6.1 Terra (Medium),
+unmatched,aa,GPT-6.1 Terra (Non-reasoning),
+unmatched,aa,GPT-6.1 Terra (Xhigh),
+unmatched,aa,Gemini 4 Carbon (High),
+unmatched,aa,Gemini 4 Carbon (Low),
+unmatched,aa,Gemini 4 Carbon (Medium),
+unmatched,aa,Gemma 3n E2B Instruct,
+unmatched,aa,Gemma 3n E4B Instruct Preview (May '25),
+unmatched,aa,Gemma 4 E2B (Non-reasoning),
+unmatched,aa,Gemma 4 E4B (Non-reasoning),
+unmatched,aa,Gemma 4 E4B (Reasoning),
+unmatched,aa,Grok 4.20 0309 (Non-reasoning),
+unmatched,aa,Grok 4.20 0309 (Reasoning),
+unmatched,aa,Grok Beta,
+unmatched,aa,Hermes 3 - Llama-3.1 70B,
+unmatched,aa,Hermes 4 - Llama-3.1 405B (Non-reasoning),
+unmatched,aa,Hermes 4 - Llama-3.1 405B (Reasoning),
+unmatched,aa,Hermes 4 - Llama-3.1 70B (Non-reasoning),
+unmatched,aa,Hermes 4 - Llama-3.1 70B (Reasoning),
+unmatched,aa,HyperCLOVA X SEED Think (32B),
 unmatched,aa,"HyperNova 60B 2605 (High, Based on gpt-oss-120b)",
-unmatched,aa,JT-4.1 Flash 236B A21B (Non-reasoning),
+unmatched,aa,INTELLECT-3 (Based on GLM-4.5-Air),
+unmatched,aa,Inkling 2 Small,
+unmatched,aa,JT-35B-Flash,
+unmatched,aa,JT-4.1 Flash 236B A21B,
+unmatched,aa,JT-4.1 Flash 236B A21B 0709 (Non-reasoning),
+unmatched,aa,JT-4.1 Flash 236B A21B 0709 (Reasoning),
+unmatched,aa,JT-MINI,
+unmatched,aa,K-EXAONE (Non-reasoning),
 unmatched,aa,K-EXAONE (Reasoning),
-unmatched,aa,K-EXAONE 2.0 0803,
+unmatched,aa,K-EXAONE 2.0,
 unmatched,aa,K2 Horizon 0.9B,
 unmatched,aa,K2 Horizon 3.7B,
 unmatched,aa,K2 Horizon 375B A23B,
 unmatched,aa,K2 Horizon 7B,
+unmatched,aa,K2 Horizon MoVA 36B A4B,
 unmatched,aa,K2 Think V2,
+unmatched,aa,K2-V2 (High),
+unmatched,aa,K2-V2 (Low),
+unmatched,aa,K2-V2 (Medium),
 unmatched,aa,KAT Coder Pro V2,
+unmatched,aa,KAT-Coder-Pro V1,
+unmatched,aa,Llama 3.1 Nemotron Nano 4B v1.1 (Reasoning),
+unmatched,aa,Llama 3.1 Nemotron Ultra 253B v1 (Reasoning),
+unmatched,aa,Llama 3.1 Tulu3 405B,
+unmatched,aa,Llama 3.3 Nemotron Super 49B v1 (Non-reasoning),
+unmatched,aa,Llama 3.3 Nemotron Super 49B v1 (Reasoning),
+unmatched,aa,Llama Nemotron Super 49B v1.5 (Non-reasoning),
+unmatched,aa,Llama Nemotron Super 49B v1.5 (Reasoning),
+unmatched,aa,Magistral Medium 1,
+unmatched,aa,Magistral Small 1,
+unmatched,aa,Mi:dm K 2.5 Pro,
+unmatched,aa,Mi:dm K 2.5 Pro Preview,
 unmatched,aa,MiniCPM-V 4.6 1.3B,
+unmatched,aa,MiniCPM5-1B (Non-reasoning),
+unmatched,aa,MiniCPM5-1B (Reasoning),
 unmatched,aa,MiniCPM5-2B,
+unmatched,aa,Mistral Large (Feb '24),
+unmatched,aa,Mistral Large 2 (Jul '24),
+unmatched,aa,Mistral Large 2 (Nov '24),
+unmatched,aa,Mistral Medium,
+unmatched,aa,Mistral Small (Feb '24),
+unmatched,aa,Mistral Small (Sep '24),
+unmatched,aa,Molmo 7B-D,
+unmatched,aa,Molmo2-8B,
 unmatched,aa,Motif 3,
 unmatched,aa,Motif 3 (Beta),
+unmatched,aa,Motif-2-12.7B-Reasoning,
+unmatched,aa,Muse Ember (Max),
+unmatched,aa,Muse Ember (Xhigh),
 unmatched,aa,Nanbeige4.1-3B,
+unmatched,aa,Nanbeige4.3-33B,
 unmatched,aa,Nex-N2-Pro (Based on Qwen3.5-397B-A17B),
-unmatched,aa,PALM-2,
+unmatched,aa,Nova 2.0 Lite (Low),
+unmatched,aa,Nova 2.0 Lite (Medium),
+unmatched,aa,Nova 2.0 Lite (Non-reasoning),
+unmatched,aa,Nova 2.0 Omni (Low),
+unmatched,aa,Nova 2.0 Omni (Medium),
+unmatched,aa,Nova 2.0 Omni (Non-reasoning),
+unmatched,aa,OpenChat 3.5 (1210),
 unmatched,aa,"Quasar 438B (Max, Based on GLM-5.2)",
+unmatched,aa,Qwen3 235B A22B 2507 Instruct,
+unmatched,aa,Qwen3 30B A3B 2507 Instruct,
+unmatched,aa,Qwen3 4B 2507 (Reasoning),
+unmatched,aa,Qwen3 4B 2507 Instruct,
+unmatched,aa,Qwen3 VL 235B A22B (Reasoning),
+unmatched,aa,Qwen3 VL 235B A22B Instruct,
+unmatched,aa,Qwen3 VL 30B A3B (Reasoning),
+unmatched,aa,Qwen3 VL 30B A3B Instruct,
+unmatched,aa,Qwen3 VL 32B (Reasoning),
+unmatched,aa,Qwen3 VL 32B Instruct,
+unmatched,aa,Qwen3 VL 4B (Reasoning),
+unmatched,aa,Qwen3 VL 4B Instruct,
+unmatched,aa,Qwen3 VL 8B (Reasoning),
+unmatched,aa,Qwen3 VL 8B Instruct,
+unmatched,aa,Reka Flash 3,
+unmatched,aa,Ring-1T,
 unmatched,aa,Ring-2.6-1T,
+unmatched,aa,Ring-flash-2.0,
+unmatched,aa,Sarvam 105B (High),
+unmatched,aa,Sarvam 30B (High),
+unmatched,aa,"Sarvam M (Reasoning, Based on Mistral Small 3.1)",
+unmatched,aa,Tri-21B-Think,
+unmatched,aa,Tri-21B-think Preview,
 unmatched,aa,Trinity Large Thinking,
 unmatched,aider,DeepSeek R1 + claude-3-5-sonnet-20241022,
 unmatched,aider,Optimus Alpha,

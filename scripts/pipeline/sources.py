@@ -105,22 +105,104 @@ def load_epoch_eci():
     return eci, edi, processed
 
 
-def load_aa():
+def aa_snapshot():
     try:
-        snap = latest("aa")
+        return latest("aa")
     except FileNotFoundError:
-        return []
+        return None
+
+
+def aa_document():
+    snap = aa_snapshot()
+    if snap is None:
+        return None
+    path = snap / "aa_public.json"
+    if not path.exists():
+        return None
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def _fraction(v):
+    if not isinstance(v, (int, float)):
+        return None
+    v = float(v)
+    if v < 0.0 or v > 1.0:
+        return None
+    return v
+
+
+def load_aa_public(snap, doc):
+    version = doc.get("intelligence_index_version") or "unknown"
+    out = []
+    for m in doc.get("models") or []:
+        name = (m.get("name") or "").strip()
+        if not name:
+            continue
+        slug = m.get("slug") or ""
+        cfg = ", ".join(re.findall(r"\(([^()]*)\)", name))
+        note = f"aa:{slug}; intelligence index {version}; public site, not the composite index"
+        url = f"https://artificialanalysis.ai/models/{slug}" if slug else "https://artificialanalysis.ai/"
+        for field, bench in config.AA_PUBLIC_FRACTIONS.items():
+            v = _fraction((m.get("scores") or {}).get(field))
+            if v is None:
+                continue
+            out.append(obs("aa", name, bench, v, P_STANDARD, cfg, url, snap.name, note))
+    return out
+
+
+def load_aa_api(snap):
+    """Pre-v5 snapshots publish a 0-100 Coding Index. v5 does not, and its headline index is not a probability."""
     d = json.loads((snap / "aa_models.json").read_text(encoding="utf-8"))
+    version = d.get("intelligence_index_version")
+    if version is not None and float(version) >= 5:
+        print(f"  aa: API snapshot is Intelligence Index v{version}; composite indexes are not 0-1 accuracies and are not loaded. "
+              "Per-benchmark fractions are not in the free API payload.")
+        return []
     out = []
     for m in d["data"]:
         v = (m.get("evaluations") or {}).get("artificial_analysis_coding_index")
         if v is None:
             continue
+        if not isinstance(v, (int, float)) or v < 0 or v > 100:
+            continue
         name = m["name"]
         cfg = ", ".join(re.findall(r"\(([^()]*)\)", name))
-        out.append(obs("aa", name, "AA Coding Index", v / 100.0, P_STANDARD, cfg,
-                       "https://artificialanalysis.ai/", snap.name, f"aa:{m.get('slug')}"))
+        out.append(obs("aa", name, "AA Coding Index", float(v) / 100.0, P_STANDARD, cfg,
+                       "https://artificialanalysis.ai/", snap.name, f"aa:{m.get('slug')}; coding index v{version} treated as a percent"))
     return out
+
+
+def load_aa():
+    snap = aa_snapshot()
+    if snap is None:
+        return []
+    doc = aa_document()
+    if doc is not None:
+        return load_aa_public(snap, doc)
+    if (snap / "aa_models.json").exists():
+        return load_aa_api(snap)
+    return []
+
+
+def input_status():
+    from . import registry
+    snap = aa_snapshot()
+    doc = aa_document()
+    manual_rows = 0
+    if config.MANUAL.exists():
+        with config.MANUAL.open(encoding="utf-8") as f:
+            manual_rows = max(0, sum(1 for line in f if line.strip()) - 1)
+    return {
+        "release_dates": getattr(registry.load_release_dates, "origin", "unknown"),
+        "aliases": config.ALIASES.exists(),
+        "manual_observations": manual_rows if config.MANUAL.exists() else 0,
+        "manual_file": config.MANUAL.exists(),
+        "legacy": config.LEGACY.exists(),
+        "previous_method_csv": config.PREVIOUS_CSV.exists(),
+        "aa_snapshot": None if snap is None else snap.name,
+        "aa_route": "public_site" if doc else ("api" if snap is not None and (snap / "aa_models.json").exists() else "missing"),
+        "aa_intelligence_index_version": None if not doc else doc.get("intelligence_index_version"),
+    }
 
 
 def load_swebench():

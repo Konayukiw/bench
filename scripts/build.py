@@ -8,7 +8,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import numpy as np
 
-from pipeline import config, estimate, export, registry, sources, validate
+from pipeline import config, estimate, export, registry, sanity, sources, validate
 from pipeline.fit import Problem, connected_subset, refit_external
 from pipeline.select import attach_models, estimate_offsets, select
 
@@ -86,8 +86,11 @@ def main():
     }
     result["low_info"] = estimate.low_information(result)
     result["estimates"] = estimate.interpolate(result)
+    result["input_status"] = sources.input_status()
     result["validation"] = validate.run(result)
+    result["validation"].update(sanity.extra(result))
     validate.print_summary(result["validation"])
+    sanity.print_extra(result["validation"])
     if not args.no_export:
         export.write(result)
     print(f"done in {time.time() - t0:.1f}s")

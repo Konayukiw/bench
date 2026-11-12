@@ -105,6 +105,20 @@ def estimated_rows(result, low_rows):
     return rows
 
 
+def _pair_summary(pairs):
+    if not pairs:
+        return None
+    return {k: pairs[k] for k in ("checked", "passed", "failed", "low_information", "unmeasured", "missing", "hard_failed", "clear_inversions", "pairs")}
+
+
+def _aa_summary(aa):
+    if not aa:
+        return None
+    keep = ("status", "version", "version_number", "coding_index_field", "coverage", "progress_index", "intelligence_index_v5", "coding_category_v5",
+            "naive_anchor_if_new_scores_replace_old_benchmarks", "naive_refit")
+    return {k: aa.get(k) for k in keep}
+
+
 def write(result):
     ranking, low_rows = build_ranking(result)
     est = result["estimates"]
@@ -141,7 +155,17 @@ def write(result):
             "model": "performance(m,b) = sigmoid(slope_b * (C_m - D_b) + offset_{b,group}), fitted by ridge-regularised non-linear least squares (same functional form as Epoch AI's ECI)",
             "scale": "C is on the Epoch Capabilities Index (ECI) scale because difficulty D_b and slope of every Epoch-tracked coding benchmark are fixed to the values published in Epoch AI's edi_scores.csv; other benchmarks are linked through models measured on both",
             "score": f"score = {config.SCORE_SLOPE:g} * C {config.SCORE_INTERCEPT:+g} (ECI 130 -> 4000, ECI 150 -> 5000)",
-            "benchmarks": "coding benchmarks only; reasoning, knowledge, general chat and tool-use benchmarks are excluded; composite indices (AA Coding Index) and preference Elo (Arena WebDev) are used for validation only",
+            "benchmarks": "coding benchmarks only; reasoning, knowledge, general chat and tool-use benchmarks are excluded; preference Elo (Arena WebDev) is validation only",
+            "artificial_analysis": (
+                "Intelligence Index v5 is a weighted composite of pass rates and Elo-normalised components. "
+                "Scores are not comparable across index versions and are not success probabilities, so the index is not divided by 100 and is not a likelihood term. "
+                "The pre-v5 Coding Index (0-100) is still accepted as a validation series when an older API snapshot is the latest one. "
+                "Current AA data enters the fit as per-benchmark fractions: LiveCodeBench, SciCode, Terminal-Bench Hard, Terminal-Bench 2.1 and Terminal-Bench 4.0 join those existing series; "
+                "FrontierCode 1.1 (AA) and FrontierCode 2.0 (AA) are separate unanchored benchmarks because they are not Epoch's FrontierCode item set. "
+                "Terminal-Bench 4.0 is not written onto the Epoch-anchored Terminal Bench series. "
+                "Progress Index v1 is an external general-capability check (o3-mini high = 220, GPT-5.5 xhigh = 320), not a coding observation. "
+                "Within a canonical model the highest effort variant is kept, which is the existing one-value rule."
+            ),
             "selection": "one value per model and benchmark: third-party standard harness > third-party leaderboard with participant-built agents > unknown provenance > vendor self-report; within the best available tier, the highest value (highest reasoning effort)",
             "offsets": "leaderboard, unknown and self-reported values are shifted by the per-benchmark median logit gap against standard-harness values of the same models, shrunk toward the pooled gap (k = 5); leaderboard values on benchmarks without any standard-harness run are used as-is",
             "weights": config.GROUP_WEIGHT,
@@ -179,7 +203,11 @@ def write(result):
         "inversion_rate": round(v["overall"]["rate"], 4),
         "inversion_pairs": v["overall"]["pairs"],
         "previous_method_same_pairs": {k: (None if x is None else round(x, 4)) if k != "pairs" else x for k, x in v["same_pairs_vs_previous_method"].items()},
+        "epoch_eci_spearman": None if v["epoch_eci_spearman"]["rho"] is None else round(float(v["epoch_eci_spearman"]["rho"]), 4),
         "epoch_swe_eci_spearman": None if v["epoch_swe_eci_recomputed"]["spearman"] is None else round(float(v["epoch_swe_eci_recomputed"]["spearman"]), 4),
+        "inputs": result.get("input_status"),
+        "established_pairs": _pair_summary(v.get("established_pairs")),
+        "aa_scale": _aa_summary(v.get("aa_scale")),
         "per_benchmark": sorted(({"benchmark": b, "role": e["role"], "rate": round(e["new"]["rate"], 4), "pairs": e["new"]["pairs"], "models": e["new"]["n_models"]}
                                  for b, e in v["per_benchmark"].items()), key=lambda d: d["benchmark"]),
     }
